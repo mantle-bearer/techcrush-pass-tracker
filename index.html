@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cohort80 – Pass Tracker</title>
+  <!-- Favicon (inline SVG data URI) -->
+  <link rel="icon" href='data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect rx="12" width="64" height="64" fill="%230a0a0a"/><path d="M20 46h24v4H20zM26 50h12v4H26z" fill="%23a3e635"/><path d="M18 18h28v18a14 14 0 0 1-28 0z" fill="%23eab308"/><text x="32" y="32" text-anchor="middle" font-size="16" font-family="Arial" font-weight="700" fill="%230a0a0a">80</text>%3C/svg%3E' />
+  <!-- Tailwind via CDN (no build needed) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- React 18 + ReactDOM 18 + Babel (for in-browser JSX) -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <meta name="description" content="Cohort80 – calculate your cohort score vs 80% pass mark with transparent weights." />
+  <style>
+    html, body { background: #f8fafc; }
+    /* Numeric input spinners (Chrome) */
+    input[type=number]::-webkit-outer-spin-button,
+    input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+    input[type=number] { -moz-appearance: textfield; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- App -->
+  <script type="text/babel">
+    const { useEffect, useMemo, useState } = React;
+
+    const STORAGE_KEY = 'cohort80-state-v1';
+
+    const clamp = (x, lo, hi) => Math.min(hi, Math.max(lo, x));
+    const num = (v, d=0) => { const n = Number(v); return Number.isFinite(n) ? n : d; };
+
+    function Section({ title, children }) {
+      return (
+        <div className="bg-white rounded-2xl shadow p-5 border border-gray-100">
+          <h2 className="text-lg font-semibold mb-3">{title}</h2>
+          {children}
+        </div>
+      );
+    }
+
+    function Stat({ label, value, hint }){
+      return (
+        <div className="flex items-start justify-between py-2">
+          <div className="text-gray-600">{label}</div>
+          <div className="text-right">
+            <div className="font-semibold">{value}</div>
+            {hint && <div className="text-xs text-gray-400">{hint}</div>}
+          </div>
+        </div>
+      );
+    }
+
+    function ErrorText({ children }) {
+      return children ? <p className="text-xs text-red-600 mt-1">{children}</p> : null;
+    }
+
+    function App(){
+      const [quizzes, setQuizzes] = useState([""/*"0"*/]);
+      const [finalPct, setFinalPct] = useState("");
+      const [tutorPct, setTutorPct] = useState("");
+      const [capstonePct, setCapstonePct] = useState("");
+      const [compliancePct, setCompliancePct] = useState("");
+
+      const [remaining, setRemaining] = useState({ quizzes:false, final:true, tutor:true, capstone:true, compliance:true });
+
+      // Load / Save
+      useEffect(()=>{
+        try{
+          const raw = localStorage.getItem(STORAGE_KEY);
+          if(raw){
+            const s = JSON.parse(raw);
+            if(Array.isArray(s.quizzes)) setQuizzes(s.quizzes);
+            setFinalPct(s.finalPct ?? "");
+            setTutorPct(s.tutorPct ?? "");
+            setCapstonePct(s.capstonePct ?? "");
+            setCompliancePct(s.compliancePct ?? "");
+            if(s.remaining) setRemaining(prev=>({ ...prev, ...s.remaining }));
+          }
+        }catch{}
+      },[]);
+
+      useEffect(()=>{
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({ quizzes, finalPct, tutorPct, capstonePct, compliancePct, remaining }));
+      },[quizzes, finalPct, tutorPct, capstonePct, compliancePct, remaining]);
+
+      // Validation rules
+      const quizErrors = quizzes.map((q)=>{
+        if(q === "") return "Required";
+        const n = num(q);
+        if(!Number.isFinite(n)) return "Must be a number";
+        if(n < 0 || n > 20) return "Enter 0–20";
+        return "";
+      });
+
+      function pctError(v){
+        if(v === "") return "Required";
+        const n = num(v);
+        if(!Number.isFinite(n)) return "Must be a number";
+        if(n < 0 || n > 100) return "Enter 0–100";
+        return "";
+      }
+
+      const finalErr = pctError(finalPct);
+      const tutorErr = pctError(tutorPct);
+      const capstoneErr = pctError(capstonePct);
+      const complianceErr = pctError(compliancePct);
+
+      const anyInvalid = [finalErr,tutorErr,capstoneErr,complianceErr, ...quizErrors].some(Boolean);
+
+      // Scoring math (only use valid numbers)
+      const quizAvgPct = useMemo(()=>{
+        if(quizErrors.some(Boolean)) return 0;
+        const arr = quizzes.map(q => clamp(num(q)/20, 0, 1));
+        if(arr.length === 0) return 0;
+        return (arr.reduce((a,b)=>a+b,0)/arr.length)*100;
+      },[quizzes, quizErrors]);
+
+      const quizPoints = quizAvgPct/100 * 15;
+      const finalPoints = (anyInvalid && finalErr) ? 0 : clamp(num(finalPct)/100,0,1) * 25;
+      const tutorPoints = (anyInvalid && tutorErr) ? 0 : clamp(num(tutorPct)/100,0,1) * 20;
+      const capstonePoints = (anyInvalid && capstoneErr) ? 0 : clamp(num(capstonePct)/100,0,1) * 35;
+      const compliancePoints = (anyInvalid && complianceErr) ? 0 : clamp(num(compliancePct)/100,0,1) * 5;
+
+      const totalPoints = quizPoints + finalPoints + tutorPoints + capstonePoints + compliancePoints;
+      const pass = totalPoints >= 80;
+
+      const remainingCapacity = (remaining.quizzes?15:0) + (remaining.final?25:0) + (remaining.tutor?20:0) + (remaining.capstone?35:0) + (remaining.compliance?5:0);
+      const pointsNeeded = Math.max(0, 80 - totalPoints);
+      const requiredAvgOnRemaining = remainingCapacity>0 ? (pointsNeeded/remainingCapacity)*100 : 0;
+
+      // UI helpers
+      const LabeledPct = ({label, value, onChange, error}) => (
+        <label className="block py-2">
+          <div className="flex items-center justify-between">
+            <span className="text-gray-600 mr-3">{label}</span>
+            <span className="flex items-center">
+              <input
+                type="number"
+                inputMode="decimal"
+                step="0.1"
+                value={value}
+                onChange={(e)=> onChange(e.target.value)}
+                className={`w-28 border rounded-lg px-3 py-2 text-right ${error? 'border-red-400 bg-red-50' : 'border-gray-300'}`}
+                aria-invalid={!!error}
+                aria-describedby={error? `${label.replace(/\s+/g,'')}-error` : undefined}
+              />
+              <span className="ml-2 text-gray-500">%</span>
+            </span>
+          </div>
+          <ErrorText>{error}</ErrorText>
+        </label>
+      );
+
+      return (
+        <div className="max-w-5xl mx-auto p-6">
+          <header className="mb-6 flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-gray-900 grid place-items-center">
+              {/* inline logo */}
+              <svg viewBox="0 0 64 64" className="w-7 h-7">
+                <rect rx="12" width="64" height="64" fill="#a3e635"/>
+                <text x="32" y="39" textAnchor="middle" fontSize="22" fontFamily="Inter, Arial, sans-serif" fontWeight="800" fill="#0a0a0a">80</text>
+              </svg>
+            </div>
+            <div>
+              <h1 className="text-2xl font-bold">Cohort80</h1>
+              <p className="text-gray-600 -mt-0.5">Transparent pass tracker for your cohort (target ≥ 80 pts)</p>
+            </div>
+          </header>
+
+          {anyInvalid && (
+            <div className="mb-4 p-3 border border-red-300 bg-red-50 rounded-xl text-sm text-red-700">
+              Some inputs are invalid or missing. Please correct fields highlighted in red.
+            </div>
+          )}
+
+          <div className="grid md:grid-cols-2 gap-5">
+            <Section title="Bi‑Weekly Quizzes (15 pts total)">
+              <p className="text-sm text-gray-500 mb-2">Enter each quiz score <span className="font-medium">out of 20</span>. We average the quiz percentages and convert that into the 15‑point bucket.</p>
+              <div className="space-y-2">
+                {quizzes.map((q, i) => (
+                  <div key={i}>
+                    <div className="flex items-center gap-2">
+                      <input
+                        type="number"
+                        inputMode="decimal"
+                        min="0" max="20" step="0.5"
+                        value={q}
+                        onChange={(e)=>{
+                          const arr = [...quizzes];
+                          arr[i] = e.target.value;
+                          setQuizzes(arr);
+                        }}
+                        className={`w-28 border rounded-lg px-3 py-2 text-right ${quizErrors[i]? 'border-red-400 bg-red-50' : 'border-gray-300'}`}
+                        aria-invalid={!!quizErrors[i]}
+                      />
+                      <span className="text-gray-500">/ 20</span>
+                      <button
+                        className="ml-auto text-sm text-red-600 hover:underline disabled:text-gray-300"
+                        onClick={()=> setQuizzes(quizzes.filter((_, idx)=> idx!==i))}
+                        disabled={quizzes.length===1}
+                        title={quizzes.length===1? 'Keep at least one row' : 'Remove quiz'}
+                      >Remove</button>
+                    </div>
+                    <ErrorText>{quizErrors[i]}</ErrorText>
+                  </div>
+                ))}
+              </div>
+              <div className="flex gap-2 mt-3">
+                <button onClick={()=> setQuizzes([...quizzes, ""]) } className="px-3 py-1.5 rounded-lg bg-gray-900 text-white text-sm">+ Add quiz</button>
+                <button onClick={()=> setQuizzes([""]) } className="px-3 py-1.5 rounded-lg bg-white border text-sm">Reset quizzes</button>
+              </div>
+              <div className="mt-4 border-t pt-3">
+                <Stat label="Average quiz %" value={`${quizAvgPct.toFixed(1)}%`} />
+                <Stat label="Points from quizzes" value={`${quizPoints.toFixed(2)} / 15`} />
+              </div>
+            </Section>
+
+            <Section title="Final Exam (25 pts)">
+              <LabeledPct label="Final exam %" value={finalPct} onChange={setFinalPct} error={finalErr} />
+              <div className="mt-2 border-t pt-3"><Stat label="Points from final" value={`${finalPoints.toFixed(2)} / 25`} /></div>
+            </Section>
+
+            <Section title="Tutor Grading (20 pts)">
+              <p className="text-sm text-gray-500 mb-2">Assignments + participation + questions. Enter your current/expected percentage.</p>
+              <LabeledPct label="Tutor grading %" value={tutorPct} onChange={setTutorPct} error={tutorErr} />
+              <div className="mt-2 border-t pt-3"><Stat label="Points from tutor grading" value={`${tutorPoints.toFixed(2)} / 20`} /></div>
+            </Section>
+
+            <Section title="Capstone Project (35 pts)">
+              <LabeledPct label="Capstone %" value={capstonePct} onChange={setCapstonePct} error={capstoneErr} />
+              <div className="mt-2 border-t pt-3"><Stat label="Points from capstone" value={`${capstonePoints.toFixed(2)} / 35`} /></div>
+            </Section>
+
+            <Section title="Compliance (5 pts)">
+              <LabeledPct label="Compliance %" value={compliancePct} onChange={setCompliancePct} error={complianceErr} />
+              <div className="mt-2 border-t pt-3"><Stat label="Points from compliance" value={`${compliancePoints.toFixed(2)} / 5`} /></div>
+            </Section>
+
+            <Section title="Progress & Requirements">
+              <div className="grid grid-cols-1 gap-2">
+                <div className="rounded-xl bg-gray-50 p-3 border text-sm">
+                  <div className="flex items-center justify-between">
+                    <span>Total points so far</span>
+                    <span className="font-semibold">{totalPoints.toFixed(2)} / 100</span>
+                  </div>
+                  <div className="mt-2">
+                    <div className={`inline-flex items-center px-2 py-1 rounded-lg text-xs ${ pass ? 'bg-green-100 text-green-700' : 'bg-yellow-100 text-yellow-800' }`}>
+                      {pass ? 'On track: ≥ 80' : 'Below 80 — keep pushing'}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="rounded-xl bg-white p-3 border">
+                  <div className="text-sm font-medium mb-2">What do I still need?</div>
+                  <Stat label="Points needed to reach 80" value={`${pointsNeeded.toFixed(2)}`} />
+                  <div className="text-xs text-gray-500 mb-2">Select which components are still remaining:</div>
+                  <div className="grid grid-cols-2 gap-2 text-sm">
+                    {[
+                      { key:'quizzes', label:'Quizzes (15)' },
+                      { key:'final', label:'Final (25)' },
+                      { key:'tutor', label:'Tutor (20)' },
+                      { key:'capstone', label:'Capstone (35)' },
+                      { key:'compliance', label:'Compliance (5)' },
+                    ].map(opt => (
+                      <label key={opt.key} className="flex items-center gap-2">
+                        <input type="checkbox" checked={remaining[opt.key]} onChange={(e)=> setRemaining({ ...remaining, [opt.key]: e.target.checked }) } />
+                        <span>{opt.label}</span>
+                      </label>
+                    ))}
+                  </div>
+                  <div className="mt-3 border-t pt-3">
+                    <Stat label="Remaining capacity" value={`${remainingCapacity.toFixed(2)} pts`} hint="Max points still available for selected components" />
+                    <Stat label="Required average across remaining" value={`${Math.min(100, Math.max(0, requiredAvgOnRemaining)).toFixed(1)}%`} hint="Score at least this average across the selected remaining items to reach 80." />
+                  </div>
+                </div>
+              </div>
+            </Section>
+          </div>
+
+          <footer className="mt-6 text-xs text-gray-400">Cohort80 — transparent cohort scoring. Weights: Quizzes 15, Final 25, Tutor 20, Capstone 35, Compliance 5.</footer>
+        </div>
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App/>);
+  </script>
+</body>
+</html>
