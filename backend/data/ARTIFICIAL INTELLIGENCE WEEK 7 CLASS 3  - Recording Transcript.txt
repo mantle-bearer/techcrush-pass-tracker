@@ -1,0 +1,1557 @@
+It's nice to be here again.
+
+I hope you're doing fine.
+
+Yeah, it's another class and I, I think it promised to be much interesting.
+
+So so if you can hear me kindly signify with some kind of AI, I come up on the Yeah, Okay, thank you.
+
+Yeah, marvelous.
+
+Okay.
+
+So I will be sharing my screen now we have some pending tasks.
+
+Okay.
+
+So if you can see my screen, please kindly signify.
+
+Okay.
+
+So I don't know.
+
+Austin, do you have a question? I mean we can.
+
+I think it's been long with the questions probably.
+
+Do you have a do you really have question Or you just just Okay.
+
+So I will enable like two or three people to speak.
+
+So first Austin Johnson, Sorry, AUST Engineer and as so I think you guys should get ready to speak if you really have something someone.
+
+Okay, AUST Engineer, please you have the floor as if you can come.
+
+Okay.
+
+AUST Engineer is morning.
+
+Yeah.
+
+Hello.
+
+Hear me sir.
+
+Yes, I can hear you.
+
+Okay, please have the question, the problem the data set run on collab.
+
+Yes.
+
+Sorry.
+
+The previous Yeah.
+
+On, I tried, I tried run same code this afternoon as on my own and Okay.
+
+On that live data.
+
+Okay, I in IP that the code you put the, I imported the from the library, but I tried only the code and the right.
+
+I got an error and the error rate.pip plot has no attribute Ono MASS plus leave.
+
+How did you impose MASS plus leave.
+
+I did it on the when I just followed your procedure the template yesterday.
+
+Yeah, I did this.
+
+I also was.
+
+So if you check this, you said from mat plot leap import pip plot as tlt, is this what you did? exactly? I did it exactly.
+
+Check again please.
+
+So if you did that then you should be able to say plt.i am sure I am show not.
+
+I am sure I have seen the error.
+
+Now I use I am not.
+
+I am Okay, I am.
+
+It means it means image show, I am show image show.
+
+Okay.
+
+Okay, look, thank you.
+
+So I think MA SM Okay.
+
+So while we were expecting us to speak so in the previous class we talked about dimensionality option.
+
+So and we talk about feature selection and now you may want to select features, that correlation is not enough to say that you want to select a feature.
+
+So for your model.
+
+So then also we mention about Yeah.
+
+Now, Hello, good evening sir.
+
+I can hear you.
+
+Hello.
+
+Alright.
+
+Good evening sir.
+
+Christ.
+
+My question is regarding the last class sir, when you were using the matlab.
+
+Can you hear me, Sir? Yeah, I can hear you.
+
+Okay.
+
+When you are using the matlab, it's like you've imported the data twice before you do test it, unlike the other previous two examples that we did for LIS and Okay for light.
+
+Sorry, but this one initially when you load the data, you said we are not going to test it, we have another data.
+
+So my question is that is it true that you imported or send data? Okay? So I guess your question.
+
+So if you look at, you know, in our previous class, we mentioned that when you download data set, sometimes it has already been split into test and train.
+
+So if you look at this data, the I heard you, I'm answering your question.
+
+If you look at the ENS data set, it has already been split into train and tests.
+
+Okay.
+
+So we identy the test separately and the train separately.
+
+So the ones that we've been doing in MATLAB or the RICE data sets, you don't really have any specific splits.
+
+So what happened is that we usually once you upload one data, you can tell matlab to split it based on certain percentage.
+
+But this time for the NS data, we already have some data that we want to use for testing.
+
+So what we did is we used the one we uploaded for training and validation.
+
+Then we uploaded separate data which is the test data for testing.
+
+Do you understand? Okay, I open my now yes.
+
+My question is that in your examples, do you already have those data, the training and testing or we on our own we want to split the data.
+
+Where did you get data? Where did you get data? You downloaded it? Admin? No.
+
+I just watch your the clock.
+
+Okay.
+
+I guess you missed some steps.
+
+So I told you the MS data will be using is the one that was and that has been provided by Google Collab.
+
+So here if you can see your screen, here is the MS data that we used from Google Collab sample data and you can click on download.
+
+Okay.
+
+So now look at this, we have to MS data, MNS tests and MS train small.
+
+Okay.
+
+These are the two data we downloaded download and then also this one download.
+
+So after unloading them, we just brought it to MATLAB.
+
+If you look at it, this is CSV, CSVS.
+
+Okay.
+
+Once you upload the train or you open the train that is for the training you don't split.
+
+So now if you want to test, then you upload this second one for test.
+
+Thank you sir.
+
+Okay.
+
+Yeah.
+
+Thank you.
+
+Okay.
+
+So yeah, I hope.
+
+Okay.
+
+So let's proceed.
+
+Yeah.
+
+Is the the Okay? So we mentioned about K nearest neighborhood? Okay? So we we were trying to do classification based on the neighborhood.
+
+So and then we mentioned that if you if the dimension of the data is too large, then you have some cast of dimensionality, which is a problem for NIST and some other and some other models like that.
+
+So we usually use the Principal Component Analysis analysis for dimensional reduction and sometimes we also use for feature selection.
+
+Okay.
+
+So we also use the for compressing data sometimes.
+
+Okay.
+
+So yeah.
+
+Now then the practice we're doing, we started with the MNS data which we imported into this in Excel.
+
+We open with Excel just to be able to give us some sense of visual what does it mean, what is there? So this is EXL And I said the first column is the first column is the label while the other columns are the picture of the image.
+
+So yes this is image, but you may not, you may not know because it's actually represented in rows and column.
+
+So for you to be able to visualize it, visualizing correlation will not make sense to this one, or checking for trying to plot it like a scatter plot will probably not make sense.
+
+So having the information that this is an image, you need to treat it like an image, you need to try to check it, see it like an image.
+
+So and I told you, this column happens to be 700 and eighty-eighty five so plus the label.
+
+So if you remove the label, that 784.
+
+So it means that it's an image, so a square image.
+
+So I will try to use some Excel techniques or trick to try to transform it that this is figure two.
+
+And then the figure two is what is shown here.
+
+Okay.
+
+So and then if you, if we can decide to copy another data, let's say we copy figure three.
+
+So if you copy figure three and then we try to paste it here, you not is to change to figure three.
+
+Don't mind the handwriting, but figure three.
+
+So we can check for some other number.
+
+Let's say figure four.
+
+So we can copy figure four and try to check.
+
+Okay.
+
+So this is figure four.
+
+Okay.
+
+So that's what's we did last class and then we now haven't been able to verify that this is actually an image of figure like unwritten figure.
+
+So we did similar thing.
+
+So we did similar thing in in Google collap by trying to import the data sets, the training data and the testing data.
+
+So and mind you, if you import data in with Pandas, so it's usually especially CSV, it's usually assumed that the first row is the title.
+
+So in this case we don't have title, the data does not have title.
+
+So we just have the first number you the First Data on the first row.
+
+So that's how we say EA equals to non.
+
+That is there's no EA, there's no title this data.
+
+So and we imported it, train, import, test.
+
+Okay.
+
+So and then we just try to preview the data and yeah, now after that we try to the same thing we did in EXR to try to visualize the data.
+
+So we did similar thing here by trying to just select one of the data like I think the second row.
+
+And then we try to we selected the second row and then we try to reshape like because it is, and the documentation of M says that is actually 28 by 28.
+
+And also if you want to confirm that the columns, the columns of the data, if you check the column is 785 and said the first column is the level and other ones are the pixel of the image.
+
+So seven meaning 784.
+
+Okay.
+
+So image is a square image.
+
+So it means You find the square roots of this, you should get 28.
+
+So which means 28 times 28.
+
+So it's a it's a pretty small image.
+
+So Okay.
+
+But the data is is large machine LE Okay.
+
+So moving forward, so moving forward, we try to reshape, like to transform back the data to something like an image.
+
+So that would be able to like visualize just as we've shown it in EXL.
+
+So we selected the label which is on the column one and the other ones.
+
+Okay.
+
+This zero means column.
+
+The first column, you know Python is zero based indexing.
+
+So the first column which is zero, is the label.
+
+And then all other columns that is from one to the other one is the last one at the pixel.
+
+So we selected that and then we try to print the display the image.
+
+Okay.
+
+So that's what we've done with Python.
+
+So exactly what we did in the.
+
+So we then proceed further to try to train and classification.
+
+So this time and you notice that I didn't say you should submit.
+
+I said, I will tell you when to submit it.
+
+Okay? So I will tell you when to submit.
+
+So yeah, please don't be in a, I'll tell you when you submit your 3W3 spool path.
+
+So yeah, Okay.
+
+So we proceed to also experiment with the K nearest neighborhood in matlab.
+
+So why where we import, import the data set.
+
+So the MS data basically what I did is you first download the data from Goog collab, you download, click on download after downloading it, then you upload to to matlab.
+
+So then I then after uploading you do click on it and then it opens, then you click on import.
+
+Okay, so if you want you can also do click on the test and also import it to at the same time.
+
+So so yeah, the test.
+
+So we've it as too sure to be sure that you've imported you see in the workspace area here.
+
+Okay.
+
+So then after that you can go to the hubs and then click on classification Lenna So you notice that this is not a binary classification.
+
+We have from zero to nine that we want to predict 012-345-6789.
+
+So which means that is not zero and one is not rice or no rice or KO or osmic.
+
+We have ten classes to classify.
+
+So which means is not a binary classification.
+
+So this is a kind of a multi-class classification.
+
+And I explained about, I explained about multi-class classification as being like the data.
+
+The label is often required as like category data.
+
+So Okay, so to just recap on what I did in matlab, I import the data and then we can select the training Okay in string set and then we after loading the data we select the output.
+
+In this case the output is on row one.
+
+We can select this as the first row.
+
+First column is the output.
+
+So and also here we should not select the test because we have a separate data that's has been split for tests or reserved for test.
+
+So we don't need to click on this for as a separate was.
+
+Okay.
+
+So here is cross validation.
+
+You can leave it you can but you don't have to any, you have to specify cross validation.
+
+So alright.
+
+So you import data and then we we select the type of model.
+
+Yeah, I told you is not a binary classification.
+
+So we are using K nearest neighbourhood which is KNN that I already explained the concept.
+
+So we click on K nearest neighbourhood and then we can delete the tree-based method.
+
+So now we have the K nearest neighbourhood.
+
+Okay.
+
+So one thing which can neighborhood is that you need to specify the number of neighborhoods that should be considered to make a data point part of a certain class.
+
+Okay? So and as you rightly pointed out, it's BOS that it should be odd number, so that won't have it type.
+
+So you can have three, you can have five, you can have seven, you can have nine and like so odd numbers.
+
+So yeah, let's choose 33 neighborhoods.
+
+Okay.
+
+So and we don't want to do standardization because the data, even if you want to do normalization, is not standardization we should use because the data actually has a minimum and maximum and is not a normally, you know, normal distribution.
+
+Okay.
+
+So basically the data, it's image and is from zero to 256 and 255.
+
+So you already know the maximum or minimum of the value.
+
+So then PC, the most important part that we're talking about is the input will be seven for that is large.
+
+Okay.
+
+So we want to use Principal Component Analysis to be able to scale it or sorry, to be able to select the important features.
+
+Okay.
+
+So we select Principal Component Analysis.
+
+There are two ways to specify principal component.
+
+You may want to EXP provam provide the variance like something like 95%, 80%, something like that.
+
+That's what the variance.
+
+Me or you specify explicitly the number of components you want like out of 784.
+
+I just want 150 something features.
+
+I just want 70 features.
+
+I just want so 70 important features, not just any other features.
+
+So that's what principal components we do.
+
+Is anybody trying to Okay? So so I have tested one of 54.
+
+So I will be selecting 154.
+
+And mind you, this parameter, this number of features is a is an hyper parameter that you need to tune if you try out, is everything Okay? Please go, you're reaching your hand Is it are you? Are you fine? Okay? So this is an hyper parameter.
+
+If you're using PCA, it's an hyper parameter.
+
+Like you need to turn, you need to adjust the value so as to get the number of important features you don't know.
+
+So you are just trying to get the important features.
+
+So if you train your model and you notice is not performing very well with some certain by specifying just one feature or two features, then you can change the value like that.
+
+So, Okay.
+
+So after that we can click on train and then you train the model.
+
+Okay.
+
+So after the model is done training, then we can test the model.
+
+Yeah.
+
+Okay.
+
+In the mean.
+
+Okay? Yeah, I don't want to mix it up so that you won't be confused when you're trying to practice.
+
+Okay, is you're asking how about revision to our last quiz and results hopefully.
+
+Well, I'm not in charge of releasing the results.
+
+So once the feel that the result is Okay, then the administrative department will proceed to release it.
+
+And then I don't treat, I don't just treat the D revision of last quiz, I only selected the mostly filled questions.
+
+So and in this case in this last quiz you don't we, I don't have any mostly filled question.
+
+Okay? I think because we remove the link question has to do with link.
+
+So I guess that's the reason why we do not have mostly filled question.
+
+And that's one thing I think if you have some kind of as we are proceeding, you have some kind of intuition around Machine Learning, you tend to be able to have some sense of judgment of what's happened, what's what is actually happening was the trend.
+
+So like if you look at the previous class or previous quiz, you notice that most of the failed question and the question has to do with link.
+
+So which means that there is something wrong with student not wanting to click on link or not want to wanting to attend and attempt the question.
+
+So from that judgment you can make some additional like some step to make some corrective measure.
+
+So if your model, your A model is doing some kind in the way, so you will need to think at the level of the AI model to see probably what is, what could be wrong, what's going on with the model? Okay? Anyway, I'm not sayi model, I'm just using as an example.
+
+Okay.
+
+So we want to import the test set, Okay.
+
+And then we can click on imports.
+
+So after importing the test set, we can then test or Okay, so the test results is to testing.
+
+So for the test we have a 96.2% accuracy.
+
+And then if we check the confusion matrix, we have this.
+
+Okay.
+
+For figure zero, the model was able to predict figure zero correctly now and 70 times for figure one, the model is able to predict Figure 11 1129 times, figure, Figure 29 181 times, Figure 3986 times, figure 49 125 times correctly.
+
+I mean, so yeah.
+
+And up to figure nine.
+
+So now Okay.
+
+So there are some other judgments you may want to infer from this, but for now let just stick with just the one that you able to predict correctly.
+
+So but what you notice anyway is that figure five is the list to look at correctly and then also figure four.
+
+If you look at figure four, it's often mistaken as a figure nine.
+
+So which you also kind of see some intuition.
+
+And if you look at figure four, let me bring out something.
+
+So this is figure four, Okay? And this is figure nine.
+
+Okay.
+
+So if you try to close this up and then you have this, this basically looks kind of like alike.
+
+So it's something you should expect me.
+
+That's what I'm explaining, I'm explaining the confusion matrix.
+
+Also interpret the results.
+
+Someher matlab appears to be more stressful and relatively easy than Google Colab is my opinion.
+
+Okay.
+
+Okay, yeah, that's the opinion.
+
+But anyway it has some pros and cons.
+
+So yeah, as I was saying, if you look at figure for the result of figure for shows, that figure for now and 25 times was predicted correctly figure for true class and the predicted classes Figure four.
+
+Okay, but if you look at the the wrong scenario, you have instance when figure four was actually mistaken to be Figure nine.
+
+Okay.
+
+So which means that the model.
+
+Is actually having some issue trying to distinguish between figure nine and figure four.
+
+Okay.
+
+So and the second instance that is also bad is a nine and for the mistaken as figure six, these two instances, what you need to look at like figure four, let me show you this is figure four, actually, this is figure nine.
+
+Okay.
+
+If you try to close off this figure, Okay, this is, this is more or less like nine.
+
+Okay, Likewise, we look at 66 is like this and then this is remember this and wrting character and people write things differently.
+
+So even maybe my writing is also not as that good as an example.
+
+But you know, that's probably what is happening with the model, and then you will probably need to check how to make some correction around that.
+
+So likewise if you look at the figure nine or let's say figure seven, figure seven is actually predicted now that it's one times correctly, but most often 21 times figure seven was mistaken to be one, which is also logical, it will happen like, Okay, let's see, this is figure this.
+
+So this is figure seven, figure seven and this is figure one.
+
+So sometimes some people write figure one like this.
+
+Okay, so some may just write one like this, some there, This line may be too short to be able to distinguish between one and seven.
+
+So the mistake the model is making is kind of logical because they look alike.
+
+So you asking how they are like this is Figure seven.
+
+Okay, they both have this stick and this stick.
+
+Sometimes some people write figure Figure one like this.
+
+Have you seen stand when people write Figure one like this tea? So the model will probably make that kind of mistake.
+
+So what I'm trying to tell you is how to interpret your results and how to try to have some sense of judgment and the mistake the model is making.
+
+And I showed you the example of figure nine.
+
+This is figure four, Okay? And this is figure nine, Okay.
+
+So sometimes people don't write it as clear as this, this is unwritten character and then digit of different people.
+
+So some people will get for will look like they close it up, especially if you write your for like this Okay.
+
+Socially if the is written like this once the is written, I definitely what was this between and four.
+
+So that's the way I model they can make that kind of mistake Doesn't mean that under roof roof for this is for it means the model predictor and the true class given number four, they are showing the model number four and is predicting 940 times.
+
+Like you showed the model number four, let's say 40 times or so number of times, and out of that times the model was actually predicting the the images to be figure four instead of predicting as figure four is predicting as figure nine.
+
+I hope you understand that.
+
+Let me come again given figure for the image of figure four you you wrote figure four.
+
+Okay, so now out of those instances, you show the model figure four, and then the model is predicted one.
+
+That figure four looks like one for six times.
+
+And then out of the instances that you showed in your data in your test, the model correctly predicted figure four to be figure 49 125 times, but figure four was mistakenly predicted as figure 69 times, figure four was mistakenly predicted as figure 71 time, figure four was mistakenly predicted as figure 81 time, and Figure four was mistakenly predicted as Figure 940 times.
+
+I hope you understand that I'm talking about the true, I don't know, tell you, I am not getting your question clearly.
+
+So if you can kind of Okay, you're qu Yeah, I will allow you to speak.
+
+Okay.
+
+Yeah, thank you.
+
+So now you understood.
+
+Okay.
+
+Yeah.
+
+So regarding the question that already opinion that says matlab appears to be straight, more straightforward and relatively easy than pull up.
+
+Yes, mostly GUI-based was because we are really familiar with the GUI that you need to click, click, click, click, click here and there and then you have your result, you have your VO.
+
+So it's it really appears simple.
+
+However, in practice and there are some shortcoming with using matlab in the sense that first thing that is not free if you look at the beginning when I was trying to, Okay, so I will close my math lab and I will show you something I'm using the free version, the free subscription of matlab and then if I exit my matlab and then you noticed you notice something.
+
+So for this month I have maybe less than 80.
+
+Yeah, for this month I have less than two hours, two hours to to exhaust my free free usage, Okay.
+
+So which means that if you, if you want to, if you want to use a matlab, Okay.
+
+So if you are not using the paid subscription that is unlimited, then you are bounded to only 20 hours per month.
+
+So Okay, so that's one shortcoming with matlab.
+
+But if your company is kind of rich enough, is someone speaking Okay, so if you, your company is reaching over you in the academia, so probably your university have some kind of subscription to matlab, which we so make it much more limited.
+
+And also here the matlab we are using we we don't have access to a lot of toolbox tool boxes.
+
+So matlab has a lot of two boox which also some of them you need to buy them, you need to apart from subscribing to matlab, sometimes you need to buy the too boox.
+
+A typical example of the two boxes and DL in two boox.
+
+So THEL So a typical example is deep Deep learning toolbox.
+
+Okay.
+
+So if you need to use, I think we won't be able to use matlab for Deep Learning, but I'll probably show you some wish around it.
+
+So if you want to use Deep Learning toolbox in matlab, it actually cost about 1001 $1000.
+
+So the pricing and the pricing as a standard farmer is a 500 8580 us dollar.
+
+Okay.
+
+So one thing with some of those, if the start up, the price is different.
+
+But as an individual was a Okay, so students $55.
+
+So for student and if your university has subscription, that's good.
+
+Yeah, that that's the thing.
+
+So I'm not discouraging you from using matlab.
+
+Matlab is a very simple and easy to.
+
+We are just trying to avoid things that what is it called that will prevent you from from not learning AI.
+
+So matlab and some other tools like that, mostly tools that simplifies the process of AI for you, they are not free, even if you have some little percentage and free the big, the bigger part are not free.
+
+So if you want to be free, I think you need to go for coding.
+
+So you want coding to, you need to have some computational.
+
+So that's why we are saying Python and what it called.
+
+Okay.
+
+You need to watch the video where we connected it again, please please some.
+
+Yeah, start enough.
+
+Okay.
+
+So let's continue.
+
+So we've been able to recap or demonstrate how you will be able to do your key neighborhood in matlab.
+
+So we need to also do the same thing in in Python.
+
+Okay.
+
+Google collapse.
+
+So yeah, after that, after we've shown how to that, we've been able to display the data which is to if you go to that sampled from this shape it.
+
+So this reshaping is for now is only for field visualization.
+
+Okay.
+
+So we don't, we're not using it for anything spectacular.
+
+So yeah, Okay, so moving forward, what we need to do is we need to try to extract the, we may do some statistical description.
+
+I really, I really hope we finish this today so that will be able to try out deployment or try because I notice many people are concerned about trying to deploy model to production.
+
+So try out one method of deploying it to try one method of deploying it.
+
+So I, I understand your plight.
+
+So, yeah, I, I hope you finish up quickly today.
+
+So, Okay.
+
+So so you just want to get the statistical overview or some.
+
+So which is let's say we have the DF test or let's train, let's check the train and then we can judge the description.
+
+Yeah, oh sir, I don't run.
+
+Okay.
+
+So someone is saying I prefer using Python or VS code and then collap.
+
+I think we cannot continue to argue this even using VS code.
+
+We have people are having issues.
+
+I, if you look at my task, Okay, I close it.
+
+I also use VS code.
+
+Okay, this is my VS code.
+
+I use VS code.
+
+I have used it, they have used it.
+
+Okay.
+
+In my daily daily activity, I use VS code.
+
+Okay, so don't campaign that.
+
+I know your code and I even use some other development tools.
+
+But I have experience.
+
+I have the reason why I don't want you to use VS code.
+
+I will keep emphasising it.
+
+I have the reason I don't wanted to use VS code.
+
+Even with Google Collap that everything is installed, everything is in place.
+
+We have people that are having issues.
+
+Okay, we have some common errors.
+
+So if you want to practice with VS code, you have the freedom to do that.
+
+But if you want to complain about things, don't complain about your local environment VS Code, you have your own independent and different issues.
+
+You'll be using VS code and then you probably have installed something or I have to be addressing Conda installation or virtual environment installation for each and every one of you.
+
+That's ethic.
+
+So and more, some error that is not even related to Python or related to Machine Learning is what you be bing with on local environment, so.
+
+I have yes code.
+
+I use collab.
+
+I use what you call notebook with VS code.
+
+That's not my problem.
+
+Okay? So I just wanted to for this class is Goog collab.
+
+If you want to practice, you can download your code and then practice it on VS codes to be much more proficient in whatever you are doing.
+
+And in fact, for Machine Learning, one thing you need to know is that it's if you want to do real Machine Learning, you really, I'm not saying what you're doing now is not really Machine Learning.
+
+What you start using real real production data and likes you don't your laptop is not is not enough.
+
+I will be sincere with you.
+
+Look behind me, this is a server computer that has GPU.
+
+So if I do all the testing and everything on the personal computer, I need to move it to the server.
+
+I need to transfer it to server to be able to run every duty and trainees and the like.
+
+So and if you don't have that kind of server, then most of this platform that give you free GPU and then some other paid subscription of GPU is what you may probably need to opt for.
+
+So yeah, anyway, I'm not, I'm not don't take.
+
+My voice is ash.
+
+My voice is not Hatch.
+
+I'm just telling you the reason why I have my reason for telling you that yes, code you can use it on your own, but not what I recommend for this class.
+
+Okay.
+
+So so that's, that's about that.
+
+Okay.
+
+So we've run, we run this and then we just try to review the data.
+
+We visualize the data and then we check for statistical description.
+
+Okay.
+
+So so as not to beat around the bush, I will go straight to so many things that I already wanted us to do.
+
+I wanted to explain some other concepts, but I think it's important we go straight to the point so that we will be able to move faster.
+
+This is seventh week.
+
+We should probably be going to the caps on week soon, so which we haven't covered as much as I want.
+
+So we want to extract the imput.
+
+Okay.
+
+So, Okay.
+
+Anyway, so the input is the first one, first column and the input is the from first column to the last.
+
+And then the label is from is the first column.
+
+Do you understand? Okay, Let me tell you.
+
+Let me show you again.
+
+This is the label which is index zero, the first column and from after the first column, like from second column to the end is what we have as our input, but the first column is our output which is deliverable.
+
+So that's what we did here.
+
+X usually taken and denoted as input.
+
+It doesn't really mean anything.
+
+If you want to write any other things there you can put input strain, that's what you want.
+
+So and then test.
+
+So for the test data is also, it also follows similar pattern.
+
+So this column, this column means all Okay.
+
+Or from this to this so yeah.
+
+So we are safe to run this and then if you want to check, we can check the shape or the size of the data.
+
+So so for the training data we have 220,000 rows and then we have the column is 784 Okay.
+
+And for the test and the label of the train is also it should be the same thing as the same number of rows as the train and the test data is 10,010 1000.
+
+Okay.
+
+So yeah.
+
+And even if you notice the data is splitted in the ratio of we have 10,000 divided by 30,000.
+
+Okay.
+
+So which is 33% and then the train is 66%.
+
+Okay.
+
+So that means that we need to because we have maybe not necessary but will do it to fulfill righteousness.
+
+Okay.
+
+So now we need to encode the the liberal.
+
+Okay.
+
+So in this case we will be using will be using Liberal encoder.
+
+So because we have not imported illegal Coloqu encoder is part of a library in SQL.
+
+Okay.
+
+So Okay, so KA is asking can we take the part of the shape again? Shape is we use shape to determine the dimension of the data.
+
+So look at this, This data is showing that we have for the training data.
+
+Let's look at training data.
+
+We have number of columns and number of rows to be 720,000 for the training and for the test we are for the sorry for the training, the number of rows we have and 20,000 for the number of rows and the column is 785.
+
+Okay.
+
+So we are trying to extract the input and the output input and the output for the training input and the output for the test.
+
+So input and output for training for an output of the test.
+
+So because this is 785, we just removed the label from this 785.
+
+So it means the label is one, then the remaining one is 784.
+
+So if we check for the shape, you have 784 for the inputs, Okay.
+
+And then you have one because this one, that's why is not dead.
+
+Okay? So you can also make it there is not necessary for now.
+
+So so for the the libel which is the the one from this 785, so that's why we have 784 and this one is one.
+
+Okay.
+
+So now the row, this is train, we are looking at a training, so the number of rows for the training, the input is 20,000, you expect the output to also return 20,000 because you basically just extracted from it.
+
+I hope you get the gist to put it in better context.
+
+This is let's say this is your data.
+
+What you just did is you caught out this one.
+
+Okay.
+
+You put it in another sheet here.
+
+Okay.
+
+And then this, you delete this this one and then you now have the other ones.
+
+Okay.
+
+So here we're going to be having a column of 784, look at here, 784 and here which we have here we have the label, we will be having just one, just one column, just one.
+
+This is just one from the label.
+
+I hope you get it better.
+
+Okay.
+
+Yeah, Thank you.
+
+Okay.
+
+So now libel encoder maybe we don't need it, maybe we need it.
+
+But let me explain.
+
+So I told you we for categorical data, we need to encode it.
+
+So the one way we can encode it is an one of encoding, which I mentioned the previous class, and another way is that we can just index index.
+
+It's Okay.
+
+So now but the the thing here is that for K nearest neighborhood actually is not predicting probability, Okay? Based on the explanation of K nearest neighborhood which that you need to kind of have some understanding how if you don't know the mathematics and the some other things and just have some rough idea on how it works.
+
+So here if you look at k nearest neighbourhood is actually not predicting probability, he is just trying to do 14.
+
+This is my distance to this one, distance to this one, distance to this one.
+
+Let's select the first three that are close to these objects.
+
+Okay.
+
+So after selecting the first three, so these are the first 3123 that are close.
+
+Okay.
+
+So after selecting that, then we try to check for the class where it belongs to.
+
+So majority carries the vote.
+
+Apparently this red triangle has two votes while the blue has one vote.
+
+So which means that the winner is the the red triangle.
+
+Where is the probability that doesn't have probability? So which means we can't use one of encoding.
+
+Okay.
+
+So what we will probably be using is just the the index.
+
+Okay? Is just the index is not trying to know the ranking based on the value of the index.
+
+012-34-5789 No is trying to just assign some level to it.
+
+Okay? So yeah.
+
+So if you try to use one of encoding, you're probably going to have problem with K-nearest neighborhood specifically because that's the way it works is not about now.
+
+I want to use another perspective, another way to solve this problem in regression, in binary classification, we actually divine standardization of we divine everything separately.
+
+But the issue with that is that if you want to deploy, I'm trying to work towards deployment.
+
+If you know your problem, your task, you eventually deploy it to something.
+
+You need to factor it in place when you are doing the the development, if you are just doing the AI model analysis, just to analyze the data and then just give or present the results, eventually that is left to you is in your control.
+
+But if you're trying to deploy your model, you need to factor in place the logistics behind it.
+
+Number one is that if you are doing every process, every pre-processing that you do when you are trying to train, you have to package it together, every pre-process, everything, everything that you did from the input until you get your, until you make your model to predict and then you get your output, you have to do it too.
+
+You have to package everything together, otherwise you have some issue in the results.
+
+So that's, I want to use this approach.
+
+Okay.
+
+So we MAX SQL has something called pipeline.
+
+So you try to use this is kind of simple, simpler than doing it by doing it separately.
+
+So what we do is let's say we have model.
+
+Okay.
+
+So you just see a pipeline.
+
+Okay, let me import that.
+
+We have the PYO pipeline.
+
+Okay.
+
+So we want to do yeah.
+
+Okay, don mind me this thing this suggestion has make me, you know, lazy, but this is not what you want to do.
+
+Want to do Neighbourhood.
+
+Okay.
+
+So I should probably import before doing all this one.
+
+So we want to use Minimax.
+
+Okay, we want to use Minimax Scalar and then we want to use K nearest Neighbourhood.
+
+Okay.
+
+And then we also want to use PCA, we want to use Yeah.
+
+So I will proceed to import this once pipeline, Minimax, PC and Kalis involved.
+
+So the idea of using pipeline simplifies things a lot, like you just package everything together and once you want to deploy your model, you just export this.
+
+For the people that want to use it and then they will use it.
+
+So we need to import some libraries.
+
+Yeah.
+
+Max scalar.
+
+So we import the processing, Max scalar and the feature extraction or dimensional reduction, PCA and the pipeline, the package, everything together and the model.
+
+Okay.
+
+Okay.
+
+So yeah, by so doing you are, you have greatly simplify your task.
+
+So here you define your model and then the next thing is to train the model, which is just as simple as saying model fits X train Y train.
+
+So this, you've packaged everything together.
+
+You don't need to have it separately, export it separately.
+
+What I mean by exporting separately is that if you do mean Max scaling, you have to export it for your for the deployment team.
+
+If you do PC separately, you have to export the PC model for your deployment deployment team.
+
+If you do K-nearest neighborhood, which is the actual model, you have to also exploit.
+
+You don't just export the K-nearest neighborhood as the model.
+
+That's Okay.
+
+Yeah.
+
+This is the model you can use it know you have problem or you have some incorrect results.
+
+Okay.
+
+So the training is completed.
+
+Yeah.
+
+And then we can just do some evaluation.
+
+So we would like to do accuracy.
+
+I don't want to use this.
+
+There exists an accuracy say yeah.
+
+So someone has a question.
+
+The reason I'm using this method is someone has a question on how do we test the model after even after training Because it's simple as well.
+
+You didn't notice is just you just call a model predict so and then is making the prediction so and even if you deploy a model, you just call model prediction to predict it.
+
+So the results is what you have.
+
+Okay.
+
+I think you will understand it better when we are trying to make some deployments.
+
+So, yeah.
+
+So we run the prediction and then so the advantage of this is that when you have the test, test data because we've packaged everything together, we've combined it together as a pipeline, it will run through the pipeline line by line before passing it.
+
+So if you do the scaling, if you pass it into PCA and then it will do the pred and the model, the prediction with the model itself.
+
+So but because it has been packaged together as you've seen here, so it's will we just call the predict and it will do everything for you.
+
+Okay.
+
+So let's move faster.
+
+Okay.
+
+So the next thing is for us to be able to predict the accuracy so which we can say Yeah, this is where I want to use, want to use so let's import accuracy and then we might want to import confusion matrix later.
+
+Oh sorry.
+
+Okay.
+
+So we have 96.1 what it called 96.1% of policy.
+
+So we might also want to have the confusion matrix.
+
+Okay.
+
+So so confusion matrix equals to confus.
+
+So and we just we want to display it as a graph.
+
+Yeah.
+
+So we need to import confusion metrics and confusion metric display.
+
+Okay.
+
+So running this, you have the results.
+
+So if you notice this result is quite similar to what we have and we can also pass this parameter label.
+
+Yeah.
+
+So because we have the model.classes.
+
+Okay.
+
+So this might not make any difference because the label is actually 012-345-6789.
+
+So but if you look at this results sadly, I have closed the matlab but want you notice is quite similar to what we Okay, I have.
+
+It is quite similar to what we have in MAT lab which is nine and we have now 70 for what it called for zeros.
+
+And then here we have now 71.
+
+So just few discrepancies and 11 1130 for one, and then we have 1129 for one in MATLAB.
+
+So they're pretty similar.
+
+Okay.
+
+So yeah, so that's the results.
+
+I hope you get the gist.
+
+Okay, so let's start from Babaji.
+
+So the question from Babaj is that what kind of model can we use or how do we implement to create a chat box, a H player for customer service practice? So I think someone I think he be actually has similar question sometimes ago.
+
+So you can you can use first way.
+
+First thing that you may want to do is if you want to use the state of the hearts techniques.
+
+So the simplest way is to use and prompt engineering to the simplest way is to use prompt engineering for the the open source or the mainstream AI model.
+
+This is all I think I showed ALLA sometime ago.
+
+All my is is free, but you need to be able to run it through your computer.
+
+So so you have all Loma where you have several models, this is GPT, OSS, we have DIPS one, we have Game three, we have several other models.
+
+So this model if you don't want to use openi, charges and GPTI, you don't want to use and GENI API, So you just want to use the free available one and you just use your own computational resources.
+
+So this, this is a simple method.
+
+So you get the model.
+
+Okay? And then you turn your prompts like you are a customer service, you are a customer service provider.
+
+Your role is to do this, you have to give this this given this this, so those prompts you need to co your prompts very well.
+
+So you turn your tweak, you are just you do different front end.
+
+So that is a way to go about it.
+
+Okay.
+
+Some other ways, some another way to go about it is if you have your data, you may want to use RAG retrieval, retrieve augmented generation.
+
+So apart from using just prompt, you may want to link it with your data to use your knowledge bank.
+
+So if you have some frequently asked question or some data about your services about your work is may not be frequently asked question alone, maybe all information PDF information about your what is not SC I'm not talking about SC So you can then combine all those information into the knowledge bank, try to chunk it and then use embedding then the AI model.
+
+Once it is asked some question, you check the knowledge bank and then be able to give some response based on that.
+
+So yeah, that's pretty some simple ways to go about it.
+
+So there are other ways to you don't want to use AI LM model to do it.
+
+There are other ways to do it, but they are, They may not be as robust as the LM approach.
+
+So Okay.
+
+So sir, you said our laptop won't be sufficient for AI task.
+
+What if the total test and train data is like, Okay, So 500 to 1000 with eight gig GPU enough.
+
+Okay.
+
+So the question you guys hear me please kindly signify with TOS if you can hear me.
+
+Okay.
+
+So thank you.
+
+Okay.
+
+So please please kind of maybe you can rejoin.
+
+So, Okay.
+
+So when I say that 500 G your laptop is not sufficient for your AI task.
+
+What I mean, I emphasize on a very, very serious AI AI task, very serious one.
+
+Okay, I, I emphasis on that.
+
+For instance, 501,000 data points is not sufficient.
+
+That's one.
+
+But you can try to work around that.
+
+Okay.
+
+So also it depends on the nature of data that you have.
+
+So you see this 501,000 if you're just talking about rows and columns of maybe some data, just you have rows and column like the Excel, what it calls Google spreadsheets data rows and column 501,000, that is not a very complicated data.
+
+I would say now, but if you look at this 500 or one and 1000 data for satellites image that is huge.
+
+Okay.
+
+That is huge.
+
+So if you are considering the data like the satellite image or point cloud, that is huge.
+
+Okay.
+
+So I will tell you it depends on the nature of data you are working with is just one column of what the spreadsheets is not is not that much.
+
+Okay.
+
+So yeah, I think you was the for so it depends on the nature of your data.
+
+Some summary.
+
+So it's advise, thank God it has, it's advisable you use Okay, let me let we need to work on deployment now.
+
+So now for you to deploy this model what you just need to do, there are several ways anyway to deploy, but I will just use a simple method.
+
+So, Okay.
+
+So before then I will show you what I have done.
+
+So so you need to save the model.
+
+For instance, let's say we have the web design web development team and the or you are also the Web Developer.
+
+I mean small company.
+
+You have all the things.
+
+So you need to save the model.
+
+Okay, you are not going to be training the all the time, you just want to be using for prediction.
+
+So if you want to save model, so most often we there are different ways to save psychic and psychic LAN models.
+
+So there are different ways to save.
+
+The model.
+
+So if you look at the documentation, this is ONNX.
+
+I won't talk about ONNX today when we after we've done neural network and deep planning, I hope so.
+
+I will talk about ONNX.
+
+Okay, but these are some of the ways you can export, you save your model.
+
+So people, people sometimes say is not safe.
+
+But if you want to use Python people is is a good way to go.
+
+So let's work with people for now.
+
+Okay.
+
+But later later we may probably need to talk about ONNX because if you want to do us it for matlab, matlab only works with what is it called works with ONNX and ONNX is a general is dedicated for a neural network exchange.
+
+I am expecting me to suggest.
+
+So we need to export the model.
+
+So what we do is we said people dump and then we dump the model.
+
+Yeah.
+
+So so basically AINE, what's your question? You say your question has not been attended.
+
+I do your question.
+
+I think you are just taking your opinion.
+
+I prefer using code.
+
+The only drawback I have is how do I know what and what code to use? For instance, the code used for linear regression is different from the code the one used for logistic regression.
+
+Now the code used for multi-class classification is different from the one used for logistic regression.
+
+Now how do we or I know which and which code to use? Is there code templates for each? I think it's not about the code.
+
+Okay, let's talk about MATLAB.
+
+The step you used to do logistic regression is not the same step you used to do what it call multi-class classification.
+
+KNN is not the same step you use for linear regression.
+
+You don't click on linear regression and then you are using and you are expecting classification.
+
+So the same thing applies to what is good and it's the nature of you knowing what type of method do you want to do? Like, Okay, you want to do binary classification? Do you? Are you going to be using linear regression for that? You won't be using that linear regression for binary classification.
+
+Okay, so it's more about the the task you want to do.
+
+So in any of those ways you're going to either you are clicking or you are writing code, think I should better be fast so as to be able to show you what I Okay, so I've run this.
+
+The model is called model do P.
+
+So which is what we have.
+
+And then I need to click on download if I want to export it or give it to some kind of team.
+
+So I will open another notebook.
+
+Okay, I open a notebook and then let's see if we can try to deploy it.
+
+I know it's going to take a long time to run because so what I would do is I download the model.
+
+Sometimes you can even export it to your Google drive if you want to.
+
+But yeah, sorry for cutting short on example on your question, I think it's not about the code itself, it's about what you want to do.
+
+Like if this is what you want to do, you need to know, you need to have idea of what you want to do.
+
+Once you have idea of what you want to do, it more straightforward, like even with the, even with the code that you said is different, everything is almost the same thing.
+
+Let's take a look at it again.
+
+This is model eventually you just call fits you want to train.
+
+If you want to predict, you just call that predict.
+
+So the pattern is is the same just that you need to know this, this more of call AI, you need to know what you want to do.
+
+Like why do you need to use MIN Max scalar scalar, Why do you need to do PC Why do you need to do KE NE key classifier? So which even if you are not using code, even if you are not using code, you need to know because the code is not going to be maintained in AI is part of it, I would say, but turning the model to perform very well is a problem because you eventually be spending much time on trying to turn.
+
+Even if you get someone else code, you take a lot of time in trying to turn get good results.
+
+And I believe some of you have been having some kind of challenges around that.
+
+I remember someone message me about this model being bias.
+
+So but that's the feeling of you're doing AI like you spend time about getting good results.
+
+This one we are doing class.
+
+I have almost done some background work and sure, I get good accuracy if I supply particular value.
+
+I know this value will give you good accuracy.
+
+So, but in real life or in this scenario you will be working with what is it called? Okay, So let me don't let me waste much of your time about the talk.
+
+Talk.
+
+I, this is what I want to show you.
+
+I quickly run on my computer and then try to So this is AI will show you anyway, I just want to show you the outcome of deploying the model.
+
+It's kind of straightforward.
+
+This is underwriting and predict Andrin digits, the model, the same model we trained.
+
+Okay.
+
+So what I want to do because we are passing inputs as image.
+
+So I want to upload image.
+
+So let's say we have paints.
+
+Okay? So I wanted to notice something.
+
+So let's say I write figure to Okay.
+
+This is how this is my figure two.
+
+And then I cropped the image.
+
+Okay? And then I just save the image.
+
+Ok.
+
+I just saved the image.
+
+Let just say I think I have one saved already.
+
+So now what I want to do is to upload the figure two and then upload it and then I'm expecting it to predict what Walla is sping as figure zero.
+
+What's the problem? So what's the problem? Despite having 80%, 96% accuracy, is this the best it can give me just simple to is giving me a zero.
+
+So I don't have much time.
+
+I would have asked you guy, what do you think is the problem? Now let's go back to get what the problem is.
+
+If you look at data set is actually white written text on the black background.
+
+But what I did where I did as simple as just saying black written text on white background, that's the difference.
+
+So I will show you now let me try to upload the same to or some to the similar to, but now white written to on black background.
+
+Let's see how to perform.
+
+So see now is now correct.
+
+Now your head is correct.
+
+So as simple as that kind of, so as little as that it can cause significant difference in the performance of the model depending on the type of model you're using, like some model are not so robust to kind of that kind of variant variation.
+
+So and then we can try some other figures.
+
+So now that we know that the background matters.
+
+So let's try to use the background that's understand.
+
+And then we write a number.
+
+So let's say I write figure for that is often mistaken as figure nine.
+
+Okay, So I cropped the data, I saved the model, just give it.
+
+I don't want to be like I'm cheating by giving a name that it connote was this day, this is figure for and then figure for and then the prediction is figure for.
+
+So let's go to understanding how it works.
+
+So what is actually part in streamline.
+
+Streaml is a platform that usually it's for deploying or making your program, your AI or your data Analytics work available online.
+
+So so this is streaml.
+
+You can check out the documentation.
+
+It has a lot of things like that from file uploading, it's makes it makes things easier or simpler.
+
+So the first thing is let's say we want to install stream links.
+
+Okay.
+
+So after installing the streamline, we want to normally once you hosted or a model, you probably not have access to it online.
+
+So there is this library that we use to get to pipeline what you have to make it available.
+
+But if you are only on your computer, you can just use your Lookout IP.
+
+We look at my IP link, I just use local host and then the port number.
+
+So in this case we can we need to use a dedicated what it called JS library.
+
+So yeah, do be surprise, you can also run new JS on pull up.
+
+So I install this this tonel pipeline or look at tol help you to pipeline your your IP, your work with the URL into the onto the web.
+
+So I need to BU, I need to check the Okay.
+
+So the main code then let me overwhelm you.
+
+So the first thing is that.
+
+So look at this magic magic, this magic script.
+
+Percentage.
+
+Percentage.
+
+I mentioned it when we are talking about our time is gone.
+
+I mentioned when we're talking about, I mention when we're talking about a notebook.
+
+So percentage percentage means right? file.
+
+It means to write a file with the name file app.p.
+
+So if you check here, you should see if I have written as support and whatever you have in the cell will be written to that file.
+
+That's basically what this does.
+
+So now what we do is we want to import the model.
+
+We import the model.
+
+Okay.
+
+So the time is gone.
+
+Ok.
+
+I think we'll continue next class.
+
+The time is gone.
+
+I hope to see you in class.
+
+I hope you enjoy today's class.
+
+So Yeah, Alri, take care.
+
+Have a wonderful weekend.
+
+Okay? Yeah.

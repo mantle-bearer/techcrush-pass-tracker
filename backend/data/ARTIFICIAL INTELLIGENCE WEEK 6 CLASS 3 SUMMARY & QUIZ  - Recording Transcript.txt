@@ -1,0 +1,999 @@
+Yeah, let ', I trust we are doing fine.
+
+It's another quiz the Yeah, I mean, I noticed many of you are kind of anxious about the quiz and kind of not sure of what to expect to me, normal not to expect, not to know what to expect in quiz this, but at the same time just part of the evaluation technique.
+
+So, so it's soon as you know, it's won't be beyond what we've done in the class.
+
+Yeah, So if you can hear me, I hope I'm not talking to myself.
+
+This certainly signify with somes like thumb.
+
+Thank god.
+
+So Yeah, before we delve into today's revision, I actually many of you have been asking about Hello, Hello TAO.
+
+So many of you have been asking about the submission of the assignments.
+
+So and I wanted to kind of try to make it clear to you so that I won't be having a lot of messages in the MEDM regarding how do we submit the assignment and stuff like that.
+
+So is what I get a lot.
+
+So yeah, good blessing if I so to everyone, everyone so so we have some things to discuss today before you need to ease your attention please.
+
+So the first thing, I hope anyone that translate you kind of watch the video again.
+
+So here, so the first thing is about the assignment.
+
+So I would share my screen now, so if you can see my screen, please kindly let me know.
+
+Yes, Thank you.
+
+Joyce added, So yeah, thank, sorry I didn't writing in correctly.
+
+Okay, Yes.
+
+So here is the assignment.
+
+Basically you are to train and train an AI model and AI model to predict classes in the Racing Variety class data set.
+
+So if you click on, the data set is on Google.
+
+So Racing Variety class PION data sets.
+
+So now after does what you have to do, but to do that you need to use logistic regression which means it classification task.
+
+You split your data sets into 8020.
+
+You use five-four cross validation.
+
+Okay? And then make sure you you achieve at least 81% accuracy on test sample.
+
+Okay.
+
+So now you have two options.
+
+You can either choose to use MATLAB or you choose to use googlab.
+
+So whichever way you choose to, I mean everything is being recorded anonymous attende.
+
+So using matlab, classification Lena or googlab.
+
+So now you are to commit your work to gitop repository and then submit the GitHub repository.
+
+Okay.
+
+So if you remember at the beginning of this course, we actually created a gitop repository, I told you to create a gitop repository.
+
+So yeah, that GIT of repository, you are to commit your work to it and then submit the link, the link to the GitHub repository that see where you have and trying just to make sure the repository is public and private.
+
+Okay.
+
+So now how do you go about that? So for those that will be using Google Colab, Okay.
+
+And sure you are already signed into your repository or your GitHub repository or your browser, either you are using phone or you're using then laptop or tablet, anyone.
+
+So once you're already signed in so you can click let's say this is the your go clap.
+
+Then you can go to file and then see a copy in a GITO, so you click on see a copy in GITO, you might probably be prompted to sign-in to your GITO account so you are not already signed in to once you are signed in.
+
+So if you bring out the repository, little list of repositories in your account, So remember I created a repository so I will select it Okay.
+
+And then I can say so if you check this one, include a link to collap.
+
+This link to colap means that if when the repositories committed, you have you have this link at the top, this link open in Colab, you have it there.
+
+Okay.
+
+So and the commit message which means saying created using Colab is what you see here, this one using we want to put another message or another information, something that is much more informative like this is a rice classification data set or sorry, added rice classification data sets to you.
+
+Click.
+
+Okay.
+
+So then it will update the GIT UPT and then it will get added to it.
+
+So so if you look at it is now create the time is now and yeah, that's where we detect that.
+
+Okay.
+
+So I hope the submission and this very REC.
+
+Yes, very REC.
+
+So I hope the submission about if you're using Google Colab, I hope this submission is clear now if you are using MATLAB, MATLAB classification LEN.
+
+So here is how you go about it.
+
+So this is MATLAB.
+
+Okay.
+
+So you open your matlab and then you try to So Okay, I will delete this, so I'll delete this folder so that I will use it to explain better.
+
+So I will come to this and this my repository, the repository.
+
+Then right, click on its copy under this code you copy this, copy the link which you copy.
+
+So after copying, so you come to this place, then you can write, click on the interface and say source control, source control, then click on Clun it up repository.
+
+Once you click on Clun repository, you can paste the link that you copied and then you can click clone.
+
+So clone.
+
+We download the repository and then it will automatically navigate to the folder.
+
+This is the folder AI puts camp Okay, so after you've clone that and then it has opened.
+
+Then if you like, you can create a folder if you like, you can create a folder in this place if you want, but you Okay with it like that, then you can import your data.
+
+Okay? So you can import your, your rice data, your racing data.
+
+So this is nomin that you we've already demonstrated in the class.
+
+The only difference is now you're going to submit your so we have the data imported.
+
+Don't forget to navigate into the folder.
+
+So now you go to App and then the classification Lenner as you know, is this the first time you're trying matlab? We've used matlab about three times in this class.
+
+You don't need work email.
+
+I'm using my Gmail to access.
+
+I'm using Gmail to access.
+
+So I don't think you need a work email.
+
+Anonymous attendee.
+
+I won't repeat that.
+
+Please kindly watch it again.
+
+So so that I will not confuse those that are that are watching.
+
+I know you're going to watch it, so I won't confuse them.
+
+Okay.
+
+So all this part is not new to you.
+
+We've been trying it, we've been doing that in the class.
+
+So then this is five for cross validation.
+
+This is 20%.
+
+This is where you said 20% and then we can start session.
+
+Yeah.
+
+Of course, you know that we usually use, we usually use a logistic regression.
+
+Binary logistic regression.
+
+You can click on it, you can remove the tree based station.
+
+So make sure you train your model.
+
+Okay? And also try to train and test the model.
+
+So you test the model Okay.
+
+So after testing the model you plug the confusion matrix and then you can download the you can save the confusion matrix.
+
+Click on the save button or you can use the export plot.
+
+So this is going to save inside the notice inside the AI boot camp folder is repository already clone.
+
+So so this will savings idea.
+
+I can call it some confusion matrix.
+
+If you create a new folder you can use the new folder you created so save it as confusion matrix and then save the replace it then they only thing that is very important to do is try to save your session.
+
+So you click on save session.
+
+So you also want to save the session here and then click save.
+
+So because I already saved before so that I tell you in that here you can either use Matlab or Google, either of the two, not the two either.
+
+So now after that, so after that, after you've done that, then you can close this.
+
+Now here is the most important part for you to commit your work.
+
+So we've already saved the new file and the results and the session.
+
+Then you can click on it and then say, I want to had Okay, you first need to add your on track file.
+
+Okay.
+
+So if you have it to show that you have some track file.
+
+So then after adding it, sorry, I should click on show add on track file, then you click on hard after adding that, then you click on you right click again and source control then you click on and commit.
+
+So this will also show some information that this is these are the information you want to commit.
+
+Then you had your message.
+
+Okay, so then you can click on commit.
+
+After doing that, then you can click and said you want to push, you want to push to the the pro push means that you want to send it to this this remote repository.
+
+So then you click again.
+
+Then you said push to Moory.
+
+Here is where you may have a challenge.
+
+The first thing is that your username, username is usually this one, the repository.
+
+So the username you used for your repository, you can copy the username copy and then you paste the name here.
+
+Okay.
+
+So then the other thing you need is the token.
+
+So to access your token you have to go to your GitHub.
+
+Then you can click on setting.
+
+So at the settings you go to developer settings.
+
+Okay, then you come to here personal access to him.
+
+So from this personal access token you can click on token.
+
+I would suggest you click on classic token.
+
+So then you can click on generates new token and generate This generates new token, the classic one.
+
+So you click on it and then you can just enter a name for it, let's say cloud session.
+
+And then after that ensure you check at least this repo, this one, this first one and repo category, you check it and then you create token, generate token.
+
+So once you generate the token, the token that is generated, you copy it after copying the token, then you come to your matlab and you paste it here.
+
+So once you do that then you can click on Okay.
+
+Okay.
+
+So so this issue, so for this issue, but this issue is usually due to some of and if you don't have some of the settings checked, so which I believe with some got correct.
+
+Okay.
+
+So I don't want to spend more than 20 min on this what this task.
+
+So, yeah, so the information is now correct because I, I actually check maybe it does not think so but it should work.
+
+So then you can click Okay.
+
+Yeah, so with this the information is now on the, so the information is now on the Githa repository.
+
+Then you can check that is this committed 4 min ago? So yeah, so there that then you can click on this repository and then copy the link and come to your this one and then till the information and this is what you expected to submit.
+
+So I hope this is clear If you have easy understanding, you need to please kindly watch this email and sorry, this video.
+
+So that's all about the assignments.
+
+I hope you will not have any issue around it.
+
+So now let's go to the revision.
+
+So now the first thing is so so far we've talked about numerica class and America and then categorical data.
+
+So example of numerical data temperature and age and height.
+
+Okay, that's example.
+
+But when it comes to categorical data, so yeah, this is this example of category data, poster code, dialing code, so is an example.
+
+And also if you if you this is temperature, Okay.
+
+But if you hear anything like discretized temperature is no longer numerica is now categorical.
+
+If you hear something like this being temperature is no longer, America is now categorical.
+
+Okay.
+
+So that's that's one.
+
+And then we also talked about, I just say we talk about normalization.
+
+So and then in normalization we have different type of normalization which I'm going to also mention later.
+
+Okay.
+
+So this may be not necessary.
+
+Okay.
+
+So here is showing the statistical information of the data set.
+
+So now for this statistical information, I told you this is how to read it.
+
+If you are asked like what is the total number of the total size of the data sets, like the number of data points in the data set, this count tells you the total number of rows or the count data set.
+
+It means the data set isn't 3810.
+
+So if you look at all the columns, they basically have the same number, which means that the total number of rows of data points in the data set is 3110.
+
+And also if you want to check specific information about a particular feature, let say you want to check for a major axis length.
+
+So if we are told to find the, let the mean of the major axis length, this is the major axis length and this is the mean.
+
+So you just trace it like this and here is more than 88.8.
+
+If you want to find the maximum, the maximum is for major axis length is 239.
+
+Okay.
+
+So something like this.
+
+So yeah.
+
+And if you have to find for eccentricity, you say what The Standard deviation of eccentricity, eccentricity, it means when you look at The Standard deviation and you look at it, so it's basically zero.
+
+Okay.
+
+So yeah.
+
+So that's that's one then Okay.
+
+Outliers.
+
+So there are different ways to undo outliers.
+
+So the simplest one is to simply delete, just delete the outlier.
+
+That's the simplest, simplest thing.
+
+Another thing, another name for deleting is clipping it off.
+
+Like you have something that is going to the extreme and then you just clip it off.
+
+Clip it off means that like you have a long HA.
+
+Okay.
+
+So instead of putting the whole longer, you can just cut it CAU the long one so that it you just run with the other one.
+
+That's like you're clipping it.
+
+So regardless of the number, if you just maintain the maximum, so that's, that's about clipping.
+
+There's another one, we call it scrubbing.
+
+Scroby is also more or less like that way or say you want to remove it is like everything just leads to removing it or trying to it.
+
+So if you say eliminate iate skill, same thing either you just want to send it to.
+
+So that's basically the now.
+
+So some of those the simplest way can do outlier.
+
+You may be dealing with a LAS later, but the simplest way is just it.
+
+Yeah.
+
+So we have talked about that.
+
+Now we talk about normalization.
+
+Normalization basically is to transform the data such that all the data points, they have similar scale.
+
+Okay.
+
+None is quite larger than the other.
+
+So for linear scale, if you have, if you have a uniformly distributed data, so it's good you can use linear scale and also you have the maximum, you know the maximum and the minimum, you can use linear scale.
+
+And if you have a normal distribution, a normal distribution, that's when you use Z score or it's also cost the right score.
+
+So linear scaling is also the same thing as min Max scaling, sensor score is also the same thing as standardization.
+
+Okay.
+
+So as for log scaling, log scaling is when something grows exponentially, like grows in the sense like when Okay, I think I have another graph to describe that.
+
+But when Okay, I, I will show you better explanation in that.
+
+Should I jump to that? Let me jump to that please, so that it should be much clearer please.
+
+Okay.
+
+Yeah.
+
+So this is log scaling.
+
+So the log scaling basically is a more or less acquaintance and clues like exponentially or in order of multitude, Let's say, for instance there is whenever we have this year alone we've had several movies that has been released like several movies.
+
+But it's not all the movies that I eventually got to maybe er, the er, the top rating or the award winning.
+
+So several movies will be released but not all of them will be reached the level of award winning like there is this, there are some fils, they were released in Nigeria maybe a few months ago.
+
+So many of them are celebrating that many of the actors were celebrating that it reached certain revenue with certain revenue on Netflix.
+
+So I mean you've seen several movies that has already been released over the year.
+
+So why is it just just some little cop of them that got into the position of having some so so that's kind of if you want to study that kind of pattern down is kind of a log scaling that you're going to use to scale it because if you look at the difference, the difference, we just jump up like spike of so that's something like that.
+
+So likewise in the music industry, music industry, not all the music we reach, we hit it and is for social media or social media Content Creator.
+
+So you continue to drop your skit or you drop your content all of a sudden you just woke up and they told you you blue or something like that.
+
+So some, some kind of trend exactly.
+
+So you have to apply logarithm, logarithm to, to flow the value or to reduce the scaling.
+
+So that's all.
+
+So usually you can use any base number, B logarithm base, base one and base two base.
+
+But usually we use natural loging logm.
+
+So which is log to base ten anyway.
+
+So that's just the idea around and log scaling.
+
+Okay.
+
+Now another important concept is a cross validation.
+
+So I explained to you that cross validation if you you say if they say K-fold cross validation, it means you do it K times.
+
+So if the K is now for say four for cross validation, it means the model should run should train four times 1234.
+
+If they say the code and the for the cross validation is five-fold cross validation.
+
+So it means the model is going to train five times.
+
+If you have ten-fold cross validation, it means the model is going to train ten times.
+
+So if they just say K-fold cross validation, it means the model is going to train K times K times.
+
+Okay.
+
+So that's the idea around and cross validation.
+
+Okay.
+
+Moving forward, we also talked about, so we also talked about data annotation.
+
+So basically you can annotate your data using different techniques.
+
+So for instance, you've seen the Rice classification data we had the annotation were basically in a certain column of of your data sets.
+
+Yeah, so there's another method is the method is you put everything inside and separate folder.
+
+Let's say you, I showed you example of cat and dog cat and dog classification.
+
+So where you took the images of the cats and then you took the images of the, sorry, I think so you took the images of the the dog here.
+
+In this case we have all the images of the dogs in the folder, all the images of the dogs in another folder.
+
+So from this type of grouping or this type of separation, it means it has been annotated.
+
+So you can basically just refer to the folder.
+
+So sometimes you can also have all the data in just one folder.
+
+So when all the data is adjusting one folder, basically there will be something that distinguish them.
+
+Like in this case we got is just like the father, they separated everything in the folder.
+
+They still have each folder, each image still have the name Cat Cat Cat CT.
+
+So it means even if you check the dogs folder also you also have dogs, dogs dogs dogs as part of the N.
+
+So it means even if they decide to mix everything together from the name, you to be able to distinguish each data.
+
+So from there it means it also it has also been annotated.
+
+So for this data you can decide to access it two ways.
+
+So either you assess it by folder because it has already been grouped in folder or if everything is also even together in a single folder, you can access it by name.
+
+By name because the annotation is has already been attributed to the name.
+
+Okay.
+
+So another way that you can do that is to try to get the name of the files and try to like create a table in in spreadsheet.
+
+So something like this, let's say so you can create a table in spreadsheets like you can call it file name and you call it class.
+
+Okay.
+
+So for each of the images, like for instance, let's say you have this image, image and cart JPEG 140 14001.
+
+So you put it here and then you you put it here and you call the class CT.
+
+So you move to another one, you check the name again, you copied it in the name, copy it, you put it in here another, then you put it, call it CT.
+
+So likewise you put the name for dog and then you call it dog define him and me.
+
+So do you understand? So that's another way to handle that.
+
+So Yeah, basically, so that's that's on that.
+
+Yeah, I talk about being into trying to then I mentioned something about being once you ban a data, it's more or less like you're treating it as a categorical data.
+
+So temperature here in this case temperature is a continuous value is a numerical data, but once it has been banned, Okay.
+
+Being grouped, so it becomes a categorical data.
+
+So this temperature is a numerical data.
+
+This one is now a categorical data.
+
+Okay? So I hope you are following Okay.
+
+So yeah, we talk about annotation.
+
+This is normalisation.
+
+So basically we use normalisation to help our model to learn efficiently or effectively.
+
+So we also use model and train model to help it converge.
+
+And then we also train model to for the weights to be appropriate.
+
+So yeah, now I was referring to linear scaling, uniform distribution.
+
+You don't know how the graph of uniform distribution is.
+
+This is an histogram, the histogram, basically The Head, the top, upper part of this histogram will be relatively almost all the same as some.
+
+You may have a little spike up, but it's almost always like we can say it's uniform, while for normal distribution it will be like a bell like school bell, you can even so something like that.
+
+So that's how it will look like.
+
+So if you see your data, if you're checking, trying to visualize your data and discover that this data has some plots like this, then it means that you can use normal, no standardization or you can use this code to normalize it.
+
+Okay.
+
+Yeah.
+
+So I talk about that and this is this is clipping, trying to Cut Off some data like that.
+
+So to address outliers, what else we talk about? Categorical data.
+
+Okay.
+
+Okay, so here we talk about categorical data.
+
+But one thing we should know with categorical data is that we don't use the linguistic name a model.
+
+Do not learn that.
+
+So you might be thinking, oh after I type in charge, I type in this is not like that's not using it directly is converting into something we call like an embedding.
+
+Okay.
+
+So I will also talk about that later on in this region.
+
+But the first thing is that we need to convert them like.
+
+So one way to convert them is an we first have to assign some index to it to like this true or false, We can say zero 110, this beginner, practitioner, expert, you can say 1012, this one season, winter, spring, summer, autumn 0123.
+
+So something like that.
+
+So that's the first step.
+
+The next step you can do is then we have something called AUT encoding.
+
+So I mentioned that in AUT encoding, so we don't want the model to mistaken that if you have orange to be number one and then you have brown to be number seven, you don't want the model to mistaken that brown is seven times important than orange.
+
+So what we do is to make everything to be 0111, I sorry, 01.
+
+And the one that we are concerned about, the total one has zero.
+
+Like for instance, this is one at one AUT encoding.
+
+So here let's say we are referring to yellow.
+
+So when you are referring to yellow, it means all other numbers, all other classes will be 00000.
+
+Until you get yellow, yellow will be one.
+
+Then others will be zero.
+
+Okay? So that's one.
+
+Coding K.
+
+Is you talking about temperature parts? Okay? Let me see temperature parts? The temperature here? I think you, I believe you are referring to this.
+
+So naturally if you, what you refer to as numerical data is number that can be floating.11.122.1.72 point something 88.1, I'm something that number that you can interpret that this is definitely greater than this integer like age.
+
+Age is not categorical age.
+
+That's why you cannot have 7.5 years old.
+
+Okay, but age is not categorical is an exception.
+
+So because previous age is definitely greater than the current age.
+
+However, for categorical data, once you group them, you group them together, it's for, sorry, for numerical data.
+
+Once you group in numerical data together, then it's no longer.
+
+Numerica is now a categorical.
+
+For instance, you can have a temperature of 35.5, 35.6, 35 or it's something or 20.1.
+
+So but the moment you try to group them such that, let's say, for instance, in this data, you have a data of four point something, 4.6 or 4.9, You have a data of maybe six or seven.
+
+The data varies widely.
+
+Now you decide to group them.
+
+Let's say you said that from here to here, this is group one.
+
+Let's say low temperature from this place to this place, let's say this is moderate temperature from this place to the he that is hoth temperature the moment you group it like that, you know this is like a sign of categorical.
+
+You have low temperature, moderate temperature, high temperature then is now a category co data.
+
+So once you have a temperature and you hear the word banned or discretized, then is not a continuous temperature or data is now a categorical.
+
+Data is much clear.
+
+Okay.
+
+So moving forward, I will be able to provide some additional information before we exhaust.
+
+Fine.
+
+Oh, we've covered it.
+
+Okay.
+
+So we Okay.
+
+Yeah, we talk about all-time coding.
+
+So we talk about Okay.
+
+So basically sparse data and in sparse data, we don't want the ER the problem without a quality that grows significantly.
+
+So take for instance, you have a model that has this number of imputes.
+
+So if you want to address this, you will require ER at least er this is 88 times 860 464 data because you just want to undo its features.
+
+Okay.
+
+So let's say you have two features.
+
+One feature is a temperance.
+
+One feature is let's say one feature is color, which is a red, orange, blue, yellow.
+
+This one, you have another feature.
+
+The feature is maybe high or low and low.
+
+So it means for you to be able to undo those two features, you know, high or low is true.
+
+And the color we have here we have eight.
+
+It means you need 58 times to to be able to undo that.
+
+So and if you have more features then it grows and significantly.
+
+So what we did in sparse data is basically to only handle restore the position of the information that is only relevance.
+
+Okay, that is only necessary at that point.
+
+So we we combine those songs together.
+
+Now another important feature, another important information that you need to know is about embedding.
+
+So if you, you know, we've been talking about all these ones that the auto encoding has a problem of just growing significantly like just boom.
+
+So now let's imagine you have a feature that has about 5003, 500,000, like the English word has up to like about 5000 words.
+
+So more.
+
+So if you want to do out coordin with that, that's going to be a problem.
+
+So what we do then is now to use embedding.
+
+So maybe in next class we talk better in about embedding.
+
+But for this your quiz just know that if you want to undo categorical data that is quite huge, like large.
+
+So then you can you need to use, sorry, embedding.
+
+So and embedding tends to be much more efficient in handling.
+
+And that part.
+
+So someone suggested that we go through the link I shared in the group.
+
+I see.
+
+Okay.
+
+So here is which of the following examples of category, Examples of category so the phone number.
+
+So definitely we saw French types of French fire because the Stora star in five star hotel or three star hotel and two star star.
+
+So number of pages, book pages is not a categorical data.
+
+Now Machine Learning machine labels are generally considered more desirable than and most more desirable than leads provided by Humana.
+
+That's not true.
+
+Okay, that's not true, That's false.
+
+Here we're talking about your training model on on a training data sets that includes high collar and the high collar Hambur, blue, brown, gray and greenu.
+
+And then which of the following are valid encoding for an high high colour value of blue.
+
+So valid encoding.
+
+If this is the order, you know for O encoding, for encoding, you are amber.
+
+They want to consider blue.
+
+So amber is zero, brown is zero, gray is zero, green is zero, yellow is zero.
+
+This is the only one.
+
+So this is for encoding.
+
+Okay, now for for sparse sparse encoding, so it's going to be just one.
+
+Okay.
+
+Now whereas for other ones this is just indexing, this is not encoding.
+
+Okay, this is also not encoding.
+
+Likewise this one.
+
+So now which of the following should be check.
+
+So in which of the following scenario would it make sense to apply future action and future action is also more less like the embedding.
+
+So now the number of categorical future future values is very large.
+
+Yes.
+
+So this is a potential answer.
+
+The number of categorical is small and the model is being trained offline.
+
+All possible values of the DD is eliminated.
+
+So as I mentioned, the number of categorical features very large.
+
+Once it's large, you need to consider embedding.
+
+So and here you are performing a future cross of D.
+
+So follow into categorical feature Apple color, which takes one of these four values, green, red, white, yellow and then apply texture, crisp and Moshi.
+
+So here in this case, these two features, you know this as four.
+
+If you use one, not encoding for this one, this is this one, it means it will take 1234.
+
+And if you use one, not encoding for this two, this 12, it will take require two.
+
+So four times two.
+
+So it's eight.
+
+So I hope we passed you give me anything.
+
+Okay.
+
+Yeah.
+
+So yeah, let me see the other one.
+
+Okay.
+
+So I'm trying to copy the link.
+
+Okay.
+
+So here which of the following which of the following techniques is not a form of feature engineering? We know BIN is one of those.
+
+Way you process your inputs is not hyper parameter training.
+
+We know hyper parameter parameter is what we've done in the previous class is not parameter is hyper parameter H parameter is.
+
+The future engineering bucketing is for most the same thing as being a normalization like all the transformation techniques is what it's referring at.
+
+So you training model on infant out one of your future B weight.
+
+So you would like to normalize the data data.
+
+So which of the following normalization techniques will likely be best? Okay.
+
+So you need to know this.
+
+All these natural phenomena, natural phenomena, they always go with a normal distribution.
+
+So for instance, bet weight, age, population of this features like that, they usually go with normal distribution because it's human statistical logical.
+
+So that have some statistical experience.
+
+So and you know, once you have normal distribution, the best way to normalize it is there.
+
+Yes, I think you, I think some people have been using PC to do the exam.
+
+Yes, Charlie, quite squeeze.
+
+So through our for bing is the techniques for transforming category categorical data into numerical.
+
+That's false.
+
+We basically use it for the reverse.
+
+So numerical data to categorical.
+
+So that's what you use bringing for.
+
+Okay, your training data for your training data for your sugar computation model contains the feature S issue size, which should contain values between 16 and 616.
+
+The following table shows the SHO size values for six examples in the data sets: Okay.
+
+So the value range is six to 16.
+
+So anything outside that is a problem.
+
+So like this one, this is one and five that an outlier is a problem.
+
+So and also any not available or not a number is not available.
+
+None is not a number.
+
+So this two that what it go it, these two are problems.
+
+So what you do is you remove it.
+
+Okay.
+
+Scrub.
+
+So this is the scrub I was referring to.
+
+So you basically example for is gone.
+
+Then example 3is also gone.
+
+So filling the blank in the following sentences during future synthetic feature can be created to replace the missing features, supplement human label data with machine data and model non-linear relationship between features and then pre-train the model.
+
+Personally almost all the except for this one, almost all the models and the responses are kind of what we do.
+
+So, but I think this one is much more closer to response more than our relation in a relationship between two features.
+
+I think we also do use synthetic data to supplement and supplement in my label data with machine data.
+
+So we also use it for that replacement in future.
+
+We also do use for that.
+
+But I think this one is what we can use.
+
+I'm not sure.
+
+Yeah.
+
+So because it is not quite easy to get this one in real life.
+
+Okay, So I hope this helps you.
+
+So no, the question is do we need to sign into MAT lab or collab for the test today? No, you we have agreed, we have agreed that you were not going to be visiting next link for your quizzes.
+
+So I'm sticking by that.
+
+I won't won't be.
+
+So explain question number four, What is future engineering? So so explain number four.
+
+Number four is you have a data set for sudation.
+
+The sizes are this and then The Range is between 616.
+
+So so so here is the table.
+
+Show some of the samples.
+
+So which example should you consider scrubbing? Scrubbing is more or less like removing or deleting something else.
+
+So from this, prior to training, they've already said that The Range is six to 16.
+
+Anything outside this range is an outlier.
+
+So outlier we've mentioned that outlier.
+
+The simplest with one outlier is just to remove it or delete it.
+
+So example number three, you have an applier of one or five which is far, far out, another one that is a problem is not available.
+
+So this N a, so is not a number and you can't perform any computation.
+
+So you should consider moving this to Okay.
+
+So Future engineering.
+
+Future engineering.
+
+So what we do with feature engineering is to try to transform your data.
+
+So most of all processes you do to your data set, the whole data sets to transform them is almost categorize and feature engineering.
+
+There are some more advanced.
+
+One especially example of such is a normalisation.
+
+Normalisation is engineering techniques.
+
+So there are so many other ones like that.
+
+So yeah.
+
+Number three, number three, we need the techniques for transforming categorical data into data.
+
+Yeah.
+
+Beneath the techniques for transforming categorical data into numerical data.
+
+I mentioned here in this here, so here temperature is a numerical data.
+
+Okay.
+
+But once you've been it, it is now no longer numerical data is now a categorical data.
+
+So the question is B is A techniques for transforming categorical data to numerical data.
+
+So it's talking about the reverse, which is not so it's false.
+
+Okay.
+
+So yeah, that's the idea.
+
+Okay.
+
+So I, so I wish you the best in your quiz.
+
+I hope I really want us to talk about something else as well.
+
+I've been, I've been brainstorming on your, I've been brainstorming on how we're going to go about caps on caps on projects.
+
+So I don't know whether this is the right time to discuss it because I think you pleasure is everywhere.
+
+So I want to know if it's Okay to talk about it now, but I think you should relax.
+
+Is the question is not beyond what I have revised with you and let me see if there is any lain I haven't touched.
+
+I've basically touched everything.
+
+So we don't, you don't have problem.
+
+So I am thinking of what we you have the modality for have some projects.
+
+Is there any question? Oh, Okay.
+
+We can discuss this on the group.
+
+So near next slide.
+
+Okay.
+
+So I wish you the best.
+
+Yeah, Okay, yeah.
+
+I think we draw the CN for today's class.
+
+You may want to re-watch the lecture briefly before the end of the before the time.
+
+So take care for the best.
+
+The link will be shared in the group.
+
+So yeah, buh bye.

@@ -1,0 +1,1313 @@
+We change to you.
+
+I hope you had a wonderful day and it's nice to have you again.
+
+Yeah.
+
+We are on this journey.
+
+I session Yeah, I diving.
+
+Yeah, I need to getther So I hope today's class will also be as interesting as the previous ones.
+
+Okay.
+
+So we are supposed to have maybe quiz or there about today.
+
+However, I'm considering making it an assignment instead.
+
+So I will drop a pool to to know whether we should do it as a quiz or we should do it as an assignment.
+
+Like the number of turnouts will determine whether we should do it as a quiz or as an assigned.
+
+So wait for the waits for the pool.
+
+Yes.
+
+So I've dropped the post and the ending by maybe 5 min.
+
+So yeah, in the meantime, I will be shared on my screen now.
+
+Okay.
+
+So yeah, welcome to today's class.
+
+Basically last class we did some setup so and then so we into setting up gith our account and then we also set up on three school account and so we briefly look into Google.
+
+So we'll be using many of these tools extensively today.
+
+So and then basically today's class is going to be a continuation of where we stop, we stopped so we talked about Python.
+
+So and then I know many of us, Abdullah, I believe you have seen the poll police like the voting voting.
+
+So, Okay.
+
+So many of us probably we do not have programming background and why some kind of family with programming.
+
+So we try as much as possible to try to balance between this this thing, like those that are fully into programming and those that are not really so familiar with programming.
+
+However, I would like to use a disclaimer, this programming is not to make you a pro in programming, but at least in as an AI specialist, someone that is open to leverage AI in his work.
+
+You may not necessarily know how to code very well, but you can be able to understand something in the code and where you can modify and also how you can then adopt some AI model into your work.
+
+So this is basically what this AI class is going to familiarize you with.
+
+However, those that already very very good in programming, we also find it helpful because we need to balance it so as not to overwhelm, those are not so much into programming.
+
+Okay.
+
+So so why do we need to, why do we need to learn? Why learning Python? Why do we need to learn Python? So basically basically the thing there is that Python is so Python is a very, very kind of simple and like if you ask me, because I have some experience with with other languages, I did I those programming C and then some other couple of languages like that I, Python is quite simpler compared to other ones.
+
+So do mean it's you may want to argue it, but anyway, I'm not argue about, but it's quite simple.
+
+But the most important thing is that Python, most of the AI model or AI techniques or AI approach that you we want to use, most of them, most of the libraries they are in Python is just until recently that we started having, Okay, our version of AI model you C.
+
+C version of AI model you C.
+
+C++ version, you the Java version in fact is until recently we started having JavaScript version.
+
+So in the like from the fundamental most of this AI model published in in Python, especially in the academics, in the research community or academics university.
+
+I mean, so you mostly do prototype or to implement in Python.
+
+So because it's is any other person having difficulty hearing me, can you guys hear me? Okay.
+
+Thank you.
+
+Okay.
+
+Thank you.
+
+So basically the result of the, the result of the pool is out.
+
+And then the majority went for assignment.
+
+So after some couples of slide, I will tell you the assignments that you have to do.
+
+So, I mean yeah, it is not very difficult, but just simple.
+
+We have 80% saying we want the first assignment and 19% that they want.
+
+And so basically we will go with the majority, Okay.
+
+It's won be difficult.
+
+So just go Okay.
+
+So yeah.
+
+And then another thing is that top ranked AI for AI.
+
+So for instance, let let's do something.
+
+So this is a GitHub.
+
+If you go to your GitHub and you search for either AI or you search for Artificial Intelligence, if you look on this Left Hand side, you notice the number one programming language is Python.
+
+If you change the keyword and you said application intelligence, you search it Used to see that Python comes first.
+
+Python notebook is the just as you, although we can also write some other languages in book, mostly Python.
+
+So yeah, So as to be sure that this is not a fluke, this is correct.
+
+Let's search for another domain which is not very very common to use Python there, but you can use Python.
+
+So let's say you want to do some microcontroller.
+
+So in for microcontroller we mostly use C++ assembly.
+
+Yeah.
+
+Un-Python is not on the top list for this.
+
+So yeah, that's the idea.
+
+So if you want to use the reason why we need to learn Python is because most of the AI techniques, AI library.
+
+Yeah, I believe Python.
+
+Okay.
+
+So another thing is that it's makes you a powerful programmer because so because this day you can use Python for so many things aside from here you can use Python for web development like the Jungle Fast and Flask Fast API and some other languages and the other things like that.
+
+And also for these days we are also using Python for microcontrollers, although it it has some down side of it because micro controllers, what I mean by microcontroller, so for those that are not familiar with micro controller, what I mean by micro controller is micro chips like so they are basically micro chips.
+
+This we usually see it maybe in in electronics, maybe when you open your computer or you open your video or you open your remote control.
+
+So we have micro controller, some micro controllers, so this micro controller, we also do program them, so we also do program them.
+
+If you haven't heard of anything might hear of we know Adreno.
+
+So Adreno also has a micro controller on it.
+
+So let me show you.
+
+So for instance, this is the micro controller, this is the microcontroller for Adreno.
+
+So this is another Adreno, this is the microcontroller.
+
+So here is another microcontroller.
+
+So basically microcontroller, we also use Python to program microcontroller.
+
+Yeah, just as you can see the micro micropython like you and a bridge version of Python.
+
+So and also and to the talk of the day Python is also used for Data Science, AI and even mathematics, physics and some other things like that.
+
+So we use AI for that.
+
+So why once you know how to program in A in Python or you want to understand something about Python to give you the power some superpa.
+
+Let me give you an example to let you know that if you have some little knowledge about Python, you will still be able to do so many things.
+
+These are some repositories that I just samples on GitHub.
+
+So this is one repository.
+
+So this repository is a as you can see, it's written in Python.
+
+It has some JavaScript and some other which is what 96% of this is is in Python, is written in Python.
+
+So here have written, But what does this Python, this repository does, it basically does what you are paying for some of those things you are paying for online and openly.
+
+I charge GPT to generate image from text.
+
+Also to generate some thing you see some content created you do, you know you can generate image, you can generate this so you can write Amazon and know what you call Amazon E-book for kids and some other things like that.
+
+So this repository is, as you can see, is written in Python.
+
+So if you scroll to some point this is this Fortunately this repository also make it easy for you to deploy and Google Collab.
+
+So I will just click from Google Collab.
+
+Okay, this this logo means that is support Google Collab.
+
+We want if it doesn't support Google Collab.
+
+If you look at this from the new that we've done, you can see.py.py PY  that's Python file But if you look at it very well, you may eventually see.i pym B which is notebook, which is a notebook that's like Colab notebook or notebook, it's a notebook.
+
+I in the previous class I showed you that there is different between Python file and then Notebook file, though they can both run Python code.
+
+But notebook also had some additional things that it can show.
+
+So if you look at this, this is a notebook file and then in this notebook we can easily run it on Google Collap.
+
+So that's the advantage.
+
+But anyway the the owner of this repository media TV for us, and they even deploy it on Google.
+
+So you can just click on one button and I open Google for you.
+
+So now this is the code in that repository.
+
+However, there are so many other things we do so with with this, I use it to introduce you to something in Google Colab.
+
+So as I have said, this cell if you navigate to and this cell, you can see at code, this one hard code, this one hard text.
+
+Okay.
+
+And if you don't have this, you can also use this hard code or hard text.
+
+If you hard code, it means you can run code on it.
+
+If you had text, it means you you can only type like description and heading different formatting is like that.
+
+So what I just do if you want to run a code in Google, you just click on display button.
+
+So I need to start running.
+
+So now when you click on the play but you have the this one, this connect, try to connect to a virtual computer.
+
+It is not your computer is connecting to a cloud computer that is owned by Google.
+
+So Google is generous enough to give us some access, some free access to the some won't complain about not hearing.
+
+Okay.
+
+So I guess we as able to fix that.
+
+So so this is the what it this is the code if you click on display if I clicked on it and you click on play if you then as when this code will be executed.
+
+So now notice here we you click on it, it will connect to a computer computer, not your computer, not your personal if you are using for not your personal phone, it's connect to a virtual computer on Google.
+
+Okay.
+
+So now now you see this mark which means it has connected to a computer online.
+
+So what you you can check the specification of the computer but by clicking on this RAM, so you have the RAM, you have GPU 15 gig GPU.
+
+So I have mentioned that GPU is usually used to accelerate your AI model and some other things on your computer.
+
+So if you are familiar with Photoshop, GPU helps you to accelerate the use of your Photoshop.
+
+If you are familiar with card software, GPU help you to accelerate the we had the model in that you you you are doing, you are doing video edit team GPU helps you so but if you don't have GPU then CPU will do the work.
+
+Okay? So and then this is the case you have.
+
+So let me just click on this play button.
+
+So yes, because I am not the owner of the notebook.
+
+If you want me that, are you sure you want to run this? This notebook? This notebook was not authored by Google just to you.
+
+Disclaimer.
+
+I can't say run anyway, so this will take some time to run.
+
+So now let me briefly just give you a little intro into what this code is doing.
+
+This code is doing some installation you don't need to understand Now, we explain later.
+
+Okay, I'm just trying to let you know is doing some installation.
+
+So usually if you want to install in Python, you saw some library and you want to install from somewhere you can use this command, this command specifically and the library you want to install and the version you want to install.
+
+Okay, So I'm trying to just explain the code so don't get too overwhelmed.
+
+So Okay, so don't get too overwhelmed.
+
+So this code, I did not write this code.
+
+I just go to Google and to GitHub, then click on Google Collab and the Google in the repository and then here I'm just trying to run it.
+
+They said what the author said in the code is that they can, you can input text and it will generate image for you.
+
+So I don't know how the AI would have worked.
+
+What I know is that I just want to use the AI Okay, for free.
+
+So that's what I'm trying to do.
+
+So if get for using for by understanding sorry, you don't get overwhelmed we if I'm too fast, I will definitely, I can definitely come back.
+
+So yeah, Okay.
+
+So what this is doing is TE so I'm just trying to someone is raising up his aunt and let me allow a Mohammad Muye Umar.
+
+So you have something to say so in person Mohammadi Umar.
+
+Hello sir.
+
+Can you hear me now? I can hear you.
+
+Okay sir.
+
+Good evening.
+
+S Yeah.
+
+Agreed me.
+
+Yeah, sir.
+
+Your network is kind of from TWE.
+
+I don't know because I'm having a stronger network here.
+
+So some parts have been missn.
+
+Did you get that? I can hear you loud and clear.
+
+I don't want to say my network is Okay but Okay, I guess you, but I think that can hear me and they said they can hear me loud and clear.
+
+I is kind of fluctuating.
+
+Okay.
+
+I will check again, but I think my NY fine.
+
+I can tell you so.
+
+Okay, alright, Thank you.
+
+Okay, I guess we do not have anybody that still want to speak.
+
+So anyway, yeah, Okay.
+
+So yeah, you didn't understand.
+
+I went from GitHub.
+
+So here I already put the link in this in this slide, so I just click on it and then it opens it up.
+
+And if you look at the file, if you look at this, what you said here is that you can generate from text, it generates images.
+
+Okay.
+
+So I just scroll down and I notice it has this logo.
+
+Once you see this logo open in COLLAP, which means you can click on it and it will open directly to Collap.
+
+So yeah, there's other ways, other way, there are other ways to do it if you if if this link is not there, but this link made it easy.
+
+So yeah, so basically the code has run.
+
+Okay.
+
+And at The Bottom you say app started successfully and then I can click on the link to open the tab.
+
+So I didn't do anything.
+
+I just click on this and it's open Goog collab and I click on play.
+
+That's all Okay.
+
+So and then I click on run and to open the new tab and this is new tab.
+
+So generate something.
+
+So let's say how do I generate? How should I generate? Okay.
+
+So I just put something there that so this is not the best prompt.
+
+Why do you say we are in Spanish class? We haven't started saying or speaking another language.
+
+Where are you missing do you? Okay.
+
+So anyway this is not the, it might not be the best thing but Okay.
+
+So I mean you didn't pay for anything and then you just get it the code from GitHub and then you just generate the model so and just generate some images for you and then you can download the image and then you can open it.
+
+Yeah.
+
+So if you have some clients that just give you some specification and you can just use it and if you have some images you can you want to add to it or something like that.
+
+There are some other advanced features and like that.
+
+But the point I'm trying to drive at is that we did not really do anything is just the power of just having some understanding like this is Python and then I can just run Python so far is not giving you error.
+
+Okay.
+
+So you are fine, even if it give you some error, you know that Okay, this error is something like I can't still that is still within the knowledge so of what I can do.
+
+Okay.
+
+So I mean Okay.
+
+So I think if you are not understanding this, don't get too overwhelmed.
+
+Probably you joined late.
+
+Okay.
+
+So but that's fine.
+
+I will.
+
+I was to cite some additional examples so don't get too overwhelmed with it.
+
+Okay.
+
+So what I'm saying essentially that let's go back.
+
+What I'm saying is that this is why you need to name Python.
+
+So most apart from the fact that most AI solution AI techniques are in Python, it also supports if you know, Python, you can do so many things, like you can venture into web design, you can venture it into AI, you can venture it to add web programming and the like.
+
+And I try to give you an example of I just I searched all this repository online, Okay.
+
+So on Google on GitHub and then what I just did is I clicked on the link, so the link open.
+
+So here is the link.
+
+Okay.
+
+So what is repository does is that it's focus on generating image if you give it a prompt.
+
+So like here the example is forest and generate the image of this features character.
+
+So we are we don't understand anything in this code.
+
+Let's assume we don't understand it is just based on what it says.
+
+So you can just have it.
+
+And then from there, I just scroll and done and I notice it has googleap open in Google Colab.
+
+Hey, some other codes you see at the top I open with, I will show you another example.
+
+So and then you open and then we just describe how go collab interact, click on play and then we have this and we can generate image and relax.
+
+Okay.
+
+So if this is not clear to you, Okay, see, this is another instance.
+
+I'm letting you know that if you know, programming, if you know Python, some not even not very much, just little because I just did, I did not really do anything.
+
+I just run the code so, yeah.
+
+So here is another instance.
+
+Okay, you see here they already puts run in collab.
+
+Okay, I can just Okay, run in collab.
+
+So this is another GitHub that's just I want to transfer like you are trying to do die or you know there is this thing they call a die.
+
+Like you try to transfer some pattern onto a clothes.
+
+So those that does like fashion or that does clothing and textile, they know this better.
+
+So you have some pattern and you want to die it on another only maybe plain clothes.
+
+So that's what that's what this actually does.
+
+If you have a dog, you have another pattern, you want the pattern to be on that dog on that object.
+
+So so you have a clothes and you have a pattern you like you can just transfer the pattern on that cloth.
+
+So this is what this repository does.
+
+So I can just click on the opening collab and what I mean collab and then I can just click on Okay.
+
+Yeah, I don't know.
+
+I'm not reading the code.
+
+I'm just clicking on play.
+
+Okay.
+
+So Okay.
+
+So yeah, So another thing I want you to notice is that here is a notice from Google Colab because Google Colab, the Google Colab we are using is free.
+
+So another thing you notice is that it said too many sessions so you are running a code and you did not close it.
+
+You may not be able to run multiple codes.
+
+Okay.
+
+So we can click on manage session and then we delete the previous one, which is this one that generates image.
+
+So you can just close it, we can delete it and it's gone.
+
+It's free.
+
+So I am not trying to understand anything.
+
+I'm just trying to run each of these cells.
+
+Okay.
+
+In fact, I can just click on Horo Roun hold like run everything.
+
+So and if you just do to running, I don't know, I don't want to know anything about it.
+
+So, but may have been able to run the code gives you some power, like gives you some element of understanding.
+
+So after being able to run the code and see that this code does something like this, then you can now say, Okay, how, where do I put my own team? So because really, really, to come up with a unique, a very, very unique AI model is not simple, very, very, very unique AI.
+
+So it requires some kind of research community like in the academics.
+
+In fact, let's be frank, let's be sincere with oursel, most company or most developer they use, they pick up the technique that has already been established and they try to adopt it into their own workflow.
+
+Okay.
+
+So this understanding, like understanding that this is what AI and it's a great part you come and the contribution to the AI community, it comes in different form.
+
+So the fact that you can there are some category of people or category that comes up with new algorithm mentally, there are some category of people that they use the AI model and they try to apply it into an application.
+
+So those two categories they have somewhere they are contributing in.
+
+So in this class, our own category fall into those that we want to be able to apply, understand the AI on the surface level and also to be able to apply the AI into our workflow.
+
+That's the expectation of this class.
+
+So if you are, if you fall into the category of those that want to be able to develop a new algorithm, a new AI techniques entirely, then it's probably requires you to have a much, much more in-depth knowledge aside from coding.
+
+You need to understand some element of mathematics around it.
+
+So I want, I won't scare you.
+
+Okay.
+
+I've also taken some graduate course on it and they like so, but I want us to limit ourself to what is realised or realistic in this short period.
+
+Okay.
+
+Ebay, eBay Nice guess.
+
+The guess is quite is quite good.
+
+Anyway, you make me laugh loud, but the guess is kind of good.
+
+I like the guess.
+
+Okay.
+
+So yeah.
+
+What I am saying here is that I did not touch the code.
+
+What I just did is to click and run all and everything just ran.
+
+And then what you notice as output is that this is the dog.
+
+And then the style that was for the pattern that was provided was transferred onto the dog.
+
+So and after the code finished running it downloaded the style for me.
+
+So imagine you are a stylist that just want to give your your clients some taste of like some new design or some new style thereabouts.
+
+So you have sound that can help you print on to on to something.
+
+Okay.
+
+So you can just get some templates, you get another template, you transfer, you mix the colour together and then it can be transferred on to that.
+
+So yeah.
+
+So kind of that idea is so you don't necessarily need to be looking for these.
+
+So if you just having the knowledge about this and being able to search about what you want, you saw the repository, run it.
+
+Now the next thing is for you to now look for where will I bring my team, where would I be able to apply, had my own team.
+
+So here the used dog and then a star, a pattern.
+
+So now I will not go deep into it, but because I have some little knowledge about programming, I note that from this link, I think is where they are getting the dog and from this link is where they are getting The Star.
+
+Okay.
+
+So given that is well established, then if I'm able to replace this list link with something that I want like let's see, let's find some image online.
+
+So let's see if we can find some images online.
+
+Yeah.
+
+Okay.
+
+I think I like this image this.
+
+Yeah.
+
+What I'm trying to do is I just get some images online.
+
+So what I did is what I'm doing is that Okay.
+
+Let's say this will be the, let's say this will be The Star and let's say this another one, let's get another one.
+
+Yeah, this is talking.
+
+I wish we'll be able to.
+
+Yeah, Oh sorry for delay.
+
+This is not the main taks of today, but I just want you to have some sense of motivation and that's Okay.
+
+This document.
+
+Okay.
+
+So now we have another image and we have another.
+
+So we don't know anything other Than To just replace the location of the image and run again.
+
+So run everything again.
+
+We hope we have access to the images.
+
+I have access the image.
+
+No, we do not have access to the images.
+
+Sorry, Okay.
+
+Anyway, so but maybe I will share another what call with you be able have access to good images.
+
+So, but basically what I'm trying to, Oh, don't worry, this is a techniques on this one.
+
+I, I understand the technique.
+
+Okay, but I want to be able as if I don't understand it, I see someone that's just pick it up and I want to, I want to use it just like you like you just want to apply it in your own problem.
+
+After you've seen this problem, you've seen something that's fix your problem.
+
+Then you need to adjust it to your own problem.
+
+That's what I'm trying to bring up to you.
+
+So that's the logic.
+
+Don't like, don't move to forward.
+
+Okay, you understand it as time goes on.
+
+Okay.
+
+The hard part is that we are not able to get the link.
+
+But anyway, I will try as much as possible to this idea I wanted to do is something I just came up with, but I will definitely make sure it works so that I will be able to show you the outcome eventually.
+
+So without wasting so much of our time, I have prepared two additional repositories.
+
+So this is a Lemon quality classification.
+
+So I'll click on the repository.
+
+Okay, so this, this repository is basically Lemo quality classification with forget about what it means with classification map.
+
+So according to this, what they say that good lemon and bad lemma is what they want to be able to classify.
+
+So just as you've seen in our previous class, we able to demonstrate the use of, Please listen to the class, you don't need to ask about the lads apparently.
+
+So because my example, Okay, anyway, so this is good lemon.
+
+So this is bad lemon.
+
+So basically what we are trying to do, what is this repository is doing is that is trying to distinguish good lemma from bad lemma, which is a typical UI application.
+
+UI forma.
+
+Oh, you're an agriculturalist, so you want to be able to distinguish between good product and bad product.
+
+So and you've been harvesting several crops for quite some time and you notice that, Okay, the ones that are good are sold at the pretty appreciable price.
+
+And while the ones that are the ones that are bad, the price depreciates.
+
+So you want to be able to separate them and be able to and more.
+
+So basically this repository says it does that.
+
+So even if let's assume you want to adopt this repository for your own team, good or bad, we've done it in LEN Trainable Teachable Machine where we capture from the image and the likes.
+
+So this is like a code representation of some of those things that is being done behind the wood.
+
+So if you have the knowledge about Python, The Bottom line is that you have some knowledge you have Python, you will be able to do beyond just clicking, clicking, clicking.
+
+Okay, you'll be able to do more.
+
+So that's the whole story behind that.
+
+So please forget about, ladies and gentlemen.
+
+So I think you should listen this class, so and here is another technique or another repository is more like post estimation and they are trying to get a human posture like from code.
+
+If you notice most almost all this is what we did on the UI on interface in our first class, we will try to motivate ourself.
+
+But if you have some knowledge about Python, some coding, you will be able to also do more than just the what it call.
+
+I'm not saying some of those things you do in the web interface is not is not significant.
+
+But if you want to go deeper, even if you look at the teachable machine, you also notice that it provide you with code that in case you want to use it in your own application, this is the code that you can use to do that.
+
+So, yeah, So to the assignment, I won't delay, I mention about the assignment.
+
+So I want you to try as much as possible to run all this repository.
+
+So try to run it before repository, try to run it.
+
+So I will decide on the mode of submission later.
+
+Okay.
+
+Do we get it? Yeah.
+
+Thank you.
+
+Just try to run it.
+
+Okay, you don't need to modify anything, Don't modify anything, just try to run it and then run it on Google out.
+
+So, yeah, so that's the assignment.
+
+So moving forward.
+
+So we are talking about Python.
+
+So Python has a different versions.
+
+So we have Python two and Python three in this class will be using Python three.
+
+Okay, Python two is kind of obsolete, although in some instance you may come up encounter some repository that's to use this Python too.
+
+So like for instance some years ago we got a robot and then trying to the robot uses Python two.
+
+So and most of our AI model works in Python three.
+
+So we wanted to be able to use AI model while we are still working with Python.
+
+So why we to So what was to being able to work with the robot? The robot uses Python two.
+
+Yeah, model is in Python three, so we need to be able to breach The Gap.
+
+So which is so it is good to have some knowledge about Python two.
+
+But in this class we are focusing on Python three because Python 3is the most recent one.
+
+Okay? Yeah, No, I still drop the link in on.
+
+Okay.
+
+So I was still drop the instruction on how to Ono the assignment entails on the group.
+
+So don't if you don't, you can't hear me clearly due to your network issue, I will drop the link.
+
+I will drop the information about it.
+
+So and as regarding you saw something like this gig, this is not running on your computer, neither is it running on your phone is literally running on Google Colab and Google Collab once, like after some hours, it should delete everything.
+
+So you don't have any problem with this.
+
+SP If you want to run it on your computer, that's completely fine with you, but we are not running it natively.
+
+Your computer is running on Google Colab.
+
+And I, as I have said, Google Colab is not using your computer to run, is just displaying it on your computer.
+
+The real computer that is running it is with Google.
+
+There are ways to conversion Python two to Python three.
+
+So yeah, without delaying too much.
+
+We spent almost one hour.
+
+So yeah, and then I think it will not be, I will not do justice if I didn't tell you or teach you how to install Python on your your local computer, Google lab, you may not have internet, you may want to use something on your local computer.
+
+So however, in this course, as I have mentioned, we only be using Google Colab.
+
+If you run anything on your computer and you're having error, please try to fix it yourself.
+
+Okay.
+
+So anything I'm going to give you will be centered and go cool out.
+
+But I need to just let you know that if you want to run code on your computer, Yeah, is good.
+
+You can install this and explore outside Google Collab, But please, this cause any assignments, any task I'm going to give you, I am going to recommend you use Google Collab.
+
+Okay.
+
+So usually if you want to install Python on your computer, you can just go to python.com and download Python, but because you want to use it for AI is is often recommended to use what you call Anaconda.
+
+Yeah.
+
+If you look at the name, it sounds more around Python.
+
+Python is a snake and Aonda is also a snake.
+
+So just don't mind the author of the of the software.
+
+So they are just playing around words.
+
+So Python and which one is not to snake? So, yeah, anyway, so I click on the link.
+
+This is Anaconda website.
+
+So you can just download Anaconda, you can scroll down and then you can see download.
+
+Yeah, sorry.
+
+You can see free download and ACC Conda and then from here if you suggest to register is not composed to register, you just skip registration and then if you are using Windows or Mac or Linux you can download.
+
+So as I've said, this is Python three.
+
+So once you download this Maonda by default it stop righty on 3.13 on your computer.
+
+Okay, so Linux, Mac you can download and Okay, yeah, Okay.
+
+So yeah, so you can download if you click on it, if you download and then you can then install like double click on install.
+
+I won't want to install that on my comp because I already installed an account on my computer.
+
+So after that this is just the process of setting up you can, I just send you the link anyway.
+
+So this link is to download Anaconda on your computer.
+
+So Anaconda is not for smartphone is just to download on your computer.
+
+And the reason I'm sharing this is just to do justice like if you want to run it on your computer.
+
+So but in this course if a mobile phone user, I will advise you stick with book Colab, book Colab works, final phone, you can just click on it and then yeah.
+
+So after that you can and then click on your start boin or your command butting or your what it.
+
+So then you search for an Acconda navigator and after you look at an accounta navigator, you click on Anaconda Navigator and then you have this interface.
+
+So this interface is where you have some applications that is already sync with your Anaconda that is already installed, The one that has launch means it's already installed.
+
+You want the AS in store requires you to install them explicitly.
+
+So for instance, you want to start Jupiter note book or you want to start Jupiter Lab.
+
+You just click on the lunch and then you open it in your browser.
+
+So once it's open in your browser, so then you can this is what if you open, I click on GBR book and then this is what's opened on my computer.
+
+Okay.
+
+So yeah, let me take some questions.
+
+So before we move a bit deeper, we.
+
+Mohammad Bakari Prab GD please let me start.
+
+Mohammad Dakari: I hear you Mr., do we? Okay.
+
+Okay.
+
+So I want to ask if the Jupiter book, I mean the Anaconda, is there another option for the Google Collab? Like another option for googlab.
+
+If you don't want to use Googleb, can we use the Anaconda? Okay.
+
+So I will say yes.
+
+But in this class, in this class, I strongly recommend you use in Google Collab.
+
+So I strongly recommend you use Google Collab.
+
+If you have any problem with Anaconda, I will not attend to you please, because there are a lot of.
+
+I have some experience.
+
+We are experienced with using different things in Python and in what it call.
+
+So if you have some other change on your computer that is running, you may encounter some issues which I that will require me to remote access or to see what you are doing on your computer for me to be able to fix it.
+
+So but on Google Colab, I have the link.
+
+You can share your link with me and then I can check your code.
+
+This is where the problem is and I can help you fix it.
+
+Okay? So that's the reason why I'm strongly recommending that we stick with Google and if I'm going to share it with you, I would have tested it Sinle Club and I know he's working.
+
+That's Okay.
+
+My question.
+
+Hi, Amy.
+
+Okay.
+
+Yes.
+
+So I just want to get the summary of what we are doing in this class in for today's class.
+
+Is it that we are using already trained AI models to generates anything you want to use? Okay.
+
+So the essence of today's class is to let you know that if you have the knowledge of programming, some knowledge of Python, you will be able to pick up any model in repository and on the simplest level, be able to run it.
+
+Okay.
+
+So now the code that I that I showed you that I ran the repository, I ran, we did not train any, we did not design it ourselves.
+
+We just pick up the repository and would try to run it.
+
+So by the time you try to run it and you're able to run it successfully, that's when you now think of, Okay, I'll try to bring off my intuition out of this, we I can hear you.
+
+OK.
+
+You said you can also use Anaconda.
+
+So I wanted to as that you have the ideal, you know, Python programming with other ID like Visual Studio code or Python.
+
+So can we also use like V, just GR instead of Anaconda.
+
+You're free to use anything you want for yourself if you have problem as I repeat, if you have problem on it, I won't attend to you on it please.
+
+Okay, Alright, thank you.
+
+Thank you.
+
+Yeah, I think I should take one more and then we proceed.
+
+So I think we already have in this you get on the same page.
+
+So Victor, Victor K-O Victor Yeah, you have the flow, please speak.
+
+Could you also speak please? Thank you very much.
+
+I'm kind, please.
+
+Okay.
+
+So my question is just simple and cost of thank you so much for the motivation because I really need it.
+
+I'm not, I just like a NOVCA.
+
+My expectation about the cost is more deeper than I expected, right? So I just actually want to ask if the Google Colab is something that I could get on my phone, is it ANH or I don't know.
+
+Then also moving forward, the other things, I know there are things that Chrome system would not do, not cannot do what Windows system would do, but for this cause I just want to know if my Chrome, Chrome Book system will still be effective for the cost.
+
+Okay, so I phone or Chrome book, what you just need is your browser and you can connect to the internet.
+
+So Goog Colab is on internet is like you are accessing Google like google.com.
+
+So Colab if you look at the URL is literally collab.research.google.com So and the summary that you can access it on your phone or on your on your Chrome book, just go to your browser and you go to the website.
+
+Simple.
+
+And I guess you have not checked the the PDF file I shared on WhatsApp.
+
+I already have.
+
+You already have the link in the PDF file.
+
+So try to check the lecture notes.
+
+Viktor, please, let's do quickly.
+
+Yeah.
+
+Good evening.
+
+Yeah.
+
+So you both have apart from this, why do you need already give you Google Colab there other sites you can use both.
+
+Why do you need other one collab? I find I use Google Google Colab on my phone.
+
+And then so yeah, specific reason why you need AI case of not, I will tell you.
+
+So that is not like all the information.
+
+But even this Anaconda, you can access it on online.
+
+So if I sign-in into my Anaconda account, I can access if you cannot book directly from Anaconda, you can see my screen.
+
+It's literally Okay, not book on my computer.
+
+So but really stay with for now for consistency.
+
+I repeat, I will not attend to you if I'm sorry for being hashed, but is the truth, when you have different platform, it's an edict and it's pretty difficult to manage.
+
+Okay.
+
+Okay.
+
+So I'm just being direct with you on it.
+
+So I think we need to move forward.
+
+Yeah, Thank you.
+
+Okay.
+
+You should check the WhatsApp WhatsApp group if you, except if you are not in the WhatsApp group AD Okay.
+
+So moving forward this, some of those things we need to address in to understand something about Python.
+
+As time goes on we will be understanding some other things.
+
+But to start with, we start with Python.
+
+Python is an interpreted language.
+
+Someone, as in the previous class, is it is goog, Colab with compiler or what is it? Python is an interpreted language.
+
+Let me give you the similitude of what we mean by interpreted and compiled language.
+
+So now let's assume you are in religious setting, either church or mosque or de.
+
+So the common thing is that when the pastor or the imam gives san, when the pastor or the im gives san, sometimes you have after some certain words the imam will pose or the pastor will pose for the person that will say it in another language to speak, let's say he can someone gives thanks to God in your language or in your local language is say it in your local language.
+
+Okay? Today you say in the person we say it in your local in your local language.
+
+So in that case what we call that is interpretation is interpreting it.
+
+Okay.
+
+However, in some settings is on to when the cleree has complete everything, then the the person that we say the word code that would give the translation, we then speak like for instance in church, sometimes we have morning session which is done in English.
+
+We have the afternoon session, which is usually done in maybe another language.
+
+So in that case, that's like a compiler, the first compile the information the morning clearly give, and then they compile it into another language in the afternoon.
+
+Okay.
+
+So that's the idea.
+
+Interpreter.
+
+It interprets at some strategic point.
+
+So the same thing is applicable to Python for being an interpreted language.
+
+It means line by line.
+
+It interprets the line by line, line by line, line by line.
+
+Okay.
+
+So after this line is interpret the next one, it interpret the next one that's interpreted language.
+
+What I mean by interpreting is that it takes the English word, you type, pick it up, interpret it for the compile and for the sorry for the to processor and to the machine language to be able to understand it.
+
+So as for compiler, it's pick out the code after you've written it, then you pick it and then translate it to the machine code.
+
+Okay.
+
+So that's interpreted language.
+
+I, I don't know that do we get the idea of interpreted language? So anyway, Yeah.
+
+So that's the idea of interpreted language.
+
+The both has the pros and cons.
+
+Okay.
+
+So but for interpreted language, it's easier to debug interpreted language if you, what I mean by debug is that if there is a problem, you know it will tell you the exact line where the problem is usually most of the time if there is a problem if you tell you go to this line.
+
+Whereas for compiler is a bit difficult is if you by time you someone gets a compiler used to it, you you get used to, you know, some intuition and but usually compiler will not give you the exact location because it's probably a previous or two steps before as when the error comes in, and then it should not even compile to some points, it should not run some points, so it will not run it at all.
+
+That's what in the case of compiler.
+
+So Python is an interpreted language.
+
+So that's one.
+
+So we need to understand some syntax and semantics and Python.
+
+So what do I mean by syntax and semantics? So try to work ourself.
+
+I know you also do some personal studies around this, but we try to work ourself and with the W three accounts that was set up during the time.
+
+So as I've said, yeah, Python, yeah, Okay.
+
+Anyway, so in the introduction to Python, as I've also mentioned, Python can be used for web, can be used for mathematics, can be used for automation and some other things.
+
+And Python, Okay, it can be used for database.
+
+So so many things Python can do.
+
+That's what they are trying to tell you here.
+
+And then the syntax.
+
+Specifically we are talking about the syntax.
+
+So for the syntax of Python, now what do you mean by syntax? Syntax is how you must write it, how you must write it to work.
+
+Semantics is the interpretation.
+
+So take for instance, for your to be able to use print, you must write print, you must put open bracket and then put whatever you want to print here.
+
+So if you want to read it, if you want to read the semantic, say print L word you don't you, you are not saying print open brackets, quotes, open quotes L comma word factoria comma close bracket close, You are not reading it like that, just a printed word.
+
+It means display a word.
+
+So that's the semantics.
+
+That's how you read it.
+
+Okay.
+
+So is like you are reading book or you are reading literature.
+
+So what? This is programming literature.
+
+So yeah, now this is the syntax.
+
+Syntax is print.
+
+You open bracket, you close bracket and then you quote whatever you want to display there.
+
+So that's one of the syntax of Python.
+
+Now another syntax that you may want to also follow is that Python has like, for instance, if you want to say if five is right angle bracket two, colong, that's syntax.
+
+That's how you must write it.
+
+What you want to read.
+
+The semantics is if five is greater than two, print five is greater than two.
+
+Okay? So that's how we read it as a semantics.
+
+So about the syntax is the way you must write it.
+
+Like if you don't write it like that, you have error.
+
+So let me let me show you the problem here.
+
+So here indentation is a very important thing in Python.
+
+Indentation means that, so indentation means that no.
+
+So now ination means that in some computer for that using phone, you may have problem with tab.
+
+So for space is the least I can tell you that is an indentation.
+
+So for instance, if I say if five is greater than two, so now notice that this automatically let put prints.
+
+So now what I mean by invitation is that notice that this print did not start at the same place as if.
+
+So if I run this, this should work.
+
+This should work.
+
+Okay, it means five is actually greater than two.
+
+And then what disprove that? So five is actually greater than two.
+
+So that's why it printing five is greater than two out that I displaying it now.
+
+Now if I didn't put indentation, Okay.
+
+Notice is showing error already.
+
+So let's assume I qu I told them there is going to be error if I need to put indentation.
+
+Indentation means that this if this if the mentioning it should execute if that condition.
+
+So in Python indentation is very important is part of the syntax.
+
+So now for those using mobile phone, you may not be able to use tab.
+
+If I press tab, I already have indentation.
+
+Okay.
+
+So for you, you can just need to, you need to use space back to paste the space in your when you are typing.
+
+So now if you are using one space, just be consistent.
+
+If means you'll be using one space or true, you cannot be using one space and then later you decide to change it to two spaces.
+
+So now if I say I want to put in The Station, I can put space one, this two.
+
+So it means anytime I want to be doing tentation in this cell, I have to be using to speak Okay.
+
+Sya, you seem to have it Okay? Or you have unexpected response like I print, I cannot say print HEL.
+
+I said this because he violating the Okay.
+
+So for me to do that, I need to introduce brackets.
+
+Okay.
+
+So for me to be able to run it.
+
+So that is the syntax.
+
+Syntax is what you must be.
+
+Print Hello, this is Okay.
+
+Sorry.
+
+This is a, I would count.
+
+Okay.
+
+So you might want to ask Am I running it? You can just click on display or press on that.
+
+So yeah.
+
+So that syntax that you must know.
+
+Okay.
+
+Yeah.
+
+So as and then as I have said, if you are using space, be consistent with the spaces you're using, don't just say I'm using two spaces now, I decided to change it to one.
+
+No, it doesn't work that way.
+
+Yeah, you prob in the syntax.
+
+Okay.
+
+So yeah, Okay.
+
+So now also moving forward is so moving forward.
+
+I just need to check when this class.
+
+Oh yeah, fine.
+
+So now we also need to move forward variable.
+
+So very like your wallet here, you save something, you keep something.
+
+So in mathematics you say variables is something that varies, Yes, the same something that change changes.
+
+So however, in Python we don't usually have like the idea like something.
+
+The opposite of video is a constant, like something that does not change.
+
+There is way we denote constant just for denoting, but really is not.
+
+It doesn't mean the constant.
+
+Like in some programming language, some programming language like C, you can design the constant.
+
+So constant is something that does not change and then once you try to change it, it gives error.
+
+So, yeah, so let's talk about yeah.
+
+So we've talked about this.
+
+So now we talk about variables and comments.
+
+So comments is something we use to to explain what we are doing in particular section of the code.
+
+Let me give it to you for example.
+
+See, I want to use AI to generate something.
+
+Okay.
+
+So to generate some code.
+
+Okay.
+
+So I'm trying to use AI to generate some code.
+
+Okay.
+
+So this is the er of AI so we can definitely use AI to generate some different things.
+
+So yeah, now I set up and then this is AI the the code is generate code to print a house like so if I run the code, the code actually outputs something that looks like a house.
+
+Okay.
+
+So now but if you look at this place, this thing printed something that looked like the house, but it didn't print this one, this one was also not printed.
+
+It's supposed to display print the roof, print the body of the house but is not display is not printed.
+
+This is what we call comment.
+
+Comment is just to let you know what is happening at a particular section of the code.
+
+So here we are trying to print the roof.
+
+Here we are trying to print the body of the house.
+
+Okay.
+
+So this is the this is what you call comments.
+
+Comment is something that is not executed, is not display, is not executor with the code, is just a comment and that just leave for you to understand what the particular section of the code is doing.
+
+So and comments can take your whole line or it can be something.
+
+I tell you the code has already been written.
+
+So it's like here, this here will not be printed.
+
+Okay? Because this comment, so comment is usually preceded with hash.
+
+So once you have a hash symbol, then you comment has added.
+
+So I think we need to stop here Today our time has been spent.
+
+I think the class supposed to hang by no.
+
+Right.
+
+So, so today we may not be able to take some additional question.
+
+So as so if you want have question, please drop it from the WhatsApp group so that everybody will benefits.
+
+Yeah, So we continue from here next class.
+
+Thank you.
+
+Yeah, I will drop the information.
+
+I got the assignment from the group.

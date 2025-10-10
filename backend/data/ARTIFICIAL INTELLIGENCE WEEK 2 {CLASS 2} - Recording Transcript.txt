@@ -1,0 +1,425 @@
+Ok, hello everyone welcome to today's AI class.
+
+You can hear me this signify by s* thumbs up or nothing or something like that.
+
+Okay, thank you.
+
+Yeah so Okay so last class we had some introduction and some motivation to the AI so and then I also want to try as much as possible to apologise to this colass that we are not able to.
+
+We have some great interaction in the question and answer session, so it apparently turns out that this, the question and answer session was actually really really overwhelmed so we messages and information that so yeah quickly and at this moment we have 44 question and answer which is kind of misleading so but anyway can you see me? I'm waiting now.
+
+Can you see me? Okay, so yeah but anyway we will try as much as to stay in touch on the question, which seems to be the only chat option.
+
+I will drop a message now on the chat box.
+
+Please kindly confirm me if you receive the message.
+
+Okay, so I guess you would probably also not be able to see the message as well because I just dropped a message and the chat box and then it's showing that you probably not be receiving this message as well.
+
+Okay, well don't worry so proceed and then in any way whenever I need to drop a message or drop a response or something, I will drop in the question answer so and I believe everyone will be able to see me or see my chats so I will drop an EL on the question answer session and if you receive it, please kindly let me note Okay, yeah, thank you.
+
+Umar confirmed that you received it and then with many others Yeah, hello received, thank you, Thank you so definitely I will interact with you on the question and answer section, so I guess is the only choice we have to interact with each other.
+
+Okay, without much further do so I will share my screen into today's for today's class, so here is today's class, so in our previous plus we have some motivation, some motivation into AI approaches and AI solution.
+
+Thei methodi techniques, whatever you want to call it.
+
+Okay, please avoid dropping so much question in the question a*** so much messages in the question so that we will be able to keep track of the most important information though.
+
+Okay yeah.
+
+Basically we had some motivation to hei and then the idea about AI the what the use case and something like that, I will just quickly recap one of those use case that's how we mentioned about AI which it's Okay, I'm just choos so this is a racing car, so we are in the recent car you have a track and then on the track and you want to be able to reach along the track.
+
+So here I could use my mouse to do the control.
+
+Okay, but I think I'm not pretty so good in making the driving so yeah, but if I give it to the AI model to train and learn how to do that.
+
+AI will do so many trials, try and errors and try to fill and learn from how to to the driving, so eventually, after less than 2 min or 1 min pi will eventually be able to drive the car along the track.
+
+Okay so can you hear me loud and clear now? Okay, thank you.
+
+So eventually just less than 1 min DI is now a pro in doing formula one reason so yeah, so that's the idea of AI for human sometimes it takes you see how bad you see how bad I wasn't able to drive through the course but noway I even able to drive at several kilometers per hour, so that's AI for you by the time if you have the data and you have the resources the way I will speed up or give incredible results, you be quite amazed like Oh so this is possible anyway and then I mentioned about this, the technique of this AI This particular AI technique is more less like reinforcements.
+
+So which I think someone mentioned in the chat box the other time that this is the enforcement in the philosophy, in the psychological point of view and it also in education it's reinforcement, so this techniques is basically called Reinforcement Learning.
+
+So where you reward positively or reward negatively or penalize anyway, so in order to encourage the AI or the person to learn what you want them to learn, although psychologically also there are some pros and cons to positive Reinforcement Learning or negative I mean positive reward or negative reward so but that's by the way.
+
+Yes, exactly so anyway, so that's just the motivation.
+
+What I'm trying to say in a sense is that AI could be able to do some of these things formulated properly, so those few of those motivation that we learn so and then we also asked the question of your backgrounds and your expectations, So we have while we have so many people, almost everyone mentioned something about the background and the expectation glad to let you know that everybody that's responded to this question.
+
+Backgrounds and expectation will have one mark.
+
+Sorry, I didn't mention it earlier, but it's a sign of like you are following and you are with me in the class.
+
+Everybody has one mark in this those that responded to the background and expectation data time in our last class so yeah someone mentioned that I am a graduate of electric electronics, Electrical engineering My expectation is to integrate here in smart grid technology, which is fantastic so in this case let's say, for instance, you want to and have some energy management system where by your Metri your digital meter is reading some information and then you want to get those data and be able to use it to make an informed decision on how you're using your energy so which is one of those work I did in a few few months ago where you we use it for a greenhouse so in the greenhouse We use energy to eat the system instead of relying on the sun we don't usually rely on the sun, We don't rely on the rain, so we basically provide the watering system, the eating system and everything inside the greenhouse so but we want to manage the energy so basically what we did is to try to use AI in this case we use reinforcement then to only use energy when or to use energy when it's necessary.
+
+So also we have someone that says I'm a financial coach and my expectation is to use AI to help salary and start building worlds, so that is also possible and I don't know if you have heard about any hedge investment, so in hedge investment you be able to make some trading and then so but you also have to be careful with he investment because the AI could do some things so if you also need to be informed of how to do it as well.
+
+So yeah, so also some mentioned I M data engineer who would like to obscure and become an AI data engineer.
+
+So once you are data engineer you are very, very close to being an AI so very close so yeah so I did a course on data engineering with Google sometimes ago and I discovered that most of those skills that you need is also being taught in the data engineering and course.
+
+So I also I'm a Fashion Designer.
+
+My expectation is to use to produce, to produce and hole designs, so basically I I also want to share my experience regarding that some some years ago, I'm coming, so some years ago I did some work on the I just don't work on using AI to design come flag so you know this military come flag here basically we use AI to you take the picture of the environment and then we extract the color dominant color from the environment and this Eventually this pattern were generated with AI were then used to design clothes, printed it on the cloth as the military come back, so this kind of inspiration could also be a potential way for you to use the AI so also we have Cola also mentioned that Yeah.
+
+So Colar also mentioned that you can educator and you would I want to use a to develop model that can teach different learning disability? Yeah we set an example of using sign language and the likes there in the what and Yeah it's possible and then I'm a Facility Manager, I want to use AI to Automate Media management system.
+
+So yes that is also doable, so physicist I want to use AI to solve complex problem and simulate physics experiment.
+
+Yes, that is also possible.
+
+I will employ you to check physics informed neural network of you.
+
+Yeah Pi N so it's a good approach to balance between that helps in solving physics problem with AI, so I'm a Software Engineer I want to use AI Toute life solution solutions in the area of education, fashion Yeah, yeah so in the course I will be also mentioning briefly or some ways which you can apply that idea in the AI applying AI to those domain so these are few one that extracted and then probably next class used to extract some to mention it briefly at the beginning of the class Yeah.
+
+So and then during I received some comments from scholars regarding the assignments, so the first one of those not really in a particular order, but the one of those questions is that it's only identified as class one, class two, so there is no name, if you remember in our previous demonstration on AI workflow class will leave out lemon and juice.
+
+So basically the reason why you are having class one, class two in your case is that you need to rename this to class, from class one to the name of the class you wanted to be and then like by the second one if you are submitted, is completely fine.
+
+Don't worry, I mean that doesn't really carry like a special mark.
+
+Okay, so that doesn't really carry the special mark so please you are fine if you have submitted so, but if you want to change it or you are having you this is the problem is so also another scholar, as I wanted to ask if I could use lime in place of lemons.
+
+If you have used lemon or juice, it's fine, it's also completely fine.
+
+The idea of saying lemon or juice there is just an example Okay, so you can choose you can make different case out of it like, for instance, someone used face mask and no face mask which is fantastic it's an idea and that's would have been a very, very good one and a very good solution during COVID-19 so yeah someone that is know mask and that's not putting mask so it's a good idea so yeah it's something that is good so you can also come up with some other ideas.
+
+So can we post the attack journy with Ashtag Thed? Yeah so yes, feel free, feel free to post it, it's your joining and then you try to also market yourself and who knows so? And then we can replace the background noise with some MUS music.
+
+Yeah put it there, it's Yeah I'm not strict about the kind of what it call.
+
+If you want to put some voice over you lead me through it also fine so yeah anyway so those are and then the harder issue that was raised with that.
+
+People that are using mobile phone are finding it difficult to use the teachable machine, so so basically the teacher machine return some error or some notification that this sorry teacher machine is't supported here, like mostly for mobile phone users, Maybe I don't know whether it's also applicable to tablets users, but if you are having this issue, this, pay this raft attention I will lead you to an alternative which is a Machine Learning for kids so in this, in this platform you can also do something quite similar, but not exactly the same thing.
+
+So, but I want those that are having an issue with that as only phone and having issue with teachable machine to use this approach in their assignments.
+
+So I click on teachable machine with machine Machine Learning for kids.
+
+Okay so here please I signify you can see my screen with thumbs off and then some MGS basically yeah, thank you so yeah, thank you Okay, yeah, thank you so and in this platform you can see here after visiting Machine Learning for kids I will share the link on the in the question and answer section so that those that are still have in issue but I will advise you follow first so that you will not miss out Okay so yeah you just check the reaction there is a reaction something like window Okay so I click on get started and then when get started you can choose to either sign up or you use try now try it now Okay so I have to So so I click on try it now so when you try it now loads so you can add liver Okay so so it's a CRE to create project so I can say I'm just giving a name you can give it any name so that's is not the most important thing for me now so just for you to So I choose recognise recognising images Okay, so and then I just basically want to use it on my in my web browser like I'm not storing it so then I click on Create Okay so yeah so I have here then after adding project, Then I can click on the the project which is binary libel and I click on train Okay, so after clicking on train then I can add libel so like in the case of class one, class two I had lemon and then juice Currently I don't have lemon and juice, I think, to just do something else, so this is class one class and this is another class so yeah so what I want to do is you can use your Webcam to capture your your data you can upload the file, you can link to a certain online data, so I just want to use like writing or drawing on the screen so I want to use to take zero so I write zero and then had Okay so can you see my screen please signify you can see my screen also please some people are saying they are seeing static screen which is kind of weird.
+
+Okay, I think you should try to check your network because many people are responding that they can see my screen, they can't see my screen so yeah, yeah people can see my screen please check your network Okay, so I try to create different version of Zeros That's so here I am, basically creating data sets, so so yeah now let me say six is Okay, so I say I want for one so yeah so the data added Okay, so then I click on back to project So then here I didn't come to LAN and test so the line and test will told me Yeah so you have two classes number zero and number one you have six examples for each of those classes.
+
+Okay so then I can click on training new Machine Learning model here so here I'm going to have ok so the model has been trained Okay, so then I can test, so if I have zero reading on a sheet of paper I can test with my work.
+
+Let me see so I have written here I will capture my web count and see if it's going to so you can see see with 100% confidence Okay and I also can't decide to write it Okay, I got test and say 96% confidence 96% confidence level for number one so yeah basically so that's that's Okay, so do you get the gist, do you understand So this is the alternative for those that having issue with phone mobile phone not able to access from mobile phone so please kindly use this after this on mobile phone and I'm quite sure it's accessible on my own mobile phone so yeah Okay so I will see I would like to take some comments from the from those that raised up their hand so to see if there is any challenge or any other team So David, I think your hand is still hope Okay, can you speak please? Okay David is not ready to speak Okay and thank God the man, so thank God please you have the Mike.
+
+Good evening sir Good evening.
+
+Okay, I wanted to ask during the last class you mentioned them dropping some materials like the links in the chats box, I don't know the question unanswered section is do you reply, do you imply there is also the chatbox section or is there a difference? Okay.
+
+So the links are basically inside the powerpoints I shared, I mean the slide I shared with you the PDF file so you can also access this from the PDF file.
+
+Okay, so the secondly yes, I think for now we don't, you don't have access, I have confirmed that you do not have access to the chats box so you can use the question and answer, but please just use it and responsibly so that I will be able to keep track of everything that is together actual feedback, not just some chats Okay, so that everybody will be able to follow Okay noted sir.
+
+Thank you.
+
+Thank you.
+
+Yeah so let me take one more person Okay, so I'll take sorry I'm just taking it picking at random so don't So I have EK annual so EG annual you have the MIC after I give take one more person and then we proceed.
+
+Okay so I think Rod Raji should also be getting ready could even me Okay, yes, I can hear you now alright, so I just want to know if there is a minimum number of times we need to like upload our data before it can be recognized.
+
+What do you mean by that? You mean in the assignment? Yes sir, like do we need to input our data like maybe 100 times or maybe 50 times? I just want to know sir.
+
+Okay, so are you referring to the current the Machine Learning for kids or for teachable AI Mainar Okay, so for machine fous I think you need to have minimum of 55 examples.
+
+Okay, Okay sir.
+
+Yeah Okay sir.
+
+So we ask for machine machine you, I think you can have some people that work with one image, but the problem there is that you may not be able to capture the scenario, so you may not get very, very good results but anyway you can try Okay, so Raja Raji please I will enable you to talk now, so could you speak please Ra quickly, just too quick Okay anyway, so if she is not available to speak Can we take someone else.
+
+James Jagade should please speak hello, hello, can you hear me? Yes, yes, Okay.
+
+Good evening sir.
+
+Yeah, Good evening.
+
+My question is like what you say to scholars that don't have to laptop or like PC, which is they are making use of their phone, probably for now, like what we say to them because the way I'm saying this class or classes or the future classes.
+
+Probably they might be a break in the middle of it, or maybe something that they can, they can't actually continue without a PC, so I don't know if there's anything you can say concerning that or is it possible to go through the course, throughout the was with a phone or like, that's just my question Okay, yeah, thank you.
+
+I got it fine, so basically I'm trying as much as possible to The best is to have a PC.
+
+Okay, let's be clear the best to have a PC but I'm trying as much as possible to carry everyone along, so if you don't have a PC Yes you can still do it with your phone but I will advise you get external keyboard and then now you like using some like OTG, connect your phone and then you'll be able to beat around.
+
+It's the best is to travel, but if you don't have it's also fine.
+
+Most of you, most of us will not be using our laptop, so we will be using online platform to do the coding or any what is it call anything has to do with running codes is it? Okay? Okay, Okay, alright, thank you.
+
+Okay.
+
+So I think that's enough, we may need to proceed Okay, so that's that's that we've addressed and get some feedback on this so now let's move forward so today we're basically going to be setting up some accounts, I know many of you might have accounts, maybe, and then many of us already had Google account so yeah, so maybe some people may also be familiar with the three school so these are the three platforms we will be using for our coding, Github is to basically simply put to save your code on on the low level like it can be used for so many other thing Okay, but we will be using it to save our code.
+
+Okay so and NWS Preschool it's a platform where you can learn different programming and different scripts and languages.
+
+Okay so and then Google Collab it's a platform, it's a Google platform once you have a Gmail or Google account, you definitely have access to Google Colab so Google Colab it's a notebook and that enables you to run code You can also have access to CPU and GPU so those GPU you have access to GPU for a limited number of times, but it's it's a good option for many of all, that might not have access to GPU.
+
+Okay so without much for let's proceed so basically we're going to this is the workflow we go to github.com Okay, I will drop the link now, so visit github.com Then we try to click on the sign up if you don't already have account, so then sign up you entire information, then you receive your OTP and your email then you copy the OTP you paste it in your in this section so and then you have access to it simple so yeah so then who creates a first repository? So now I work through already created an account Okay, so what I just need to do is what I just need to do is create new, I click on new then I have this I can say AI Okay so then you may want to have description or not, So it's just information about more information about the repository so that is the code you are trying to save, so you can make it public or private public means everybody can see it once you share the link, everybody will be able to see it and once everybody is visit, anybody visits your repository and you also they also have access to it and they can also download or copy the code so but if you put it private and just you and anybody that you had to eat will be able to access it so and when you are creating a dital repository, I will advise you to use a username that you want to be Sometimes you may want to create a a home page or a portfolio with it.
+
+So it's often good to have a portfolio want to Okay, so then you can click on hard to read me, so it's basically information about more information about the repository and you can customize and anything and then you can have it ignore so anyway so we just create the repository and then Yeah.
+
+So we have this repository they had read me that we created click the other time is what we have here is just basically text and mark done file so this is the repository we have.
+
+The name is AI Okay can you please signify you can hear me Okay, yeah, thank you Okay, yeah so please if you are having issue with this screen or you're having issue with you can hear me, you can hear me so please try to check your network first.
+
+Probably you exit and quickly rejoin so you know missed so much so then you to persist Yeah you can drop some messages so it's probably your network of there about so Okay, so moving forward I said to create I was talking about creating repository What I mean by creating repository is you click on new and then you hinder the name of the repository you want, and then you can make it public or you can add Read me and then create click on Create Okay, so does that and then the repository you've created will be available you can chat, you can search for it here.
+
+So here have so many repository is one of the repository which is this one? Okay Douba can you did you get that? Okay so that's that's we've created Github repository, so I want every one of us to also trial as possible to create our own Github account.
+
+And then for those I already have, I wanted to create a repository specifically for this cost, so I just name this AI you can name it something that cross AI or my journey or just name it something that is dedicated to this cause.
+
+Okay please take note Okay.
+
+So simply put we've created a Github account, so the next thing we need is W three school account, so this W three School account is where will be learning our coding journey.
+
+Okay, Okay, I think I should take some hands so that to know whether some people are lost in the track.
+
+So Paul ADE Adel Sorry Paul, Adel, you are coming up, I enable you to speak then I'm just speaking at random.
+
+Don't be offended If I didn't call you so Paul, please speak then when way I'm sorry for calling it wrongly.
+
+I also enable you to speak so either of you can go first so then I think I will call Divine.
+
+So who's coming first Paul? I do you still have question? I am Okay, please proceed.
+
+Yes, my name is Devine and I want to ask a question Is the Google Colab more of a compiler? Generally, Python is an interpreter language.
+
+Okay so is an interpreted language is not compiling language so now Google Colab it's an ID or a notebook so where you can interact with your code.
+
+So generally Python is an interpreted language, is not a compiled language like C Plus Plus or C.
+
+Okay, Okay.
+
+Does that answer the question or you won't ask a follow? up.
+
+I really want to get your question but I don't know whether it answers it.
+
+Yes my question is thank you so much sir.
+
+Thank you.
+
+Okay.
+
+So again please do you still want to speak so that will move fast so organize not available to speak then Okay every customer so I will just enable every customer to Okay sorry, I just customa please so Since organ is not available to speak.
+
+We may Okay, I just want to get some feedback before moving too far, so that's why great.
+
+So someone call AD delay said yes and then yeah Okay I will try as much as possible to slow down.
+
+Yeah that I'm taking some feedback at this point and is not available to speak so so let's move forward, we move to setting up W three school account so the purpose of the W three school account is for us to be able to serve paste our coding journey so and then with it to be able to I will be using it to track or keep and abreast of your progress.
+
+Okay so I will drop the link to three school now.
+
+Okay so I think TAI has something urgent to say so Taio so you have the floor please TAO Yes, you was saying I will definitely drop the PDF after the class.
+
+Yes, TAO, please speak.
+
+We do not have so much time so this is the three school Okay, so we have so many courses you can go through on this platform, but please follow me, you try to using the Github accounts you've created, I will address you, sign-in with HP Okay, so click on signing with HP then after you have been authenticated it to show that you have signed in Okay so yeah so after you signed in you click on Learning path so in the learning path I will delete this one so that I will use to show you some so you click on Create Learning Path and then we want to have Python please is just Python Okay, so because this you have some to your, this you BEC I mean some gr Okay please I will be using it to greet you is try ready to speak.
+
+Good evening, Good evening.
+
+Hi yes, I can hear you, I got your designing because I now so I can't hear you clearly you seems inaudible, said I was not from you mean for Github account or for W three School for Github accounts Okay, after you sign up you can definitely create a repository after you signed up, can create a repository.
+
+Okay fine new, click on new and then you create on your repository.
+
+Okay, Okay, thank you.
+
+So we have w three score you please kindly use had only Python because it will tell on your grade please so then you create on click on Create Learning pass and then you can name it anything you want, So I just name it my python Okay then you create, click on create so I have this now my python as the part if you click on this it will show your progress, so at some specific instances during this course I will tell you to share your progress.
+
+Okay I will tell you to share your progress on the, on your plan, on your platform, so because this is how I'll be able to be able to keep track of what you are learning.
+
+Okay so please do some thumb if you understood that.
+
+Yeah thank you so yes, yes and in the way so yeah if you already have a Github account yes, just create in your repository and you are Good To Go.
+
+Thank you.
+
+So now that's doubt about the three school.
+
+I also have some info and some overview of how you're going to navigate and create your, create your, your learning path, so also moving forward I will so yeah so once you have your w three school accounts and you have your learning part then you can always click on Continue Learning or something like that.
+
+So let's assume we, we start Python and then here add information about introduction introduction information about Python.
+
+Okay so yeah.
+
+So you have some exercises here so I will advise you to follow the exercises as well.
+
+So when you scroll down to The Bottom of that page here you had like plus one If this is the first time you visiting the page you are reading the the, the section so let's say I click on next and here is information about Python What Python can do Why Python and Dela Don worry still talk about it, I'm just showing you how your progress is been made, is been tracked, so next this is this the DD and this and then I've read I've checked all these sections so notice it added plus one to this so once you reach The Bottom of the page add plus one next once you read The Bottom of the page it add plus one so which means that if you check your progress on Python, put the dashboard and you check your progress on Python you should be able to see that you should be able to see that you are currently on this lesson variables lesson and you have 4% previously it was 3% now you have 4%.
+
+Do you understand? Please do some thumb if you understand.
+
+Thank you.
+
+Okay, so Emmanuel, could you kindly clarify the better platform, you mean, do you mean the video streaming platform instead of using Zoho we should use another team.
+
+Yeah sure, Okay, so Okay, so basically Okay, so I get a point if it's asked to do with Zoho, then I will communicate with the I will communicate with the Administrative department on the video on the streaming platform.
+
+At the same time the video will be provided after the the class.
+
+Okay so please stay say soon to receive the video.
+
+Okay, so Okay.
+
+So just once again if you are having, If you are having issue with network I will advise you first diagnose the network, maybe exit and rejoin so that you'll be able to be quite sure is not met because even if you use other platform, so like Zoom or thereabouts you also have if you have low network reception, You probably have similar challenge so so Okay so but but nevertheless I am going to communicate that to chin I communicate that to the administrative department and then possibly they will take some appreciable step towards that I sincerely apologize on that anyway, so anyway so what I'm saying about w three school is that we will be using W three school to keep track of our learning on programming like Python we will basically be using Python so and yeah time is going so we'll be using Python and then Okay so we use to keep track of our progress so as to move fast and here it to show your progress like you, click on continue you are on variables and then here is this once you finish within this part then it you had plus one Okay, so this plus one means that you have had it, you have moved by certain step in your learning journey and then if you look at the progress to show the progress.
+
+Now it is 5%.
+
+Okay, you can use your existing G account, do need to create another account if you have already, you already have an existing bit of account so yeah Okay so now I believe that is clear.
+
+So now we go to to understand something about Python so yeah so also we will be using Collab so for running a code so yeah Google Colab once you have a Google account, you automatically have a Google Colab so so I will share the link to Google Collab Now I am not expecting you to follow along, do it simultaneously.
+
+That's I have presentation and the video is also recorded, so you have issue with, we have issue with for following or doing simultaneously, then you can check back definitely mean this video is going to be shared with you and I also have you notice my slide? I also have the process of how you're going to follow it in my slide, so don't don't get it.
+
+It's not a problem if you are not, if we are, we are not fast enough to follow it and mostly we have limited time, we just have one on so we need to cover something, so if you are not able to follow please kindly watch the video again or you can just check the slide out Devin, please share the slide with you so please, so similar things to I took the time to take screenshot of each of those processes and if you have any problem? Just message me or I'm going to respond.
+
+Okay, so I share the link to Google Colab so don't buy any calls please is free.
+
+You notice I didn't have any subscription, I didn't buy anything so don't buy anything any, don't buy it's showing upgrade here.
+
+There is nothing like you don't need to upgrade, just close it and then need to proceed.
+
+I'm not telling you to buy anything please the taking question and answer that was the method I used the other time, but I think is not, is not encouraging for many people because we have people that are using teams for the first time here.
+
+So so we just need to balance off so this is Google collab so if you visit the link later on after the class so here is Google collab so here you have collab and you can create a new notebook.
+
+Okay, so now I need to let you know the difference between Python file and not book file.
+
+So so a Python file is just a text file.
+
+Okay you can use any text editor to do it, not Microsoft Word, Okay, just text editor, Notes part or any text editor can work Okay, whereas for notesbook notn file that's with extension Ip Ymb so let me show you here you look at this, you notice this Ip Y NP Okay this is a notebook for the difference between Python F and a notebook file is that in a Python file you can you have in a notebook file You have cells so you can put your code in different cells.
+
+Okay this is another cell, this is another cell and also in a notebook file you can have some This description is just like you, you can use text in the sense like formatted text and then you can also have your code simultaneously.
+
+Let me give you an example like I say and say introduction to Python here Okay this is a, an heading Okay, so and I also can have some bullet points let's say imports tax Okay so I can have things like this in a So notice how is for matching as if I have AAA text editor Okay so this is a notebook and I can also have my code, so both code both my code and then what my code and my description or my explanation can be used simultaneously in the same F in the same notebook F but in fact I can also add images to this notebook let's say I create text and I have an image I want to insert let's say I want to insert I want to insert this image so don't worry, so this is a base 20 base 64 image.
+
+So notice I also have image in the notebook so you can have text, you can add image, you can hide your code in the same notesbook in a notebook file but in a in a Python file, so let me try to download this file as a Python file, so so notice when I download it as a Python file is.py f the.py FI So what you have in a.py FI is basically so what you have in a.qi is basically a text like basically text so all this are not surrendered, All these are not formatted.
+
+Notice the introduction to Python is just like this so the syntax or this text these bullet points were not rendered Okay, so they are just ordinary text, so in a notebook file you will have you have in a notesbook file you have both the re that text and the and the codes quit simultaneously, so please if you get the idea of notebook and then Python file please kindly signify with thumb so that I know that you understand the difference now Okay, thank you in this class you can either use notebook or you use.py file Okay.
+
+Oh I think some people missed it, they didn't get it at all.
+
+Okay so to simply put notebook for notesbook for it can contain code and formatted text.
+
+It shows look at this, this is a notebook for Okay this is a notebook f it's contain like formatter text, formatter text in the like your Microsoft Word where you have type two, you have some bullet points and you can also have your code, you can run this code Okay you can run this code and you can also have your text Okay, Welcome to Tech Crush A This is a code This is printed from code, whereas with notebook you only you can we as with with Python file.dot PY file You can only have your code the other things are not rendered and not formatted see this is a Python file.
+
+I converted the notebook file to a Python file.
+
+It's not going to render it's only going to show text see this is image, This is the image that I imported this logo but is only showing the 64 version of this image is not showing the actual image.
+
+It means this is just a text file.
+
+Okay, this is just ordinary Python file is not a notebook Now you can either use notebook or ordinary Python file in this class.
+
+If you want to work with Google Colab which voice which is what you will be working with, you can't you will be using this book Okay, so you have the description of the code here and then you have some code itself.
+
+Okay so Okay so why do we need Google Colab Coog Collab It's an online platform where you be able to run your Python code well you can install, install Python on your computer, but not everyone of us has computer here.
+
+Okay, some, some are using phone so for us to have a common grant or central place which is reliable, so we will be using Google Colab.
+
+Also, many of us only have limited CPU on our computers, so AI you often requires more CPU and the more you have GPU is the best, Okay, so many of us do not have many of us do not have GPU on our computer, So when it comes to training a model, It's often good to have GPU access to GPU Okay, so let me show you what I mean.
+
+So here is a here is the computer resources we have on Google Colab you have to.7 gig ram very few of you on this platform you have to dig ram on your computer, I mean I'm not saying I'm not ridiculing you, but it's normal, it's normal like you don't, you are not into programming, you're not into AI So what do you want to use twelve gig for eight gig is the average which many of us we often have on our computer also, if you check the If you want to switch to GPU, you can come to run time you come to change run time and then you can switch from CPU to GPU so so I can switch to GPU and then the system will restart.
+
+The system will restart and then I have GPU.
+
+15 gig, 15 gig is quite a lot, even myself.
+
+I don't have Opeen G GPU on my computer, so and this is this becomes Andy when you are doing some training or your training Yes you can, you can use anaconda you can use VS code, but this is only you only install this on your computer.
+
+Okay, you only install it on your computer and when I want you to submit your assignment, you have to upload your code to your Github repository.
+
+Commit your code to your Github repository before sharing the link with me, whereas you have Google Colab and then you can reach directly from Google Collab.
+
+So it's I strongly recommend we use Google Colab please.
+
+So yeah, I strongly recommend you use Google.
+
+Thank you for consistency and also for us to be able to, for us to be able to diagnose any issue will stick with Google.
+
+Yes, the options you've mentioned an Aonda vs code.
+
+Yeah, also good alternative, but I strongly recommend we use Google App Almost everybody on this platform, if not all, has Google accounts, so and if it comes to having issue with what is called so it's Yeah Okay, so so if Google Up, It's a good option for us.
+
+We have Keyog, we have GPU access.
+
+However, I would let you also know that we have some limitation to Google Collap in the sense that this runtime last up to one and two hours, 20 min, So which means that if you, if you have a notebook open for very long then it will disconnect so which means that you have to reconnect it and you have to rerun your code so the implication you may not have a serious implication at this point, but let me tell you the implication so when you are training a you are training the model, so may say the model has been trained and completed, but you did not save your code, so it means that after some time this notebook will restart or will shut down and it means if you come back to check it you have to rerun your code so if your training takes 25 to run or we won't use 20 files anyway here, but your training takes 24 hours to run you probably need to rerun it again and it will take another 24 hours so yeah that's the problem with that so and then also if you had any file to this you get a notification that says that any file you had let's say I decide to had I decided to have this file, you get this notification, ensure that your file are saved elsewhere.
+
+This runtime file will be deleted when the runtime is terminated, so which means that when this run time is terminated the file will be removed, will be deleted so Okay, so although there are ways to have a consistent or persistent file, which means you need to mount your Google drive so I will not talk about that.
+
+It's not be complex so but what it means is that instead of you using a temporary file here, you can pick file directly from your Google drive so if you have your data in your Google drive, just upload it in your Google drive and need to fetch it from your Google drive.
+
+Okay so so to avoid over loading of information I want to site, use an example.
+
+Okay maybe we don't have much time but's here is an example I want to show you we Okay, I think I should take questions so that will not, will not overload ourself so yeah we will stop here today, will take question then I want us to try as much as possible to go through some lessons in this, in this in W three school so that next class I'll take many of the lessons so it so that will be in sync so today basically is just for setting up of our workspace and relax, so my screen is shared so I will take questions.
+
+We have 10 min left so I would like to take questions.
+
+Firstly, I will lower everybody's hand and then those that have question should should signify our sample at random, so this I'm not trying to be biased by not choosing you so think Wenn like Jima POS first, then give your follow on show follow read one I'm with you.
+
+We also follow We don't we don't have so much time please speak Okay, if we one is still having issue follow on the show, please speak you like the gets ready Okay sir Hello Okay J I reach for Okay you are not alright.
+
+Thank you so much sir, You said something about the wrong time.
+
+I don't really get the explanation simply put simply put you are using online Comps, you are using online computer, so it's more or less like this computer you're using if you are not, if you are h do for so long it enter sleep mode or it will hibern it, that's what it means like you have your phone and then you if it implies the phone for so many times for so long then it's sleep Okay, so that's the simple interpretation of it, but what it means is that if the Google Colap should enter like the sleep mode or hibernation mode if you delete the files that you've added and the code you've run it will not delete the code but if you, your variables you have to run the code again, that's what it simply means do you understand? Yeah thank you so read one please next Okay.
+
+Thank you sir.
+
+Thank you read one, read one, please speak sir.
+
+Everyone was doing as spoke because I was about so I Okay V please, so Elij hi please speak, I can't hear you.
+
+Okay Reram please, sorry Gideon, please you have the floor alright, thank you so much.
+
+I want to appreciate, sincerely, appreciate your effort, so so basically going straight to the point the I've been able to open my Github account and then I think I'm having some challenges opening my W Three school, although it has already approved my, my account, but I think it's probably my network that is not loading it.
+
+However, it's loading the other ones.
+
+So yes, on the collab you were, I don't know you were quite creative in the process where you were showing some of the things that you are showing us and then I think at some point your code was already filled up in on your screen, so I can look is looking empty now, but I think there was at some point your code was filled up.
+
+I wanted to know how we came about that.
+
+Do you mean this? Okay? So anyway I have multiple goog colap and I think that something like yes this is it Yeah so I wanted to because of time I wanted to demonstrate something about this so but because we have limited time so that I just stick with the previous one so yeah, don't worry, there is nothing to worry about I just because of time we will definitely talk about it next time next class.
+
+Yeah.
+
+Thank you for your observation.
+
+Thank you.
+
+Okay.
+
+So you also have question the Question Answer section please you can also drop your question so in case I will not be able to take everybody's make everybody speak, so within the limited D limited time I can still check the chat box or the question section so that able to answer as much question as possible.
+
+So yeah also we have let me take Adel, you have the flow to speak, then I will at this senior, at the senior, then Austin JR, Austin JR, You also have the privilege to speak.
+
+Okay I'm with you Paul, I'm not hearing you, you are not speaking.
+
+We have limited time.
+
+I guess you have issue with your Mike AUST engineer please engineer Okay, so can you hear me? Okay Okay I can hear you Okay I can hear you please move fast, I don't boo Okay I'm with you, use Youtube, I can't hear you, you hear me now? Yeah I can hear you now, I'm just asking for you the SMS submission, the Youtube Yes you screen record your, you screen, record your process and then you upload on Youtube and share the link between Do you have any contract opinion? Not really, just in case I'm finding don't you because I don't currently have a Youtube.
+
+No you don't need to if you have a Google accounts, you already have a Youtube, don't you have Gmail, you have Gmail you already have a Youtube account.
+
+I do thank you so once you have a Gmail account you already have an is automatic.
+
+Okay yeah, thank you Adele yeah he is not available.
+
+Yes, so we run out of time.
+
+Yeah, let me just quickly run down the question in the chat box Python for W three completion Do we get the Python certificate you have to pay to get certificates for Python W three SC, so I'm not encouraging you to pay, so we are just using it for keep track and so also and have a learning You can install Python Your computer you install a Conda, but I'm not supporting, I'm not encouraging you to In this class we are not using locally hosted Python and on about so we want to use Google Collap so that will be able to have a Central Point so you develop your code on your computer you need to upload it on Google Collap so that we will be able to debug so if you do it on your computer I will not be able to debug your problem.
+
+The problem you have with your code and code.
+
+We always have problem as definitely and if you try to install something, maybe you've already installed some things on your computer and you have an issue so which I'm you don't have control over.
+
+Yes, Python is a programming language will be using Okay, so at this point I think we need to and today's class.
+
+Thank you so much for your time.
+
+I appreciate your feedback and then hopefully we meet in our next class.
+
+Thank you.

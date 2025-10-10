@@ -1,0 +1,917 @@
+I I think I just forgot that the class was supposed to be 30 min ago until I just noticed my alarm ring.
+
+So time Can you hear me? Hello? Can anybody hear me signify? You can hear me.
+
+It's kind of a Okay.
+
+So I actually missed the time I was, I was literally with, I mean awake or I'm not sleeping anyway.
+
+So wow.
+
+Okay.
+
+So I think I just had the feeling on what's other scholars usually experience when and on Wednesdays, I was actually looking at 30 like it's Okay.
+
+So I'm sorry please.
+
+So I will be sharing my screen now.
+
+So you had your quiz and some other scholars had this quiz and last and I mean after the last last.
+
+So generally I think this time around I'm not going to be reviewing most missed question because we really do not have most missed question like so this time around and the average is the bits add and the previous the previous, so this time the average is 16, so 16 point something Yeah.
+
+Out of 20.
+
+So yeah and yes we are probably going to get the team today.
+
+So so here is the class, the same slide we used in the previous class because it's we had a very short class.
+
+So about today we're going to just get and dating on those concepts we mentioned briefly.
+
+So the first one that has you guys see my screen, this can be you see my screen.
+
+Okay.
+
+Thank you.
+
+So yeah.
+
+So in the last class I mentioned about, I mentioned about the idea that your correlation is not really the does not tell digits for all type of data sets.
+
+So in a situation where you want to select some feature feature selection, that's what's brought up that.
+
+So basically feature selection is you want to select the best feature for your model.
+
+So you can just look at the plots or you look at the correlation to see which of those features strongly correlated with the output.
+
+So kind of related that make the model to have a kind of a significant performance.
+
+So now as I mentioned, just correlation is not sufficient.
+
+So what we usually doing some in the case of classification is also to color code, the color code, how the model looks like how the features looks, and now they able to distinguish each class consistently or here reliably.
+
+So that's the reason why we talk about this now.
+
+And also we mentioned about K nearest neighborhood.
+
+So we we are doing, we are voting based on the number of features, number of data points that are close to each other.
+
+So the idea is that if they are close, they are probably related to the same class.
+
+So in me then we try to vote.
+
+So if it is close to two classes or two data points in a particular class and then far away from another one by or there abouts.
+
+So then we can say that it belongs to the classes that it is the classes that is more closer to.
+
+So in this case we say given this green points, we try to check if which of those classes it belongs to, So by measuring distance away from it.
+
+So in this case, if you say three, we want to check three neighborhoods that K three nearest neighborhood.
+
+So it means that is going to belongs to the red class.
+
+This one.
+
+So I think the concept was very clear enough based on my previous explanation.
+
+Okay.
+
+So so then after that we mention about cost of dimensionality.
+
+I mentioned that if it's greater than ten, yes, greater than ten, it's the performance starts degrading, but if it is greater than ten, it's too.
+
+Okay, but know that the performance will start start degrading once it is, it is greater than ten, but it if you still have more than ten, it's Okay.
+
+Just that is.
+
+Yeah.
+
+Now so that's that was that then the other thing that we talked about was the use of PC Principal Component Analysis to try to do a much more intelligent feature selection because if you decide to put that high dimension data into K, you probably not get the performance you want.
+
+So we often add principle component is or some other dimensionality reduction to eat so that so as to be able to learn significantly.
+
+So principle component analysis, it has a lot of was it because some theories behind it body idea is that if you have, let's say this huge number of inputs or you this huge number of features, you can specify that just give me maybe some certain important features out of it.
+
+So it's uses some mathematics and some other ior them to be able to determine how which one is the best, the best feature.
+
+But it doesn't just select the feature like you can say, let's say for instance in the case of this data set, this data set, it doesn't select let's say you pass this seven data for seven features into the model into Principal Component Analysis.
+
+The output is not that it's going to select area and time your exist may not exist.
+
+So something like that, let's say you want to just for important, most important feature is not going to house put it as area perimeter, major axis length, minor axis lens.
+
+No, it's going to transform into what we call principal component, one principal component to PRIN component, threep component for if we decide to get for out of the seven important seven inputs.
+
+So it's going to get for for important features out of it, but is not exactly the way the inputs are that you cannot just say that you merge it to what the input.
+
+So it's basically transforms it.
+
+So I need to mention this because you still soon encounter some instance where by you're trying to give interpretation to those features is not necessary that you be able to interpret it to the physical work.
+
+So we like to their real impute.
+
+Okay.
+
+So here I will experiment on M data sets.
+
+So if you remember we talked about, we've shared this idea, talk about what this data set briefly maybe in our in our quiz and some of our classes saying that this data set is basically and written numbers.
+
+So so they are basically numbers.
+
+They were handwritten from zero to nine.
+
+So once the model to be able to distinguish handwriting character.
+
+So now how do we do that and good enough and Goog collab so good enough to collaborating made some some data available.
+
+I think I should use maslab first so that it will you will be able to visually understand what I'm saying before we go into coding.
+
+So yeah, I'm sorry, I'm not trying to be biased about coding.
+
+I know majority of people in the class are probably not coding in client.
+
+So we prefer prefer visual tools and I think we just visual tools.
+
+We also help in getting the concept of getting the idea before you try to code.
+
+So it should help both Goty.
+
+I think I also saw some of the conversation in the group saying that I I did normalization and in spreadsheets alone.
+
+So basically I did not only do for normalization and spreadsheet, I actually did in coing as well.
+
+So if you want to go with the option of using spreadsheets to manipulate your data, it's fine.
+
+It's left to you if you want to use codes to do the manipulation, maybe normalization or something there about.
+
+It's also good like, but personally I just prefer using code personal only personal level because visual tools is easy.
+
+But if you want me to do repetitive task, it's not quite easy because let's say you got this data set and then you did normalization by doing it manually.
+
+So and then there is some other additional changes to the data set, they brought something else or there is a change in it one way or the other, you still go through the process of doing that process manually again.
+
+So whereas if you already had a code that you've already written, just click on wrong.
+
+If there's no problem with the report, it's it's can easily be translated to some improve some different data set or the like.
+
+So that's me regarding coding anyway.
+
+So but use what you think your brain or your you feel comfortable with.
+
+So the best is for you to get the idea.
+
+And so sometimes they don't even care about the result and they don't care about how you did it.
+
+Just give us the results.
+
+So if you have issue with debugging code then that's also going to slow you down.
+
+Okay.
+
+So we are much for that.
+
+So I will show you here is the data set that we're going to be using.
+
+I want to employee to use this data set that is already prepared.
+
+We will have several varieties of variants of MS data sets.
+
+So like for instance, this is this small sample, so small one if you look at this documentation about MS data, if you look At this documentation about any data you notice here, they said the data is actually and the training is 60,000, the testing 10,000.
+
+So however, for the sample we are going to be using is much more smaller, I think it's 20,000 so and the test is 10,000 so so the has been reduced so that so that it will fit into the memory.
+
+So yeah, it has been reduced so that it will fit into the memory of maybe any computer that even if you have limited computational access.
+
+So what I did, what you're going to do if you're trying to practice, I downloaded this data.
+
+Okay? So you can click on download if you're going to be using spreadsheet to do the manipulation.
+
+It's basically here.
+
+It has been processed to spreadsheets.
+
+Okay.
+
+So here is the data set.
+
+So the training, the training data is this.
+
+So if you look at it, we have based on the summary we have here.
+
+So here I believe I opened the test data in this test.
+
+So the number of rows we have here is a 1000, sorry, 10,000.
+
+And then the column spans up to AD HA.
+
+So AD basically it means maybe about 785 to 785 columnb.
+
+So this 785 columns you user too.
+
+When the data size is huge or large, you start getting some lag in performance.
+
+Okay.
+
+So now according to the documentation which we want to borrow the idea, they said this is 28 by 20, so 28 by 20, it means we have 20 multiply by 28 which is 207 100 and consider this 28 by 20 to be 20 he and change it wee.
+
+So you, I know your iPhone, your 100 phone probably.
+
+So your iPhone and will probably be having a very much more higher resolution or higher dimension.
+
+So imagine you have a picture of one megabytes, so even some DSL camera will give you maybe 15 mb or something like that.
+
+So it means probably the image is huge.
+
+So by the time you have, well most often let's say you have 480 by 640, so maybe you easily get 1033 107,002 and 307,200.
+
+So as in puts that's huge.
+
+So that's huge.
+
+So as time goes on, once you start having that kind of large feature, you cannot just discard some RES, cut it off, and the only thing you can do is to resize it and to start resizing it also has some disadvantage.
+
+So that case you probably need to consider some kind of all the techniques.
+
+So now here is the point.
+
+I did the data set.
+
+Okay, so here is the data set and so the data set, but if you notice is not, it doesn't really seem intuitive.
+
+So what they did is like the words, I will say the vectorize it.
+
+So this is a data which is seven.
+
+Okay, this seven, this figure seven is what has been translated to zero-zero 01111.
+
+So to show you what that this is what we it was derived, I will kind of show you a kind of formula I already prepared earlier.
+
+So I of the class, I, I think I have shown this forma anyway, I'll show you again.
+
+So let's say for instance, so now actually, I told you these numbers, they actually depicts here of the image.
+
+Okay.
+
+So what I would do it now is I will try to let's say I copy this figure seven.
+
+Let's say I copy this figure seven.
+
+I just want to show you some kind of some like a pre-processing or something like that.
+
+So this number seven, I want to paste the transpose of it here.
+
+So now now I want to, I would like to reshape the, so I would like to reshape transpose.
+
+Okay, this is where the number is, this is, this is where the pig and this is the class number seven.
+
+This is the actual number.
+
+So what I would do is I have this Excel formula that I already prepared.
+
+So so basically the EXL formula.
+
+This is not exact class but is trying to reshape the the number.
+
+So the this number that is already in 784, we want to convert it back to 28 by 28.
+
+Okay, that's why I physically did so now now this ID number, but if you look at it closely, you start to see that it's looking likely something.
+
+It has a pattern.
+
+So what? Let me make it much more clear.
+
+So if you, if you have kind of a vision, if you have the kind of vision, you'll be seeing some pattern in this numbering in this figures 00.
+
+And then there are some parts that are not zeros.
+
+So that as some kind of what you call, so that is the pixel.
+
+So if I, I can decide to color code it.
+
+So like here in exam you can do some colour coding so that I've just used simple colour coding.
+
+So if the number is greater than zero then it should give it some kind of AI like to use colour black.
+
+What's so so did you notice the number is now like seven? Let's say seven.
+
+Anyway, so let's say I copy another row, let's say this is nine.
+
+I can copy this, this class or this number and then I paste the transpose here.
+
+So you check, you see changed to nine, something like a nine.
+
+So let's say I pick and class and let's say you go five so I can copy if you go five and then I to paste it and then you say it looks fair five.
+
+So so this is what's if you are using code, this is what you'll be using code to you and notice you are not just plotting scatter plots, we are not just plotting what you need to understand the data.
+
+Sometimes you don't even know what data is.
+
+You just want to give the understanding from it.
+
+Let me give you a typical view life scenario that happen, typical life scenario happen to me sometimes we go not long ago.
+
+So I collected data sets from robots.
+
+So I mean sorry, I'm working with robots.
+
+So I need, I will probably be giving example example that related to robot.
+
+So you know, there is this, there is this sensor that we have on robots.
+
+So robot has a lot of sensors anyway.
+
+So but this is a kind of a lighter sensor or yeah, let's say, let me say lier sensor that spins very fast.
+
+Sure you what? I mean by light.
+
+So yeah, various, what is it various version of several versions.
+
+So you know, it also using autonomous car.
+
+What it does is that it tried to stand around and then get some kind of a point cloud to to of the environment that you are.
+
+So I wanted to use it for we usually use for localization and then kind of a mapping for us to be able to localize the location people in the SGU or something question how is it changing, sir? I think we in not even, I think we in an ex formula formula in the and we check the first column here this is index B three to B786.
+
+Then we did sequence and then we do and so because you already have some information about the data.
+
+So yeah, then how did you get the data, this data set before you just, I mentioned few ago that just using we are going to be using WHO collapse variants of MIST.
+
+So if you want to do that, you just click on download, go to collab and then download, download the data if you want to use this kind of visual video, if you want to use code, you don't need to download it.
+
+Okay? So you can download the data.
+
+So so someone is asking why am I pasting transport? Why am I not pasting directly? So I already wrote the code.
+
+If you notice this, this formula is working based on B three to B786.
+
+So this is where the number is.
+
+Okay.
+
+If you are referring to B, I'm referring to column so and then you referring to the number I'm referring to the row.
+
+So that's why I'm pasting and vertically.
+
+Okay.
+
+So if one is using code, how you need did they how you get the data set? I don't get what you're using code.
+
+It's much easier.
+
+You don't even need to, you don't need to download the spray and the data, this data, you don't need to download it.
+
+You basically need to first load it.
+
+So which is what I'm going to show, you know, so I try to use this Excel to show kind of visualization of what is the data? Is it just like the regular rows and column that we have in spreadsheet or that it is rows and column, but it is much more than that units and the data in itself is not actually rows and column, the pixel pixel of the of an image.
+
+So they just try to simplify it by making it a just a column of some columns of an Excel sheets.
+
+So if you want to use it, you can use it directly like that, but if you want to understand what is actually there, what is there, so you need to visualize it.
+
+So and now it is where it became tricky, you know, in the previous RISE data set, we can just decide like, OK, let's look at it correlation and then just drop some features like that.
+
+And these are the important features here.
+
+I think there will be a problem if you try to drop some feature.
+
+So you cannot just say, I'm going to drop those that are those feature that some feature at the beginning, some feature at the end.
+
+That's a problem because if you attempt to drop such you probably the number will no longer be a number.
+
+It will be something else.
+
+Okay? So that's why you cannot just drop it drop feature.
+
+So by the time you visualise it to be able to see that this is not just need the data, Okay? So in talking let me just show you how to do it in coding.
+
+So basically Since the data is an spreadsheet, so CSV, we can still use our pandas, so so can just imports and then we need Okay, let's just this first after importing it, we can say we have the data train, so to be because we have training and test data, I would just be using the auto complete suggested, but it is not, you know, is not correct completely.
+
+So because the MS data I want to check is here.
+
+So we can come click on it and then get the part, copy the part, so I will change this, this copy the part testing, I just change the test.
+
+Okay.
+
+So and then I copy the parts to the train.
+
+Okay.
+
+So I means that then I can read the data.
+
+Okay.
+
+So Okay.
+
+So we read the data points.
+
+So the next thing is for us to preview just as we've been doing so and the next thing is for us to preview the data so and then let's assume won't review the train data.
+
+Okay.
+
+So and then if I run this notice is just showing is showing, I mean the the whole and column.
+
+But this first column is weird because he is actually putting some of this one of the data as part of the as part of the as the title by default.
+
+What Panda does is that the first row is assume the first row is actually the title of the data.
+
+So that's what is saying.
+
+So to get the idea, let me show you here is the test data.
+
+And if you remember in the test data that I showed you this test, the first row is number seven.
+
+And then here are the data for number seven.
+
+So now if you look at the code, this number seven is assuming that is the title, which is not the case.
+
+So we probably need to tell that this is not the title.
+
+So you can say here when you're loading the data, you can pass additional point that we say E equals to none.
+
+So it means it doesn't have and the data does not have a title.
+
+Okay, so it should use something else, that title by default, it's going to just count 123, give it like an ID.
+
+So here now the column is now like number at 01234, up to seven.
+
+Okay.
+
+So this is just as like as if doing it like the regular Excel or so.
+
+But you know, he is not like that it doesn't know what it is is actually number.
+
+So for us to be able to do the diligence to it, we need to be able to visualize something better.
+
+Okay.
+
+So what we do is we need because it's kind of like is an image even kind of like an image.
+
+So we need to import something to help us visualize like plots.
+
+So the time we use cloth, we can use math, matlab, mat, cloth.
+
+So this library will be in charge of trying to plot, show the visualisation.
+
+So let's say I have, I want to take the First Data.
+
+Okay.
+
+The first let's say I want to take the first row of the data.
+
+I can say the choose test and then I look.
+
+Okay.
+
+Okay.
+
+I just said was the what I know is is actually also correct.
+
+So let me explain this is the data.
+
+Okay.
+
+The test data I look is telling you that select and row one.
+
+Okay.
+
+So the first one is row and the second one, this one is a column, Okay.
+
+Column.
+
+So now what we did is a select the first row which is this one.
+
+Okay.
+
+Now what the image is actually not from this first column is not from this first column that is the level.
+
+So skip that and then start from number one, this number one.
+
+So that's what this means, start from number one of to hand like this the hand the last one.
+
+So that's what this one means.
+
+And we don't want to get it as the pandas then series, we want to get it as values, the values, so these values, they will be non priori.
+
+So then after that we want to reshape, which is this reshape is quite similar to the exile-exile formula that we is like the, the replica of that if you notice we are trying to reshape it to 20th by 28 from the, from what you can see in this formula.
+
+So so what we did is we want to reshape it to 20th by 20.
+
+And this information about 20 by 28 is actually based on the known documentation of MNEST is 20th by 28.
+
+And if you also find the square root of you is just a single and you find the square root of 784, you notice it is actually or so 28, so 20 times 28.
+
+So that's the intuition behind that.
+
+So we reshape it and then after that at the end we're going to have something so so we can do that.
+
+And if you want to extract the label, you can say yeah, so this, the location, this location, select row one column one.
+
+Let me just change this to IDX so that we can easily be changing the one that want to address.
+
+So, yeah, so if I run this now, if there's no problem, I should be able to see something.
+
+So the first row is actually seven.
+
+So you can see showing something that looks like a seven.
+
+Yeah, I hope I've not dropped people off this.
+
+Okay.
+
+Sometimes to say you need to do Okay MUA.
+
+So you said you're lost.
+
+I think if you're not familiar with coding, I don't.
+
+I feel you shouldn't stress yourself.
+
+Okay.
+
+So because this if it's the coding that is boting your head, I this is not co-link class less we Since say so we just need to use it as a too so, but if you are familiar with Excel, so I think it's something you could try to wrap your head around.
+
+So we have the data and we have several columns.
+
+Okay.
+
+So we are trying to see what is actually what this COL columns connotes, they are not just column the actually image, the picture, the picture that you have is like they just try to make each of those pixel row the columns of those pix, they just turn everything to straight line.
+
+So for you to be able to understand what it is, you need to convert it back, you need to transform it back.
+
+Please explain this functions type of model training when the type of model training where you only describe animated scenario feed machine, I think you should refresh your your question eBay.
+
+I'm not kind of getting it so.
+
+Okay.
+
+So this is the image.
+
+So if I decide to change the index to, let's say, I choose index number two.
+
+So I just change it to number two is it? sorry.
+
+123.
+
+So number three if I run it, you see something like zero.
+
+So which is yeah, this zero.
+
+Alright.
+
+Anyway, so this is, I don't know which 01:00 a.m.
+
+I saying.
+
+So this is 01223.
+
+So index number three.
+
+Okay.
+
+So yeah, so we have zero.
+
+I change it to number four.
+
+So we have number four.
+
+It's just a coincidence.
+
+Okay.
+
+For is for is not for talking about let I change it to one.
+
+This is one and it's going to show you two.
+
+Okay.
+
+So I hope you get it just so the KLT title is to show the title of the image.
+
+Okay.
+
+So I think you should also observe this strange formatting in Python if you have gone through the the resources that I advised or suggested I study.
+
+So if you notice this label is the put quality bracket and the value label.
+
+So this is what we call strange formatting.
+
+So what we are trying to do is that we want to put like a placeholder this name label and then later on we will try to replace what is there.
+
+So then what we are saying the format means replace the this placeholder label with the value.
+
+Okay.
+
+So if you see here if you say label is true, so it's trying to replace the value here.
+
+Okay, if you don't put COL bracket to know it could not work, it will just be showing just the this is liver so but by the time you put COL, your bracket around what you want to show.
+
+Okay.
+
+So if you want to maybe hard one to eat, you can still do that.
+
+Okay.
+
+Okay, so this works for sorry and this works for this string F formatting.
+
+So if I want to add number to it, I probably need to do it here.
+
+It doesn't make sense for me to add number to it.
+
+I'm just trying to show you what it means.
+
+So so yeah, I hope you get them.
+
+PLT show means image show show image.
+
+Okay.
+
+So and this is the image that this is what we transform to image then you can see that and yeah.
+
+Okay.
+
+So is this the first time I'm seeing Python? Okay.
+
+So going back to addressing each of those questions that you guys ask.
+
+So the first thing is what is LEB do label? I don't know where you're seen LE LE basically or bus Corri.
+
+I'm not sure you seen LE do liable here.
+
+I told you that the this data, this is the row and this is the column.
+
+The first column here is where we have the label.
+
+Is telling you that this is number seven and what you have here is actually what's the pixels of number seven? This is number two, These are the pixels of number two, the this is number one, these are the pixels of number one.
+
+So what we did is to extract the numbers that are index and the first column which is this one, we extract it and we Since we know's level.
+
+Okay.
+
+Then the other ones starting from number one up to the last column.
+
+So is what we have at the pixel.
+
+So that's why we doing that.
+
+Okay.
+
+So now someone is asking the interview yesterday, that's what I'm supposed to do.
+
+Okay.
+
+To be doing.
+
+They provided me with a repeat scenario, lifestyle event, live events, picture and video question again, so the type of model training, we only describe an machine.
+
+I'm still not getting your question.
+
+I get it that this is you had an interview.
+
+I think you mentioned it in the group that you had your first AI interview and then it's not bad, but so you're saying that they gave you like and a task to do so which I get so and you do like some voice recording of voice, voice over to tell story to story tell that record.
+
+Okay.
+
+So it's then oh, so you basically need to train, use AI model to train on your voice, using your voice as the data set, then you train the model.
+
+Right? So, Okay.
+
+So Okay if that is the case, the model that you also use for for voice.
+
+So now first thing is that depending on what you want to actually do, training voice really does not tell the story.
+
+Probably let's say you want to let me give you a scenario your voice, you want to clone your voice.
+
+Let's say for example, you want to clone your voice so that if you provide the text, then the person that is reading it out will be speaking of something like you are the one.
+
+So let me give you that's let's give you as an example, let me give you that as an example.
+
+So you have some, could you kindly rejoin? I think you have been Okay.
+
+So let me continue.
+
+So let's say you have your trained, you have your own voice most of the time if you want to, you have for Text-to-Speech that converts your speech and your text to a token that WR is out.
+
+Okay.
+
+Just as we have in most of our web browser.
+
+So you want to use your own voice.
+
+So let's use a typical scenario like that.
+
+So there are models that you can also use for that.
+
+So a typical example of model that you can let's say sort of kind of you're not training from scratch, you're just trying to find to what's the name of this model? I don't know why I forgot the name.
+
+I remember.
+
+But let me quickly show you the machines or maybe you may want to check that out first, but I will, I think I will remember the name.
+
+So if you look at the teaching machine, you can someone as about audio.
+
+So this is audio.
+
+Okay.
+
+These are audio project where you record few seconds of sound and light through which you can train.
+
+So this is just a rough example that I can give.
+
+But there is this model.
+
+I don't know why I forgotten name.
+
+Let me try to search the name some give me some minutes.
+
+I'm trying to search the name.
+
+I forget.
+
+Yeah, Okay, yeah, that's yeah, I know.
+
+So so the first one is Okay for TTS.
+
+So this is so you can physically fine tune and your voice, so we is more or less like you're trying to find tune.
+
+So this sort of kind of you can use it to you have provide text and you provide your voice and then it tries to train on your voice to be able to as your personal voice to CORTTS is an open source CLI tool that delivers high-quality Text-to-Speech right from your terminal.
+
+Think of it as your personal voice, capable of transforming any text into natural sounding speech.
+
+So animal.
+
+So what you do as input is you type the text after you've trained it on your own voice, you type the text and then it's read out in your voice.
+
+So that's a very typical scenario.
+
+If that is what you want to do, I hope you, I hope it's answer the question.
+
+There's another one ZO there is.
+
+So I'm showing you the tree most of the time, the ge free for you to so and the behind the word here the here is the model that is running behind the word.
+
+So I hope it's going to be helpful for you.
+
+So you, you load the pre-trained model and then you load your voice data set and then you try to do some embedding and the next.
+
+So, Okay.
+
+So someone is asking What is PC Principal Component analysis? That's what it means.
+
+PC Principal Component analysis.
+
+Okay.
+
+So someone is asking is not text speech? Okay? Oh, Okay, yeah, yeah, please send me the the question or the description.
+
+Okay.
+
+I won't be surprised if this was designed by your paman.
+
+Okay, Yeah, I think we've been able to visualize what the data looks like.
+
+Okay, So that's the idea here and that's the idea behind why.
+
+I just show you, show you in the spreadsheets.
+
+Okay.
+
+Now you've been able to realize that the all input of this data is not something you can just throw out anyhow, you need to have a much more intelligent way to do that.
+
+So now let's say I load the data sets onto MAT lab.
+
+I think I will, I will make sure I do the MATLAB.
+
+So we look data into the matlab and then so we import the data and then we can go to the application.
+
+Then we do the classification classification LENA.
+
+So the classification LENA opens up and then we try to load, we try to load the data.
+
+So now one thing we need to select this is the data.
+
+So we need to select which belongs to the output, which one is the outputs.
+
+So and we know the first column is actually the outputs.
+
+So the first column is actually the output so which we select.
+
+So now we are not selecting any train test because we have another data split for the train and the testing.
+
+So so we have that and then beginning to select the model.
+
+So the model that we're going to be selecting in this case is K nearest neighborhood.
+
+Okay.
+
+K andn.
+
+So which is that we can just select the this one fin So after selecting we can delete the tree.
+
+Okay.
+
+So we have this.
+
+Now the question is we want to use how many neighborhoods they want to consider.
+
+So just as you pointed out the neighborhoods in the previous class, someone, I think someone mentioned that neighborhood should be OD.
+
+Yeah, that's the it's good thing to make the neighborhood OD.
+
+And then do you want to standardize the data? No, we are not standardizing the data.
+
+Okay.
+
+So we want to use it for weight and then we want to use there are several distance metrics.
+
+Let take its Euclidean distance.
+
+Okay.
+
+Now, now because the input is 784, we need to do transformation all the to two dimensionality reduction that when Principal Component Analysis comes place, you can click on here and then click on enable Principal Component Analysis.
+
+So there are two ways to specify your components in Principal Component Analysis, you can specify as a percentage or you can specify the value itself like the number of components you want yourself.
+
+So so in this case you tell the model you say you want a for by some it means the input.
+
+Just give me the output as 784.
+
+So if you want a specific number of feature, let's say you want 154.
+
+So what we do is we compress the 784 into 154 feature space.
+
+Okay? So yeah, so let's let's use this.
+
+Okay.
+
+So we are trying to reduce the dimension.
+
+So the next thing we need to do is then we can decide to train.
+
+Okay.
+
+So this we want the model is using 54 violation.
+
+You don't really necessitate need to that because it's going to train five times.
+
+I hope you we have the time or suess to that.
+
+So so in the meantime we can so that's how to do that in in matlab.
+
+So after it has trained and it will show you the results because this classification problem it's will be good.
+
+There is no specific number range to use.
+
+Yes, you need to be it a tuning parameter.
+
+Let me tell you it a tuning parameter like echo parameter, then you can tune.
+
+So if you think five components of five, compressing it to five is what it you try five, you try different numbers then you can arrive at what it equal.
+
+So depending on the accuracy that eventually get, so it's going to determine so which which component, number of components you should stay with.
+
+Okay.
+
+So it's parameter that you can have a parameter that you can change, you can soon.
+
+So it's not, I don't, you don't have a specific one that you you need to use specifically.
+
+So now we have the test data.
+
+Okay? So I just load the test data.
+
+Oh, Okay.
+
+So so we import the test and then we run trail testing.
+
+So and then we check the confusion matrix.
+
+So yeah, here is the confusion matrix for the testing.
+
+So I think we will be preventing others for other classes from starting their classic.
+
+We keep on extending this class beyond the so, but I just want to make sure I finished that of KNN K neighborhood with matlab.
+
+So you get digits.
+
+So we did dimensionality reduction, PC Principal Component Analysis to reduce the dimension from 780 784 to 154.
+
+Okay.
+
+So it's Okay.
+
+So and then you try to check the results.
+
+If it's Okay, then you can stick with 751 or 54, you can turn it, change the value.
+
+So depending on how Okay.
+
+So I think we will handle will be ending the class now.
+
+So yeah.
+
+See you in the next class.
+
+Hello.
+
+Bye.
+
+Seeing the class once again, I am sorry for starting a B.

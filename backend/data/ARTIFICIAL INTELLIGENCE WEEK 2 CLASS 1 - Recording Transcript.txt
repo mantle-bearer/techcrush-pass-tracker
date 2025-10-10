@@ -1,0 +1,1279 @@
+Hello, it's a wonderful, be wonderful class today.
+
+I hope you had a wonderful weekend.
+
+Yeah, I'm not seeing you, but hear you again.
+
+If you can hear me, please kindly signify with thumbs up then we can.
+
+Yeah.
+
+Anyway, also please confirm you can see my screen.
+
+I'm sharing screen.
+
+Right.
+
+Okay, Yeah, Thank you.
+
+So regarding the complaint about cling screen voice and synchronising, I fored complaint.
+
+So I hope maybe it will be some changes will be made.
+
+I hope so.
+
+Okay, Thank you.
+
+So, yeah.
+
+So without much delay, we have a lot of things to do today.
+
+So today will be covering two things, recovering some introduction to Machine Learning and also be looking into Python where we stopped in our Python and then if you remember I told you or I implore you to read something I had said I would be able to move faster.
+
+We haven't really into call call Machine Learning.
+
+We've done some motivation and we have some overview or general idea, but we need to be able to do more like we want to understand so some technicalities and some things and Machine Learning.
+
+So and I also try as much, I want to employee to try as much as possible to do your assignment yourself.
+
+This will actually help you in some other things.
+
+I will be doing so, Yeah, so much talk today we want to talk about and understanding Machine Learning.
+
+You play around Machine Learning, you feel something around machine.
+
+What, what does Machine Learning really really mean? What are those things? Understanding what what you have done, what you have been motivated about what it actually means.
+
+So let's take a look at this video, this two video, this one is about H.
+
+So this is common for that is making demonstration.
+
+Yeah.
+
+So, so basically The Bottom line, this video, I hope you saw the video.
+
+So The Bottom line in this video is that the way human lear there are various way by which youan learn.
+
+So what we are doing in this class now is also learning.
+
+You are trying to like learn your skill dev into Machine Learning.
+
+So one way is to have a teacher and then you the listener so someone listen or use the sense of organ to understand what is being taught.
+
+So that's one way we're human being learn.
+
+So this one, this video is demonstrating imitation learning.
+
+So where by you watch as the demonstrator and then you try to imitate what the demonstrator does.
+
+And this is the largest part of what we human being learn, raing from how kid speaks from babab mam, stuff like that.
+
+So and so and then also trying to play with toys.
+
+And as we've seen this video here is another typical example of how babies human being like, Yeah, so it's quite funny, but they didn't tell the baby not to trick his father.
+
+His father was one that did it first.
+
+So his father was on that did it first.
+
+So then he decided to imitate that as well.
+
+So that's the thing about human way, human being learn.
+
+So we imitate, we try things starting from everything we does almost everything we try to imitate.
+
+So from the way we work, So baby babies work, they start from calling then until they start, of course there so many of you, their colleagues or their friends or their siblings trying to work in up, right? So they also want to like, why can't I do this? So and of course you also need to have the sense organ or the mechanism that we make that to work, so that will make that to function.
+
+So let's look at another typical example here is you're trying to learn how to drive.
+
+So this is someone that is like dreaming or trying to make sense of how to drive.
+
+So you need to go to driving school maybe so driving school.
+
+So here they tell you this is the teach you, this is road junction, this is C junction, this is you, you make you turn, you make this they tell you about the traffic sign and some couple of other things exactly.
+
+So they tell you some couples of other things like that.
+
+So then maybe you take an exam then some they have driving simulator.
+
+Here you have it like a computer game.
+
+So here you have big screen, you have steering and just a simulator you are not on the real road you're trying to imitate.
+
+So it's more like a game that want to teach you how to drive.
+
+So and then after that you have to go to the real road or the simulated road in a on the field here you drive, you try to drive around so and then then you you pass and you get your driver's license.
+
+So talk of so many skills, so many skills.
+
+Even if it's warranted to just download YouTube video and started watch, start watching YouTube video, it's still learning.
+
+So human being.
+
+The meaning about our way of life is we try to learn, but the issue is that how do we really want something to to learn us.
+
+So what do you mean by something in this like we call Machine Learning? So Machine Learning is the machine that we are referring to is not so in machine is not grinding machine.
+
+We are talking about computer and what we are talking about computer, we are most likely referring to the CPU or the microprocessor and that encompasses the computational system of the machine.
+
+So now in a brief definition, Machine Learning email for sure.
+
+Just as we shorting Artificial Intelligence into AI.
+
+So Machine Learning ML, as we've also mentioned in the previous classes that Machine Learning is a subset of AI, that is UNDAM AI we have Machine Learning.
+
+Okay.
+
+So now Machine Learning is the like the process of training a piece of software.
+
+So you know CPU or computer, the feedom software.
+
+So you need to device software.
+
+So the software this time around, we call it more or less like a model.
+
+So to make useful prediction.
+
+So and then it's this prediction could be to predict two classes or more classes just as we've demonstrated in your assignments or to generate content or to generate information.
+
+Okay, maybe text or image or about from you.
+
+You are most likely familiar with GBT, Google, GNI and then publicity and some couple of the generative model like that.
+
+So basically we usually refer to as Machine Learning and software as model, model, model, model.
+
+So you train your model, you train your what you test your model.
+
+So we usually refer to Machine Learning and software as model.
+
+However, in some other domains they are also ways what you can call model.
+
+But under the hood we have some complex mathematical derivation or equation and some other stuff like that that's mix up the model.
+
+Yes.
+
+So we're trying to lend you down more.
+
+So if you are having issue with your it's display or maybe voice or something, please kindly log out and relo in or rejoin.
+
+Okay.
+
+So as you're saying, so that's Machine Learning.
+
+So there are different ways where we can do like do Machine Learning.
+
+As I've told you, there are different ways you can learn, like learn as human being.
+
+One is imitation learning.
+
+One is for you to read the document, you read the data and then you try to build intuition from just as you have in your classes where you get teacher teaches, you read Facebook and then read some lecture material and then when it comes to exam or when it comes to the live application, then you try to apply or you go for what sewing, tailoring, fashion designing or cobbler.
+
+So you learn how to make and or you may learn how to make bag or clothing.
+
+So so from there you can finish your graduates from your learning school or learning class and then you try to make your designs and different different designs and maybe you see another design online so I can make this.
+
+So that's trying to project for the to generalize from the basic knowledge or some knowledge you already learned.
+
+So yeah, so we have different type of Machine Learning, we have Supervised Learning, we have on Supervised Learning, now we have Reinforcement Learning.
+
+So you remember, I think I'm not quite sure of the person, but I think someone mentioned about psychology in educational psychology, you are reinforcement.
+
+And so the same idea that is used in educational psychology is also what is applicable in in reinforcement training.
+
+In fact, to be to put it into context.
+
+In my lab, in my Artificial Intelligence lab, robot lab, we had to invite an Educational Specialist to come and explain to us how the Educational Specialist and the psychologist, the philosophist, the teach or how they try to teach human or teach kids on how to learn team.
+
+So and then the woman was talking about positive Reinforcement Learning, negative Reinforcement Learning and then how it has implication on children and like.
+
+So the same idea is what we formulate into computer.
+
+You might be wondering that I just mentioned supervised.
+
+I jumped semi-supervised and I went on Reinforcement Learning.
+
+There is also semised learning but is not really is it in use but is not really common classification.
+
+Some call it them isise, some colleague generi, some call it different name for the basic one that is well established.
+
+Supervised on supervised and Reinforcement Learning.
+
+Okay.
+
+So let's talk about Supervised Learning.
+
+Supervised learning is a type of model, Okay? Where you make prediction, but the most important thing that you have data and you have the answer.
+
+Let me give you example.
+
+In our first class we mentioned about teachable machine or we talk about Machine Learning for kids.
+
+We have example of images like for instance, we have orange, so lemon or some other examples, so this oranges or this lemon and then juice that we use that example, we have example images.
+
+Then we have the answer, which is the answer is the label, which if this is lemon, this is juice.
+
+So if you take 500 images or 1 million images, you already told no, the location, the what that image is like and is exactly is.
+
+So you are training the model.
+
+You are telling the machine to learn to map this input to this output.
+
+If you see the image of lemon, this is lemon.
+
+If you see the images of juice, this is juice, so you try to distinguish them.
+
+So if you have so many other ones, you have to live them.
+
+So for Supervised Learning, the key concept in Supervised Learning is that the inputs and the correct outputs.
+
+Okay.
+
+So I think you guys have established fact that I love lemon, right? Yeah.
+
+Anyway, so the the key thing there is that in Supervised Learning, you have the input and the output must be available is the most.
+
+So that's Supervised Learning.
+
+So before you can do anything Supervised Learning, you need to have the impute and the answer, the target answer.
+
+So now for the here is example or like a visual representation of what it means.
+
+So let's say you have this data set, so this data, so the data must be labeled so that we will be able to distinguish the cow, the elephant and the camel.
+
+So when you want to train your AI, you give it, you, you, when your machine is learning, let me use that you give the image of cow and you tell it this is cow.
+
+So the AI or the ML Machine Learning will now try to trick his head like, Okay, this is a, this is cow, this is cow, this is cow.
+
+So he's trying to minimize the error or do let me use too much times, but what I'm trying to say is that he is trying to map his E that this is cow, this is cow, this is cow.
+
+Now you present the image of elephant.
+
+So you tell this is image of elephant, this is image of elephants, you must tell the Lebo this is elephant, you don't just give image and you don't tell the Machine Learning that this is what it is for Supervised Learning and after you have done that, after the machine has learned, so you are expecting to click the model and then ask, just give this sample image and then after that it will be able to tell you that, Okay, this is what you think it is.
+
+And this is how confident I am in this type of problem.
+
+We call it classification problem.
+
+Classification problem.
+
+Classification problem can be of two variants.
+
+It can be binary classification.
+
+You know, binary is one or zero, yes or no, high or low.
+
+So like the example of the assignment I gave you all the demonstration I did in the class, It's a binary classification.
+
+So here you have lemon and juice.
+
+And also I use the example of zero and one.
+
+So those are binary classification.
+
+Once you have just two classes, just two classes, then it means binary classification.
+
+But if you have many classes that is more than class, that is more than two, then we call it multi-class classification.
+
+So technically the way we handle them in the formulation is a bit different.
+
+So although some some of you your assignment, you did more than two classes, but I deliberately limited it to to class so as to be able to explain the concepts to you, but it's fine, it doesn't really affect your mark as long as you did the assignment, you are fine.
+
+So, Okay.
+
+So moving further, we have regression in some other classes maybe for those that in secondary school or that has passed through secondary school because we have different classes of people, I'm not saying that you have not gone through school there was.
+
+So for those I have passed through secondary school, you would have come across something regression.
+
+So maybe in economics or in some other classes like that, the idea is also quite similar, Okay.
+
+So but in this case is not just limited to linear regression where you are trying to plot graph and then try to interpolate or extrapolate or something like that is not limited to that.
+
+So, but the general idea in that regression is that you are, you are predicting numerical output, numerical output is that as contrary to classification where you are trying to get just class like yes or no or high median low, something like that, that's class for this.
+
+In the case of regression, you are trying to get some certain value, some certain number.
+
+Take for instance, you want to predict the price.
+
+Yeah.
+
+You want to predict the price of stock market.
+
+That's regression.
+
+Okay.
+
+You are, for example, you want, you want to predict the, you want to predict the, the price of exchange rates.
+
+Okay.
+
+That's numerical value.
+
+That's regression.
+
+So something that is not just a class, class based things that is not a categorical thing like is not cop is not spawn is not some kind of class or you want to predict numerical value.
+
+Okay.
+
+So that's the regression.
+
+Okay.
+
+So in the sense of Supervised Learning, now moving forward, we want to talk about on Supervised Learning, the difference between provise learning and Supervised Learning is that you don't have a answer, you do not have answer in your data, you only have the impute.
+
+So so to say, so what it means is that you want the machine to learn the pattern in in the data.
+
+So let me give you an example in this class.
+
+I really do not know you guys like personally, but if I look at your name, I can probably be able to distinguish or create some pattern.
+
+Or this person will probably be a female, this person will probably be a male.
+
+So just by looking at your name, because I, I have learned what a female name is, what a female name a male names is.
+
+Okay.
+
+So from there, I have learned some pattern.
+
+So if you enable me to be able to say, Okay, this person will probably be a male, this person will probably be a female.
+
+Let me try.
+
+Okay, you know this might be simple and I know some of these things, what we do normally, like this just inherent of human, we've learned it, we don't, we don't even take it serious.
+
+But if you want to tell an AI model, Machine Learning model to do that without explicitly saying that this is a few email, then that is the kind of unpervised learning.
+
+So like I can say a lotina is a female.
+
+Yeah.
+
+Almost everybody we know because we've already learned that unexpectedly.
+
+So let me look for a difficult one.
+
+I do, Sorry.
+
+That Gmail.
+
+Okay.
+
+So so sometimes could be quite difficult because you know, it not gender specific.
+
+So as I have said, it means that there is high probability that, Okay, maybe or that there may be that Beil: Yes.
+
+Okay.
+
+So anyway, so I, Yes, you know your name is going to be because then you can like a female name, but you know, if you something, you should probably be a female.
+
+Okay.
+
+John John John John John seems like the mail name, but any be your surname.
+
+Yeah.
+
+Enough of the guessing game, but I'm trying to tell you in a sense is that if you don't have data, if you don't have the answer or you have the impute data, you want the Machine Learning to be able to, to be able to predict the pattern, to recognize the pattern in that team.
+
+That's when you use on Supervised Learning.
+
+Let me give you another example, like in this image, not the, not the screen.
+
+I'm sharing this my image, you may want to tell an AI model to tell you the command the about five or 44 prominent colour in this image for for prominent color.
+
+So what the AI model will probably want to do is Okay.
+
+It can see some shade of yellows or orange and see maybe red, see black and maybe white.
+
+So that kind of pattern in the image is what the AI model will kind of do.
+
+So like for instance, this example is more or less like an over simplified example, over simplified example.
+
+We have this data, this cluster.
+
+In this cluster of data, we want AI model to be able to group them to the pattern that belongs to.
+
+So and the potential and internal logic of the model will be to draw some kind of a banding box or some kind of A is not really a box boy kind of contour that shows which part belongs to cluster one, cluster two, cluster three, although you can still have some that are not perfect.
+
+So that's when you try to measure the performance of your Machine Learning model.
+
+How perfect is the Machine Learning model? So yeah, and we also have dimensionality reduction.
+
+So dimensionality reduction in this case is a like you have a very typical use case scenario of dimensionality reduction is let's say you have a video and you want to compress it or you have your image, you want to compress it such that when you compress it, you and you send it to someone else.
+
+So the person should be able to reconstruct, I mean, regenerates the image into the actual image.
+
+So when it was compressed so that a very rough example of dimensionality reduction.
+
+Okay.
+
+So moving forward so as not to spent too much time on that because we're still going to come across it later on in the class.
+
+So another example is enforcement learning.
+
+So the idea in Reinforcement Learning is that just Okay.
+
+So the idea Reinforcement Learning is that you have an environment.
+
+In this case, it's also kind of a data, but the data is not the conventional data that you may want to collect, like collecting images and like it has some ways of formulating it.
+
+So what happens is that the agent, this is the ML model.
+
+Okay.
+
+We will suggest an action in the environment to the environment and the environment will return the state of that environment and the reward.
+
+So let me give you a context.
+
+I believe this video show.
+
+Okay.
+
+Yeah.
+
+So many of us might know this game, which is yeah.
+
+So this is part man when I was might know the game to make this an AI ML model, I will just be using interchangeably, but know that ML is a subset of AI.
+
+So to make this ML model to AI, to predict or to play this game, what will happen is that what would be the action, the action in this case is if you notice, let's say you want to play the game, you can press left, right up down.
+
+Okay.
+
+So once you are able to do that, that would be the action.
+
+The this yellow department can move left, come move right, come move up, come move down.
+
+So those are the action.
+
+So what this agent, this agent is expected to be doing is to suggest at certain point in time to suggest to go up, left, right or down.
+
+That's one.
+
+Now the states, you know, it needs to know the state to be able to suggest whether is left or right or up or down to go.
+
+So so to suggest that it needs to take the certain state.
+
+What you mean by state is that in a game, if I close your eyes to play this game, you will not wait.
+
+Okay, If I tell you like close your eyes and play this SPK man game, you are probably not going to win the game.
+
+So what your memory or your system is using your brain is using to control the game is by taking like a picture, using your HS to observe the the state of the game.
+
+So what I mean by state is in the human sense is more less like you cl the image I take picture of the game so as to know the location of the enemy, the enemies and to know this of the food that you are trying to eat.
+
+And of course to know the location of this ghosts food.
+
+So because if you chop the food, you know that so this thing, this enemies are now and our food so I can just drop them.
+
+Okay? And to know the state where you already eating the food.
+
+So we you don't really necessarily need to visit again.
+
+So that's what you refer to as state now in this time.
+
+In this case when it comes to reward for game, it's a bit easier to let reward, not completely easy, but game already have means for rewarding human which is this call.
+
+So which means that at every point in time you, I'm still speaking yes, yeah, basically the, I'm still speaking please if you have any issue with network, please kindly rejoin.
+
+So yes, this score keeps increasing.
+
+So once the score is increasing, it's an avenue to be able to reward your and your ML model.
+
+There's an avenue to reward your email model.
+
+Okay.
+
+So yeah, then yeah.
+
+So there are some other ways to formulate the model because sometimes some of these games require you to play it faster.
+
+So yeah, so you may need to incorporate time also as part of the word.
+
+So as for super semi-supervised learning or generative AI.
+
+So a typical example where I can give that will not complicated thing is take for instance, you want to train a model that will be able to generate faces of human.
+
+I don't know whether you guys know this website.
+
+Yeah.
+
+So can you see this screen? So here is the website that is this person does not exist.
+
+So basically each time refresh this page, it will generate new faces and new faces, new faces.
+
+So the way this kind of AI, this type of model, AI model are basically some of an example of generative model.
+
+So the way they are trained, so the way they are trained is that you give different images or face fisher images.
+
+So then eventually the model will be able to generate any image, any fial image.
+
+So that's anytime.
+
+So this species it says the person does not exist really.
+
+So yeah.
+
+Anyway, So as I was saying, the point is that the way they were trained is that they just give them faces.
+
+They just want them to be generating faces.
+
+You don't need any libel.
+
+You just supply the imputes and yeah.
+
+Okay.
+
+So moving forward.
+
+So yeah, let's now talk about what we mean by the data, the data.
+
+What you mean by the data and the leader.
+
+Yes, you might have actually done some hands-on and assignment that demonstrates what's input is and what's the outputs are.
+
+So Okay.
+
+Domain to Tom, Tom Nadu if I am correct.
+
+Tom NADO: So you are asking how long does it take to train and to successfully train a model that is subjective if you like, for instance the assignment I gave you many of us for for time sake, we only got maybe less than 200.
+
+Some even just use 32 images.
+
+So what you notice is that the more the data, the longer it takes to train and also it also subjective to it is also subject to your computational resources.
+
+I mentioned that if you use CPU, it's going to be much slower compared to using GPU.
+
+So that is subjective.
+
+So how long? It's a subjective question.
+
+So but it depends on your, how much your data is, how how much the training, the model, the how simple difficulty architecture is and also the computational resources you have.
+
+So that's just one simply now data sets, data sets, it's I told you it's can be, it's as impute and it has outputs.
+
+So some the impute we often refer to them as together we often referred them to as feature, but part of the features could be output.
+
+So we call them labels.
+
+So now take for instance, you are trying to predict the rainfall.
+
+So the leader is going to be the rainfall data.
+
+Okay, which is whether 200 mm or zero point something millimeter rain or you get perspiration like that.
+
+So and the imputes which is feature in this case may be, you know you don't want to predict the weather and the rainfall for the old Nigeria it can be rain, it can be raining in LEGOs and then not raining in somewhere like Cano or in Ghana it might be raining in Kasi.
+
+So without raining in FE A so something like that.
+
+So it's possible to so you need to so so you need to also have the location, this is latitude and longitude, the location you need to have some additional features like temperature or humidity and some other things that might probably affect what makes decision, what decision on when to eat rain or when it's not going to rain is so the idea of what feature should be is another topic on its own.
+
+So what should be the feature, what should I use as the feature? So it's also a lot of anyway so and then so something like that.
+
+And in the case of image, in the case of images to predict, let's say you want to classify like the assignments we did.
+
+So class one, class two will will be the label, then the corresponding features will be the image.
+
+So when we are talking about the image, let's take for instance in the case of assignments or the demonstration we get in the class.
+
+So we have a color image, colored image usually have three channels, red, green and blue RGB.
+
+So red, green and blue channels.
+
+So this red, green and blue channel of these images of this image is what constitute the features.
+
+Okay, so is what consider the IMP feature for model.
+
+So this, this is just one image.
+
+This is just two rows of data now having many or more of those rows maybe depending on how well you want your model to generalize.
+
+Let's say you have about 50,000 or 1 million data points that data sets.
+
+So for this one, let's say like an example, we just collected maybe twelve or 50 data one and something 120 something data point.
+
+So that's our data set.
+
+Now for some problem, for many problem you have we have public data set.
+
+So for instance this is KGU, so K is one of those place where you have data set, you have some AI model and some competition also usually take place.
+
+So you can see different data sets, different data sets across different problems.
+
+So so for instance this is HUBA data Analytics dashboard data.
+
+Okay.
+
+So this is another, this is another data sets on the trading or training electric vehicles and some other things.
+
+Question answer.
+
+So if you want to check for classification problem, data for classification problem, you can click and you see this data for classification problem.
+
+So this is a multi-class diabetes data set.
+
+This is a fitness classification data set.
+
+So and this data set are not limited to images, they can be rows and columns like what we have in EXL Yeah.
+
+Like that.
+
+So and another example of classification problem and data sets that you can see email where you want to classify, it's spam almost spam.
+
+So where about so you have different different data sets like that this what we refer to as public data sets.
+
+And if you want your domain specific data sets, take for instance, you have, you want to get data sets for agriculture.
+
+So where you want to be able to recognise insects or something, here is another one.
+
+So there, this is a natural data set where you can get data set for different insects like So anyway, what I'm trying to tell you in essence is that we have public datasets.
+
+Yeah, Dixon: Okay.
+
+Semis is generative because it could be is not entirely generative, but it could also be in loosely referred to as generative model loosely because if I said yes, it's complex, it's much more than that.
+
+Let's take CHARGB for example when Charget was trained, it has some element of it also has some element of reinforcement training.
+
+So yeah, but yeah, just for now, I will employed to know at the back of your mind that is provides learning and generative AI is also one of those things you may want to encounter as being another domain of another of the type of Machine Learning.
+
+So both classically supervised, unsupervised Reinforcement Learning.
+
+Okay.
+
+Okay, so moving forward, let's move quickly.
+
+Model, as I have said, model is like a MAT much co-representation or the software that an ML model, that's that's model.
+
+So now, I mean the software, Machine Learning software is usually what refer to as the model.
+
+So now it's a complex collection of numbers that you find the mathematical relationship from specific input feature pattern to specific output levels.
+
+So in the case of provise learning, so and in the case of learning it also try to learn the pattern, that's the most important thing.
+
+And then to for you to be able to have your Machine Learning model, we need to train them, we need to train, we need to train them.
+
+So and that's how we discover the, so that's how we discover the pattern by training.
+
+So in our example, you notice we have this information, we here we have training and then we try to say we didn't touch this will talk about this information, the epochs, the learning rate, the batch size and some additional information later in the class.
+
+But basically the training is the key important part of your model.
+
+You don't train it, you just speaking jargon.
+
+So Okay, speaking jargon.
+
+So yeah, training is a very important part of your model.
+
+So the performance of the metric of how your model will perform in the subject or it is subject to your training.
+
+So and then after you train it, you try to inference like he's like trying to use the model to now make prediction.
+
+So like when you try to preview the results with you, you try to test your results with train Machine Learning or the Machine Learning for kids.
+
+I want train, Yes.
+
+Can one train a model to be to be used with an add device that gives mosquito which can be useful for African region? Yes, it's possible.
+
+It's possible though there are some additional things you want to consider in term of hard.
+
+So for instance, maybe you may not use it to not be helpful to use just ordinary colored image.
+
+In this case you may like if there is light there is possibility of being able to see the mosquito, but you may not want to use colored image.
+
+Maybe you want to use some kind of like in camera or some other type of imputes.
+
+So but if there is light then there possibly that's do fine.
+
+I hope you watch the class anyway.
+
+Most Okay.
+
+So someone is asking if we get dirty data from once it affect the the training.
+
+One thing, most data sets in the public data sets and repository, they are clean data.
+
+Now in a station where by you encounter D data set.
+
+Yes.
+
+Part of the process you have to do in Machine Learning is pre-processing.
+
+You have to pre-process your data to be suitable for training.
+
+So you don't just pick the data set and just don't into your model.
+
+It should definitely affect the model.
+
+Okay? So although it should make the data much real, but there are some pre-processing you need to do.
+
+Take for instance, let's say you got your bank data transaction and some that think there will be some instance when the information you downloaded from your bank data transaction is just some no, like zero or some text that is not really fun to the don't just dump it, so it will affect the performance.
+
+Okay.
+
+So moving forward to summarise things around this is that we have Machine Learning and the Machine Learning could be supervised on supervised and Reinforcement Learning.
+
+And I also mentioned if possible, you see somewhere we have semi-supervised alternative.
+
+So in the case of Supervised Learning we can have regression, we can have classification, example of classification problem will be fault detection, image classification, customer retention and diagnostic.
+
+And then in the case of regression example of regression which is which gives numerical output will be forecasting, prediction, process optimisation and some new insights.
+
+And in case of Supervised Learning I mentioned that you have clustering and you also could have dimensionality reduction.
+
+So clustering design is like recommend, recommend that system like the way Amazon or some other E-commerce platform they want to be recommending products to you.
+
+So and then we have reinforcement clinic which could also be used for AI robot application and some other things like that.
+
+So in this material in this lecture slide there are some things some read more which I advise you, I strongly advise you to read about.
+
+So I will give you in most some information in this, in this read more as some things about that will be using your QU quiz.
+
+So I hope you you read.
+
+So Okay, I will look into, I will still communicate your clients to the administration regarding network and some don't worry, what is the assumption behind linear regression David and sorry, doubt who talk about that later on.
+
+So so we need to move quickly into Python.
+
+Okay.
+
+So yeah, going back to our Python class, I employ you to read about the from the beginning on to up to dictionary.
+
+So so I employ you to reach from intro to dictionary.
+
+So it means I will be very, very fast when as we talk about python.
+
+So but before we move on, I would want to check if we can take some question in the sound, some people to speak if you have some question before we move.
+
+So just, I'm just going to get three people to speak three.
+
+Okay.
+
+I think you have the floor.
+
+Please do we? Please me.
+
+You raised your hand.
+
+I told you, I already showed some reading the what is it called? So you get it in your slide.
+
+You please speak.
+
+We don't have alli.
+
+Okay.
+
+Tenol Demol Hello.
+
+Hello, Is that hell? Can you hear me? Yes, I can hear you speak.
+
+Okay.
+
+Consigning the the thing, the transfer style assignments after I own the code, I notice that when it downloads the, the final outputs when I click on it like I can't find any picture, is not bringing out any.
+
+Please check your running again.
+
+Since if you don't make any modification to the code you expected to get the and download it, I will advise you to run.
+
+Maybe your on hold click on wrong hold.
+
+So probably you skip some steps.
+
+Thank you.
+
+Thank you.
+
+So can I check? Good evening.
+
+Alright.
+
+Thank you for the lessons so far.
+
+I want to know that's that the military spills you access to it.
+
+We said we should ensure we login.
+
+Okay.
+
+Was the importance of was logging in.
+
+How would you know that? We are going for the tutorials.
+
+So if you are logging your progress, if you can see my screen, your progress will be tracked.
+
+So yeah.
+
+So your progress will be tracked.
+
+And then you at some point I will ask you to submit your progress.
+
+So by expectation.
+
+Okay, if you study up to list, you should have 16%.
+
+Okay.
+
+And then I'm telling you this many things, many Python assignments will also be from the exercises in in three school.
+
+So yeah, alright, thank you.
+
+Yeah, yeah.
+
+Okay.
+
+So who else can we take one more? Okay.
+
+I think we already 40.
+
+Sorry.
+
+We have.
+
+If you are using phone, I'm sorry you may not be able to do that.
+
+But if you are using what is it called computer, I just place your mouse on the if you sorry.
+
+The question how do you hover around a code to show to view documentation in Google app? If you are using laptop or your computer computer, maybe Chrome or you're using what is it called something that has a mouse, so you'll be able to do that.
+
+But for for phone, I sure you may not be able to do that without.
+
+Why is it Okay? Now we take one more question.
+
+Press.
+
+I think this should you have been unable to speak? Please speak and please do quick.
+
+Nathan, You initially read documents, so please also get ready.
+
+If press is not ready, then your app could go.
+
+Okay? Press is ready? Yes.
+
+Okay, sir.
+
+So started to ask that we the last assignment.
+
+I said people could could you come again? So I asked that the last assignment that didn't tell you anything about that? I didn't, I didn't say that all your assignments, you can do it on your phone.
+
+So thank you.
+
+Hello.
+
+Okay.
+
+So I guess sorry, but I can't call your name.
+
+Good evening, sir.
+
+Good evening.
+
+I'm you are talking about model.
+
+Okay.
+
+About inference, all those epochs and the things that we saw in that that face to give us that class one and class two types and B, I don't really understand down and talk about inference to power point presentation and the and the size you posted on the question and answer is he what is it for sir? Introduction to Machine Learning through to ML.
+
+Okay.
+
+So firstly regarding help of batch size learner rate, that is just for training.
+
+Okay.
+
+It's for training.
+
+You notice I put it on the side on this side which is which means related to training.
+
+Okay.
+
+When you want to train your model, these are some of the parameters you need to set.
+
+So and I mentioned that we're going to talk about that later later in the class.
+
+So I'm just showing you that this is training and then these are some of those things that you've seen in the previous classes.
+
+So also I keep on telling you will discuss it later more in detail.
+
+So influence is when you are trying to use your model to predict is like, Okay, this is your you've gone to class to learn, the teacher has taught you something.
+
+Then let's say it comes to exam time or it comes to maybe high T.
+
+You want to apply the knowledge.
+
+That's inference.
+
+So that's the similitude of that.
+
+Thank you.
+
+And for the link I posted, someone requested that I should give them additional link on now to link to read more about Machine Learning.
+
+And I explicitly mentioned that the links here, the read more links is enough for you to read more about the Machine Learning things.
+
+And I also went to drop drum and dump the link in the question answer section so you can find it in your slide when I share it with you.
+
+Sir.
+
+Okay, sir.
+
+Thank you.
+
+Sir.
+
+Okay.
+
+So that's enough question for now.
+
+Let's move to Python.
+
+So yeah, in a Python class we basically talked about, we talked about some introduction to Python and we are trying to talk about data type.
+
+So and then we are trying to talk about data type.
+
+And I remember before the time went off.
+
+So we talk about Python being an interpreter, we talk about syntax and semantics, that indentation white space is quite important in Python.
+
+We talk about comments, we talk about variable and data type, variable names and the rules that needed to write variable name.
+
+And we also talk about case sensitivity.
+
+So I would drop a full in the group now so you are expected to answer that.
+
+So I dropped the question in the group in the the what? So I expect you to answer that massively.
+
+I'm expecting everybody in this on this code to answer that.
+
+So yeah.
+
+So we talk about case sensitivity in Python.
+
+So yeah.
+
+And then we move to the data type.
+
+So now so the data type we've mentioned that we have different data type strange numeric sequence mapping and boolean and the likes.
+
+So and then we try to talk about strange.
+
+So strange is the text.
+
+So sometimes you call it strange, sometimes you call it text.
+
+So text anything you quote, hear me anything you quote like what I mean by quote, See this double quote, Anything you quote is a strange anything.
+
+So now it could be single quotes, it could be double quotes.
+
+Sometimes you can have like multi-line like multiple quotes.
+
+But the most important thing is that if you are quoting, the number you are quoting in the beginning should be the number you're using to close it.
+
+It's very important.
+
+So now I will show you this, this platform to visualize the data type.
+
+So talk about why you talk about the list.
+
+It's like you're trying to group from certain data together.
+
+So now when you are trying to, when you are trying to group some data data together, Hello, could you be patient please.
+
+We are trying to group some data together.
+
+Now this code, this platform is for you to visualise how Python code is executing.
+
+So it also in the this slide here visualize Python execution.
+
+So now let's look at list, this list one on this side, it is how it works here, click on next and it will show the the variable.
+
+This is list one.
+
+This is list two.
+
+This is print, This is touple Okay.
+
+And this is set.
+
+Now the arrow has already executed List one.
+
+So in list one we have two things.
+
+This is the only two.
+
+Now for you to be able to understand List is like you are having for every comma you are having like sale.
+
+So it's just like you have your wallet and you are keeping different object or objects something inside each of those spaces in your wallet.
+
+So now number zero.
+
+Python usually starts from zero.
+
+This number zero.
+
+It means this is the content of this number zero in the list is this is this number one.
+
+The content of this number one is the only two.
+
+Okay.
+
+So don't worry, you get it better.
+
+So I'm just trying to to let you picture how it works Now The same thing is applicable to strange when you have strange.
+
+Okay.
+
+So when you have strange, if you want to access each of these elements, each of these objects, each like we have a hello world.
+
+If you want to access each of them, they are also in in that index or list pattern.
+
+Let me, I copy the yellow word and then this is X equals to L word.
+
+So I try to visualise the X equals to L word.
+
+So this is not done with this.
+
+Yeah.
+
+Oh, so you mean you have not, you cannot see.
+
+You mean you cannot see the pool.
+
+Oh, I'm sorry.
+
+I thought you were talking about, You are talking about the slide.
+
+The pool is on the call right now.
+
+I have only gotting 84 people out of 118 that is supposed to answer the poll.
+
+Sorry.
+
+80.
+
+Yeah.
+
+84 check your check the menu your what is it on your application? Now we have 86.
+
+Okay.
+
+So moving forward here we are talking about this strange which is somewhere.
+
+So if I friend just someone if you like, drop out all the name for what I'm saying is that if I want to access just the S in some of the S, so there is where we need to access it.
+
+And usually if you want to access that, you put square bracket, this square bracket, open square bracket and you put the index of where you want to access.
+
+Let's say somewhere is the first is the first letter, SIs the first letter in somewhere I want to get the first letter.
+
+Okay.
+
+First letter should be one.
+
+First means one.
+
+So but no, in Python it starts with zero.
+
+So if I write zero and I run this code, I will see S.
+
+If I change it to one, I should see A.
+
+If I change it to two, I should see M.
+
+Okay.
+
+So now the example of L word dam mentioning like this is a word.
+
+Now if I want to access W, if I want to access W can someone tell me the index of W.
+
+Okay.
+
+Let's try.
+
+We have six and 565 mostly.
+
+So 6675.
+
+So the most prominent and response is six, let's say 567.
+
+So let's check let's try with five.
+
+So you see there is space.
+
+So now let's try six.
+
+Yeah.
+
+So W of course is not going to be SERV, but I need to next so so now basically the way you can it is this is zero, this is one, this is two, this is three, this is four, this is five, this space and this is six.
+
+Okay.
+
+So now as I mentioned that if you want to access the index, you need to access it with the starting from zero you need to.
+
+Now that's if you accounting from the left, if you want to move from the right that you want to move from the right, it is also possible to move from the right.
+
+In this case you're going to start with negative.
+
+So let's say I want to write L.
+
+So there are two ways for me to get this L.
+
+So I can decide to guess from the front or I can decide to guess from the back.
+
+I mean from the left or from the right.
+
+So let's say I want to guess from the left.
+
+If I want to get L from the left, I will say 123-01-2345.
+
+So I just simply put five and I get L.
+
+Now if I want to get from the right, I just simply need to say minus one.
+
+So the same thing.
+
+Yeah.
+
+Minus zero somewhere do you have minus zero? Sorry? D Do you have zero? Now so let's go to a message and the message.
+
+So we have minus one, minus two, minus two, minus three, minus four minus five.
+
+So the W to get the W you either enter six or you enter I want to make it to show it separately.
+
+I open this and put six.
+
+So in either way I'mo from the left or you move from the right, you can decide to get your what you call the content of the variable.
+
+So now I will now the same context.
+
+The same idea is applicable to list.
+
+Concept is applicable to list.
+
+Now in this case, let's assume this is a truth.
+
+Okay.
+
+And then I want to get banana.
+
+So I want to get banana this list.
+
+The whole of this is zero and the whole of this is one.
+
+So to get banana, I just say fruits and then index of one.
+
+So that will return banana.
+
+Okay.
+
+If I want to get cherry, I can decide to say list two, I can decide to say minus one.
+
+I want someone to tell me now I am able to get the whole of Cherry as one.
+
+What if I want to get the in Cherry, How do I get it? You want me to add LEN? Okay? Anyway, so now to make it simple, Yes, Thank you.
+
+A so now after we've gotten minus one for Cherry to get the R in Cherry, so we can put additional per bracket there and then say, Okay, this Jerry wants to get one minus one, minus two, minus three because you have to.
+
+So we can we can use either.
+
+So so let's say minus.
+
+Sorry, let's say minus two.
+
+So I should be able to get the add-in cherry.
+
+Technically what is happening is that what I'm actually doing is that I'm getting fruits for two fruits.
+
+Then I try to get number the last one.
+
+Okay.
+
+So which will return fruits.
+
+Okay.
+
+Now this same fruits then I now try to get the Okay.
+
+So this is list, this is now strange and this is the content of the strange.
+
+So yeah, thank you.
+
+So Okay, yeah, thank you.
+
+I am glad you are getting the idea.
+
+So now there is two variables the fruits and exchange their different type these fruits it is lest these fruits because we were extracted the content of the fruits that is a strange.
+
+Now the beautiful thing about notebook notebook is that you always have some information about your variables.
+
+If you click at The Bottom or you look if you are using another notebook you can find out about that, but you click at The Bottom you see variables.
+
+So these are all the variables you defined in this notebook and you have run, run.
+
+So if you look at it, the first name is a strange and it has six characters Okay, Okay.
+
+And then fruits easy is also a strange cherry Fruits on the other way is a list with three contents or three items.
+
+Now to also add some context to it we can create to was useful to this time this is cost.
+
+So yes, AD more.
+
+Okay.
+
+So yeah, so this is cars and this time around if you look at this, the list that you updated, we have to put Okay.
+
+And if you want to get one car, you can just say cars, let's say we want to get K from the back we get we can get it as minus two.
+
+So which is K Okay.
+
+Yeah, I hope we are following now moving forward.
+
+Let's move to dictionary dictionary.
+
+The difference in this case in the case of dictionary is that's Okay.
+
+You don't have dictionary difference in the case of dictionary is that you don't have just, you know, just restricted to using numbers.
+
+I just restricted to using numbers.
+
+It means this is the key and this is the value.
+
+In the case of Tupu and list you are restricted to key of 012 and likes or in the case of dictionaries you are you can use Please be patient.
+
+I will mention the difference.
+
+Can I check this is still fundamental? Please try to check the lecture material once I shared which you said, I can try to practice it.
+
+So for car you still use the same square bracket.
+
+But now you can now access the content of the car variable with the name this key.
+
+So take for instance, I want to access the year, the year of this car, this fourth car.
+
+So I can just put single or double column then here.
+
+So now I get the value of the, the year of the car.
+
+Okay.
+
+So now you can also use number, but you have to divine that explicitly that I want to use.
+
+This should be one, this should be two, this should be three.
+
+Now the difference between support and list is that you can get the context concept we call mutable and immutable.
+
+Okay.
+
+Mutable means that you can change the content.
+
+Let's for instance, I want to add some additional, I want to add additional truths to this.
+
+So I can say we already have at minus one say, yeah, this, I like Lemo LE.
+
+So if I run this so so firstly I want to explain so if I move forward, if I, I said if I want to change the content of the, I want to change the content of the list, this is Cherry Okay.
+
+So and if I want to change the content, I can just assign replace the content of the variable.
+
+So notice the content has changed.
+
+But for TU Yes, I want to change it to not let's say Okay, Books VIN.
+
+So if I try to run this, it will be error because you cannot change the content of it to Okay.
+
+Yeah.
+
+So today, I think that's on Yeah, that's where we're going to stop because we our time has been fast, I think Yeah, so please try as much as possible to check more on this, this read more, I had it here, read it so that you'd be able to.
+
+I try to do some practice exercise in the alright bye.

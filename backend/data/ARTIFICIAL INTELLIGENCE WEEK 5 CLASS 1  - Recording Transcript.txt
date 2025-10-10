@@ -1,0 +1,1371 @@
+Yeah, yeah, it's another class today.
+
+I hope you had a wonderful weekend.
+
+Yeah, so please if you can hear me kindly signify tumble kind of let me know you, you can hear me.
+
+Yeah, yeah, so thank you.
+
+So you just concluded your quiz last last week on Friday.
+
+So and then yeah, some, yeah, I, I you Okay.
+
+So without so much having so much delay, I will share my sprint please also kindly signify once you see my sprin today is going to be more or less like like a practical session to be able to put some of the some of the knowledge we have during the classification, the logistic regression or binary transion we need to practice because the to to be able to get the concept, it's often good to see some kind of like a practical approach.
+
+That's so if you can see my screen, please kindly signify with kind of thumb or some kind of a Yeah, I thank you.
+
+So without so much delay, I will, so I will proceed.
+
+So last class we talk about classification, I mean before the revision class, so we talk about classification and then we talk about the, the techniques and classification and relax.
+
+So today.
+
+Okay.
+
+So before then we will like to talk about the quiz.
+
+So basically the like two questions that were frequently missed in the quiz.
+
+So and then the first one has to do with the calculation of the training sets and the testing sets.
+
+So basically, I want to assume that many of you probably did not want to click the link.
+
+I want to assume that, but maybe maybe my assumption is kind of wrong.
+
+So yeah, anyway the question is not a very is not a very deep one.
+
+So basically the idea is that request is a brief documentation on the MNIST data sets provided in the link below determine the percentage of trainings and testing data reined in the documentation.
+
+So if you remember, even during the revision class, I actually showed you an explained things about this concept.
+
+So probably I don't know, but I want to assume you don't want to get dealing.
+
+That's why I think so because of some previous experiences.
+
+So now let's see how it's it goes.
+
+So the idea is that we want to calculate the ratio of the percentage of the training and the testing sets, as we know, we usually split data.
+
+So and then according to the documentation which I have screenshot here, he shows that if you click on the link, this is basically what I going to see some additional information.
+
+So the data set is an NIST data set you may not necessarily need to know about this are you? The data set database of handwritten digits.
+
+So and they give this additional information and the home page of The Source like the person that's authority and the data set and then some ways to call them and like to the size of the data sets if you download it.
+
+So yeah, now here is where the most information that may concern the question is PCH the splits.
+
+So here the set is split, the test set is 10,000 and the train set is 60,000.
+
+So and then you know if you want to calculate the, you want to calculate the ratio of the training to test.
+
+So it's all according to this formula.
+
+It's actually the let's say you want to calculate for the training, it will be 60,000 divided by the sum of the train and test, which is 60,000 plus 10,000.
+
+So and then you basically see 0.857.
+
+Okay.
+
+So if you approximate to O and two decimal place, you have 0.86.
+
+Okay.
+
+So likewise for the test sets, you have 10,000 divided by the sum of the train sets and the test set.
+
+So which is 0.142143.
+
+So which is basically we are today is 0.14.
+
+And then in term of percentage it will be 14%.
+
+So, yeah.
+
+So basically the ratio, the answer is as simple as 86% to 14%.
+
+I want to assume he is not because you don't know it.
+
+I want to assume many of you do not want to click the link.
+
+That's that's my assumption because you feel that if you click on the link you're probably going to get kicked out or you will lose your exam and other exams.
+
+So yeah.
+
+So the next question is also have been to relate with MNIST data set.
+
+So the question has a pre-documentation of the MNIST data set is provided in the link and then using the default training sets provided in the data set, an AI model is to be trained with stochastic descent.
+
+So using batch size equals to ten, epoch equals to one and learning rate equals to 0.01.
+
+So how many iteration will it take to complete one epoch? So I also mentioned this during revision.
+
+So I also mentioned this during revision.
+
+That's if you want to calculate the epoch and the iteration is more less like Since they say you're using gradient stochastic incent.
+
+It means that the epoch will be the training sets divided by the number of patch size.
+
+I mean the iteration will be the training sets divided by The Patch size.
+
+So 60,000 divided by ten is equals to 6000 iterations.
+
+So for one epoch you have you the data sets will be picked 6000 times and will pick the first was it call and then batch.
+
+You cannot attempt clot, attempt clot ATT until the old iteration is exhausted.
+
+And then you have your what it called the 6000 iterations.
+
+Yes, that's my assumption.
+
+Because for people to miss this two question, I require you to click on link.
+
+And I think those are the two questions that require you to click on link for almost all scholars to miss it, not everybody anyway to for them to miss it.
+
+I want to assume it because you don't want to click the link.
+
+Yeah.
+
+And I tell you anyway, I don't blame you The Risk.
+
+You evaluate The Risk like an investor tries to evaluate The Risk like thank God just said, if you see that you want to lose this dom because of one question or two questions.
+
+So you decide to anyway.
+
+So because I have to put some of this information there, but maybe next time I will try as much as possible to avoid you click on link links.
+
+So maybe yeah.
+
+So as to, I am not after you feeling honestly, I am really concerned about you being able to translate the concept.
+
+So that's just about it.
+
+So so subsequent please, I will, you will rest assure that you are not going to be clicking on link.
+
+So you are going to include anything.
+
+I will maybe include as image or something like that.
+
+Yeah, NP.
+
+I guess you Okay.
+
+So I'm, I'm tempted to ask to see you as question regarding to quiz, but we have a lot of things to do about what it called the practical session to understand some concepts so, so, but let's delay the question to maybe after this first one.
+
+So yeah, we've done classification and honestly you've also done what we want to do today.
+
+But you, we did it naively like naive in the sense like you literally do not know some technology techniques behind the whole.
+
+So you just basically did it and then yeah, so but let's backtrack on what we did in the first class where we were able to use teachable Machine Learning to train some something like that, and then we able to see how they paid the results and the like instantly.
+
+So but if we have to backtrack because even if you want to use it for your real pro, real, what problem or real world task, you have to be able to understand or apply some of the community concept that we've learned so far.
+
+For instance, here is a data set of and skin cancer binary classification.
+
+It was gotten from so so here is akin cancer binary classification data set.
+
+So as it's the name implies is binary classification, that is you just have two classes.
+
+So it's often good if you have a data set to go through some of the information about the data set.
+
+So use Computer Vision to detect skin cancer in images.
+
+So that's basically the idea.
+
+Okay.
+
+So someone is asking question that I should talk about the question as that requires you tick to answer.
+
+I click to answers or multiple answers.
+
+I thought I already mentioned something about that.
+
+That question ask you to that requires you to pick two answers.
+
+Once you pick one, you are good.
+
+So you don't need to pick the two answers.
+
+Yes, there are two answers that are correct in the question.
+
+Okay.
+
+But if you pick one, just one, it's Okay.
+
+You got the mark.
+
+So yeah, so either the either the first one or the second one, you just pick one.
+
+Once you pick one, then you get the mark.
+
+So yeah, it's more like a 5050 question.
+
+I mean, so at least if you don't know anything, the question you get to Max.
+
+So and then he said, I'm struggling with calculation.
+
+Honestly, I'm trying as much as possible to balance between three things, those that are comfortable with calculations and those that are not comfortable with calculations.
+
+And I have tried as much as possible to just limit it to simple mathematics.
+
+And in the situation where we have to use a mathematics equation or mathematics something, I rather try as much as possible to get tools that will make it visual like that will make you the concept that you having to rack your brain sometimes you don't even need to use those mathematics because there are some libraries that have made it easy or there are some platform that you only need to understand what you need to tune to get your results.
+
+You don't really need to understand the mathematics depending on the level of contribution or the level at which you want to go into Machine Learning.
+
+So and at the beginning of this class, I told you that you don't need to, I won't go into the deep mathematics.
+
+I mean, despite the fact that I also got exposed to those mathematics, and I mean Tacus matrices and REL, I know that some new some of you are not really a fun of that concept.
+
+So rather than losing everybody, I rather say less limited to those ones and those are interested, we just give some taste of what it involved.
+
+Like the other time we are trying to calculate the gradient using derivatives, I didn't do go through the process of differentiation.
+
+I only just use word from ALA to show you that this is what we are talking about.
+
+The second thing is about those that are having to do programming.
+
+I quite understood that some of you are very good in programming or you have some programming background.
+
+Does I usually give assignment that has to do with those that have zero knowledge about programming that maybe you just need to run the code and those that have some knowledge about programming.
+
+So if you have some knowledge about programming, you're doing assignment of tools that have Z knowledgeable programming, you are not helping me, You are not helping yourself.
+
+I deliberately put some assignment there to the find that you that you know that you are confident about programming, try to rack, rack your brain around it and then they're not difficult honestly.
+
+So yeah.
+
+And the other one is some people that just want to want to get the feelings of the application.
+
+So yeah, yes, yes, EP IP address classification DES for calculation around it.
+
+So yes, Okay, so let's proceed.
+
+So here's the data sets, screen cancel and binary classification data sets.
+
+So the idea is that we have the data sets, these if you find this content useful piece, give some boot of things out there about.
+
+So this ones are talking about some application and then we you often see the information about the data set.
+
+This data set is a collection of GPEG files which means they are images.
+
+JPEG.
+
+Okay.
+
+So they are not PNG.
+
+The PNG are also images so containing either cancer cancerous or non-cancerous KIN images.
+
+So which means that the image they took image of skin of someone that has cancer and those are enough cancer.
+
+So this data set is perfect for binary classification.
+
+Each class, either cancerous or non-cancerous, is split into training and testing, which means that this data set has already been split, so the user can either use this default split or he or she can use their own split tests and ratio as the team feet.
+
+So which means that you can either use the split that has been provided provided or you decide to split yourself.
+
+Okay.
+
+So some of those are the information about the data and honestly this information is option for you to do anything you want to do.
+
+Now the next thing is that this is the E, you are familiar with it or not.
+
+This contain and the cancer image and is contained 42 images for training, 42 images for testing.
+
+So yup.
+
+So here also you have non cancer image also.
+
+OK.
+
+So yeah he Okay, yeah, thank you.
+
+Sorry.
+
+Eli Elijah.
+
+So this is the data set.
+
+Okay.
+
+We want to classify, want to do BIAC for skin cancer and skin cancer for most data sets you just need to download.
+
+Okay.
+
+So here this is cable, different platform has different means of downloading datasets.
+
+Some if you are good in programming, they just provide you with programmatic way of downloading.
+
+Some you just click on this download poin and then you have the Zig file the data.
+
+So now so that's how it is.
+
+And I already downloaded the image data.
+
+So I already download the data.
+
+Sure.
+
+So now after understanding some brief information about at least sufficient information about the data set, so we can proceed to use the data set for whatever we want to use it for.
+
+So we've been able to establish that this data set has already been split.
+
+So the next thing, let's this time around, we want to use the training machine.
+
+You can also use the Machine Learning for kids to also achieve this.
+
+I think I'm going to explain that soon.
+
+Okay, Yes, I'm going to explain that soon.
+
+So this data, we have already downloaded the data and then I have it as a.
+
+So this is a screen cancer data and I extracted data already and then you open data, consider that you have non-cancer and then the cancer.
+
+So inside the image you have the JPEG as the instruction has said, And if you look at the number you have here you have for two items which make the training set for the cancer data is 42.
+
+This is also the testing well is unusual to have one to one ratio of at least 50: 50 ratio of the training and test.
+
+This is left with you to either decide to use it or not.
+
+And this is the tests data.
+
+So the non-cancer data, this is a training which is 42.
+
+And then here we have the test as well.
+
+Well the test is a 162.
+
+So well you don't necessarily need to use a routine anyway, but I want to let you know that first thing you need to notice is that this is training.
+
+You have 42 for non-cancer and if you look at the cancer, the trainee also has 42.
+
+So this 42 signifies that you have a balanced class that is there's no class imbalance.
+
+So that's number one thing you need to observe in that.
+
+And also one thing you know in real life data is that you whom get the negative more negative classes.
+
+Classes are quite much easier to get than the positive classes.
+
+So like take for instance, a non-cancer data, someone that has no cancer is quite much easier to get like as as little as an pimples, Okay? The pimple that you have on your face or or some pros that you have on your skin is quite easy down is quite common to easily get that one.
+
+So you can easily take those images and say that in negative data.
+
+So as compared to someone that has cancer, that's why the fact that the cancer cancer is becoming much more rampant these days, it's also not as much as people that do not have cancer.
+
+So that's why in the real life when you're collecting your data, you often encounter situation whereby the positive class is less and the negative class is much.
+
+So yeah, that's why the testing classes as much as this and if you combined it so together, Yeah, this must anyway, we've seen the data, we've read the documentation about thea set and then we've been able to establish what we have in those inow fold that I would down loaded.
+
+So what we can do is that we can say the cancer class, Okay? And then the non-cancer class, Okay.
+
+So Since we already have our images in the folder so we can click on upload images and then for the cancer class, the training set, we get all and then we can drag everything.
+
+Okay.
+
+So for those that do not know, I just select all.
+
+Okay.
+
+So you can do select all and then dragged the images into returned.
+
+Yep.
+
+I'm sorry.
+
+Maybe if you're feeling irritated with this, I just I would have loved to choose another class, quite much easier for me to quickly get so.
+
+So for the non-CANA class, so we go to the data, we select all.
+
+Okay, then we track everything here.
+
+So OK, we've got in our data.
+
+The next thing is for us to be able to train.
+
+Now at this point we need to expand this information.
+
+So just as we've known, the epoch here is set to 50.
+
+Okay.
+
+We can still leave it as 50 for now.
+
+And then if we do not get a good result, then we progress, we try to turn some of the parameter.
+
+So the batch size.
+
+Also, if you look at the number of images we have, the training set and the test set, you notice we just have we are 42.
+
+So having batch size of 16 is not a problem.
+
+Okay? So however, you decide to change the bar size to something like 120th is where there is problem 120th is too much.
+
+Yes, they may handle it very well in the back end of this application, but it's not useful.
+
+You have a 42 data point.
+
+You are choosing batch size of 140 120, and  that's something you do.
+
+I also did it when I you did not know anything about Machine Learning.
+
+I was trying to.
+
+If your result is not good, you try to change different things, try different things, try it left and right.
+
+So and which is a common thing that you, if you don't have some background knowledge about it, you just try to Okay, can I just change this one? Let me try this one.
+
+Let me try this one try.
+
+So that's what usually happen.
+
+But I tell you some information and not you don't really need to change them depending on the type of data you have.
+
+Someone I don't know.
+
+Can you guys hear me? Could you please signify you can hear me? I notice someone dropped mess that she can, she cannot hear me.
+
+So Okay.
+
+For the person that couldn't hear me, I think you should probably consider rejoining.
+
+Yeah, Okay.
+
+Thank you.
+
+So yeah, for now let's just stick with the default and then see our results and then try to see how it's doing.
+
+So I just click on the training and then is the training is done? Okay? So I would like to switch to five because I'm not using, I don't, I'm not using our th so but before we try to test because this is just trying to evaluate, test the model we've learnt about something.
+
+So let's check clicking on the root So under the root we can check for something else.
+
+So the number one thing you notice is the let's talk about the confusion metrics.
+
+Okay, Yeah, the confusion matrix.
+
+So as you can see, here is the confusion matrix which is what we've explained in this class, the confusion matrix as you know, the predicted and the the Okay, in this case they flipped it.
+
+This is the predicted and this is the actual.
+
+So yeah, let's you go back to our previous class.
+
+We explain the idea behind the confusion metrics here.
+
+Okay.
+
+So here we have the actual and the predicted.
+
+So yeah, Okay.
+
+So the same idea is what we have, The same idea is the results we are seeing here.
+
+So Okay.
+
+So which means that although we you might want to ask the question like was the model doing what is it called the evaluation or testing on the training set? So it turns out that the way this is structured out of this 42 data point, it also still select some samples for testing.
+
+Okay.
+
+So we don't, we don't have so much control over more than what we have here.
+
+So yes, yes, use it to understand the concepts rather Than To to talk about the those parts.
+
+So here we have the true positive and then true negative.
+
+So, Okay.
+
+So and then we have yeah.
+
+So and then we have the the confusion matrix like this and from here we can see that the accuracy was calculated.
+
+So basically the model, the test sample were seven samples were used to for testing.
+
+So and then the accuracy on each class, this actually they did accuracy on each class, but you can draw on all the classes.
+
+So we did accuracy on each class.
+
+So for this one, so this is more or less like so this is more or less like the computed the accuracy of AI of individual individual class.
+
+So yeah, so for the calculation of accuracy for individual individual class is also just as simple as you have this and the non-cancer class which is six out of seven samples.
+
+So just say six divided by seven.
+
+So that's zero point it's it's six so as 86%.
+
+So and for this one we have seven and seven.
+
+So which is 1%.
+
+Okay.
+
+So now moving forward, do we have also moving forward, this is also plotting the accuracy by epoch.
+
+That is for we have 50 epochs.
+
+So if you look at the X-axis here, we have there 1020D up to 50.
+
+So for each epoch the accuracy is being plotted.
+
+So if you look at the accuracy here, you notice it actually converges up here.
+
+Okay.
+
+Which shows that it increases from this maybe 0.6% or 0.68, sorry, 0.68 up to 11.
+
+And if you look at the test set, the test set, the test set did not achieve 100% accuracy, but at least 92%.
+
+Okay.
+
+So now for the loss, so you you can see that the loss actually also converges.
+
+But this model you look at it is change some element of over fitting.
+
+I don't know whether you can get the idea.
+
+So let me tell you how we know like based on the explanation we give in the class, we talk about over fitting, did we should we talked about over fitting.
+
+Yeah.
+
+Here.
+
+So if you look at it, this is training, the training is going down.
+
+Okay.
+
+Now the loss is is also supposed to be going down, but at some points the loss started going up.
+
+So at this point this is an element of over fitting which is what the literature you are saying here, it's already going down, but now it's started going up.
+
+So which means that the model is showing some element of over fitting.
+
+So and as part of the techniques that we learnt in trying to do some work in trying to avoid overfitting, one of those way is an E early stopping.
+
+So this actually coincide with just gets into 50%.
+
+We didn't specify any early stopping anyway, but it just coincide to find that it achieve 50, that is if you allowed to train more, let's see if you allow to train more, you notice the model will probably be going up.
+
+So you see.
+
+So that's what you see.
+
+So it means the model literally overfits literally so, so there's some of those things you're going to encounter in your life.
+
+So and then as we said, one of those ways we can avoid overfitting which we don't have access to in this interface is E-stopping.
+
+Okay? So yeah, and another way we can also affect avoid over-fitting is a regularization to which also we do not have access to that in this UI.
+
+So if you want to have so much flexibility, sometimes some of this platform are not best.
+
+So you just you are just limited to few things.
+
+So yeah, one of those things we can also adjust is the learning rate.
+
+Okay.
+
+So to see if we tune the learning rate, probably we're going to have some a better model that does not overfit.
+
+So now I had just said the learning rate and then if you could, you see the significant difference in the model instead of going over fitting.
+
+So now the model, both the loss and the training loss and the test loss of the validation side of the TO, So they are now converging.
+
+So even if I increase this training epoch to one range, you notice the model significantly tends to converge.
+
+So the best thing I can do is if I don't want it to diverge again, I can just try to limit the linear epoch to something that will keep the model together.
+
+Okay, do you? I hope you get the concept so far.
+
+Tell you please.
+
+Which part do you want me to explain? You mean the fitting? Okay.
+
+So there's that another thing with most of this platform.
+
+So another thing with this, most of this platform is that you do not have like something some kind of reproducibility.
+
+Reproducibility in the sense like if I train and I get this result at this period you, I try to run it again, I'm likely not going to get the same results.
+
+Okay.
+
+So you don't have that flexibility to be able to set that.
+
+I want to be able to reproduce the results.
+
+So if you go to your boss, I say I get a good result, got a good result, and then you are trying now to run, run it and then try to get the result again.
+
+Sadly you may not be able to get it again.
+
+So we need to usually we want to set something we call reproducibility, like some randomness that is in the in the selection of data or splitting of data.
+
+So you try to use and we use reproducibility that is is just ability to be able to reproduce it.
+
+So that's what it means.
+
+So and where does that come in when you supply this data and then you try to split? We often want to shuffle the data like your shuffling card.
+
+Okay, so this has, that's the way computer does the shop, like just as if you shop a card when you are playing card game, you don't often get the same SHO.
+
+And each time you SHO with you pull out, you drag clout, you drag, you close your drag.
+
+Do you want to tell me that after doing that pull out and dragging, do you want to tell me that you're going to get the same arrangement if you do it again? So with computer, if you set some sentences of reproducibility, some parameters for reproducibility, you will be able to reproduce your results.
+
+Okay? So and so let's just test the results we have so that we do justice to whatever we are doing.
+
+So we've tested, we've trained, and then we can just evaluate the model.
+
+So as you know, every you can as you can see this is non-cancer class.
+
+So if I pull this image here, I'm expecting to classify it as a non-cancer class.
+
+So as I'm expecting it to classify it as a non-clan cancer class.
+
+So here.
+
+Okay, so I don't know what's wrong using CONVEN.
+
+Okay, so it's classified as a non-cancer class.
+
+Okay.
+
+So that's so we also try to check the cancer class and then we pick and we drag it here to check for so successfully classified F-A class.
+
+So yeah, thank you.
+
+Yeah, correcting class over fitting with stopping and regularisation.
+
+There are also a lot techniques to to avoid over fitting.
+
+So but for now you've only learned and stop in a regularisation.
+
+Okay.
+
+So said over fitting the yes, over fitting as I said over fitting.
+
+Let's say you have your training loss.
+
+The training LO is supposed to be going down and this is the violation loss sometimes the call it test test loss as well.
+
+So just the grammar.
+
+So here is going down, but at some point it start going up.
+
+So once you notice that the model the training is going is about to start going up, that some sign that is over fitting.
+
+What it means really, really is that you are giving the training data, you are giving the model to learn on it.
+
+So he's doing well.
+
+Look, this training means that he's doing well on the training data.
+
+But when you try to introduce some validation data like during the training, you train this model, the model after one epoch or some epochs depending on the setting, you pick some sample that you've reserved and you test on it.
+
+Okay? Yeah, tell me what's the answer to this one? So this is what result to this validation Like let's say a student or your child is you are telling you are you've helped the child to you started with the child to learn 123.
+
+So you and the child you arether 112233.
+
+So when you suddenly you got to ten and then you stopped.
+
+So now your expectation is that the child should continue 1112, 1314.
+
+But if the child got to ten and then know you went back 2789.
+
+So that a sense that it shows that the child has actually not mastered the numbering of the counting of number, the child is basically as just basically fits to the father's imitation.
+
+Okay.
+
+So that's a kind of similitude of what it means.
+
+Okay.
+
+I mean, not Okay.
+
+So, Okay.
+
+So I'm trying to read the question answer section.
+
+And so the question, there are some questions here.
+
+So the first one of it is that, sir, is there a probability that after training and testing a particular model with different samples, different samples, and when you try using the model in real life scenario with a similar but not exactly not exact samples provided, is it possible that it wouldn't detect the sample is possible.
+
+There are several scenarios that can cause that like say for instance in the case of image, image is a very good copit.
+
+So this is image.
+
+So we are training on these samples.
+
+You notice those data set that we already downloaded it.
+
+Now let's say someone has some like pimp in on the face and now took the camera by your your phone, you took the image and you snapped it and then you now expect it to give you whether it's a non-cancer or something like that.
+
+The problem there is that there are so many factors that affect that this picture, they were taken in a very controlled environment.
+
+But you might be surprised that the flashlight of your camera could actually cause some different in like maybe glare or some specular reflection or some other things.
+
+So which makes the model not be able to behave exactly as it's supposed to so in real life.
+
+So if I don't know whether I answers your question, so there are so many things that can happen to real live data that will no help way to be able to and the model to be able to do well on it.
+
+So what you need to try as much as possible to do is that you try to control if the models are already been trained, you try to control some factor, external factor that will affect your model from being able to and that will affect the your model from being able to do the accurate prediction like especially if you're using a proper lighting and you try to avoid scenario whereby you just get an unnecessary darkness or some exposure, too much exposure, light exposure, it's also affected.
+
+So but if you have not trained your data and you are just collecting your data set, the best thing is for you to ensure your data set capture a lot of scenarios.
+
+So like if you look at this data now is not the best, but it actually capture some different scenario.
+
+This is when the model and the face is kind of light or the my elegant but is kind of light, dark, darker and something like that.
+
+So it does not capture everything, but at least to some extent it's it's balance is something so fitting can be reduced by reduced by turning the rate.
+
+So you have got idea fiting can be reduced by turning the rate.
+
+Not really so, but we can.
+
+Okay.
+
+So if you remember, we talk about, we talk about converging, I want to show you something about convergence.
+
+Okay, so we talk about converging.
+
+So for a model to converge, you know, we use linear rate to control how the model converges.
+
+Okay.
+
+So here now instead of the model to, this is just like a simple, simple overview of how a model converge.
+
+But really in real life is not like this very few model behaves like this.
+
+Okay.
+
+The real life you can see, you can see it like a mountain where you have some part of the mountain will go up, some will come down, some will go up, some will come down.
+
+So now those parts, we call it there is a term we call it, we call it global optima and local optima.
+
+Okay.
+
+Global minima or local minima.
+
+So let me show you.
+
+Yeah.
+
+So here is how it looks in real life for most problem.
+
+So most problem you have some kind of irregularities on how the problem is, you are saying it like I see is just a problem that you just go down and you get to The Bottom not really like that.
+
+Very few model, very few problems behave like that.
+
+So here if you are training your training your model and your model got stuck here, the model will be telling that is is doing good for weas.
+
+It only got stuck in a very just some set of results.
+
+So now by turning those learning rates, sometimes it helps you to also bring out the model you will from that and then and to be able to avoid those learning and those lookout.
+
+So, Okay.
+
+So, yep.
+
+So what what we do, you can also use linear rate to control something, but you are not really avoiding over-fitting some of those things.
+
+You can also do increase your data set.
+
+Okay.
+
+So and for this, I know you might want to practice or you might want to try out this.
+
+So is that an assignment? But you feel like so for those I use computer, you will be able to use the trainable Machine Learning, but for those I want to try out its phone, you may not be able to use machine, but the thing is that you cannot see all these metrics, this this confusion, metrics accuracy and likes with with which Machine Learning for kids.
+
+So I just show you, demonstrate you how to do that.
+
+So so basically your search project is part of those things, you know, and then we want to recognize the image and then we want to use the web browser, create data set and so we tried to train and then we had labour, we don't want cancer class and then the non-cancer class.
+
+Okay.
+
+So and then we try to upload the images, the cans we downloaded so likewise for the so and then and then try to yeah, so try to training model.
+
+So yeah, this will train the model.
+
+You may want to use your phone or where you got to do the evaluation, but you don't have access to some of those metrics that we saw in the in the trainable machine, in it so sadly so anyway, so that's just to explain our classic binary classification, another type of class, another classification which is the same binary classification, but I would like to also explain to you will be more programmatic.
+
+So I want to try as much as possible to balance between those that have some experience with programming and those that do not have experience with programming.
+
+So Okay.
+
+So now for those that do not have experience, I have some experience with programming.
+
+This is a kind of for you and I would like also everyone to follow because some programming concept that you LENs we also come handy.
+
+So this, so usually we explore the data sets.
+
+Okay.
+
+So this is the data set is also from cable.
+
+So is rice data sets.
+
+So there are maybe apparently there are 22 classes of rice in in this.
+
+So again say localise or different or that type of rice, but maybe techn Yes.
+
+Okay.
+
+So there's a question that says that we only use the test data in checking the performance of our, the performance of our model.
+
+Right? Okay, let's get it.
+
+Yes.
+
+We use the test model to check the performance of our data model.
+
+But there are two ways to use it.
+
+Let's say you have train test validation.
+
+Okay.
+
+Training training data is X exclusively used or explicitly used to train the model like the model.
+
+Try to.
+
+The model will literally see the training data, that is, you supply the training data to it and the model will try to guess if it's wrong then it's easy to adjust the weight and bias of the model.
+
+Now both for the validation, the validation for the validation test during that training.
+
+During that training period, you also give validation data, but the validation data is not used, is not used to adjust the weight and bias of the model is just trying to tell the model how well is doing during training.
+
+Now test data is now used to evaluate the data, train the model after you've done the training.
+
+Thus if you have trained validation, but if you only have trained tests, it means you are training the model, but you want to test it after the model has already been trained.
+
+You are not doing some validation.
+
+Why the model is being trained.
+
+So I hope you get the concept.
+
+Okay? So we have a lot to cover.
+
+So and it won't be fair to just reserve 30 min for our programming.
+
+How many minutes? I don't know.
+
+Okay.
+
+So now here as we've explored data sets for skin cancer here, the data set for Commo and Osmani Osmic.
+
+So now this datasets, apparently it was published in any publication or in a high publication.
+
+So and then it was made available from those publication.
+
+So which also brings me to this important concept that if you want to be applying AI to your work one way or the other, you'll be encountering some some document just like in cryptocurrency or in in sign what it called blockchain, you read white paper.
+
+Okay.
+
+So the same idea in in AI, you either read white paper or you read some research paper or some things like that.
+
+So this that I want to explain is also useful for you.
+
+And also it's useful for maybe your students, maybe master student or undergraduate student that you are planning to do your project in the AI related team.
+
+So so I really want to understand what it means by tag.
+
+Is it possible to incorporate tags during training? What do you mean by tag? Okay.
+
+So you often encounter documents that explain something like for instance, let me give a example, a few weeks ago or last two months, we are trying to train motor and a robots motor that's control that looks at the robots and then try to and detects the position of the robots.
+
+Okay.
+
+So the thing is that the problem is not unique, Okay? But a robot is a custom robot like custom made robots.
+
+So we need to be able to try to use do that for the robot.
+
+So we cannot just download the resources that are available online, but we need to borrow concepts on how the it has been done in the research or in the in some publicly available way.
+
+So so that's why we need to sometimes that's why we need to study some research people or for instance, you don't have your problem is kind of not so unique to the point that the data, your data is not all is not really available.
+
+You don't have that data, but you want to be able to use publicly available data to be able to do that, do er, your task or what you want to do.
+
+So you often encounter with such people or white paper of publications that describe that.
+
+So in the case of rice data sets that I'm talking about, it's actually has been published in some outlets like that.
+
+So it has been used in Train 21, change 212-022-2019 and maybe 2019.
+
+So but anyway the data are the paper or the publication that proposes it, open it now and then we like to go through it together.
+
+So now the rice classification of rice varieties using Artificial Intelligence method just don't worry about those jargons or something like that.
+
+But the most important thing that you need to know is that let's say you are as a person that want to use the dataset or as a person that want to use the same idea.
+
+Let's say this is for rice.
+
+Maybe you want to use it for beans or maybe streets beans and then other type of beans or maybe you want to use it for some other type of things.
+
+Okay.
+
+So you need to get some inspiration or some idea on how to do it.
+
+So I will not go through, I have gone through to before, I just want to scheme on how to understand something.
+
+So for instance, they tell you that the techniques they use for the right classification is that they got image.
+
+We process the image and they extracted some morphological feature.
+
+Okay.
+
+And they use different algorithm for the classification.
+
+They use LR, use MLP, the user GM DD DT RF MBK NN So just don't mind the names and they would have divine it in the paper or in the article.
+
+Okay, so we will have divided it in the article.
+
+But because I am familiar with the terms LR, we usually use it maybe for logistic regression is not learning it and logistic regression because most likely this is classification MLP, multilayer perceptron, SVM, Support Vector Machine, DC, Decision Tree, RF, random forest, MV, navier base, KNN, K nearest neighborhood.
+
+So those are some of those terms, but we are not really specific in particular about this.
+
+We just want to understand some concept around what is being presented.
+
+So now they said the image image acquisition and basically they took image of they put rice inside some container or thing and then they put camera above it and look at it, they they say they are using light in dedicated lighting to and it's inside the box such that they are open to control the type of light, the nature of light that is being focused on it.
+
+So which means that if you bring rice, that is of course is not image based classification, but if you bring rice, that is maybe using normal ambient light, probably the model might have problem, but then we are not doing that anyway.
+
+So they just put it there and then the resulting image that they got this this is image of the Osmani Osmic rice and the Cameo rice.
+
+So these are the image and what they did didn't use the image exactly.
+
+They tried to extract some features, extracts of feature in the image processing.
+
+So and then they now extract the area, the area of the of each rice, each rice, just one rice extracted the area, they extracted the perimeter, the extracted the major axis and major axis length, minor AIS length, eccentricity, convex area and extent.
+
+Okay.
+
+So someone is asking question.
+
+So we have, we have been using pictures to train our model.
+
+Is there a way we can use sound detector to detect voice or possibly an array of weather changes for you example, for example, being able to detect if it's going to rain is to be raining, shiny, sunshine or snowy.
+
+Just an example.
+
+Okay.
+
+So OG yes, I've been using image because images a bit easy for you to visualize what you are, the results you are getting.
+
+So that's why.
+
+But this example is not particular about image is more is going to be table Okay.
+
+So but if you want to use sound, sound data, so I would digress a little if you want to use sound data is also and is also quite similar about this if it's tricky.
+
+So first thing you let's assume you don't have any programming experience.
+
+Okay.
+
+So one of those things you can do use also is that this platform, let's assume we don't have program experience.
+
+So one of those things you can use is this platform where you have audio projects and then you can use it for audio classification.
+
+So now you do your, you bring your sound or voice recording.
+
+Okay.
+
+T and then you er, you train your model.
+
+However, er here you notice they already have one class which is the background noise.
+
+Normally if you are recording, you always often have background noise.
+
+So you first for this one, they tell you that you have to first record the background noise.
+
+Okay.
+
+So and then here the actual class, the other class you want to classify, and then you can add more classes.
+
+Technically if you, if you want to do via sound classification, you often need to limit the seconds, the number of seconds that you design is being recorded for.
+
+Let's say you want to record the sound.
+
+Let's say this class is sound of CL cat me part mewing.
+
+So let's say you agree on one second.
+
+So one second is what you're going to record for different different samples like that.
+
+So then after that then you can train.
+
+So that's if you don't have any programming knowledge, Okay.
+
+So you can use platforms like this to do that.
+
+However, if you have programming knowledge, it's a bit much different to handle.
+
+There was a time I had got a project to train a PAED sand, a different BG sand.
+
+So now we can handle it just as you have the sound sound, you know, we have some kind of spectrum, Okay? Where you have some how the amplitude and the was it frequency is being generated.
+
+Now we usually do processing.
+
+So the way I handled the task then was that because the sound is an it has some spectrum.
+
+We can do some spectra analysis on the sound to convert it to image.
+
+I wish I could get something that will record my sound.
+
+I'll show you how.
+
+I'm not sure this will do it.
+
+I see.
+
+Yeah, Yeah, Yeah, this is what I'm talking about.
+
+So look at this, look at this, This is the spectrum that I'm talking about.
+
+So now if you drag here, you agree on certain sample that you want to collect.
+
+Now this spectrum when there is sound, you notice it has different spectrum.
+
+Okay, so this we can convert it to image and still treat it like an image problem.
+
+Now that way we can treat it, we can also treat it like a time series data but because it's time bound.
+
+So but anyway, I hope you got the concept if you have to use, you have to do the program itself.
+
+Yeah, Thank you, Thank God, thank God.
+
+Yeah, Yeah, Okay, so, Okay.
+
+So I need to also because the programming part may take long.
+
+So Okay.
+
+Thank you.
+
+Okay.
+
+So this data were extracted.
+
+Okay.
+
+What they mean by the area is that if you look at the rice, a single rice, the area where it's occupied is what they are referring to this single rice, this white area where this single R occupied as what they referred to as area and the perimeter is the distance around that rise.
+
+Okay.
+
+So and then the eccentricity you look at, Usually we use eccentricity for OV shape or ellipse shape.
+
+So the eccentricity, the ratio of the long side and the short side, and also the measure, the the major axis and the minor axis.
+
+So that's how they achieve that.
+
+Well don't usually we don't use ruler to measure it to be tedious.
+
+So what they did was to use Computer Vision to process it.
+
+And this we presently did is also quite simple to achieve anyway.
+
+So without bothering with so much information about this, those are the information they extracted from the data.
+
+Yeah.
+
+Now I'll go to go back.
+
+So anyway after that they, they use different techniques and then they also, as you've seen, they also reporting the confusion matrix through positive, negative first positive first negative.
+
+Okay.
+
+So if you master student or undergraduate student, I want to do some research or the techniques that we have explained this class accuracy, F one precision, negative rates and then the likes is also applicable to some of those that presents.
+
+Okay.
+
+So this is just trying to understand the data sets.
+
+So for the agression, so you need to be able to understand the data sets.
+
+And yes, of yes, someone is asking if we are going to have programming session after today's class, we going to talk about Computer Vision in this class, not complete Computer Vision as Computer Vision but in relation to Machine Learning.
+
+Yeah, Okay.
+
+So here is the after going through the data sets which is this data set.
+
+The data set contains rice and rice, the two classes of rice and it is a spreadsheet.
+
+And so we can click on the data and then I will be able to see the rows and columns of the, the rows and columns of the data.
+
+So here is the data that we're talking about.
+
+Okay, now here is the code for the word for the for implementing binary classification on two classes of rice that was mentioned.
+
+Okay.
+
+So now first thing we need to do some installation, which we probably have known by now that in what it call if you have to do some coding, you need to do some installation.
+
+We learned about the factoria, which is a shell command and to do some session peep in store is what is use.
+
+And then the libraries that were installed, Keras, MUD, Blood lip, nonpy, PANDAS and tens of flow, KERAS and tens of FL, they work together.
+
+They were basically for the Machine Learning training of the model.
+
+So MAT, PL is for plotting non-PIE, and then non-PIE is for handling the non-print, the mathematics, the calculation of some things like that.
+
+And then Pandas is for loading the data from the Excel or the spreadsheet.
+
+Okay.
+
+So then after the installation, after doing the installation, Okay, we import, so we import KERAS, import this library, ML, this library is provided by Google.
+
+Okay.
+
+So tens oflow they were both Google and M.
+
+Okay.
+
+So yeah, so this is yeah.
+
+So these are the imports.
+
+I believe you are familiar with these imports, imports, imports, imports, they are something that you are familiar with, which we have explained the class.
+
+So now as I mentioned, each E lies, they have their specific way of handling things.
+
+Okay? So which you need to check the documentation to get much more information about some specific thing that you want to achieve.
+
+So for instance, then first thing, I need to let you know Since we import pandas as PD.
+
+Okay, it means that PD inside PD, we still have some things some it could be method, it could be, it could be property.
+
+Okay.
+
+So here is a method, here is an sorry, here is a property options.
+
+So here is another property display and here is another property marked row which is equals to ten.
+
+So we are trying to assign these when I say property is almost the same thing as variable.
+
+Okay.
+
+So what's variable inside the class? So we are assigning it to be ten.
+
+So which is the maximum row that will be displayed instead of displaying maximum of five, it's going to be displaying maximum of ten.
+
+Okay.
+
+And then for floating number as decimal point it to approximate it to one decimal place.
+
+So this is more or less like a setting.
+
+Okay.
+
+So here we want to download the data sets.
+
+Okay.
+
+So the data set is in spreadsheets.
+
+So the CSV command seated values.
+
+So what we mean by command seated values.
+
+So what we mean by command separated values.
+
+If I open this data with a notepad, you notice that all the values are separated by commas.
+
+This is the first.
+
+This is the first one.
+
+This is another one.
+
+This is another one.
+
+So CSV means comma separated by, which means the separated by Commer.
+
+So so we tell pandas to read CSV if we check the documentation of Pandas on how to reach CSV.
+
+So basically this is what it does.
+
+So after it's, so it's literally download the data and then load it so you don't need to explicitly download the data.
+
+Okay? So as you've seen all the time, it's always about assignment assignment, assigning value to another variable.
+
+So this variable lies_data set_raw So this is neat snake case data variable the variable.
+
+So we are assigned the value after downloading and loading data.
+
+Just put it inside this place inside the rightsco data secondsco row.
+
+So now we want to select some sample.
+
+That is what it means that this is a raw data.
+
+We just want to select some sample or some columns from the data, even if we all the columns anyway the selected the columns as described in the information we have, the area we have, the perimeter, we have the Max major axis length, minor axis length, eccentricity, the convex, the convex area, the extent and the class.
+
+So those are the columns that we have in the data.
+
+So which is what they are trying to select.
+
+K Okay.
+
+So after selecting in the assign it in another variable price on the data sets.
+
+So assigning variable is a common thing which will be explain in this class.
+
+So now describe, so describe is used to give some brief statistical distribution of the data.
+
+So it gives you some overview and overview of the statistical distribution of the data.
+
+So here we have the, the number, the total number of data which is 3810.
+
+This is just a sample of it.
+
+So it's the URLs reduce the data, the actual data sets, I think it's up to 60,000.
+
+So the actual data, Sorry, it's 3000.
+
+So I thought I saw that 1000.
+
+So now each of these column as the mean, the mean, these are the mean and then they have The Standard deviation, the minimum and the maximum, Okay.
+
+And some other ones Okay.
+
+So you tend to realize how, what are the uses of what are the essence of this? And by the way, these are in pixels because they used image processing to get the values.
+
+So all these values are in pixel, pixel.
+
+Some you want to ask whether pixel has just my place as the own problem, but if we have pixel as the units of this, Yeah, yes, Gideon 3810 is the point.
+
+So, but if you notice this, there is a problem because anyway do let me jump, but they are not of the same the same size in the sense that this is like about 12,000 the mean value of this one, where the mean value of this one is 0.9.
+
+So it's actually a problem.
+
+So which we will try to address later on.
+
+Okay.
+
+So yeah, this is just trying to ask some questions about the nature of the data.
+
+If you are asked what is the minimum value of the the perimeter? So the minimum value of the perimeter is 3359.1.
+
+To do that, some of those question about now we need to this is data exploration.
+
+We are exploring the data.
+
+We need to clog the data to see what we are looking at, which variable, which of these columns can we use as input to predict the output that we want.
+
+Okay, the output.
+
+That is the two classes of the rice.
+
+So which of these variable we want to pass as use as the feature? We can as well use all the vide, all the features.
+
+If the data is not so much so we plot area against eccentricity, convex area against perimeter, and Max major axis lengths against my Max perimeter vs this interesting vs major axis length, just different plotting, plotting the scattered diagram and try to see which one, which one can we use as the feature, which one of these.
+
+So how do we know by the way this the red is showing a certain class, the blue is showing another class on rice.
+
+Now the ones that we need to choose for the plotting, for the as the feature, we can as well use everything.
+
+Okay.
+
+So but let's be smart in choosing our features, the ones that if you look at the graph, you can see that the red is very distinct from the blue.
+
+Those are good features that you can use.
+
+Okay.
+
+So look at this extent vs eccentricity vs area.
+
+You can see that at least to some extent the red is kind of separated from the blue.
+
+Okay? So it's also a good feature to use if you look at this one as a perimeter vs convex area, the red is also separated from the blue, but there are still some percentage that are also mixed together.
+
+Likewise in the major lengths and minor as this length vs major A this length and the perimeter vs extent, and likewise the eccentricity vs major A this length.
+
+So we have some of these features that are quite well separated.
+
+But if we are just going to use two features, any of these features are fine, Okay, are good.
+
+Any of these features are good to use.
+
+Eccentricity is actually ten is actually describing the publication or in the article that supports the data set, they described it as The eccentricity is the measure how run the ellipse which has the same moment as the rice grap.
+
+So let me show you visage ofty LIS.
+
+So so these an ellipse.
+
+Okay.
+
+So it's a ratio of the major axis and the minor axis.
+
+This is the here is an ellipse, This is the major axis, this is a minor axis.
+
+So trying to find the ratio of which will give you the eccentricity of the of the ellipse.
+
+So and you look at the rice, the rice has an like some some kind of ellipse elliptical shape.
+
+So that's how we calculate it.
+
+Okay.
+
+So if you are going to use two features, this, either of these two, this clothes is fine, just need to choose the best, but we want to use more than two.
+
+Let's say you want to use three features.
+
+So we need to visualize also some kind of combination.
+
+So I just because of time I have chosen some more and some cloths that I think will show you some kind of distinct distinction between the blue class and red class.
+
+That is the cameo and the Oman SK.
+
+So this is the red and this is the white.
+
+So I've plotted the area, the eccentricity and major axis lens.
+
+So because I notice the kind of look at this, this is major access and this is the eccentricity.
+
+If you scroll up again, we have eccentricity and area.
+
+So this two shows that these things Veronica: Yes.
+
+Technical joining students.
+
+Yeah.
+
+So this what I wanted to notice is that Machine Learning is a multi-disciplinary domain.
+
+So if you're good in machine and you don't know some other domain, like you don't have a partner or you are not collaborating with someone other domain, you have some issue.
+
+So that's most data that get collected, they're not useful because they don't have a price strip from someone that has Machine Learning background.
+
+I think our time has been fast but Okay.
+
+Okay, So we had a continue next class.
+
+So I question, do you have question? I think I answered some of the questions along the line.
+
+Okay.
+
+So moving forward we just as we noticed that the data it has a problem.
+
+The problem is that some features are much the values of some features are kind of large.
+
+So which is really a problem.
+
+Okay, I will stop here so that so as not to overwhelm more so by next class we will explain more about this then we move to another topic.
+
+So Okay.
+
+Anyway, I hope to see you in the next.
+
+Yeah.
+
+The link to the book will be in the slides.
+
+Okay.
+
+So don't worry the link, but you want me to drop it Anyway, I guess you're referring to this article.
+
+Okay.
+
+Alright.
+
+See you in the next class.
+
+I wish you the best.
+
+Alright.
+
+Bye.

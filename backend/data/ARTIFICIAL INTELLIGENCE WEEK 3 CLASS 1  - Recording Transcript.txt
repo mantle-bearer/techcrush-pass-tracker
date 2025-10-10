@@ -1,0 +1,1305 @@
+Yeah, yeah, hello scholars.
+
+I hope you are doing fine and I hope you had a wonderful weekend and welcome back and then after some que and likes so believe you can hear me, Can you hear? Can you all hear me? This signify with a tumb specifically you can't hear me.
+
+Okay.
+
+Thank you.
+
+Welcome.
+
+I hope you all had a wonderful weekend.
+
+Basically.
+
+The quiz.
+
+Many of you are interested in knowing the outcome of the quiz but don't be surprised.
+
+I also do not know the so so yeah.
+
+I also do not know the outco for now because I'm not in charge of so due to some issues or some things that happen around the links I shared on the group, I was able to get some snipping into into the performance.
+
+So to say so I just, I won't really good March into the the quiz, but I will just talk about the, I will just talk about the question that's many of you I missed so which I feel is quite important for me to address that.
+
+So excuse me, let me share my screen.
+
+Yeah, I believe.
+
+Yeah, so I believe you can see my screen.
+
+So, yeah, so I just look into the question that was missed most by most scholars.
+
+So now the this question that asked about the, I believe you can see my screen please, I sharing the quiz.
+
+So so here is a question that I tried repeated about three times to evaluate to evaluate the your knowledge about Reinforcement Learning.
+
+So here is the admitted key.
+
+And if you are quite compass with my class, I actually use this not exactly this image, but I use this Pac-Man game as an example.
+
+So here I mentioned as the Pac-man is classified well for those are not aware about Parkman, I tried to explain the fundamental about Pakman is a game where the the player tries to avoid the ghosts and then we are also trying to hit the foods.
+
+This DoD blinking dots are the foods, sorry, not blinking and do so why have go so anyway, And we have the score that is showing at The Bottom.
+
+So the question is that given this game, what do you think a suitable state the enforcement learning policy can learn from? So and I actually mentioned in the class that what we mean by state is what is necessary for you to and observe the current location or the current status of the environment.
+
+For instance, I'm specifically mentioned that if you are to play this game and I should cover your face as I cover your face or you, I told you close your eyes to play the game, you are probably not going to make it beyond some certain points.
+
+So because you cannot even observe the game, you cannot see anything that you cannot see the state of the game.
+
+So some other ways if the game actually has some sounds that is playing and then you basically need to listen to some sounds.
+
+So that's also could be a state.
+
+So what in this case, the simplest observation or the simplest state that you can observe from the game is by just taking the screenshot or the image of the current state of the of the game and then you'll be able to get the state.
+
+Number of ghosts.
+
+We definitely not give you the exact say there is one ghost in this game and then you don't even know the exact location of the ghost.
+
+How did how is that helpful? That is not help in anyway.
+
+So and the number of lives, number of li is just going to make you aware when you how many field you need to to for a game to terminate, you necessarily do not know the location or something that is sufficient for you to win the game.
+
+So the most appropriate answer in this case is the image, images of the screen.
+
+So yeah.
+
+And then another question that was frequently missed by many scholars is that this was specifically so given the array of fruits below, fruits below, select the appropriate method method method to replace the apple with a lemon.
+
+So yeah, here is a tuppo and this is a list.
+
+So and I remember someone has specific in the class that what is the difference between list and tupo.
+
+And I also responded by saying that a list you can change the content of the list were for tuple, you cannot change the content.
+
+And also I mentioned that a tuple is with is have a divide with run brackets.
+
+Why list is divine with square brackets.
+
+I also mentioned about dictionary and the like.
+
+So anyway the point is that this is a tuple because it has a run brackets and then you cannot change the content of it to.
+
+So this is the error.
+
+Okay.
+
+So anyway, those are some of those.
+
+The two frequently missed a question indeed, but er, as for the running of the hood, someone mentioned that he wasted a lot of time in running the HO.
+
+I'll be frank with you, I actually do not like the majority scholars performance in the assignments, especially the assignment.
+
+The second assignment has to do with running code.
+
+I specifically told you to run code.
+
+Why are you using post estimation websites to Google post estimation websites model to do the assignment.
+
+It's fulfilling the purpose of the assignment.
+
+So many scholars are saying are using post estimation and website Google post estimation websites, which I used to demonstrate the did to motivate you about.
+
+I mean this website.
+
+So many of the scholars, many, many of scholars went, I had to use this platform.
+
+They uploaded the image and then they gave me the results.
+
+I'm not even if you don't show me the video you know where because I know you didn't use the code that I mentioned and that the purpose of your code is to give you confidence and the purpose of your assignment is to give you confidence in running code.
+
+You won't always rely on platforms like this to get your what? Well, yes, they are providing solution, but this, some of this, many of these platform are not completely free if you want to go beyond what it.
+
+Okay.
+
+So and this is what actually so transpired in many of your code Runing questions and the question that has to do with rolling codes, you are not, you have not built enough confidence in running code.
+
+This is the simplest of all the codes that have been giving you in even the assignment codes, running the assignment code is even quite difficult, slightly difficult than this.
+
+What does this take? You just click on the link and click on one off and after roing it and you have, you can see the results.
+
+So basically you have it and we open a collaborate and just click on off And yeah, I agree some people might have challenged with network.
+
+That's network issue.
+
+Okay, but on average, the problem that actually happened is actually because you actually did not even run the code, the assignments code and you have not built enough confidence in code and this is just the out, just click on the link, click, click on opening colap and then click on run and while have the result.
+
+While this may not be what the ideal case you eventually met, but you've seen some of the quotes that I sent to you and then if you want to speak of using phone caused issue, I can open my phone and also try to run it.
+
+I do use Go collab on my phone.
+
+Go Collab, I use it on my phone and I did not mention that you make any mortification which might have delayed you click, you have the result.
+
+So that occasion, that's your occasion.
+
+David Poap to Clong to Lord, that's another occasion.
+
+Okay.
+
+So and this is not about Colab, it's about when you want to take an online exam.
+
+So you need to have a stable internet connection to be able to do that.
+
+Anyway, that is bygone.
+
+So I wish you are prepared well for subsequent que.
+
+And then I believe I as try as much as possible.
+
+So and I feel I should try as much as possible to place emphasis on some of the instruction I give in the assignments.
+
+Okay.
+
+So the assignments are designed for certain purpose.
+
+So yeah, is not just about submitting, It also tells a lot about subsequently.
+
+So when that is done, let's proceed.
+
+We have a lot of things to do higher the boss.
+
+We are actually behind schedule in curriculum.
+
+So yeah, basically, I just this is to the slide that we used in the previous class And then Okay.
+
+So we talk about programming and we talk about Machine Learning and we have logistic linear regression and then I give an example of given that you have data and then you plug the data x, x1, Y one, x2Y2 and then you try to draw get the line.
+
+So in this case was you able to get the line.
+
+It means you now have the model, this line is the model of this data.
+
+So you can then use you can forget about the data and then now use the model to be able to make some other predictions.
+
+So that's the general idea around that.
+
+And then we look briefly into the fundamental out line equation and the likes.
+
+So, yeah.
+
+So and we now mention that this model that we're talking about is quite synonymous to the neural network called the Machine Learning approach for finding problem, for solving problem.
+
+So when is when is the next you quiz or test that communicated to you in the in the group.
+
+So and then how many marks, I mean ideally is 20 marks because it can be discounted.
+
+So the point is 11 point so 20.
+
+So, Okay.
+
+So here this equation, why prime, you usually use Y prime or Y at so to denote prediction, although this Y-prime is not completely the ideal because Y-prime also means differential.
+
+But anyway, so Y prime equals to B the bias plus W which is the weight, and X which is the feature.
+
+So this equation, you'll be calling across it a lot in Machine Learning neural net because this is the fundamental of Machine Learning and I will use it to explain a lot of things along the line.
+
+Okay, so we talk about loss and then we mentioned that we have L one loss, L two loss.
+
+We have mean absolute error and we have mean square error.
+
+I also mentioned the deduction, how you did use the name here all mean that you find the difference between the actual and the predicate means like trying to find the profit and loss.
+
+Okay.
+
+So and then absolutes means just remove the negative or positive sign we don't want to, we are not concerned about the negative sign.
+
+Okay? And then mean means that some everything divide by the total number.
+
+So yeah.
+
+And while the square means square, Erro is specifically about squaring the the error and then finding the average.
+
+So and I mentioned that using absolute is robust for when you have a play, but when you have, when you, when you do not have, when you do not have a play is square is better.
+
+Okay.
+
+So I will talk about gradient descent to today's class.
+
+So what is gradient descent technically? Let me give you an intuition around it.
+
+We've talked about we trying to use analytical method to solve the equation or the data.
+
+You have data and you can use plot line across it and be able to get the line equation.
+
+Yeah, most likely you're going to see the result before the next quiz.
+
+Most likely jump to deep Leny DEEPL is a bit.
+
+So let's talk about the fundamental first.
+
+So what I'm saying is that these are anyway Deep Learning.
+
+These are some of the concepts you'll be finding in, you know, let's so please be patient.
+
+Okay? So, yeah.
+
+So we are talking about gradient descent.
+
+So the way it works is that we need to find the loss, like the difference between some of those laws that I mentioned.
+
+Let's say mean square.
+
+After finding the mean square, we need to tell machine, the computer how to update, how to use the error for human.
+
+You can see that this is reducing.
+
+Okay, but how do you tell machine that this is reducing? So and how do you make it to change what it called change the parameter based on that? Let me give you an example.
+
+You are driving a car or you are running, you're climbing this, so you are descending from a mountain.
+
+OK.
+
+Like you climb the Monday, you're coming down from the Mony.
+
+So now if you're driving a car and the car is coming down from like the heel or like descended from the from the slope, The thing here is that if you overspeed at that particular point you are probably going to have issue, you can speed.
+
+But if you overspeed that's a problem because it's quite easy for you to lose control of what is happening.
+
+Like you are driving down the slope and you are now still speeding.
+
+So the problem there is that you can, if you want to control something, you can easily overshoot from that by speeding down the the slope.
+
+So quite thank you, thank you, thank you some.
+
+I mean and to manu to NU.
+
+So yeah, thank you.
+
+So the way we do that is that we know to tell the machine or computer how to descent, how to use the loss is then the through the use of graded descent.
+
+We have some other variant of gradient which I mentioned later.
+
+We have stochastic grated descent.
+
+So here let's look at the overview of how it works.
+
+So you have the weight and the bias which I said which I referred to as the W and B.
+
+Okay.
+
+These are the parameters we are changing so as to get suitable and prediction.
+
+So and then what we do is this are the parameters, we are just the parameter we make prediction.
+
+We get the loss.
+
+After getting the loss we need to know is the loss increasing or the loss is decreasing? If the loss is increasing for by how much is the loss increasing or by how much is the loss decreasing? So this is what we need to get.
+
+If you are able to get that which will then descend to you, then you can now use that team to update the weight and the bias.
+
+After updating the weight and the bias, then you can try the new weight and bias and then use it to predict again get the loss and then try again continue trying and trying train on to you get the weight and bias that is that minimize the perror or minimize the loss.
+
+So that's the logic.
+
+Now I will show you.
+
+So I will show you what I mean.
+
+So this is this is the material we are following the Google resources and thanks to Google, so for providing this resource.
+
+So so here we will do a bit of some little mathematics.
+
+So please bear in mind, so here is the data we had where will be in that course provided in the resources.
+
+So and then we have seven data points.
+
+So 712, 34567.
+
+Okay.
+
+So this data points, we need to use them to be able to compute some loss and to populate the gradient descent and then to be able to update it.
+
+Now before then there is there are some important concepts you need to know we have convex and then concave function.
+
+So convex as you know, like those are a mirror LENs during the secondary school there about we have concave something that is like this is concave, convex is like this, Okay.
+
+So if we are trying to optimize a problem, convex problem is what we usually like in the sense like let's say you are here in this location.
+
+So let's say you are at this location and then you want to, so let's say you at this location, you want to descend down to this point and that's the aim.
+
+So you have this function and then what you want to do is to be able to minimize to go to the minimum like The Bottom of this function.
+
+So that is the idea about convex concave function is a bit tricky to handle.
+
+Okay? So but in this class you might be wondering like how is this related to Machine Learning? I just wanted to be patient because some of these things is what you'll be facing when you eventually start using Machine Learning.
+
+So for instance, if you are trying to train your model and you notice the model is not doing good, that's the biggest problem you will be facing, like the biggest one, the model is not doing good.
+
+So you need to know what you need to change.
+
+How do I need to modify this And if you are informed about some of the ideas and what is happening, so that's what you tell you what you should change and what you should look out for.
+
+So convex function generally is like this, and then what we want to achieve is to move to The Bottom.
+
+What I mean by that is that if you take a look at the loss-loss graph, you know, we want the loss to go down.
+
+So now if the lost graph and then you want to be at The Bottom of the loss, then that's what's we want to achieve in concave.
+
+And the convergence means that the results.
+
+So the convergence means that what I mean by converge, you know, when I say Okay, conversion means meet at certain points, come to these points like like that.
+
+So in the sense of Machine Learning, convergence means that your model that your training has reached the exact or the True Value, something like that.
+
+So now the True Value is also can be debated.
+
+Okay.
+
+But what you notice is that when you are training your model, it's slow down like it's the updates, the updates of the model, the data which is updating will slow down.
+
+I will also show you some demonstration on there and I wish you listen and you stay patient with it.
+
+So now talking about the gradient descent.
+
+So here is the idea, you have the equation.
+
+Let's say in this case we're talking about this Y equals to B plus and w plus X.
+
+So this weight this, this equation, we can BS multiply by.
+
+This is the equation.
+
+And then remember we are using this equation to generate a prediction.
+
+Okay, here is an Excel sheets that contains the data and the, I mean the data we have here, this data.
+
+So here is an exactly that spreadsheets that contains the data.
+
+And then what we want to do is to calculate the prediction, to predict, to predict based on this input value which is the hex.
+
+And then the actual YIs this.
+
+So what we want to do is to be able to have addition that minimizes that get or exactly or almost the same thing as the the lever.
+
+So that as we've been explaining, so and what will be changing, the parameter will be changing is the weight, the weight and the biases.
+
+So for instance, the weight is zero.
+
+Now the bias is zero.
+
+So if I change the weights to one.
+
+Okay, you notice the value has changed initially, The error here is the error.
+
+So is not correct.
+
+Let me quickly adjust it.
+
+Yeah, sir, I forgot to finish the information.
+
+Yeah.
+
+Okay.
+
+So if you notice this is basically what I'm trying to calculate the mean square error, that is if you notice the equation, this is the error, we squared it and then we find the average.
+
+So by solving everything anyway, so this is the mean square.
+
+So if I change the weight to, let's say one, so you notice instead of the error to the error, the loss is now reduced from 303 to 197.
+
+So it's reduced now.
+
+And if I change, let's say I change the bias to also to one.
+
+So this is also reduced.
+
+Okay.
+
+So that's the loss now we want now to use the rate at which the loss is reducing power is increasing to be able to intelligently modify this weight empires.
+
+No, you're not working with sphe.
+
+I'm using it to explain, I'm just using it to explain so that you get the logic.
+
+So yeah, so if I change this data to this 22 to notice the error, the loss has also changed.
+
+So basically what we are trying to do is now to be able to use an intelligent way to be able to update this with and bias.
+
+So the equation is remains the same for prediction is this is the bias which you see here and this is the the weights which is this one and then the X which is the impute.
+
+Okay.
+
+So now going back to this, I tell you the prediction is why the bias you get the BS that change.
+
+Okay? That you update that you can change to try to turn TWE to be able to get the value, but you are not one that will be taking it this time.
+
+AR we want the algorithm or the techniques to be able to minimize to get the way to adjust it automatically.
+
+And that's what your Machine Learning, we do, training your Machine Learning DOS.
+
+Okay.
+
+So now this is it and then now what we do is we did is to calculate the loss which is the predict, the actual value minus the prediction which you can see here, the here the actual value minus the prediction, the actual value minus the prediction.
+
+So then we find the square of each of these and then we find the average.
+
+So this is the loss.
+
+Okay, I, I already, I will share the screenshots with you.
+
+So now now this is the loss.
+
+Now for us to be to the main part of it is for us to not be able to get the gradients.
+
+So I told you we want to when I adjust this value, I'm saying that there is change.
+
+So I'll how is the change? Is it could be as simple as saying the previous value minus the current value, you get the difference and then you use the difference to do that.
+
+But it doesn't really work that way because because some equation or some data would be very, very noisy and could be as much as anything.
+
+So we want to be able to use some intelligent way to do that.
+
+So and when we talk about gradients, so gradient simply means that you want to sometimes call it derivative is just like you plot a graph and then you try to find the tangent or the gradient of the graph, exactly the same thing.
+
+So but mathematically you can call it derivative.
+
+So what do we want to find? The derivative? This is the loss.
+
+We are observing, the loss, the loss.
+
+This is the laws that is changing.
+
+So now we need to find the derivative of the loss.
+
+I don't disturb yourself.
+
+We are not into calculus, so you not into what.
+
+So I have tools that can help us to get the logic.
+
+So here is work from alpha.
+
+It's a mathematical platform for doing some mathematical operation and the like.
+
+So this is the equation and the equation with this and this is the same thing, the weight and the bias and the feature.
+
+So if you want to get the what the derivative is, what we just need to do is write it in work from AFA time derivative of this equation with respect to because we are dating once update weight and biased.
+
+So let with respect to weight, this will give us the derivative which is 2X.
+
+That is two times the feature into brackets BS close the actual equation.
+
+Okay.
+
+So and that's what we need to do.
+
+And then for the bias, if you just do the derivative with respect to the bias here, I don't want to know your mathematics how good you are good in mathematics.
+
+I'm not concerned about that.
+
+We have choose to do that so so that it will help you in understanding the explanation I'm going to give later on so that why I'm doing this.
+
+So and this is the gradients.
+
+So now let's now take a look at it from here, we have weight that is zero, we have BS that is zero.
+
+What we want to do is to change the weight and bias by observing the rate or the loss.
+
+Basically what we do is we know how to calculate the loss, which is the target value, this value minus the predicted.
+
+So in this case, as I've shown you, this is the prediction if you have zero, if you have different values, Okay.
+
+So now and then we've gotten the loss to be 303.71, which I showed you.
+
+Now we want to change get the slope, the tight and the gradients of the on the of the loss.
+
+So and as I mentioned, here is the derivative of the, here is derivative of the weight and here is the derivative of the bias.
+
+So what we do is that we pick.
+
+Okay.
+
+I've, I'm trying as much as possible to simply this, don't worry too much when you if you are unable to get it.
+
+Okay.
+
+So I just need to let you know.
+
+So now.
+
+Okay.
+
+So let's leave the derivative and the like.
+
+But the gist is that we need to find the gradients.
+
+Okay.
+
+So after finding the gradient, this gradient is what we now use to update the weight and bias dig time trying to refer to that either the weight of the bias.
+
+So what the most important thing here is the I will not give out that.
+
+I will not give you that out.
+
+I tell you, I will not give out that as an as an exam question, that's not the main focus.
+
+Okay.
+
+So I know many people have different background, so I will not get this out of with test.
+
+So yeah, this is alpha.
+
+So alpha.
+
+If you get the gradient and then you now think that by just jumping because the you have a mountain, you already on top of the mountain, you want to go to The Bottom and you now discover that if you want to go to The Bottom of the mountain, The Place the computer suggested that your AI suggested that you should jump or you get to The Bottom, you should jump to The Bottom.
+
+There are limitation to the jumping.
+
+If you jump, you may not survive.
+
+So what we do is to try to do it step-by-step.
+
+And what we used to do that is this alpha like is a small value.
+
+I need to jump but may have no jump.
+
+Let me use the staircase.
+
+So so you know, the staircase is step-by-step, step-by-step.
+
+So if I move from the top and I move to another step, and I discovered that, Okay, I'm close to it, I will still try to calculate again, how much do I need to move again.
+
+So if the calculation is that you still, I said if you don't, then you still try to move a little to another step downward.
+
+So that's which by the time you try about several steps, you will achieve what you want to achieve.
+
+And you know that the that I am talking about, disturb that I am talking about.
+
+If the STP are too small, then it means it will take you a longer time to get to The Bottom of the E, to the mountain or The Bottom of the building.
+
+So but if the steps are wide, if it is too wide, you may need to also be jumping at some point.
+
+So but the moderate step is what we want to achieve.
+
+I hope you are getting this logic.
+
+Okay, I didn't get your question please.
+
+Okay.
+
+So what we want to what you are doing, that's what we are doing technically anyway.
+
+So now let me show you what this and I have mentioned actually means.
+
+So this ALA, I mentioned is basically what we usually called linear rate.
+
+So many times you'll be coming across linear rate and you've also come across it when we are trying to use the teach Machine Learning.
+
+Let me show you the implication of the learning rates.
+
+So say we have a linear rate, say we have a linear rate.
+
+This is if you have a linear rate of 0.01, if you have a linear rate of 0.1, if you have a linear rate of 0.95, and let's say you have a linear rate of maybe one approximately.
+
+Now the I told you a convex optimization is that we want to move to The Bottom.
+
+Okay.
+
+Now take a look at this step.
+
+Step is how long it takes you, the number of times it takes you to reach The Bottom.
+
+So if you use the learning rate of 0.01, you too it tooks about, it took about more than 500 step to reach The Bottom.
+
+Now you use a linear rate of 0.1, You use the linear rate of 0.1 takes just about 34 or 35 steps to reach The Bottom.
+
+Now for the for this one that use the line rate of 0.95, you notice is jumping is moving from this place to this place to this place like this, but eventually it was able to reach The Bottom.
+
+Okay.
+
+Now if you now look at this one that has a linearity of one notice it has never reached The Bottom.
+
+You have five more than 500 steps.
+
+So it means that the learning rate is a very key important part of your algorithm.
+
+Convergence bottom.
+
+I mean, is trying to converge to the actual results.
+
+Okay.
+
+So now if the line rate is too large is the problem.
+
+If the LED is too small, it's also a problem because it will take so long for before it converge to the actual results.
+
+So we want to avoid too low learning rate and want to avoid too large and learning rate.
+
+So, but in some cases you may want to.
+
+If you just want to make some little changes to your model, then we can use very small lyrics.
+
+I will show you a demonstration on how that works.
+
+Okay? So I know it involves I'm using some mathematics representation which I know you may not be fun of, so, but I need to mention it to fulfill.
+
+All right, Just so that when you are coming across it later on, you will not be disturbed so much.
+
+Let me move quickly to some other things which I think you, it may interest you before you get overwhelmed by this time, these equations and rel.
+
+So also you've come across batch size.
+
+We've come across batch size during the the teachable Machine Learning, teachable Machine Learning platform that we use.
+
+Don't worry if you're using phone, I'm not concerned about, I just want to show you.
+
+So here you came across epoch, you came across batch size, you came across lear rates.
+
+If you don't understand what it actually means and where it is coming from, it will, probably you won't, you won't be able to know what to change.
+
+You can just be changing it randomly, but you have wasted lot of time by not understanding what it is actually it is coming from.
+
+So the letter I'm explaining now is synonymous to what we have here where we behind the RUL is using equation is computing the loss and then the loss.
+
+This gradient is now what we are using the rate multiplier.
+
+So what's the meaning of parameter theta? So this is to distinguish between what is parameter and what is hyperparameter.
+
+So parameter.
+
+You don't have control rights, but the way you control parameter is through hyper parameters.
+
+Okay.
+
+Example.
+
+Hyper parameter is a linear.
+
+So here we want to control the weight and bias, but we don't have control over weight and bias.
+
+The way we control it is through this gray and learning rates.
+
+By controlling this training rate, you can then control the parameters which could be weight or bias.
+
+Okay.
+
+So that's what it means.
+
+Now, Sorry, I didn't put the idea.
+
+Now the this this batch size which I told you, we came across it here during while we are using to check machinery.
+
+So now the batch size, let's get it.
+
+We've been using all the examples we've been using, we're trying to calculate for all the datas.
+
+So now we for all the datas, like we have simple datas, just several data points.
+
+But what if you have 1 million data points, what if you have 2 million 200 million? Do you think that data would actually fit into the memory of your computer? So that's a problem because if your data is as huge as anything, you cannot fit everything to the memory of your computer.
+
+And you know, for you to be able to calculate the average or the loss, you need to calculate average for your data.
+
+And you have 1 million or 2 million data points or trillions of data points.
+
+So how do you do that? So the way we do that is true batch size.
+
+So we try to chump the data into certain batch size.
+
+So when we are talking about batch size here in this learning, in this teachable Machine Learning, many of us we had just five data points and the batch size is said to be 16.
+
+You have five data points you are using 16 batch size.
+
+How does that work? The whole data you have is just five.
+
+The bar size is 16.
+
+So it means the bar size means you should select just a little portion 16 out of those data and then try to predict with it.
+
+So and if you have five data size data points and you have batch size of 16, it means your batch size is useless.
+
+You're not using batch size.
+
+Do you get the logic? Okay.
+
+I explain again.
+
+So I will explain again.
+
+We have doing, let me just open one of those assignments that we have like one of our assignments so that you get the logic better.
+
+I'm sorry to use your assignment as an example.
+
+If I am using, if I'm using your assignment, it's not your problem.
+
+It's just is not a problem.
+
+It's just the importance of trying to understand some things.
+
+There's someone that actually Okay.
+
+Yes.
+
+Okay.
+
+So let's take a look at this.
+
+I believe you're seeing my screen.
+
+So here is someone that's sorry I'm using your data.
+
+You or as an example is not your fault.
+
+We haven't explain the concept.
+
+I'm just trying to explain the concept now.
+
+So this person has just to image two images.
+
+Okay, let's Asian and let's assume you have two images here.
+
+So, so, but the batch size is 16.
+
+Now what I explained by B.
+
+SIs that instead of taking all the data at once, if you have about 1 million data point, the batch size is that let's say the batch size is 16.
+
+It means take 16 of those data, try to find the loss, take another 16 of those data, find the loss, take 16, find the loss.
+
+So something like that, That's the idea of batch size because the old data cannot fit into the memory.
+
+So that's where we are trying to use but little little chunk of the data.
+
+Now this person has two images, the whole data set he has or data he has is two images for are two images and then is using bar size of 16.
+
+The bar size is useless because the data set is not even up to the quantity of the batch size.
+
+Do you understand? So now sometimes if we are trying to train your model and you now discover that, Okay, let me change the B-size, let me change the learning rate.
+
+Let me change the word.
+
+Sometimes the B size is not necessary because your data set is not even up to or you are trying to change the B-size and you change it up to 32.
+
+And the whole data you had is not even enough to 32.
+
+So what's the essence of the B-size? So do you understand now? So now that's the logic behind that.
+
+Now coming to the learning rate, we have a learning rate of 0.001.
+
+Okay.
+
+This is a smaller rate, Okay? But not too small because of the nature of the data we already have that we have.
+
+Okay, not really too small.
+
+I will tell you more about that later on with some other concepts like that.
+
+But you now understand the learning rate, something that is small, something that is too small, something that is too large.
+
+So is that? So if your model or you're trying to train your model and you discover that is not really converging, is not giving the results that you expect.
+
+So then some of those things you can change at the hyper parameter.
+
+An example of hyper parameter is the learning rate and then the batch size.
+
+Now talking about the epoch, now talking about the epochs, we also come across, we also come across about the epochs when we are trying to train the teachable machinery.
+
+The epoch basically is the number of times you want to cycle.
+
+Okay? So this analogy will give you a very rough understanding of the epoch you have.
+
+Let's say you have 1000 LIA, you are not using any batch, you are not using batch size to reduce the chunk.
+
+It means for one epoch you take all the data and you find the loss.
+
+So if you have one epoch, it means you do it one Times Now.
+
+But if you have batch size, mini batch size or you have some batch size, let's say the batch size, you set it to 100.
+
+So what it means is that you will have you have to get a ten and the data set is ten, 1000 you have you are taking a batch size of to and ten divided by a 100.
+
+So it means you have ten.
+
+So if you have it an epoch of ten, it means you take ten times ten times to be able to do the full cycle.
+
+Do you understand? Do you understand the logic? So hypoch basically is the number of time you need to cycle through the data.
+
+So for you to be able to get the to get the loss, to minimise the loss.
+
+Let me have your feedback.
+
+No.
+
+Okay, let me use another means to explain.
+
+These are data sets.
+
+This data set is small anyway, but let's assume we want to get user batch size.
+
+Okay, so this we won't use the B size of two.
+
+It means for me to calculate the loss.
+
+I will pick two datas two data points.
+
+So I will pick two data points to calculate this loss.
+
+Okay, I will pick another two data points to calculate this loss.
+
+I'll pick another two data points to calculate this loss.
+
+So before I can achieve one epoch, it means I will do 12344 times before I can achieve it for the full data sets.
+
+So one epoch will be equal to four.
+
+We call it iterations, four iterations.
+
+Okay.
+
+So, but if I'm using the old data set at once, it means I just pick the old data.
+
+I compute the loss for the old data set and it means one hypoch is equals to one iteration.
+
+This may not be so logical because the data set is small.
+
+This is seven.
+
+Now let's now say in The Station where by we have 1000 data points and you are using a batch size of un-joined.
+
+So which means that how many times you get 100 in 1000? So that's ten times.
+
+So it means one epoch.
+
+You take ten iterations to achieve one epoch.
+
+I think it's a network.
+
+Yeah, thank you IRI.
+
+So yes it means ten.
+
+So that's the logic behind that.
+
+So again, I reiterate why do we need epoch and why do we need batch size? If the data is so much that it cannot fit into your memory in your computer memory, then we consider epoch and that the most thing you come across when it comes to Machine Learning, you have data that is so large.
+
+So anyway, let me go to this interactive application or thing to show to demonstrate what we mean by learning rate, what we mean by the, the training of the model.
+
+So here is a seven, the data points 12345.
+
+This is mode anyway.
+
+So we want to fit the model into it.
+
+And then I told you this, the parameter is the weight and the bias, the hyper parameter is the learning rate.
+
+Okay.
+
+Okay.
+
+Now so if you have, let's assume we have it like this.
+
+Okay, what we want to do is we the lear rate has been set to very small value.
+
+So if I click on start that is to use the gradient descent to be able to learn this.
+
+What you notice is that this model is just not converging, it is just flat because the learning rate is so small that it takes, it's taking so long for you to be able to, for it to really, really learn something now.
+
+But now let me try to increase the learning rate to something much more significant.
+
+So let's research.
+
+I deliberately need to set this.
+
+So now I set the rate to something like 0.10.01 and then let's start learning.
+
+Get it.
+
+Now notice the loss is actually going down.
+
+So that's the fete.
+
+So although the model has not converged by the time it converges, you notice the rate of this error at which these errors are reducing, it slows down as compared to when it's first started.
+
+It means the model has compared them, reset again, try to run it, notice the error and then notice how fast it will be reducing at the beginning.
+
+By the time the MO start converging, you notice the error will slow down.
+
+It will not be changing by two significant value like 03.163.143 point.
+
+So until it reaches some certain value, that is now the value that is quite significant and that has minimized there.
+
+Now let's now look at the situation where by the lear is so large, let's say we increase the LE to something like one, let's reset and let's do this.
+
+And then now we said to 11 is large.
+
+So let's start see the model is jumping Okay, which means is not able to easily converge.
+
+So if I try to reduce the learning rate again, then you see the model is not learning some significance.
+
+So this demonstrate the importance of learnings with regard to the the BRT descent that I explained.
+
+So behind you would are the under you would are the equations that I was trying to explain, but I think it's kind of over getting overwhelming so as compared to trying to understand it so so ideally we should go to the programming part, but I also will not covered some things in our programming class.
+
+So I'll take few questions and then we move to programming.
+
+So please raise up your hand if you have a question and from there we so no question.
+
+Okay.
+
+So yeah, let's move to programming Since we don't have question Is anybody here anyway? Can you signify with your thumbs up or MO G? OK, K Thank you.
+
+So let's move to programming so that we'll be able to do by next class we will be able to do some hands-on coding.
+
+Okay.
+
+So in our programming we we've been able to cover something, we covered data type, we cover variables and the like.
+
+So and then it's quite important to, so it's quite important to be able to understand some operators.
+
+So I know I told you to study up to dictionary, so I need to mention about operators and then to emphasise on the the loop and some other things.
+
+So the operators.
+
+General mathematic.
+
+Okay, let me take one question from schola.
+
+You have the floor, please speak.
+
+So where were we with scholar Egusa to speak? I will continue to explanation.
+
+So we have the arithmetic operators.
+
+The arithmetic operator are exactly the same thing as your mathematic equation, the plus, the minus, the multiplication, the division, the division.
+
+Now the modulus is like you are trying to find the remainder of a an equation of hello.
+
+Okay.
+
+I don't think he's to speak.
+
+Okay.
+
+So many may not be familiar with modulus, but anyway it's something you, you might have learnt but you didn't, you don't usually use it.
+
+So we's something that is taught in the mathematics class.
+
+So what what's we mean by modulus is that you are trying to find the remainder of a number.
+
+So take for instance, Okay, so this is modulus.
+
+Then in X in exponential, what you mean by exponential is raised to power.
+
+Like to raise power two.
+
+So for you to define a raised power in Python you use star star.
+
+Yeah.
+
+So and flow division means you need you wanted to divide without the decimal value then so let's say we have the number equals to four divisor, let's say equals to two.
+
+So in the case of modulus arithmetics modular arithmetic, so it means what you mean by four percentage two.
+
+Obviously this does not have any remainder.
+
+This is zero because two divided by four will give you no remainder.
+
+Yeah, four divided by two by two will give you no remain zero remainder.
+
+But if you have the device out to be three and then you try to run me Oh sorry.
+
+So this will give you a remainder of one.
+
+So that's modular arithmetics.
+
+So basically it returns the remainder of the value.
+
+Okay.
+
+So and then flow division.
+
+What do you mean by flow division? Is that a no divide by divisor will give you a decimal number.
+
+So but if you fly it that you you want only only the integer.
+
+So that's florification.
+
+You don't want decimal number.
+
+You don't want to do this for a financial.
+
+If you are working in bank stuff for money related to things especially N and KB country that uses number and money with points, you don't want to use floor deficient because you may be approximating customers Mon.
+
+So now assignment operator.
+
+These are likely short and for doing two assignments and the calculation simultaneously.
+
+Generally assignment is equal to if you if you have seen here, you notice I say remainder equals to no equals to remainder equals to no divide num divisor so and this equal means assignments like I'm assigning the results of this to re like reminder, I assign the result of this remainder.
+
+So that's what it means.
+
+And then if you then use some of these other assignment operations, like for instance, I have close equals two.
+
+So what it means is that X this how it is use X plus equals to three.
+
+So it means the previous value of X, this old value of X plus three then the new value of X.
+
+So that is the logic.
+
+So if you have this kind of operation, so what if this operation is kind of difficult for you to comprehend, just use this and you have your this is the same thing as this.
+
+So Okay.
+
+So but it is important to know and comparison.
+
+Someone asked in one of our class that what is the difference between single equal to and do equal to? So w equal to is your checking? Your checking is three equal to Y.
+
+So if you have just one equal equal sign, it means you are saying assign the value of Y to X.
+
+But if you have just have two equals, so it means you are asking the question x equal to Y.
+
+So in this case, let's say, for instance, we are trying to check if the value of a number is equals to the divisor.
+
+So what you have is D.
+
+So obviously this is not equal to this, So we should expect it to give force because the output of comparison will either be true or false.
+
+So here we should get a false.
+
+But if a divisor is also equal to false and we are trying to compare it, we should get a true.
+
+You understand Okay? So and then we have logic.
+
+Some logic operator.
+
+This is comparison operator.
+
+This is logic operator.
+
+Logic operator is the hand, the h* and the notes.
+
+So so you are, you have you use it.
+
+We usually use it to combine the the comparison operator, Many comparison operators, we usually use them to compare it together.
+
+So combine it together.
+
+So take for instance, we want to say XIs less than five and XIs less than ten.
+
+So in a station where you let say you are trying to calculate maybe the greed of something, so you may want to say Okay, if this is less than this, then is A If it is less than maybe 90, that than B.
+
+If it is less than 80, that's C, something like that.
+
+And then the identity operators are used in determining whether a variable is the same.
+
+So ma'am and the membership, Okay, I believe you've studied this.
+
+So I'm just skimming through all this terminology because we move to if statement and then and I want you to be able to get the logic.
+
+So that's the idea now moving to if statement because comparison and then comparing operator, logical operator, they return true or false.
+
+We don't just want to get the true or false.
+
+We want them to be able to use false.
+
+We want to be able to use them for something.
+
+So in The Station we have we have a equal sign and we want to check if the number is equal to certain number, this is equal to this, then we wanted to do this.
+
+Okay.
+
+So now that's where the if statement becomes handy.
+
+Okay, be twice operation.
+
+So be twice of bitwise operation.
+
+So now this bitwise operation operates on the bit level and the binary level.
+
+So let's say you have a number.
+
+Let me show you the example.
+
+Let's say you have a number number.
+
+You first need to convert the number to binary, the internally to first combine convert the number to binary and then try to find the logic, the logic behind in the binary.
+
+So again so you have the binary number for 12 and this one and this binary number copy this binary.
+
+So this is a six and this is the binary equivalent of six, this is three, the binary equivalent of three, this is two, the binary equivalent of two.
+
+And if you want to, if you want to get the logic, let's say you have let's say we have five.
+
+Okay.
+
+So we have and the binary equivalent of five is 101.
+
+Okay, the binary of five is 10.
+
+What you mean by 101? Let's just take a little recap.
+
+Is a this last zero, this last one is raised to power zero.
+
+That is two raised to power zero times one plus two raised power one time zero plus two raise power two times one.
+
+This calculation will give you five.
+
+Okay, so that's the binary equivalent of 5101.
+
+Okay, that is the number here is obviously zero unit.
+
+This is one and this is two.
+
+So when your calculator is two times one times two raised to the power zero, this is indeed zero.
+
+And then one times two raise the one and zero times two raise power one and then here we have one times two raise the two.
+
+So you can use the same thing to convert for other amounts, but internally if you use if you do, if you do five and then we say four.
+
+Okay, what Python does is that if you convert this to binary, it convert this to binary and find the hand of it.
+
+So now this is for Okay, but what it means, what does it mean? So let me bring it here.
+
+What it means is that zero and look at it, this is zero and zero-zero and zero logically is we have take the zero as false, take the one as true.
+
+So we're saying false and true for and logic false and true is false.
+
+Okay.
+
+So which means the result of this one, the result of this one is false, false and false zero and zero is zero.
+
+Now one and one is one.
+
+Okay.
+
+So and if you look at this zero-zero, of course 000 000-000-0000.
+
+So now you now try to get compare this 100 with the decimal equivalent.
+
+So you see that it's four is it? Logic engineer? Do you understand the logic? You are lost.
+
+It's also confusing.
+
+Okay.
+
+So if you need need to re-explain, it's not clear.
+
+Okay, let me increase the font size.
+
+Okay, I will explain again.
+
+Let say we have no this number one, let's say we have a number.
+
+Okay.
+
+So let's say we have this post number.
+
+So if you say if you say you have 1000, you know how to convert it to lesser, you know how to convert it to a decimal, let me get that.
+
+So do you know how to convert it to decima? So let's and you get that first, so you aren't able to get that then you know that you we together Okay.
+
+So this is 1000.
+
+So 100 to convert it to decimal.
+
+What we do is that this index this first number because it's 0123.
+
+So this is three, This first one is three, this second one is two, the second one is one, the second one is zero.
+
+Does the indexing in the sense of digits.
+
+Okay.
+
+So now if you get that, you can convert it to decima by saying this first one, which is that the number one, the pit one, this bit is one multiplied by two raised to the power three.
+
+The second one is a zero multiplied by two raised to power two.
+
+The next one is two raised to power one, and the next one is two raised to power zero.
+
+So we are basically using this one to multiply the the pits location.
+
+Okay.
+
+Zero and then so like that.
+
+So we will be able to get the decimal equivalent of that.
+
+Okay.
+
+The decimal equivalent of this is eight.
+
+If you have another number, if you have another number, let's say number two, let's say the number two is, let's say the number two is this.
+
+And then we want to get the the binary decimal.
+
+This is this is one, this is 3210.
+
+And if I want to convert it to decimal, the decimal equivalent of it is a The first one is zero, the second bit is one.
+
+The next one is zero.
+
+The next one is so the binary decimal equivalent of this is 5101.
+
+Okay.
+
+So now let's say hand.
+
+The logic behind hand is that if you have true true, that's the only condition when it should be true 11.
+
+That's the only condition when the result will be one.
+
+Other instance is if you have zero-zero, if you have zero-zero, it should be zero.
+
+If you have 10, it will be, it will also be zero.
+
+Okay.
+
+So now if I now say I want to find a hand of this and this, so this is one, this is 01 and zero, that's zero.
+
+Okay? The second of one and zero and one, that's 00 and zero, that's zero.
+
+And then zero and one, that's zero.
+
+So it is expected that if I do an eight, if I do eight and then five, the answer should be zero.
+
+So do you understand the logic? So that's the interpretation.
+
+And then we have for, we have for and then we have for not Okay Is at least one of these two must be true if one of these is true as when you get true.
+
+So I think our time has been fast spent, but before we finish today's class, which we may not be able to take.
+
+Question.
+
+I want to talk about some how to install packages in Python and also to import packages in Python.
+
+To import package in Python is as simple as saying imports.
+
+So you can say imports nonpy.
+
+This is just an example of a packaging Python imports.
+
+Mars Okay, that's how to import packaging Python.
+
+Now if you have, if you want to install PY package in Python, you do PE install.
+
+We have some other installer, but Pip is one of those way to NOP.
+
+So before you can import the package it was already is, you must have it installed already.
+
+Okay? So and if you think of a package and you want to install the package, you can just Google search install pandas, install pandas.
+
+So these are example of packages in Python.
+
+There are so many other ones anyway, lot of packages.
+
+So this is how to install package in Python.
+
+And this is how one of those ways to import.
+
+So from MAR plot, leave import PY.
+
+PY.
+
+Plot as.
+
+SPT, So this as is to give alias, you may not use it, you may use it is just to use for a short hand sake.
+
+So I think we will stop here today.
+
+I think we've already done a lot of things which you may want to revise some more assignments.
+
+Just try to study and revise.
+
+Thank you.
+
+See you next class please.

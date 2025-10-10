@@ -1,0 +1,1505 @@
+Yeah, another wonderful class today.
+
+Believe I, I hope you had a wonderful week.
+
+So yeah, please if you can hear me kindly signify with a top or some kind of MG so that we know we have the same frequency.
+
+So yeah, thank you.
+
+So I hope you guys had a wonderful week.
+
+So it's almost another weekend.
+
+I will share my screen now.
+
+So today as we had some review or some feedback from our previous class.
+
+So today we also kind of be using using that format from now onward.
+
+So and then if you also feel like we need to change something, please do let me so that you try as much as possible to carry everyone alone.
+
+Yeah, I will share my screen now.
+
+Okay.
+
+So please if you can see my screen, kindly signify with her kind of a thumbs up or some kind of response so that we know that technical check has been put in place.
+
+Okay.
+
+So today's class, I notice and the last class, we also kind of short between two techniques.
+
+So I think we should finish 11 method before going to another method.
+
+Like for instance, we know that not everybody is a programming client this class and then we need to make it easy in case you are trying to watch re-watch the video so that if you are watching for that is not related to code, you can know that this is the timeline you need to watch.
+
+And then if you are looking for something that is related to coding, then this is the timeline you need to watch.
+
+So with that, it will be kind of much easier for you to be able to do some revision because I tell you this, not everything will be capture in the slight that we send to you because it's much more practical now.
+
+So and putting screenshots in slides may not necessarily communicate what it's supposed to do because platforms that we're using, they do change.
+
+So yes, if I try to put screenshots in this slide, it's still not the same.
+
+Maybe in the next two or three months things might change.
+
+So we it's better you get it grapes of graps of the idea around it and like that.
+
+So and then also I will because I will be using matlab for no code related things, although matlab supports coding.
+
+So but because I try as much as possible to search for resources that will include those that has coding experience and those that not have does not have coding experience.
+
+Those are has laptop that does not have laptop.
+
+So for us to be able to carry everyone along, we need to put some of those things into consideration.
+
+So in that case we will be using matlab, especially for the no code.
+
+Matlab is not free, but for everything will be using this class.
+
+You will be around the free subscription of the SCREE, the free what is it called the free service that we have provided.
+
+So I know you fell in love in Teachable machine, you fell in love with Machine Learning for kids, But the thing there is that we don't have that much flexibility to be able to modify things, we don't have that much flexibility to be able to explain so many concepts.
+
+So yeah, So we need to try as much as possible to be able to get the concept because you be facing view what scenario rather than and some demo in the class.
+
+So without much further do we proceed last class we started on classification.
+
+So we continue on the classification binary classification that we started and will still continue on that.
+
+So I make it much more solidified and along the line will be explaining some concepts with it.
+
+So also I try as much as possible to limit it to something that you can cross and if you feel it, you're not comfortable or you are, you're getting over.
+
+Well, please let me know.
+
+Okay.
+
+So last class someone asked a question like is we're going off points? Why is a research necessary or why do I need to study research outcome? So I have mapped out some case study of some of those things we use and some of those platforms we love that we use that also basically rely on research.
+
+So I'm not saying that you should do research.
+
+We are not big companies.
+
+Maybe your company is not a big company or maybe you, you are just a Freelancer.
+
+Okay, so you just want to incorporate AI into your freelancing because you notice that a lot of gigs freelancing is coming up.
+
+We don't have that flexibility to be able to do this that you don't have that luxury to do that.
+
+So but you still need to check in the sense like those big companies or those that have the money, they are doing it.
+
+Even if for you to pick the idea, it's quite important.
+
+So I want to ask this question, Does anybody know this movie? I believe it's something it a movie that I was launched maybe three or three years ago.
+
+So this is a Yeah, I know many people know this movie.
+
+So this movie is one of the MAGL movie by Disney also involved.
+
+So yeah, this is Goods.
+
+Okay, so Goods we watch the movie and then although I didn't watch the movie that much, but anyway, so most of us we might be familiar with this, we are fascinated by how everything went and then how it works out and the likes, how the character, in fact, many of them that also use it as profecto and includes the love character and Rela.
+
+But do you actually know some of those things that are were behind the boot? So frankly, there is this research.
+
+So this is the departments that are responsible for some, so they are responsible for some of those research, some of those things that happened in in Disney and they are kind of generous enough to release some of the process of some of those things that went through into just that particular character alone.
+
+So I show you this.
+
+So here is a Disney website, one of their studio, they have two studio one in two research.
+
+PL for one is LOs Angeles and here is another one.
+
+So and they have so many research.
+
+So if you happen to have a project like those that uses something like the CGI applications like Blender like like Maya, My D and some of those software, you would just be using some of those things or really some of these things are works where research outcome of one kind of movie or the other.
+
+So I tell you this, so look at this research outcome that leverage on on the Disney I will first fold anyway.
+
+So we are thir they are trying to come up with a stylized way control this different character, this matronic characters such that if an artist that is crafting animation, like the way you move the joints to produce the animation for those that are into pre-character CGI creation, instead of trying to link the model to to animated timeline, what he basically did was to use optimization to be able to use game part controller to control it.
+
+You may think you are playing game already, but there is difference between controlling Andronic character and then trying to use it because it is no more admission.
+
+It has some six units.
+
+So if it touches the Grand, the leg should touch the ground, not that it's enter the flow.
+
+So those are those animation or cgis, they know what I'm talking about.
+
+So for them to be able to do this, this is an outcome of some of their research.
+
+And if you have first perchance come across a problem like that, you will probably need to rack your head on how to come about that.
+
+I will show you from real life experience, apart from the fact that I had, I come from academic background, I will still tell you that it's quite important.
+
+It's important people check research and if you don't know how to check research because you feel make problem, not a problem, kind of that easy.
+
+Like you just get this and then like that.
+
+So they are compromise technologies most likely from search.
+
+So they explaining the concept.
+
+I'm not going to go through how they achieve it.
+
+But even if it's just how the crafted the animation is what you're going to pick up from, it's quite important for you to be able to check the what go the research and be able to come up with an idea or how to achieve your AI solutions that you going to deliver to your client or to your company.
+
+So if you don't do it or you are not able to do it, believe me and believe you me, other people do it and they will get another person that will do it.
+
+So it's quite Okay for you to be able to kind of check the CGI then been asking what's CGI? CGI is computer and computer generated imagery? Oh, is not a computer generated imagery.
+
+So anyway, yeah, a computer generated imagery C.
+
+So also using visual effects and ST like that.
+
+So anyway, that's one of those things.
+
+I won't do so much on this.
+
+I'm just trying to let you know that the essence of research.
+
+So the essence of consulting research, you may not, your company may not be big to be able to do it.
+
+Okay.
+
+So what for you to be able to also be very fun in your domain or your place of work, you need to do it.
+
+Another instance.
+
+Okay.
+
+Study on research is open.
+
+We all know opengt made it much more popular.
+
+But open, I did not just start in 2023 or 2022, that's the released and GBT.
+
+Many of us we got to know about openly through CHARGB.
+
+That was no when they started the started in 2015 and the first thing after 2015, the first thing that they produce in 16 was open IG.
+
+Again, many of you might not have heard of it.
+
+IG or you might have come across it to Open.
+
+GIM is actually now The Standard for enforcement learning and even me personally, aside from having some background in research or doing my PhD in AI and what it have thought.
+
+One work on freelance platform and I don't want to mention it, but I don't work on platform that I have in more than a $1,000 on needs just with being able to get to know about OPEN.
+
+So this open AI platform is be produced or they were able to come up with a idea on how to make reinforcement lending common or easy for everybody to be able to implement like they made it very easy and a lot of examples in lot of case studies that this case study may look primitive, but they are the PA A lot of things, I have used it and I can testify to it, a lot of robotics things because a lot of robotics and then so many things like that.
+
+We also as a lot of the outcome of upon AI this was it open IG for reinforcement.
+
+And if you are going to do any Reinforcement Learning project, like any Reinforcement Learning for you to make your life easy, you need to use this.
+
+So this is an outcome of research and if you don't dance, you face a lot of challenges in trying to achieve it.
+
+I show you even Disney, even this Disney platform, he also used some sort of Reinforcement Learning in some of their work.
+
+Is it? So here is a one of the most popular and character what character we not only rob this particular character, this character that is now common by most MOS Content Creator, which they are trying toce this to these celebrity, In fact a past aside from this, aside from you study researchers, there is not only you, we all depend on so many as Google also depend on it as other people could depend on Google.
+
+Google was able to come up with an AI model that was able to play chess and then Alpha Go game and the SU game.
+
+These games will if you don't know that games, you know chess.
+
+So chess chess was able and Google Google was able to pit the most human chess player like superhuman results from it.
+
+So all these results from reinforcement planning and this is what we average on these days.
+
+Aside from that YouTube, many of us soon we start seeing Content Creator producing something like that and then soon everybody will start using it.
+
+Well, just like you saw the when open release, the idea of making character and Katoon character from making Katoon character from, Yes, thank you Grandmaster.
+
+So making that some character from just a single image.
+
+Google stepped it up and then they are now producing YouTube video.
+
+So YouTube video canal is it.
+
+So YouTube video can now had and make this kind of pattern like character of the person just from real time image and generates something like that.
+
+So this is also a result of your an outcome.
+
+So see you as a developer now thinking Okay if I want to, I my company is telling me to do this or a client is telling you can you do this? You need to consult this either, otherwise you just lose your money.
+
+Like so you lose your reputation as a an AI engineer.
+
+Okay.
+
+Alpha zero Halfa zero is the first we area zero how far go.
+
+So those are the first robot Reinforcement Learning agents that was able to beat human in in go game and chess game that so they call it Alpha.
+
+Just name is just a naming convention that Google gave the name of the AI that is able to achieve that.
+
+Okay.
+
+Yeah.
+
+So, and additionally, I need to see what I'm talking about to avoid destruction.
+
+So even personally myself, if you look at it, this was, you know, I don't know Today Friday.
+
+Yes, very early morning on Friday, maybe not in a time I, I received an invitation on of work gig has to do with Reinforcement Learning expert needed to for stable baseline three.
+
+This thing BAS line three or is the research outcome.
+
+So if you want to just make your life easy, Yes, research is difficult to read, Okay, but we are not telling you to implement it, just be able to check it.
+
+And then even if you copy the food is something so otherwise by the time it's become so common, then you've already lose your money.
+
+So that's the essence of what I'm telling you.
+
+So the question of we are going off point, why do we need to study research people? Why do you need to check research to what it called is not all point.
+
+This is AI, AI is still in the research and anything that's you, your is not so commonly outside, is not so commonly outside you.
+
+Probably if you check research, you see the latest TensorFlow non-PIE and so PyTorch for those library will be using Python.
+
+They are all from research outcome.
+
+So this is personally from myself as a case study.
+
+I wanted to include a screenshot of the amount I made on upwork for just using Reinforcement Learning on the project.
+
+That was my first IP on an upwork and then it was kind of rewarding.
+
+So now for you, if you can't, if you know that you cannot study research just to check or to copy the code.
+
+If you cannot do that, well I will tell you something.
+
+Wait for leman, leman implementation or wait for subscription based service.
+
+Alternatively, there are some abstractions, something that we are attracted in the language nowadays, we have tens of flow, G, tens of flow that physically work with JavaScript.
+
+So if we are a JavaScript Developer, so it's available for you.
+
+But after many years, you've been using tens of flow Since 20 2019 or 20 years ago.
+
+So tens of years was fairly recent.
+
+So and the alternative is a API, Google platform like Google and some other platforms like that, they make the API available and you pay for it.
+
+So that's one of other things.
+
+Just as we are using open the API, almost everybody has API key.
+
+So even if you don't know how to know how to use it beyond just to chat and if you want to use any chat board, is there you go for GENI I key I or you go for Google Open I, Google GEN IKE or you go for open I or you go for cloud or you go for all of the platform.
+
+So I just believe I can motivate you enough that don't close your eyes completely to check your result, outcome so that you'll be able to hand Mon while orders are handing it so so that you will not be left out.
+
+This is AI and then the fact still mean that AI is still in research stage.
+
+If you want to do a unique problem, you can borrow inspiration or borrow idea from it by the time it becomes too common if you just be causing mega mega.
+
+So that's just the point.
+
+So I'm not ash about my response, I'm just letting you from my experience.
+
+Okay.
+
+So we go back to our session.
+
+I just feel I should use this to motivate you and let you know that is not a trash and research checking.
+
+Research is not, but you cannot do it.
+
+I know some people cannot read.
+
+Okay, please, these are some of those things you can't do it for.
+
+Okay.
+
+So in the last class, we loaded this data set and rice and rice breed or rice and what is it called data set.
+
+And then we say that the data sets contain the area, the perimeter, the major axis length, the minor axis length, the entity, the convex area, the extend and the class, the class itself.
+
+So the Okay, every data set on research, If so getting the research information, giving the dataset.
+
+Okay.
+
+So, Okay.
+
+So Austin, Austin Engineer is asking that does every data set or model have a research paper? Okay.
+
+So that's the first question.
+
+If so, how do we go about getting the research information when given a data set? Okay.
+
+So here is the point.
+
+Some datasets are so popular too popular that if you check, if you just check where, if you just check online, you will see information about it which you necessarily do not need to check the get the paper.
+
+That's so research paper research article that talks about it, I have mentioned about MIST datasets.
+
+MIST data set is so popular that most almost all libraries, AI libraries, they have it very popular.
+
+In fact you have so many pre-processed version.
+
+This is a missed data set.
+
+Okay.
+
+It's been around for quite a lot of very long time and then a lot of research and uses and data set that is very popular.
+
+Irish, Irish Flower PC data set.
+
+So there are lot of data set very very popular.
+
+So some of them you don't even need to check their paper, they are popular in fact you just need to do them.
+
+So that.1 even model some model, they are also very popular that you don't need to check exactly, just get some implementation and it's done.
+
+Now if the model is very new, all the data set is quite new and is re.
+
+So then you need to check and need to you get it comes to play.
+
+There are so many places where you can get data sets.
+
+I have talked about all game.
+
+So you face the platform here, you can see model, you can get model, you can get data set here is data set here models.
+
+So by time you search for different future and you try to search for the data set you likely going you are likely going to see the information about it.
+
+Someone ask about or do you need that? Here are time.
+
+So let's assume we filter for audio data.
+
+Okay, we filter or yeah.
+
+So here are some of the audio data like this is South Africa and voice data set.
+
+And by the time you click on the data set you will see some some of the necessary information that you need to know about the data.
+
+And even we made it's quite easy that you can just simply load them and most of the time they pre-processed it to the point that Yeah, look at the train splits and some tests like that.
+
+So that's one of the ways.
+
+And then you often see some of the link to the GitHub repository or to the publication here.
+
+So here is the research paper that talks about the D.
+
+This DT is fairly recent to instens five and then they talk about the publication that presented the paper.
+
+Okay, so A face is a typical source for where you can get data set, another source, data set, a model, you can get it now data set model and get it.
+
+So another source where you can get the data sets.
+
+Github is also a good source.
+
+I think there is this.
+
+I forgot Machine Learning something.
+
+I forgot the name, but another source is Google Scholar.
+
+Google Scholar is not like is not really straightforward in getting there is not really straightforward way to get to get assets because you first need to get the research and then from the research you need to gets the links that leads to the data set over the model.
+
+So I believe this few sources, there are more sources anyway, but this few ones somewhere you can get GitHub.
+
+Org in face, Google Colar what it explain my implementation, Simple example of Lima implementation is the sorry, Machine Learning for kids that I were using.
+
+We were using initially Machine Learning implementation that you just you don't even need to know anything that you would just click, click, click, click this and that and then is out.
+
+So that's a typical scenario.
+
+Okay.
+
+So and also this other one machine.
+
+So it is also a layman implementation because apparently if you after you build your model inable machine, you can use this, this platform, a scratch, scratch platform.
+
+So scratch, no scratch platform to be able to come up with a work in application, it's could be a mobile application, it could be an AI application.
+
+So scratch is, I think it's scratch.
+
+So Machine Learning for kids.
+
+Also you can also link that one to scratch.
+
+And so there are so many trains.
+
+So after you train your model, you can connect it directly to Scratch platform where you can play games or uses for some application.
+
+You asked the question, then the question was that Explain layman implementation, sir, and I tell you examples of layman implementation is a teachable machine Machine Learning for kids.
+
+They are Lemman implementation.
+
+You necessarily do not need to know any coding.
+
+You don't even need to know anything about AI, just know how to pass in your data and you click, click, click and you get the results.
+
+And another thing there is that they made it quite easy that you can connect it to scratch.
+
+There is a platform called scratch Scratch platform PLAT.
+
+You, you know this LEGO, you do programming as if we are connecting LEGO.
+
+So like brick there we call it something like blockly.
+
+So you do programming no code just connects the CLI if you, I should be able to show you an examples think, this is the think card, I'm sorry for digression this side not this is not really the call.
+
+This is not really the thing we want to do.
+
+Okay, this is a platform that I use for some other things.
+
+So this is the block coding platform.
+
+This is what I mean by no code.
+
+Like you just need to connect some Brak together.
+
+Okay.
+
+So here you can connect the brick to this and if you you run the code and you run the platform and it will generate something for you.
+
+So here you are not doing good.
+
+You're just connecting things together.
+
+If I click on run, it generates whatever I wanted to generate.
+
+This is the result of running the code.
+
+This is not code is more or less like a block based programming.
+
+So we call it no code is one of the example of no code ways of achieving things.
+
+So yeah, this is a typical example where I'm talking about when I say Liman implementation, just an example.
+
+So bloc is an example of Liman implementation.
+
+Don't really need to know so much about programming you to your team.
+
+So it may be limited but you still attributing Okay, Okay, can I share your screen? Yes, No, let's digress so much.
+
+This is my screen is kind of if you need me to zoom, I can zoom the screen.
+
+So here going back to where we stopped.
+
+Yeah.
+
+So going back to where we stopped.
+
+So here is the data and we mentioned that this data, there is an issue with this data.
+
+The issue is that AI is good with number.
+
+So having this kind of text in the class as a class is not something that is really ideal.
+
+Like that is really er, practical when you want to do E.
+
+So you need to find a way to transform this into something that you will be able to, I will be able to learn from and be able to be.
+
+So we decide clearly convert the ones that are commo commute to one and the ones that are that are Osmani.
+
+So we want that O Manic, we convert it to some them to zero.
+
+So because we are doing classification that where we chose 10 binary classification.
+
+So that's why we choose 10.
+
+So the commute class is is one, the Osmani class is one.
+
+Okay, So this data as it is, we've converted it from the raw data, we converted it to this just by changing the class.
+
+So from there you can just download data sets, we can download data.
+
+So I would download the data, this data, this particular one, I have a script that I can do, not really script a shortcut to download sheets.
+
+So I just click on the name, the title of the this is Rock class.
+
+Then I can download the specific sheets and that's so so the data has been downloaded Okay.
+
+As CSV.
+
+So after downloading it, I can go to matlab.
+
+So matlab the way to code, the way to do no code based and approach in in this.
+
+So you can sign up for free subscription and free account on matlab and it also works on mobile phone.
+
+So I will, I have a mobile Android on my on my computer.
+
+So I will show you.
+
+Now show you that it is possible to access Matlab on your mobile phone.
+
+So you just needed to sign up and then ensure you choose the free version.
+
+Okay.
+
+Just online.
+
+So here is my hand little.
+
+Okay.
+
+Let's wait while it comes up.
+
+I believe you can see the 100.
+
+Okay? So the Android form is on and I can click on Google Chrome just please.
+
+Okay.
+
+So this is ok.
+
+I think you guys are having difficulties in seeing my screen.
+
+Please if you are having difficulty see my screen.
+
+Please let me know so that we can adjust that.
+
+So then I can go to math lab.
+
+I copy the link already, so I just go to the.
+
+So then I have my, you can use your Gmail to login so it's not a problem.
+
+Okay.
+
+So people, you guys say you can see it clearly.
+
+So yeah, the same.
+
+Okay.
+
+The same.
+
+And matlab you're seeing on this food desktop is what you are seeing on the mobile phone.
+
+But I actually made a tweak on it.
+
+So if you click on this, your Goog or any other platform that you're using, if you click on the three dots at the top right corner, you notice I checked this desktop site.
+
+When I click on this, it will bring out that for mobile phone.
+
+For the best mobile experience, use Matlab application.
+
+I will not encourage you to use that because it's not quite so.
+
+It doesn't support a lot of things.
+
+So as such, please switch to desktop site mode.
+
+So then if you trick the platform that you're using a desktop app or a regular computer, so I will rotate it so that you can also see it much more clearly or you will be able to access it.
+
+So you click on the matlab online.
+
+Okay.
+
+I will change the, I will change the screen now so that you guys will be able to see me much clear.
+
+I will stop sharing then I will switch screen.
+
+Please wait, let me switch the screen so that you you can see my screen.
+
+Wait, please.
+
+I'm coming.
+
+Yes, wait.
+
+I think it should be better now please let me know if it's better.
+
+Okay.
+
+Yeah.
+
+So I, I switched to screen.
+
+So yeah.
+
+So you can use Matlab on your mobile phone.
+
+So just walking through the trick I showed you you just need to change to desktop site and then you'll be able to access it.
+
+So I will switch back to using and the desk and the regular desktop.
+
+So please don't ask the question Can I use matlab on my phone? You can use it in phone.
+
+So this is why you're showing so, but because it's free, I have a limit limits to it.
+
+So I use this month out of the 20 hours I've used 4.5 hours.
+
+So for this month, if I exhaust this 20 or you exhaust this 20 hours, that's all for this month, you have to wait for next month.
+
+Okay.
+
+So and please, it's free.
+
+Matlab is expensive, so you should stay with the free subscription.
+
+So I open, I open matlab.
+
+So what I want to do in Matlab is I will use it.
+
+I use it to train the AI model.
+
+This is for those that are not programming in client that you don't have any knowledge about programming.
+
+Okay, you just have your data and you want to do AI.
+
+So that's why I chose.
+
+I chose matlab because it's as we want.
+
+We need to be consistent about some things.
+
+We can't be switching between those that can do this and this, this So it has programming part, but we are not using it for the programming.
+
+Will be using math and Python for the programming.
+
+Just as you said, the only difference is that we will be using matlab for the no code solution.
+
+Okay.
+
+So the first thing is remember I downloaded the data, this data from this spreadsheet.
+
+So from this spreadsheet, I downloaded this data.
+
+So the data I downloaded is the raw class.
+
+I already convert the class from just this class Cameo.
+
+And like Cameo is one and Osman is a zero.
+
+So I download this data and then what I just need to do is to load it into matlab.
+
+So what I can do is I can just simply drag here and then the data will be uploaded on the platform.
+
+Okay.
+
+Me, if you are having, if you have any issue with your screen, please maybe you can consider rejoining.
+
+I think people said that other that they can see my screen.
+
+We need to be faster so that you will be able to do the programming session, the programmers in the plan on the platform manner.
+
+I kind of being deprived of something.
+
+So, yeah.
+
+So then I can just drag this data from here.
+
+I can drag it on to this place and I to show that.
+
+Do I want to import the data? Okay.
+
+So just drag and then import data.
+
+Okay.
+
+I let me close it again.
+
+So I simply drag here.
+
+I mean to the right-hand side or you can also double click instead of dragging.
+
+We are not using you are not using computer.
+
+You can do DOC and need to open it for you.
+
+So the next thing is just click on import the data that it will show you the preview of the data you are importing, which is you are sure is the same and then import data.
+
+So what you notice if the data successfully gets imported, there is somewhere we call workspace, this place you see the data here to the data set is 3810 and we have its columns, the area, the perimeter, the maxima and major axis length, the minor axis length, eccentricity, extent and the class.
+
+So now after importing the data, Okay, so you can then you don't click on the app, this apps, so these apps, you click on the drop down and then you can see classification then Okay.
+
+Classification then is basically for classification.
+
+It has some other things Deep Learning network which I hope will be able to also use it for to do some Deep Learning.
+
+We've used it for regression Lena in the previous class in one of our previous class.
+
+So for now we are talking about classification Lena.
+
+So we click on classification Lena and the application will come up Sunday please, which is moving from me.
+
+Okay.
+
+If you please check your network, I think you should consider checking your network.
+
+The clustr is moving.
+
+So the classification lenner has opened and then I have the interface is blank.
+
+So I just basically need to click on this new session on the job done because I already imported the data into the workspace.
+
+I just say I want to get the data from the workspace, need release the available data to load the availability and workspace.
+
+This is the data.
+
+And then yes.
+
+And then it's asking which do I want to use as my? Which one do I want to use as my target or as my prediction? I want to predict basically already selected all these data to load all these features.
+
+And then I want to predict based on class Boolean.
+
+Okay plus zero to one.
+
+So now I will use this medium to explain the concept that would refer to as cross validation.
+
+We already know tests, splits or test data sets which trained quickly splits the data into training and testing.
+
+So here if I check this, it means I can enter the percentage I want.
+
+So I want 10%.
+
+Yes.
+
+Use the default and cross validation.
+
+FALD is five, just default.
+
+You can change it to any number, you can change it to ten, you can change it to five, you can change it to any number.
+
+So basically I put it in say five.
+
+So then I will start the session.
+
+Now I will use this medium to explain cross validation.
+
+Okay, so cross validation with slide, I want to bring up my slide.
+
+Okay, so this is cross validation.
+
+Cross validation is one of the methods you can also use to overcome overeating.
+
+So over fitting.
+
+As we've explained, we have under fitting, we have over fitting and then fitting.
+
+So we know that we have trained tests, we have tested and we also have another method called train tests and train set, validation set and test sets.
+
+So basically what we do, let's assume we have just train and test set.
+
+So we have the training data.
+
+So we need to get some percentage of that training data.
+
+Then we try to split it into the value of the fold that we want.
+
+Let's assume we want four fold validation.
+
+It means we get some percentage of the data.
+
+We call it test.
+
+Okay.
+
+So that's certain percentage.
+
+We now with all that data, we will use it for validation.
+
+Okay.
+
+So then we train on the remaining so after that.
+
+So after that like we because we specify for in this example.
+
+So it means we divide the data into 41234.
+
+So we hold the first four, we keep that data, and then we train on the remaining three.
+
+After that.
+
+After training, we shift to the next partition with all that data and then will train with the remaining three.
+
+So like that until we do it four times, that's four-fold validation.
+
+So in the matlab that I showed you, we said five-fold validation, it means we will divide the training data into five and then we will now train the model five times.
+
+Here we train the model four times for fourfold validation.
+
+If you have tenfold validation, it means you will train the model ten times.
+
+Okay, So by training the model ten times or four times or five times, depending on the number of vote that you have, you will be able to achieve a model that's kind of generalize that doesn't just master this first three sets, but also have some knowledge about some other split of the data.
+
+So it do not just overfit.
+
+So there's one way to avoid over-fitting another way, like using cross for validation.
+
+I believe you fairly get the concept, but anyway enough of the theory.
+
+What I am trying to say is that then if you have five good violations, your Dauer will train five times, your mother will train five times.
+
+If you have for good validation, your data, your model will train four times so and is one of those ways to avoid and to prevent overeating.
+
+So that's just the simple thing around that.
+
+Okay, So the data has been loaded by default to select tree-based model.
+
+But I don't want to use tree-based model because we've not done that.
+
+So here you can click on this drop down and then you can go to logistic regression.
+
+This is logistic regression classifiers.
+
+So because we are dealing with binary classification.
+
+Okay, I just click on binary distribution.
+
+So I had this binary location.
+
+Then I can delete the three base model.
+
+You can train multiple ones, Okay.
+
+As one, then you check the result and try to compare.
+
+I hope you are getting the concept.
+
+So ah, here is the model.
+
+Now here is the model.
+
+We've not trained it.
+
+OK.
+
+So now I can visualize the data using the scatter diagram.
+
+Okay.
+
+So just as anyway the scatter diagram will try to group the model into class because is a classification and then color code it and you can, you can know the features like close different features against each other, like minor axis length against perimeter, eccentricity against perimeter, and you look at them feature the best split the model.
+
+But here we are not choosing a certain model.
+
+We are going to use everything in some other class.
+
+You can explain choosing model, but this is I want to make this class as simple as possible for us to be able to comprehend.
+
+So now we have not trained the model, so we cannot check for confusion metrics.
+
+If you click on confusion metric it's going to be blank.
+
+You need to train the model first.
+
+So to train the model, just click on this train train, you can train our model or just train selected model, anyone? So we click on train and then you notice if you start training the full model and then after training it was able to achieve 92% percent  accuracy.
+
+So remember we talked about accuracy, but this accuracy is on validation sets, not on test sets.
+
+Okay? So if you want to check the accuracy on test sets in, remember when we loaded our data set, we with held 10% of the data for valid for testing.
+
+So you can go to the testing and click on tests.
+
+You can click on test all we on test selected either one to test all means that if you have so many models listed, you can you can test, you can train or test all the models so you can click on confusion metrics for testing and then you can see the results.
+
+So here is showing that the accuracy is 95%.
+
+Marvel is asking What did I click to go to logistic classifier? So I Colab this now this is, this is apps, apps on the menu and then you click on the drop down for the apps and then you can scroll to Machine Learning and Deep Learning.
+
+Then you can click on classification learner.
+
+Okay.
+
+So you be able to see that and then on the menu you learn and then you can click on this drop done.
+
+We you have the models, this models, you click on it and you can see logistic and regression.
+
+So by just doing clicking, clicking, clicking, you're able to achieve your confusion metrics, you're able to see your accuracy on test data.
+
+Okay.
+
+So the confusion matrix as we know, the zero class is the Cameo is the Osman, the one class that this one class is the just as we have been the role data.
+
+So which means that which means that our model has some kind of true positive and true and false positive results that is fairly significant like 207 and 155.
+
+So where the negative or non-accurate is not as much as, so if you do the calculation, but anyway you don't need to do the calculation, it's already said you have 95% accuracy.
+
+So that is how to achieve classification or logistic regression in without using any code.
+
+Okay? So because you can export the results to the different platform, but for now we just stop it here.
+
+So I will go to coding now what I want you to remember if you want to increase the accuracy of this results or you want to make it much better in terms of the training time because this data is not so much have more data, it may be difficult for you to converge.
+
+Okay? So it may be difficult for you to converge, which this is not showing Anyway, if you get to the coding session, you will notice what I'm saying.
+
+So you may need to normalise this data about this data is not nominal normalized.
+
+Okay, do you understand? So because we've been depriving the programming session a lot, I also move to the programming session.
+
+So as we've said earlier around will be using Google Collab for the programming.
+
+So and then please kind of kindly follow suit.
+
+So we will be using Pandas and then SQL circuit.
+
+Okay.
+
+So these two Librari is what will be what will be using for the programming.
+
+Okay.
+
+So the thing is that, so the thing there is that I want to try much as possible not to introduce so many libraries and I want to try as much as possible to keep it simple.
+
+Now we don't need to do any installation here because most of these libraries are already installed in in on Google Colab.
+
+I do keep list.
+
+Okay.
+
+Remember keep putting Victoria is for you to be able to check run shell command in in your notebook.
+
+So if I do keep list, Okay, if you list all the libraries that has been installed on this Google Colab instance or on Google Collab.
+
+Okay, so here I am trying to check, check available packages or libraries.
+
+Okay, so I'm just trying to check the available libraries.
+
+So remember we want to use Pandas and then and if we can see Pandas first.
+
+So Pandas, Pandas P.
+
+Pandas is P.
+
+So here is Pandas and version 2.22.2.2 installed.
+
+So that is established.
+
+So we don't need to install on this.
+
+Also we need SQL.
+
+So is also called.
+
+Here is called psychic length but the name has been also changed.
+
+So we have SQLN Okay.
+
+On the platform as so it has already been installed.
+
+So we don't need to do any installation established.
+
+Okay.
+
+So now why do we need this libraries? So data sets we need to load data sets.
+
+Okay.
+
+So Pandas is a very good library to load the data sets.
+
+Okay.
+
+So now we need to import pandas.
+
+So as we know to import pandas, you just do import pandas as speedy.
+
+One of those method that we used to import and according to some of the recommendation on the side, the reason why we use import Pandas as spindy pity because it's just one of those conventions that is being used in on the websites on the I'm showing in the documentation.
+
+Yeah.
+
+Getting started.
+
+OK.
+
+So here the said imports Pandas are speedy.
+
+So yeah, that is why most import nonp imports PaaS are speedy.
+
+So that's the reason.
+
+So yeah, Okay, so we import pandas and we can run it and then the next thing is for us to load the data.
+
+Okay.
+
+So you know remember we have the link TOA K online so yeah, load data and then the data is CSV and you don't need to, you can download it you will you want but it is not compulsory for you to download it because if this Google collab instance and it means you data, the data you downloaded is gone.
+
+So why do you need to download it? Just load it from the URL because PAS can do that.
+
+So it CSV So you can say panda pd.this pd.read CSV So according to the documentation, you can check the documentation out read CSV and then this is the link.
+
+Now when what this does is it will download this from the link and load data and save the data into this video.
+
+Okay.
+
+So now we can click on creating a new cell.
+
+The next thing is that we need to preview the data because when we imported the data into matlab, we were able to see some preview of the data.
+
+So and then if you want to preview the top, like head means top, Okay.
+
+Pail means bottom.
+
+So you want to see the top, the top ten data, you can just see DF because you've sent the data into this variable df.eight and then you can put the number of data you want to review, then if you want to by default, if you, if you don't put anything to show five first five or if you put ten, it will show you ten list of ten DS.
+
+Okay.
+
+Rows of ten data and these are the columns that we have in the data.
+
+Okay.
+
+Now after reviewing the data, you can also check The Bottom or tail of the data.
+
+So e you can just sit still and it also show you the last set of rows in the data.
+
+So the next thing is for us to do simple statistical distribution like that, to just check some statistics about the data.
+
+So as we know, the data is in 3810, just as MATLAB showed us, when we try to load it, and then we have the mean, we have standard deviation, we have the minimum, we have the maximum, and we have the percentiles.
+
+Okay.
+
+So for each of these columns, so it's going to show that notice is not showing for class, this class because it's strange what statistic they want to do on strange.
+
+Okay.
+
+But one thing we can do with this this is that we can use it to extract the class name because we want to be able to get the unique classes that we have.
+
+So we can use the command, the type, the title of this column is class.
+
+So if you put this square bracket and you try to say class, it will return all the classes, it to return all these classes, just this classes.
+
+So if you want to get just this column, what we just need to do is you just do DF square brackets, bracket and then the name of the column you want to get.
+
+Let's say you want to get the extent if you run it, it will show you some samples or overview of the data, the first five and the last five of the data.
+
+Okay.
+
+If you want to get more than one, you can put comma and then say, I want to get area.
+
+Okay.
+
+Sorry, you need to put two.
+
+Okay.
+
+I want to get the area.
+
+So I need to show you just two columns.
+
+Okay.
+
+I believe we are following.
+
+So yeah, but anyway, this is not what we are talking about.
+
+We just want to get the classes and we want to get the unique name.
+
+So remember have two names, the two unique names, the Osmani and then kun.
+
+So here are the two classes that we have.
+
+Okay, the two names that the two unique name or is just a repetition.
+
+Do that the two unique name.
+
+So we are then we need to, we want to map it.
+
+There are simpler ways to do it, but you need to also use some concepts in your Python knowledge to be able to map it.
+
+So what we do is that we do dictionary compression.
+
+We have list comprehension and we have dictionary compression comprehension.
+
+Any question? Okay? Yes.
+
+So now dictionary compression, you know the idea in dictionary is that you have the key and you have the the key and you have the value key value.
+
+So what we do is we look through the values in the right, try to enumerate.
+
+Enumerate means that as you are listening to the values, give me some number.
+
+Like this is the first one, this is the second one, this is the third one.
+
+So that's the idea.
+
+So it can be written in a full form by saying for for unique class in rice classes, then trained unique class.
+
+So it will show you Osman and then KO and Osman.
+
+So if I wanted to give me some kind of ID, I can use a numerate, maybe you have some, this is enumerate, not enumerate.
+
+So if you have some to show the ID and the like the kind of indexing, just numbering so and ID, I can just say ID and then the VES.
+
+So Okay.
+
+So the value unique class will be here and the ID will be in this ID.
+
+So that's the idea.
+
+So instead of writing it like this, we can use dictionary comprehension, compact is in the dictionary comprehension and we can get the this one OSMIC and the.
+
+So now what? Why do we need this? You know, remember we transform the data in our spreadsheet.
+
+I transform from this title was, but we transfer to one and zero.
+
+There are better ways to do it.
+
+But I want us to limit whatever we want to consume.
+
+So we do did is that this classes that we extracted, we wanted to convert Cameo to zero and then Osmani to one.
+
+Okay.
+
+Yeah, this is the opposite of what we did here, right? One is anyway just let's stick like that.
+
+Okay.
+
+So please are you getting it, sir? I didn't exactly understand the title of this column is closed.
+
+Okay.
+
+So if you want to get this, what you need to do is to simply put the square, just like you want to use a dictionary.
+
+So you put the, you write the DF that has the variable, and then you put the name of the column you want to get class.
+
+Okay? If you run it, if you list all the classes, only the column, look at this.
+
+This is showing all the columns and rows, just the army rows and all the columns we are shown.
+
+But if you want to show specific, Okay, you just need to use square brackets and then put the tights of that.
+
+If you want more than one, you need to use two square brackets and then put the tights of the around this.
+
+If you show me two columns, Okay, it's just like you want to extract just two columns.
+
+If you want to extract three columns with comma, put the other columns, you want to extract them.
+
+Like let's, I want to extract class.
+
+So yeah, Okay, we are running out of time here.
+
+We are able to transform the data into the class is now zero and then one and the other one is over.
+
+So so anyway, so you get the point.
+
+So we transform the data from just having this English words into just a number so that it will be easy for the model to be able to learn because they work based on number.
+
+So the next thing we need to do is we want to split the data.
+
+So I don't, I also want to avoid the mathematics so as much as possible is not difficult.
+
+So notice this is already suggesting for us that there is a library that we can use to do this train test splitting.
+
+So I will accept the suggestion.
+
+So this is a SQL.
+
+SQLNE apparently has a a functional method that supports splitting data.
+
+So we are not doing any calculation.
+
+It will do it for us.
+
+So we can just call train test splits and then you supply the variable to the variable as data sets and you tell the percentage or the percentage of the, the ratio of the test size you want to select in matlab.
+
+We chose ten, so let's choose them here as well, 0.1 times 100.
+
+So go back up and then let's think keep our code clean so we have a an import at the top so that we know that we importing arbitrarily so the data set will be splitted into train tests.
+
+Okay.
+
+And then we have the value here.
+
+Okay.
+
+So now we want to extract the libel and the, the label and the features.
+
+So here remember the class is in the class and the class of the data set is Lael, which is 0101 that we have it so we can drop the remove by saying drop E specific class.
+
+It means we are trying to delete that class from the old data and just get the remaining one.
+
+So alternatively we can post square bracket and get the list of the features.
+
+But we just want we want all the features.
+
+We just don't want the class to be in the training input.
+
+So we want it to be the the target, the class that we want to predict, the XIs the input, the YIs the output.
+
+So then for the training data PLE we drop, we remove the class from me, and then we take the remaining ones and then for the output we just select the class.
+
+So we did the same thing for the training and we do simple tests.
+
+Okay? So that has been done so by running the code.
+
+So the training of model is as simple honestly is as simple as saying.
+
+So the training of the model, this is suggesting something.
+
+We are not using random, any other classified than logistic regression.
+
+So and then SQN what do you want me to revisit? Son apparently has a libraries for import and logistic regression, these modules.
+
+Yeah.
+
+So linear model.
+
+So we import the linear model, the logistic regression, and then we can say model equals to logistic regression below and just saying fit like model fit and you pass the training data and the test to and you finish your training, you look at the model and you train the model, that's all, I mean that's the whole thing and it, so by this it's try to train the model and now but notice that there is a warning the one is that converging one in this model failed to converge.
+
+Okay.
+
+So this problem is actually because we did not normalize the data.
+
+This data is large.
+
+I mean the values are large and then the relationship is wide.
+
+It's usually difficult for model to be able to converge with on normalized data.
+
+So but anyway, we are not talking about normalization.
+
+Now if time permits, we do that, we don't have time, we just skip that.
+
+So the next thing is for us to test the model Since we've already was it.
+
+So the model, if you want to use the model to test the model that you've already trained, you say model, don't predict.
+
+That is you've trained you now make prediction.
+
+I remember we have some certain percentage for testing.
+
+So the test data and we get we try to get the predict result predited why? Okay? And run it.
+
+And then we can check for the accuracy.
+
+Like we evaluate the model, we check for like after training the model, you basically need to check for accuracy.
+
+But for us to check for accuracy, we need to import the lively that support for accuracy.
+
+Again, Psychic CLN has that model.
+
+So we can say from metric import accuracy as simple as that.
+
+So no easy lot of things that we made simple, we just import and then run it and then the accuracy is 0.9291.
+
+If you look at MATLAB, the results we got from MATLAB is kind of a bit different.
+
+Matlab got 95% while and in Python we got 90%.
+
+It's possible to get so many variation like variation in the results, but maybe by and large it will be quite close.
+
+Now here you are some of the reason why you might get a variation in the results.
+
+Now if you look, click on TR and this has so many parameters, that's the default as we said.
+
+So this default is what matlab, Python is using.
+
+If you want of matlab and Python to be the same thing, you have to set the same parameters in Python as what we have in MATLAB.
+
+Okay.
+
+I remember this one did not converge is just using maximum of one range iteration or some tolerance value as I said, iteration, you know, the number of time it tries to optimize it.
+
+So yeah, so that's why we have the variation.
+
+Also, remember we are using cross validation in in in matlab.
+
+So here we do not use cross validation.
+
+Okay, but then before we go to that, let's also try to check for confusion metrics.
+
+So because those are some of those results, you will be, you will need to present confusion metrics.
+
+You need to import the library for confusion metrics.
+
+So it's also available in cyclic.
+
+So it's part of metric metric.
+
+As I mentioned, metric is what you used to have evaluate the performance of the model.
+
+So we've been confusion matrix and then we can print it.
+
+So here if you look at the result of this one, this one is 242 and  six.
+
+If you look at the confusion matrix we got from MATLAB.
+
+Yeah.
+
+Kind of close, but not exactly the same thing.
+
+I told you if you want to get the same result as matlab, you need to tom some parameters as exactly as what you have in a possible.
+
+This is not so appealing as the graph that was shown in MATLAB.
+
+Okay.
+
+This is a table or a kind of graph.
+
+Okay.
+
+We can get the similar, a similar graph in in Python as well.
+
+There is also another function that does that inside.
+
+So this is confusion matrix display.
+
+So what you do is is also part of metrics comma confusion matrix display.
+
+And then you run it and you get your alright.
+
+So this is Cameo and the true predicted Cameo 146.
+
+And this is Osmani true.
+
+The true predicted is a one and six.
+
+So and if you check matlab results, as I mentioned, remember the zero here is an omanic, so which is two and seven.
+
+And then the results for Cameo is 151 and 55, Cameo here is 148, CAO in MATLAB is 155, Osmani in MATLAB is 177 and  six.
+
+So you can see the result is quite close.
+
+So that is not exactly the same thing Now as we try to avoid over fitting in in the previous MATLAB.
+
+We can also try to avoid avoid overeating by doing cross validation.
+
+Okay, I told you if you do cross validation you get, you try to, you can get, you need to train the model five times.
+
+Again, we have easy way to do that.
+
+You just call the model and function K fold and you specify the number of fold you want and then it to do the and what is the performance.
+
+So the cross violation for support is from the model selection package.
+
+So violation of please call, we can evaluate it from there.
+
+So here we said we want 5K5K5 fold.
+
+Okay, decay means the number of food that we want.
+
+So which means the K here is five.
+
+Okay, we may not necessarily showful like try to randomize data and this is to ensure reproducibility like you try several times, it will give you the same results.
+
+So now we have the model, we have the training data and we have the K-fold, the number of cross validation, the video for cross validation and then if you run it, if you try to train the model five times, if you try to train the model five times and then you can check the result and need to show you results five results 12345.
+
+So it means testing by testing the resolve the model after training, it tested, the model was tested.
+
+Training tested, training tested.
+
+You notice one of these results is quite close to what we got in MATLAB 0.957 which is a for which is approximately 95%.
+
+And if you check MATLAB, we have 95% for testing accuracy.
+
+Okay.
+
+So that is that from that, I hope.
+
+Wow DA you don't really understand today's class.
+
+Let me take your question.
+
+Which part the matlab or the Python? I will give you time to.
+
+We have 5 min left.
+
+I would like to take quite so I would like to the question and I specifically wanted to speak as part of the question session.
+
+Then I'm expecting your hands.
+
+So please, so some some I can't hear you.
+
+Okay, Daniel, please.
+
+Is there something wrong with my? Hello Speaking someone? Someone should speak Umar, please speak, sir.
+
+Can you hear me? Good evening, sir.
+
+Hello, sir.
+
+I can hear you.
+
+Good.
+
+Even.
+
+Yes, sir.
+
+Actually, I did join the class very lately, but I want to understand in the data set you said we are going to do conversion of the of the is this the string characters to two numbers.
+
+So do we do we really do the conversion there or I don't really get that aspect of of the lecture.
+
+Okay.
+
+Refer to code the Python.
+
+No, I I mean from the data sheet itself.
+
+Okay.
+
+The raw data set.
+
+If you can see my Yes.
+
+Raw data set.
+
+Yes, I can see English name Cameo and then you scroll down, you see KO and then Osmani.
+
+Okay, Yes sir.
+
+Okay, yes, these data sets are not really this type of class A.
+
+I can only learn from it.
+
+We need to convert the case.
+
+So we decide to change KL to one.
+
+Okay for matlab, we CH came to one and then we change OS Manic to zero.
+
+Okay.
+
+Understood in Python code also, we did it the same thing, but we just flipped it because it's kind of much easier to flip.
+
+Okay, but we can't do the same thing.
+
+We did the same thing Python also.
+
+Let me show you.
+
+Yeah.
+
+Transformation, we try to convert instead of having this cameo and OS Manic, we change it to zero and one.
+
+This easy for.
+
+Yeah.
+
+To learn.
+
+The time is fast sprint.
+
+Yeah.
+
+Sudhai, I believe you understood.
+
+Now can you please speak? Yes, Sir.
+
+You are muted Sunday.
+
+Sunday please speak.
+
+Okay.
+
+So I support, please, I advise you there both Python is Okay.
+
+Yes, I can hear you now sir.
+
+Today's class.
+
+I don't really understand.
+
+I was about the research.
+
+She was the matlab process where well, you know, watch the video if you have problem in the class, the time is Okay.
+
+Okay, but try try to re-watch the video.
+
+Okay, the time is we have time and then for all Latin word Rebecca: so well, you don't necessarily need to understand the two, the two are basically the same thing, just two different approach.
+
+Python did almost the same thing as what we did in matlab.
+
+I actually understood, understand the Python and the collab.
+
+But the MAT lab, I don't understand.
+
+Please watch the video and then if we stay have with you we talk in the next class.
+
+So thank you so much for today.
+
+I hope to see you in the next class yourself.

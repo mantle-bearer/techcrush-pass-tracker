@@ -1,0 +1,1417 @@
+Another wonderful session today.
+
+I hope so.
+
+I welcome you to today's class if you can hear me kindly signify with thumb or different kind of emerges.
+
+Yeah, thank you.
+
+I believe you are enjoying the class as much as much as I am.
+
+So without so much like so much delay will begin today's class.
+
+Yeah, so and then just a word of encouragement, Don't don't be discouraged in the sense like it may get kind of overwhelming to delve into something that is kind of a bit different or something little bit new.
+
+We are not alone.
+
+Every now and then in one career one will need to explore and start learning new team.
+
+We mean to stop learning.
+
+That's when there is a problem.
+
+So it's always what like some bumpy things when you're trying to learn new thing and then by time you become you look like that.
+
+Okay.
+
+It's actually difficult.
+
+When I started.
+
+So yeah.
+
+For the second assignment, I thought the length is inside the presentation.
+
+I shared the PDF file on the group.
+
+So yeah.
+
+Actually inside presentation.
+
+Okay.
+
+So let's begin, I believe I see my screen.
+
+So yeah, First and foremost we do brief free up.
+
+Yeah.
+
+Thank you to brief recap.
+
+Last class we did some intro to programming.
+
+I will try to tell us the reason why Python is the choice and then that is why a we need to have some level of knowledge programming.
+
+So, yeah, so today we still continuing that part, but I want us to, I want to tell us some story because I feel some, I just have the feeling that some people or some that are already pro pro in programming if you where do I run code is running other code, relevance to my journey, other code relevant to my journey or some people that are not so much familiar with coding, you feel like did they really need to? Like they not.
+
+I have not thought them out the code.
+
+I've not told them the fundamental code and why are we jumping into running other people's code? I'll let you know if this is error of AI.
+
+Most of us, not only most of us, we go to CHAR DBT, generate codes to train AI model and WALA, CHARGB or Google GI and the code, the code is out.
+
+Next thing is how do you run it? Okay.
+
+Now most of the time the language model, they are becoming very good these days.
+
+Okay? Or most of the time you have your so error due to some issue like the charity or the world they have Cut Off, period.
+
+This data were trained on they often they are not so much updated, although they are hooked up to the internet but not completely updated as much as the knowledge they already had.
+
+So basically what I'm trying to tell you that many times you often need to run another another other people's code and you are not the only one doing that.
+
+Let me tell you a very shocking story.
+
+So this is this history, so history of open.
+
+So I believe many of us know what open is and what open is all about.
+
+So some of those things are about so openly.
+
+I, they are the pioneer of that we are using so openly.
+
+I was established in 2015.
+
+Okay.
+
+So but the thing is that the thing that open is bragging of these days now the charity that is bragging up you'll be surprised at.
+
+So the meaning of charge GB or GPT is generated transformer.
+
+So generated bit train transformer.
+
+This the most important thing the this transformer is not the transformer that is supplying electricity to house.
+
+Okay.
+
+Both stepping down the electricity from the from the HP or I will take transmission no down.
+
+So this is another transformer that is transforming your word to text.
+
+So now let's look at something.
+
+So this is open, open.
+
+I was established in 2015 and then they launched their first GBT model in the 2019 others.
+
+And then if you go down through the history, the WASB became something that became pop, became popular that everybody now seen around 2022.
+
+So it's actually 2020 when it starts getting popular that people start seeing change.
+
+So what's Since 2015, they've been trying different things, different, what it call that we're not getting like noticed.
+
+Okay, but change 22 from 2015 to 22 is a very appreciable amount of time.
+
+So but what happens was going on the behind the is this generative model.
+
+GPT.
+
+So now the GPT, if you read through the history of GPTB, you come to a shocking revelation somewhere around the core technology of GBT, which is transformer transform architecture developed and introduced by Google researcher in 17 in a call attention is all you needed, so is all you need.
+
+So I mentioned the other time that's in the domain of AI.
+
+We have those that are applying the technology, we have those that are developing the algorithm or the too that are using the mathematics to make so of that.
+
+So I am telling you frankly, this class is not for the mathematics, Okay? So and then as much as I'm aware of the mathematics, so I don't want us to delve into the mathematics.
+
+So there are of people who run away from this class.
+
+So at the same time the so which means we are not coming up with very, very unique algorithm, very very unique techniques, but we are trying to take the technology and be able to adopt it into our was it we also be coming up with architecture, fine, but we will be using some of those.
+
+So it is very important for us to be able to run that.
+
+So I'm not, I don't mean to scare you, I just want to show you.
+
+So this is the paper, research paper.
+
+So that is a paring or that kick started the idea.
+
+So if you look at almost all the people that worked on the research, they Google brain, Google brain, Google research, Google research, Google research, and then one university, Toronto University, Google brain.
+
+So almost about 80% even know 90% of those that worked on this research were from Google.
+
+But surprisingly Google published this paper in 2017 and they did not, they did not really use it as much as those people have picked it up.
+
+So you see a code that that is proposing a solution, a solution, and then the people that proposed it are not really using it as much as they should use it, or they are not giving the necessary attention as these people said, Okay, they are not giving any delay already, I have not got any breakthrough in it.
+
+So now you picking it up, trying to run it and also see if you can also come up with things in your own domain, it's a plus if something that can result into multi-million was investment.
+
+Now a lot of people are now putting money into language model, language model.
+
+But when proposed, this first proposed, did they Google itself did not even take very, very great attention at it.
+
+They are using some other things, some other technology and some like that.
+
+So now let me show you the paper.
+
+I'm, I don't mean to scare you, I just want to show you.
+
+So don't be scared and don't be completed.
+
+It's just to show you.
+
+So here is the PDF file of the paper.
+
+Okay, we are not going to work.
+
+So here is the architecture of the transformer.
+
+Okay? And then, yeah.
+
+Now look, they're talking about attention and they are representing it mathematically or this diagram they are mathematically represented.
+
+Okay.
+
+So and here are some of those mathematics and formulation and by time you begin scroll, scrolling down and reading or you just just skip me through the paper, you didn't see anything that says chat with that is chatting with anything It seems interesting except if you have some research background, they didn't didn't look interesting.
+
+And the part is that if they didn't release the code, you might probably find it kind of difficult to translate the mathematical representation into code.
+
+So in this yeah.
+
+Committee recently once you publish a paper or you publish your research, you always advise, you always advised to release the code.
+
+So and here it is nine years ago, five years ago, this was the code that launch or propel the idea of transformer.
+
+And I won't, I won't be surprised if TRAT also leverage on this.
+
+I don't want to say it affirmatively, but I'm not sure.
+
+I'm quite 90% sure that this depict they pick this up and they use real live data with it.
+
+So which in the paper itself, they did not really use the very what it called very real life scenario data and although Tability or openly distribution product to make it responsible in the response or something like that.
+
+So those are also another technology that were proposed by another research.
+
+So The Bottom line of this discussion is that is completely fine for you to pick up other people's code and to run it in thisi to me once you are not a researcher.
+
+And so if you a practitioner or you want to apply it in your problem or your solution, it's completely fine.
+
+Even if you are true in programming, this mathematics are not your my Okay, they are not the.
+
+So you need to be able to bring down your ego and then pick up repository.
+
+The big companies are also doing that.
+
+So that's what makes the significant difference.
+
+So Yeah.
+
+And during the course of all this running other people's code or picking up theory, they will also enable you to now start reading something, studying something, what do this mean, what this translate to? And then some cop over that, things like that.
+
+Okay.
+
+So now if you are picking up code, which I believe many of you have actually encounter, we also encounter something slightly similar in this class the other time.
+
+So when you're picking up a code, the most AI generated code for you or you, you are writing, writing your code yourself.
+
+The most common thing is that you always have bug.
+
+If you are coding or you coded your what you call in just one, you may end up using a whole code is just truth.
+
+I happens to me and I believe I'm not the only one.
+
+Many other people so so not stock of those that are just starting.
+
+Even if you are just starting, you also face more problem in coding.
+
+So is not just about you as a person as a starter, It also happens to be flows like.
+
+So if I generate code for you, you still have problem with it.
+
+Yeah, not that's completely perfect, especially when as long as something keeps changing.
+
+So let me give you a typical example.
+
+When I was in undergraduate in the early days, I was learning about how to program microcontrollers.
+
+So I used my, I used my money to buy and some add lead microcontroller and some others.
+
+So after that I was trying to just do ordinary blink, blinking LA Okay, but it likes come up off, on, off, on, off that we now see in Christmas lights and some of that, that was the simplest thing I was trying to do.
+
+So my code seems to work fine and I tried the code was working fine in testing, but when I tried to push the code on to the microcontroller, that was when the problem was, the light was just like this.
+
+So and the the hard part, no is not, this is the hard part is that I ended of spending the whole night to with trying to find the solution.
+
+I couldn't find the solution.
+
+I just went to sleep.
+
+Surprisingly the following day I just woke up and I discovered that I actually did not connect the timer.
+
+So you know, when it's plain, you should know the time to off and on and off.
+
+So these are computer, how is our smartphone there is timer, Right? Because it was little there is timer in it that enables it to know what it should do for the processor to be able to function very well.
+
+So yeah, so that's this.
+
+When I woke up and I check the the connection, I discovered that just one wire that I don't know I was.
+
+So the problem, the same thing applicable is applicable to programming.
+
+You might just ordinary divided by giving a problem ordinary this or something like that is causing the problem.
+
+So you just need to take little break and check it back and then you may cover that.
+
+Okay, this is yeah, this was not a mistake.
+
+I know some people already commenting 90% of programming, 10% of debugging or no, it's like a paradox where we may often say if we are coding for 90% would be typical debugging for 90%.
+
+So that's so the 10% is the output that you are seeing.
+
+So it means throughout what is what this is actually interpreting as throughout your programming you always be debugging.
+
+That's just the idea.
+
+So some of those program this bugs, this is just a few of where it could come up from, it could be a version, just changing version.
+
+So as soon as there is improvement is what you call some libraries or there abouts, there will be different version that coming up and like dependency software updates and some other things like that.
+
+But when as as Windows update, I don't know anyone that has this news about cloud strike, cloud strike and problem that happens sometimes go right.
+
+So I think last year.
+
+So the cloud strike is an, I see like an an virus that a lot of systems like that.
+
+So it they rule out and update and it's crushed the system that depending on the cloud strike including airports, including businesses and love even, I think Wall Street was also the stock market was also affected by that update.
+
+So you contain issue about some updates and your code broke is not a problem.
+
+Okay, it's number.
+
+So you just try to avoid as much as possible to avoid it.
+
+Okay, what is debugging? So sorry for using that time down without defining it When you are coding, you know, bog like lady bog or bug or insects, something bug is generally something that is making we your team not to your work, not to be expected.
+
+Like you have a app, an apple and then insect insected, you already have inside apple or you have some ED stops and they bugs inside.
+
+So in the case of coding, when you have a problem in your code, we often call it bug.
+
+Okay, the problem may not be something that cause it to break, It may be something that is not even showing any sign of error.
+
+So no error, nothing.
+
+So let's say for instance, you you know in in Nigeria we have Nyon cobble, so COBOL is the.the decima, the number behind the decima.
+
+Okay, So let's assume that when you are doing, you are working in the financial sector in the bank and then whenever customer makes money, just approximate it to the nearest number, that's the bug.
+
+And by the time you start updating, let's say 50, by the time you start accumulating it, you will notice how much because if you multiply 5000 TE co by 200 million people in Nigeria, it is called that there is a significant amount of money that you are approximating.
+
+So if you use a different wrong data type like you use INT, integer, integer means it, you show if you just cable your number, not the decimal place.
+
+So yeah, it when you know that thee so that's a scenario of what we call so yeah, that's an example is not causing error, causing technically the problem.
+
+So yeah, yeah, So I will give some examples of some of those instances here we have different type of bugs like that.
+
+So because as we are trying to learn about coding like we are not doing coding lesson but even if you you have some, you need some tactics in how to do some debugging.
+
+So I deliberately put some choose some repository that would be problematic so that you have some feeling of how some bugs actually work.
+
+Okay.
+
+So and some I wasn't having myself, I guess so like this example of style transfer which we did the other time.
+
+So for this one, I wasn't aware there was there was an issue with.
+
+So anyway we both saw it in the last class that there is actually an issue with not really issue, but is a documentation TE because I really did not check the documentation.
+
+So the documentation says that I will bring out the Okay.
+
+anyway.
+
+So here is the repository, we just run it and then what we did, what we wanted to do is for instance, we know that this is where the file is being downloaded, this is the file like this basically the dog.
+
+And this is basically the the pattern.
+
+So we want to the idea of the code is to use apply this pattern on the dog.
+
+Okay.
+
+So to make it artistic, something like that.
+
+So which is something you may want to do.
+
+So you may want to bring in your what is it called your data, all your image and you want to transfer some pattern onto it.
+
+So the thing is that this so let me let me just click on and you think that this apparently this library actually usually cash.
+
+What I mean by cash is that once you've run something before to keep some kind of a replica somewhere so that next time you run it, it will not need to do the downloading again to just use the one.
+
+So if I run this code, even if I change the URL as long as the name remain the same is that probability that it should not be download it.
+
+So let's check the I over and let's see the documentation.
+
+So the documentation says that the documentation documentation downloads, download a file from a URL so and then it's cash is inside a directory.
+
+So this cache as long as there is a cash with the same file name.
+
+So the final location way.
+
+So it should not be download it so that program.
+
+So you know, I was trying to change the name and another you add the other time and then we are trying.
+
+So you will also often encounter something like this.
+
+So which will probably want to frustrate you or don't just don't get frustrated.
+
+So anyway I won't run this last time we mentioned about comments.
+
+Okay, so usually if you don't want something to run, you just comment it out.
+
+So and then in Python to comment, you just put ash like you just put ash and so this particular portion of the code will not be executed.
+
+So now I want to bring in my own file.
+
+So instead of downloading, I can download the file online.
+
+So search for something and then put the URL here and change this name.
+
+So that's why I already downloaded the file to my on my computer, which I believe many of you will also want to do.
+
+So let's say we have this, let's say you have this type of file.
+
+So and then let's say we have this pattern.
+
+So we want to This is Norma for who collab, who collab will tell you the file you is temporary and need to be deleted once the session is over over.
+
+So this are the files we have the ocean with and then we have another one which is pattern the pattern do this pattern, I wanted to transfer it on to the ocean with Okay.
+
+So that's why I wanted I want to do so I can just call me and copy the part.
+
+Okay.
+
+And then I put it Okay.
+
+And here I copy this part and then I so well you may have your own opinion, but anyway boing and debugging usually we separate but you Okay.
+
+So anyway, so here is the replacement, like the name of the file or the image and like so we replace it and then I just run it and then and then so what you notice is that the content, which is the wave and The Star that wants app, it is now successfully loading as contrast before where the dog and this was the so you may not necessary for your assignments, you may not necessarily do this if you do it for with the default the dog and this it's fine, It's Okay.
+
+Okay.
+
+So what I'm telling you is just to make some collect in case you want to put your own content or you want to what it called.
+
+So yeah, you want to put it there.
+
+So it's also fine.
+
+It's acceptable.
+
+Okay.
+
+So I'm not comparing you to to use your own.
+
+So basically we are just trying to get familiar with trying to find problem in code or in some other people's code that we want to use for our application.
+
+So here is the output.
+
+Okay.
+
+So the wave and the pattern we are transferred on to each other.
+
+So and we may want to go deeper and then run some other part of the codes.
+
+So yeah, so and how it works in the grey like so but that for this one, I will move to the next team but to finish it up when when I, when I told you, when I told you to download the image, I mean the final output, you can download this image or eventually at The Bottom the code will also download, generate the image for you.
+
+So you can just upload it on your post and your YouTube post, so you can operate on your YouTube post and then you have the output for your assignments.
+
+I'm not saying you should do screen recording, but if you do, screen recording's so fine.
+
+I'm not comparing, you know, to do that, that's if you actually just output to the image, the final image.
+
+So now here is an instance of the pattern then transferred onto the image.
+
+And then here we actually trying to do some optimisation and it you didn't understand the process of something.
+
+The process is that let me finish, I'll finish with this one.
+
+Then I show you what I mean if you finish running this code successfully.
+
+Okay, what it means is that this could be generate a final output for this one.
+
+If you download the image, just observe my screen after this code is completed.
+
+Finally save the results.
+
+Okay, see, not is at The Bottom.
+
+Finally save the results.
+
+If you run this, it should download the image either to your phone or to your computer to ask you do you want to save what you want to download or something? So that's final output.
+
+Okay, that's final out is what I'm talking about.
+
+So and you need if you didn't use a separate for the this, this one, the content and The Star, you pick the contents, you upload it, you the staff, you also upload it to your post and the final outputs is fine.
+
+Outputs this one that will be generated eventually after this.
+
+See internally and it's loaded.
+
+So this final output that is generated is what I'm talking about.
+
+So the final outputs, your inputs to input image, your product to your YouTube post.
+
+Okay, that's the submission for this one.
+
+Why can't you use youtub? I believe you need to check some video on how to do it.
+
+You can't do the recording.
+
+So no problem.
+
+You should check know this class we are learning.
+
+Okay.
+
+So try to check out to some people are saying they don't want to recording and something like that.
+
+Yeah, that's fine.
+
+Use simply not a problem.
+
+Okay.
+
+So anyway, so that's that's you need to one important thing in debugging the basic line, what I'm trying to tell you, one important thing debugging is that you also need to check the documentation.
+
+Documentation is quite important, at least read the instruction.
+
+Okay.
+
+So even if you don't know how to read the code, something that just in the documentation or in the instruction, So which here like in the case of post landmark, post estimation, so different bugs came to play here we have the version change issue, we have the dependency issue, we have the system updates.
+
+So let's look at this post estimation code.
+
+Okay.
+
+So now the first thing is that how do you take it to Google up? How do you use it in Google up? Because this the one, the style transfer or the code you already have Google collab in their in their description, something here running collab collab with already there.
+
+But for this one, how do you, how do you do, how do you use it? So what you simply need to do? So what you simply need to do is you just copy this link, see the link, the link to the GitHub repository, copy it.
+
+Let's assume you already have a go open.
+
+You just click on the file and then say you want open notebook.
+
+Okay? So click on open book and part of the option you see is GitHub.
+
+Okay? So you can click on the GitHub and then you can paste here, enter get a URL for search for an organisation, you paste the code here in the link here and you click on this links Boing.
+
+So once you click on it, it will show you some of our repository data in the, but basically that of post landmark, the first one, the list, you can't open it.
+
+So that's the simplest way to one of the simplest way to open repository or notebook that is not already having the performing collab.
+
+I guess it's a network.
+
+Okay, please, I guess it.
+
+But when that person is having issue with that, could you kindly signify can you see my screen? Yeah.
+
+Okay.
+
+So some people actually see my screen.
+
+So, but I will try as much as possible not to be too fast and so, Okay.
+
+So we have the post estimation from GitHub, we transfer to pull up.
+
+So now here is where the first program comes in.
+
+Let's say you can run anything, you can run the code.
+
+So Okay, Wrong this one.
+
+So what here? You notice some error.
+
+So really this is deceptive.
+
+That's error.
+
+I think, I guess because I've already run in before that know somebody well to which you encounter.
+
+So I don't want to to.
+
+I Okay, so if you do some installation, so, but at the end of the installation, before the end of installation, if you fail to show some error, so this kind of error.
+
+Yeah.
+
+So it may be difficult for you at this stage you have not learned the coding itself, but you already learning error.
+
+Don't be scared, Error is no mating coding.
+
+So you just try to find way to fix it and that the problem, that's the thing.
+
+So I'm not trying to scare you, I just want to give you confidence that you are not the only one that gets error in coding, Okay? Even if also gets error.
+
+Yeah, Okay.
+
+So hey, sir, I am trying to check the question detection so that will not be lost in the.
+
+So now a brief of the story behind this is that you look at this repository, we are trying to run it in 2025.
+
+And then if you look at this code, the first thing that might come to your mind this code was actually written change 23 and we are running change file.
+
+So one of those probable things that might have happened is that some updates are happened.
+
+Okay.
+
+This is strangely this was wring and then we are running change five.
+
+So so the first thing you need to check is that if this thing is saying change 23 and I'm running change 25, there is probable updates that has happened.
+
+So one of those things I can do is to try to downgrade this installation, this thing to back this chain or something kind of close.
+
+That is not so far.
+
+Okay.
+
+That's one of those things that I can do some other things you can do, which is actually probably to try to check some of those things that were listed here.
+
+Well, the first thing that you can think of that I would advise to think of is try to backdate.
+
+So if you is not going to break any of that thing in your work, try to go back to that date.
+
+So now how do you go back to the date? So here is the library or here is the thing you are trying to install.
+
+I will try to open it in to search for it on Google or some.
+
+So here is the media pipe and then installation.
+
+Okay.
+
+So usually in Python we use PE use P to install.
+
+If you have noticed, you see P install, install something like that.
+
+That's what we often used to do installation.
+
+I mentioned this in the first class or in the second class that in Python we use if you see pip install, that's one of those ways you can install.
+
+We have Conda instore, we have up and some other approved is that you can use to install.
+
+Okay.
+
+So yeah.
+
+So now this thing.
+
+Okay.
+
+So I'm saying that you can also copy this code, this line of code at installation as such for the the version.
+
+Okay.
+
+So the first outcome will often be the cling stop.
+
+So now here is keeping store if you look at the version here is saying the last version was 2025 Febber.
+
+So you need to, you want to go into the history and see if there are some version like this is change 24.
+
+This is change three.
+
+We are not sure of time which time you change 23, but you can, you can choose any of those train three or choose the immediate version in 2024.
+
+So, Okay, so let's say we choose this version which is quite close to train three.
+
+So we just choose this version.
+
+So you can say, Okay, let's instead of installing the recent update, the most recent one, we can install the version in 2023.
+
+So the version, sorry, the last version, the first version change for so which is zero point ten point ten pointer.
+
+I'm not quite sure.
+
+Okay, what I would do now is to try to join on my own device as well, so as to be able to know what is happening in real time.
+
+Okay.
+
+Give me some that I will also be able to know what's happening and give me a minute please.
+
+Sorry.
+
+I just.
+
+Okay.
+
+So why this is trying to and I just, I guess it's probably going to be next to you.
+
+I'm quite sure my network is Okay.
+
+I'm sorry to say that, but I'm quite sure.
+
+Okay.
+
+So, so anyway, excuse me.
+
+So, yeah, so there are still some errors, but this this time the error did not really break the code.
+
+So we can proceed.
+
+So what we we successfully did this to try to choose a date that is quite close to the period when this code was published.
+
+So basically we are just running the remaining part of the code and then Okay.
+
+Okay.
+
+So well we are talking about some other things like that.
+
+So yeah, and what I'm saying is that Okay.
+
+So and another thing that you are having issue with out you can just restart your session.
+
+This is restart restart session.
+
+Okay.
+
+So if you do disconnect and delete run time, it will delete all your file you uploaded previously.
+
+So but we are just trying to so anyway the final output of this code is that it will show the post, the position, the skeleton of the person and it also try to segment out the the person from the image.
+
+Notice we have several other things, we have this, we have the, we have the cars and trees and like so we POS mission with this model we able to segment out the person.
+
+So this for you doing video editing or what is it called photo editing.
+
+You notice you always do this kind of masking and then this are some of those AI that AI solution that are doing the job behind the.
+
+So in case you have your own image, I would just show this.
+
+You don't necessarily need to do it for those that are proving what is it call.
+
+So I want to try much as to carry everyone along.
+
+So but if you are not.
+
+So I'm sorry about the last sorry, sorry.
+
+I guess the network is the issue.
+
+I think I hear someone talking about Mn Mn at the beginning of the class.
+
+So probably network, but I'm quite sure my network is Okay.
+
+That's one thing.
+
+So Okay.
+
+So we are, the time is fast spent and we are still.
+
+We haven't talk about the coding itself.
+
+So if you are pro or you already know something about Python, you might have noticed that here he's talking about you, that if you don't want to use the image that was provided, you may want to create, upload your own image.
+
+So as I've mentioned before, Ash is for coming in Python and whenever you have comment not run that section, it's not run that part of the code.
+
+Okay? So this comment, these were commented deliberately so that if you want to, if you want to upload your own image and you want to estimate the cost, you just need to uncommon the what the line of codes.
+
+So when I run it then it told me to upload the image I want to use so I can browse for the file and I need to upload the image.
+
+So now one thing I need to do is so the file has been uploaded anyway.
+
+So one thing I need to do is if you look at the name of the file, the name is different from what the code is referring to.
+
+Okay, this is not compulsory for those that have no zero experience in coding, is just for those that already know something about coding.
+
+So what you will notice is that the name is different.
+
+Okay? So you can copy the name, you can copy the name and just replace the name.
+
+So don't gets intimidated please, we need to carry everyone along.
+
+That's the issue.
+
+So and then after placing the name, you will notice the image will show the host of of the image, the person that was uploaded.
+
+So if you have your own image, I want to include.
+
+So yeah, this is one of those ways you can do it and then you can have but and for this one if you want to, if you are the one that wants to do this as your assignment, you can then just simply save the image so you can save it as output of their box.
+
+So then just leave it as unload and the image is saved.
+
+And then you can upload this to your YouTube post.
+
+Okay.
+
+So again don't get to intimidated.
+
+This is not necessary for you.
+
+Yeah, don't press, don't be worried if you just run, you just need to run one and repository one and one other one.
+
+So you don't need to go.
+
+So don't be intimidated, please.
+
+We need to carry everyone along.
+
+And by the time you also start getting very, very proficient in this thing, you tend to appreciate if you can go back to the video and try out, try it out.
+
+So but the other thing we are trying to talk about is that version dependency and software updates would actually also cause some error, so which you need to fix.
+
+And as for the lemon quality, this is also something, but I won't talk about this one.
+
+And if you don't do it in your assignment, it's Okay because I think many people are getting overwhelmed and we are not talking about the coding thing that we are talking about.
+
+So this week we need to try to wrap up things on coding and move on to developing AI models.
+
+So, yeah.
+
+So last class we stopped.
+
+Okay.
+
+Maybe I can take one or two questions, one or two questions God will and then Mohammad Umar and then I have another question, the section here that says that can there be an instance where after the date has been changed, the error still won't be solved.
+
+And if yes, what else can be done? Yes, in fact, many times it's also going to do up on like that.
+
+So the next thing you need to check is to know what type of error is brought up.
+
+So for instance it may also be another fashion things that happen.
+
+So I can, I can say something like this.
+
+Now we are in Python 3.13 in change three, we are probably in Python 3.93.8 if I am not mistaken.
+
+So the Python version also could cause some issue.
+
+Okay.
+
+So that's also something that is possible.
+
+Okay, So let's go to the question.
+
+Umar Muhammad Umar this you have the, I think AUST engineer also gets ready.
+
+One please.
+
+We don't have so much time.
+
+Can you hear me? I can hear you now.
+
+Good evening, sir.
+
+Good evening.
+
+I noticed that during the last class we had, you were running the focus.
+
+It took you very few time for you to be able to generate the images.
+
+But as I was trying it, I was it was running for more than 30 min.
+
+It could not generate the code.
+
+So I don't know what could have been the problem.
+
+Okay.
+
+So did you get my question? I got your question.
+
+So one of those things you need to check is there is kind of a log, You know you are going to something, something that you, that life where you are trying to do the prompting to generate the image.
+
+But if you go back to Google Colab, the Google Collab page, there are some log, some printout that is showing.
+
+So there will give you some insight to what is happening.
+
+So if you can screenshot that particular insight or that particular IW, I will probably be able to give you more suggestion on what's could have from.
+
+Okay.
+
+Okay sir.
+
+Thank you.
+
+So it was no sir.
+
+Okay.
+
+Hello sir.
+
+Hello idea with me.
+
+I'm with you.
+
+No.
+
+Like an Aerobo, it was running very long.
+
+Yes, I longer time for it, long running period.
+
+But the base could have been from the Google Colab that you that is SP Google Colab is one that's brought up that.
+
+So what you are running is not on your computer actually running on Google is not like that's that you is don't see an error on its own.
+
+It has something that is doing some background work.
+
+So you should go and check what is happening in the background.
+
+So yeah, you just like the website is loading is loading.
+
+You can really not do anything at the frontier just attending to the website.
+
+So what is happening at the end, at the back end is what actually tells a lot of information about that.
+
+Austin engineer.
+
+AUST Engineer, please, engineer.
+
+We don't have so much.
+
+Hello.
+
+Yeah.
+
+Hear me.
+
+Yes, I can hear you.
+
+Yes, please.
+
+I don't.
+
+If you can quickly recap how to open a post document on Google app.
+
+I really didn't get that part.
+
+What? How to what you have for me the opening of a post document on Google, but I didn't get that part.
+
+Understand it? Okay? Okay? Yeah.
+
+I also also why you were trying to debug the arrow just now.
+
+You want to change the date.
+
+That part also was not put by me.
+
+Some of this thing probably need to watch the video again, but I will show you, show you what you requested.
+
+So I don't know whether I would be able to take more question after the time is almost up, but I would definitely try as much as possible to next leave it at this point because we we've not done so many things.
+
+Okay.
+
+I will try to increase my volume.
+
+Okay.
+
+Going back to where we stopped, you mentioned that the googleap things, this is the repository.
+
+Okay.
+
+What you need to do is copy the URL, copy the link.
+
+After copying the link, you can open your colap, Okay.
+
+And then let me show you open your COL, you click on file open notesbook and then you can click on GitHub and then you click on GitHub.
+
+You paste here at where you have searched the enter the Google enter the entire GitHub URL, then you paste the link which you copied, you paste it there and then you can list it like Post mission DB, then you open it and it's open.
+
+So the other one where to check for version.
+
+You can copy this and search it on Google.
+
+Google will most likely suggest the most recent thing about people for you.
+
+Then you can click on it and you can look at the history, release history and then yeah, you can check.
+
+So that's just be about it.
+
+So we proceed to the and three, we are learning coding.
+
+So we talk about interpreter and compiler, your previous class.
+
+We also talk about syntax and semantics and how we will read code, semantics, how you read it, how you read it linguistically.
+
+Syntax is the how you must write it, like for the code to be understood or for the compiler for the interpreter to understand the code.
+
+And then the comments we mentioned, the comments is usually something you used to get more information about, like a much more linguistic description about your code.
+
+So and then we cited an example, cited an example here.
+
+So here we mentioned that if five is greater than two, then print five is greater than two.
+
+And we mentioned that if you don't put inntian, that is a red flag, that a red flag for Python.
+
+So so so someone then asked that if he choose not to use space or indentation, I guess you don't have choice.
+
+Syntax is how you must, how you must write it.
+
+So now and another thing there is that let me give you a very typical similitude of what indentation actually means.
+
+So let's say I wrote, so let's say I wrote all down here the way code and the way Python distinguish between what is under what is categorized as if five is greater Than To wash you and the way it knows it's able to distinguish between what is not on it is true indentation.
+
+See, let's say I change this to to a number, let's say eight.
+
+Just I'm not going to change this and let's say so the question is is actually five is five actually greater than it? We all know five is not greater than it.
+
+So if I run this code it it should not show five is greater than.
+
+Okay, let me just change it, it should not show five is greater than eight, Okay, but it's showing all done.
+
+So this means that because there is no indentation for this or done, it means is not going to be categorised under the condition that if five is greater than eight, Okay.
+
+Should not be classified.
+
+Categorised under the condition of five is better than it.
+
+So but if I wanted to be classified under the condition that five is greater than eight, I should put indentation there.
+
+So which means that if five is not greater than eight, which five is actually not greater than eight, then it should not show anything.
+
+Okay? So the only way you can make it understand that if this thing happen, these are those things you should do.
+
+So I, I think I can give you some little of umbrella.
+
+Let's say you are, you you have umbrella, three people are on that umbrella.
+
+Maybe two people are not under the umbrella.
+
+If it's raining or it's sunny, those that are under the umbrella are the ones that are going to be like enjoying the benefits of maybe they are going to be shielded maybe from the sun or from the rain, but it's two that are not under the umbrella.
+
+They are those ones that are not shielded, Okay? So that's indentation is more or less like the umbrella, which means this, this the umbrella of if something, something, these are those that are under the umbrella.
+
+So if I should move this prints all outside of this umbrella, it means that it's only this that is going to be executed when I run the code.
+
+Okay.
+
+And if five, if I change it to five is greater than two, Okay? Which means the condition is true, it will show five is greater than two and it also do this one because when there is not really he's not sunny, you are using umbrella.
+
+The person that is using umbrella and the person that is not using you are the same.
+
+Okay.
+
+So yeah.
+
+Anyway, so that's the kind of simulated I can give you in term of nation another programming languages, they have their own ways of grouping like putting something under this category or this kind of umbrella for C, C and it's families C++ Java, they use colib bracket.
+
+Okay, but in Python we don't use colib bracket.
+
+We only use indentation for some language they will have to begin and begin if and if so some language like that some other languages they asked to do, they have to do with maybe some and likes.
+
+So yeah.
+
+And I showed you the if condition, the indentation and so let's move faster.
+
+Yeah, we Okay.
+
+So so yeah, so we talk about comments.
+
+Now we need to talk about video boost and then data type.
+
+The first thing is video name.
+
+So I'm sorry about that.
+
+You can see I'm able to browse some other network and I'm opening to seamlessly.
+
+So this is my this is my school is not taking so long to wrong.
+
+This is comment it like in the breeze.
+
+So I can tell you my network is fine, so you probably need to checking it.
+
+I'm sorry about that, but I also advise you to kind of watch this video.
+
+The intentation is more or less like if you can't like you press tab if you are using a laptop, you just press tab and then to, you know, when you are typing in maybe Microsoft Word or something like that.
+
+So when you press tab the the text you typing will jump like move from the beginning.
+
+Let me show you so.
+
+So let's say I'm saying so now if I don't want it to be to begin at this beginning, I will just press tab and the tab will shift it.
+
+So this space, this one that we call it indentation.
+
+Okay.
+
+So that's indentation now and moving forward, we talk about variables, variable name.
+
+So what we mean by variable or variable name is that what you mean by variable or variable name is more less like variable is something that changes, constant is something that is constant, very constant.
+
+So we just playing with words.
+
+So but someone trying to speak Okay, so variable is something that changes that varies.
+
+I guess people are hearing me but Okay, let's talk what's lasting solutions can we have to this issue of you can't hear me, I can't hear you.
+
+I've discussed with the administrative department will be said that it's probably a networ.
+
+Oh, so question is our programming also doing some same function as like Python.
+
+It has some things that are quite also possible.
+
+Like Yeah, it has something that are also quite possible.
+
+But the reason why we are talking about Python is because many of these libraries, many of a libraries, they are very, very common or they are very, very tr and dancing Python.
+
+Yeah.
+
+Okay.
+
+So please let's consider checking the recording.
+
+Thank you.
+
+So now variable variable is like a post.
+
+Let's say post.
+
+So you have a wallet or your post in your post there is where you put money there is where you put there's somewhere you put money, there's somewhere you put card, there's where you put paper money there where you put business card ATM card, coin, phone.
+
+So those kind of pockets where you put those things, they are like like trying to use the rights to the right to for the right job.
+
+So where you save and your data or your anything in Python in other programming language as well, beautiful where you save it.
+
+Okay.
+
+So your wallet, you try to put credit card inside the slots for credit card.
+
+Okay.
+
+So you try to put money inside the slots for money and coin so something like that so and some they can accommodate more than one team in the same base.
+
+So where you put your phone, you can put your lip glose, you can put your eyelash, you can put your stoves like that.
+
+And so you can put same thing or different things inside.
+
+So something like that.
+
+So and in in Python or in programming quality variables are like where you save those things.
+
+So if I have, if I want to keep five for later use, I just assign side variable.
+
+So I don't need to be writing 555 every time.
+
+I would just call that variable.
+
+So we like if I want to look for certain money, I know that inside the wallet, I will not be checking every pocket which pocket this pocket, just pocket back pocket, I already know inside the wallet, I will just go straight to the wallet and pick it up from the wallet.
+
+So so that's but there are rules in writing variables.
+
+So Okay, so we talking about variable.
+
+So they are in writing variables.
+
+So Varia said, let's say my name he, I can't see which name can I see here.
+
+I can't see someone.
+
+So my name someone.
+
+So it means whenever I want to use this name, I don't need to be calling some writing some all the time.
+
+I will just say my name and run it to show me someone.
+
+Okay.
+
+So yeah, that's OK.
+
+So now the issue here is that my name.
+
+This rule is that you cannot begin your name with number, your variable with number.
+
+Like post first my name or first name.
+
+Okay, you want to write first name.
+
+So you cannot just say Okay, one name? No, don not put number at the beginning.
+
+Okay, you can put number somewhere else.
+
+You can put number in the middle or you can put it at the hand or any way meeting, But number can definitely not be in a very need.
+
+Okay? Also, likewise like symbol, let's say you want to say dollar sign name.
+
+No, you don't use that in Python.
+
+Something you can use is probably you want to use underscore_is acceptable.
+
+So now I'm talking of speaking of underscore_is a way to to put something like pseudo space in your name.
+
+Let's say, for instance, I want to write first name and I write post name.
+
+Sometimes it will be difficult for you to be able to distinguish what's, what is this? Okay.
+
+So because you cannot put first name Python like space cannot put space, cannot have space.
+
+Okay.
+
+So what we often do is to put_in between.
+
+So this_we make it make it like to make it kind of easy for us to be able to read Yeah.
+
+Okay.
+
+So so I'm trying to check the comments so so I mentioned variable cannot be cannot begin with number mean by container.
+
+Okay.
+
+Can we refer to available as a container kind of Yeah.
+
+So container that contains the information or so Yeah.
+
+That.
+
+So if you want to check more information about the rules of variable names, So yeah, the rules of variable names.
+
+So I will confer you to this place.
+
+So here yeah.
+
+Had the rules for variable name.
+
+A variable name must start with letter either or underscore.
+
+The variable name cannot start with number.
+
+A variable name can only contain a numeric.
+
+Okay, A variable name are case sensitive here.
+
+So here when I mentioned that case sensitive just we know password, The password is often case sensitive.
+
+You use MO leta password and you type inc.
+
+That's password.
+
+Okay.
+
+So let's say I type first name, let's say I use this method first name is somewhere.
+
+Then I wanted to now refer to first, I say first so this will give me error because in my original container, in my original video I used calculate hand.
+
+So if I don't put calculate hand there, it's completely different.
+
+So yeah.
+
+So and you cannot use Python keyword to make sound and video.
+
+So we talk more about what is it called Python video.
+
+So just refer to this school some ways to write re and decide the legal ways of writing RE.
+
+Okay.
+
+So now we have different convention and then if you you, you may not follow it, but if you join some big organisations and some other things like that, they have some writing convention.
+
+We have this camel case, camel case, the way it comes, you know, camera usually have like something like a hunch at the back.
+
+So came Okay.
+
+It means some will go up, some will come down, something like that.
+
+So what it means is that for you to be able to distinguish some of this part of the world or the beginning of another word.
+
+So you Since you cannot put space, then you capitalize the first word, the first letter of that word.
+
+My, the first two words should be small letter anyway, what's the next one? The cathol should have capital letter while the next word should also the beginning of the next also should have.
+
+So here is past practice, first past case.
+
+So everything the every first word are capitalized and camel cases when you use_to separate them.
+
+Okay? So yeah, don't let's do too much.
+
+So assigning variable name means that you just to put value as you same here to put value into variable name, you just need to put equal sign.
+
+So put equal sign and then you have your So that's when you put something inside like inside the variable name.
+
+So like you open your wallet or your post and just put it there or you open your container and something there.
+
+So that's where Okay.
+
+So Jrisi so please kind of kindly reach out to the Admin.
+
+Maybe you message me after the class.
+
+I talk about that.
+
+So yeah, basically.
+
+So now one thing you might have noticed is that I used double quotes and then Python change it to single quotes.
+
+So now that's what we now move to data type.
+
+So we have different type of data type.
+
+We have number, we have a strange, we have and was it for complex integer and some other data type like that? So firstly when you want to assign variable, you use equal to.
+
+Okay.
+
+So you may not care about assigning multiple variable now, but the simplest thing is one variable you just assign equal to to it.
+
+So put it for and put the value there.
+
+So yeah, now we talk about data type.
+
+Now in Python we have different data type.
+
+So we have strange, we have numeric which is integer, flute or complex.
+
+We also have list like list of something to pull dictionary.
+
+So we have something.
+
+So let's take it one by one in as integer in mathematics.
+
+So in no secondary school, primary school mathematics, integer is number with whole number.
+
+Okay.
+
+So that integer.
+
+So that integer.
+
+Then we have floats, floats means decimal like number with decimal points.
+
+So that is what we refer to as flutes.
+
+And then complex.
+
+Well maybe not everybody should OK about complex, but for those that are in engineering or sciences, complex is like complex number.
+
+When you have one and one plus one plus too high.
+
+Okay.
+
+Something like that.
+
+So or two J, something like that.
+
+So that's complex number.
+
+So we have two plus three J.
+
+So this is what refer to as complex number.
+
+This is the real part and the 3is the real part and the two J to the imaginary part.
+
+But don't really care so much, we are not or you are not so but know that is complex.
+
+So now the next one is list I you Okay, please me Elija.
+
+So don't let the bit for but we can use to is to check whether is equal.
+
+You use one equal.
+
+It means you should it is assigning the variable and assigning the value to the variable if you use the we equal.
+
+So it means you're trying to check whether this value equal to this, so the other and then yeah.
+
+Okay.
+
+So we are moving forward on list and tuple.
+
+So you often come across list, TOU range and dictionary a lot in Python.
+
+So what does list mean? So list means that you are trying to Our time is almost gone.
+
+I very quickly lose track of time easily.
+
+Okay.
+
+So so as not to last time.
+
+I didn't take question.
+
+So I will give US-A task.
+
+Please try as much as possible.
+
+So I will move faster, try as much as possible to read W three school up to dictionary dictionaries.
+
+So from the beginning you read to read dictionaries.
+
+Yes.
+
+So and try to take exercises that are in that particular part.
+
+So next class, I'm expecting us to.
+
+After the next class, we are going to show me your progress on the three score.
+
+I will tell you to share it, maybe not in the class, but we definitely going to share your progress.
+
+So as I've mentioned in the previous class, you can see your progress here when you go to your dashboard, you able to see your progress.
+
+So try to read.
+
+Okay.
+
+Try to read.
+
+So try to read and then you your progress.
+
+I will ask you about your progress.
+
+Yeah.
+
+So I don't.
+
+I think we have some maybe 2 min or 1 min to answer questions.
+
+So but in the meantime, please signify if you have question in the meantime, I will Okay.
+
+So I will talk about list.
+
+So basically list.
+
+Okay.
+
+So, Okay.
+
+So here is an example I prepared for you to visualise was or Latin word Reka get ready to speak and Paul also gets ready to speak.
+
+So I think I'm with you.
+
+So, so here is a platform for visualising how Python codes work.
+
+So now this is the list.
+
+Can you see my screen? This particular part that highlighted.
+
+So this list one last pick up, please speak.
+
+Good evening, sir.
+
+Yeah, Good evening.
+
+Can you hear me? I can hear you.
+
+Okay, sir.
+
+I actually lost track because like was bad.
+
+So to ask how you use our phone, the question you, you've always been asking how we use our phone, all these things that I am sharing, you can use your phone and if you can not able to use your phone, send me a message.
+
+You need to first try, try to assess it first if you assess it to networ was but try to watch the video, you watch the video and you were not able to understand and contact me.
+
+Okay, sir.
+
+Thank you, sir.
+
+Thank you, Paul, please.
+
+So what I'm talking about, the list list is like you have like create, you know, create of hag where you can put something in there, Paul.
+
+I can hear you.
+
+So is that create of HA where you can put something inside it.
+
+So that's like time is gone.
+
+Okay, let's stop here please.
+
+So thank you, you me, we stop here.
+
+We are time in fast will.
+
+Okay? Thank you.
+
+See you in the next class.
+
+Sure you read please.

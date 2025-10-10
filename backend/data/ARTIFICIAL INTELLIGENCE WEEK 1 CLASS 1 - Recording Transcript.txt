@@ -1,0 +1,297 @@
+Good evening.
+
+It's a great pleasure to be here please if you can hear me kindly signify with and some Mg thumb Okay, something like that great and I'm glad to be here with you eventually.
+
+So yeah, so welcome to the journey, I believe we are going to enjoy this journey together.
+
+Please if you can see my screen as well please kindly signify with some tum hello thank you so anyway this is Artificial Intelligence intelligence class I my MA so this is our first class and I believe it's going to be a very interesting one.
+
+It's also going to be kind of interactive so I want you to further along, so I welcome, welcome you all to this and interesting class and then we need to get motivated because motivation is the key in this class.
+
+If you don't get motivated, you may end up asking the question whether is this really the right class for you or is this the right time and stuff like that? Does it really what you put in the efforts which this motivation will serve as a propeller that propel you and make you see some prospect in your journey to AI.
+
+So I was in an event and where some Ottoman I believe many of us will know some what is the C of A and open air activity.
+
+So he was, someone asked the question from him that why, how do you recruit the developers or the staff that are working on Chargb and the like and he mentioned that you know, there is nobody with 15% 15 years experience in AI and as real truth AI that we are talking about is not even enough to Yes, it has been existence for quite some time, but the breakthrough we are seeing now you only see many of those things in the research environment, so which it's quite interesting that you are starting at this period because you will be among the people that are having that experience and then they playable for the position a related positions and the like and if it's that you want to actually develop your own solution you also this class we also serve as a platform for you also and propel that so without much further ADO, these are some of the like overview of some of those things you will be looking at as a motivation so to start with here is a an image showing a flamingo and basically saying 95% so the idea is what does this really mean? So here is an image classification task Image classification in the sense like you have some set of things and you just use your camera to take the picture and then you want AI to tell you what is in this picture or there about so to say to tell you classes of things that are in this picture, so there's a classification task like image you give image as input and it gives you the classes to which it belongs.
+
+So and the good part is that it also tells you the and accuracy or the confidence level like IN5 essential that this is flamingo so no worry I'll share this slightly with you, but let me show you what's this actually translates to So here is a and there is a platform, Google Platform one of those Google Solution where you can show you can test the use of AI in action so as you can see, I mean this is my camera and then what you can see below.
+
+Here he is the confidence level and the first three thing that's the AI is detecting let me pick up an object so you seen some giving some confidence level that this is lemon or sometimes it says it looks like a tennis ball and truly it looks like a tennis ball because you are tennis voice Yellow has some white stripe, but as if you change orientation and start to change it you see that it's shuttling between Lemon Dennis and some other stuff, but all you know, the confidence level for lemon at some certain orientation seems to be at the highest so that's AI in action behind the wood we have AI model so if you look at if you look on this side, let me drop the link for you so that you can so although I will still you still have the slide what's anyway So that's the link in the chat box so you can also try it out yourself.
+
+Now what am I saying is that if you look at this, this interface, we have inference delegates and model selection so and language and some other things, so here you can see you have efficient net this is the model, this is the AI model that is doing the action so what it does is that it takes the picture like the camera footage from my Webcom and it passes it to the model and it gives an output of what it thinks the model thinks it is so, for instance, let pick up my phone and then you also see it's probably going to give some sort of physical level of confidence on what it thinks it is and what it thinks it resembles so and right now in this interface is showing the first three I can bump it up for it to show maybe the first six and teen that it was able to detect and then also bear it in mind, I will mention something about GPU and Cpio later on you can use GPU or CPU CPU is central processing units and GPU graphics processing units.
+
+So yeah anyway, but behind the hood in this model, in this AI classification, If you look at this description, it means it says that it can categorize up to 1000 classes of things, so which means that within the things that was trained on it can detect 1000 objects.
+
+So let me take you through how just a brief into how it works a little so it was usually for you to be able to use an AI model, you need to train it.
+
+So talk about the workflow of AI model of developing an AI model if you look up here this highlight it shows that the part of the images that was used in training this model and this database, we have about 14 million images.
+
+So which means that if you want to really, really train an AI model you probably need huge amount of data, although we also mention how to work with small data liter in this class, but The Bottom line is that you need huge, huge amount of data and this data is what will serve as a training ground for the AI model so and also if we dig deeper into this model will be able to see the things that it can detect so the classes of things it can detect will be able to see them so but anyway that's for objects and Image classification task So I believe you guys have seen the link I shared in the chat box.
+
+So here is another AI task, so this is object detection.
+
+We have here have shown you image classification.
+
+What image classification does is that it only tells you the class like giving an image, it tells you probability that is inside the image or things that are inside the image and confidence level.
+
+However, with AI and object detection, What it does is that it tells you exact location where the object is like where the objects are.
+
+Look at this here is showing that a person is detected which happens to be me and then he saying it has apart from giving you the confidence level of about 93% or thereab it also given a bundling box drawing a rectangle square around the person that was detected and then saying that this is the location of the person.
+
+So if I have, if I put my arm here or put some other things, it will also be able to tell you that this is the location of this object in his henry, But so each of the objects that are detected it to tell you the confidence level and the exact location where it found it.
+
+So that's object detection Okay.
+
+And here in this model this model also is efficient and that net lights so and it also running on GPU, so I will switch to CPU now and let you see you may not be able to notice the significant difference.
+
+Okay so but usually we always want to work with GPU in For AI model because working on GPU you have some, some speed, gain some speed in operation for those that does G me so if you are very conff with gaming like Gaming DC the next if you are if your computer has GPU like Amd or INT in video ORB as a dedicated GPU, You notice that your gaming is kind of pretty faster than you came in on on CPU or for those that does card like computer aided drawing or modeling with 3D software or those that does Photoshop you also tends to notice that when you have a GPU or GPU you tend to be able to do much more task like I mean pretty faster than running it on CPU.
+
+So anyway, the same GPU that we are leveraging on in computer aided design and in Photoshop, in graphics design and in some other things like that is the same GPU we are using to train AI or to run AI to gain the speed.
+
+Okay so that's object detection and then in this case the object detection can detect eight classes, so if you that is it can detect eight objects.
+
+So here anyway, I will mention more about this later on.
+
+Okay also in the presentation, so let me show you another AI in action so this is post post, estimation, So what post estimation does is that I will stand up now and then I'm expecting that the AI model should be good to detect my posture so you can see the AI model is able to get my posture Okay, so all the key points, my joint and my plan, some of those things that the is able to detect, so this is post estimation Okay, so also still in mind if you whenever you have GPU it's good to leverage on GPU as compared to CPU.
+
+Okay, yeah I believe you are following you, you are with me in this journey, ma'am.
+
+So also this is host estimation is also part of AI solution or AI outcome, so this is another AI outcome or AI techniques.
+
+So this is and gesture recognition so what this does is that when I show my finger it's able to detect my or phalanges in my palm or my palm and it tells you the type of gesture you're doing, so you I do like this it's no thumb if I do like this it knows victory, victory, so I do like this close fist, so I do like this Okay so some of these guest show if you look at this are some of the classes that it can detect and also this are it can detect all the fingers, so I think you should try to be thinking along with me because I'm going to ask some questions later on.
+
+So especially let me hint you some of those things like can you come up with an idea what we can use this model for in real application.
+
+So yeah, so basically that's I gesture recognition is using media pipe and gesture classifier model Okay, so that's another AI in action, so basically it detects the palangs and each of those pals has key points so that's can be detected so you can here is the numbering of each of these equipment that is, the West is zero, the this number one is Tomp CMC and stops like that up to the pinky tip of the pinky so here is another AI solution AI techniques image segmentation So image segmentation means that given an image, you want to draw a contour so is This is not just a bundling box, It's a contour that try to mask out that person so for those that usually do Photoshop or those graphics or editing, you know that you usually use this protos Scpe or some kind of tools that you can use to crop out the person in the picture so this is AI techniques that also helps you to do that so simply put if I want to remove myself from this image.
+
+Now once I have the control that tells that this is the person, then you can just select it and delete the person and reveill it.
+
+So many of us will have also come across this.
+
+New techniques in Photoshop or some other and graphics photographics editing software that they now highly that you can remove the person from the image easily to some of those high and who IS-IS this? Yeah so also moving forward here I want us to be a bit interactive here and probably Okay so here is another solution which I want us to try out so here techniques which I want you to try out here is a caring we have the truck here so and then it is expected that we drive the, this is the car I'm using my keyboard.
+
+Okay, this is the left keyboard is to steer, the right keyboard is also to steer hop and then the hope is to start the engine.
+
+So my expectation is to The task is for me to be able to drive along this path successfully without bumping on the wall.
+
+So you notice see I'm a bad, I'm a bad driver anyway so but notice this, this is how performing I'm not really doing so good now let's bring in AI so as I've said before, you use AI it is necessary to train AI so let's train the AI and see how it's going to perform so DI is training and at first it also try to drive at random then after maybe some minutes or some minute of trials, then you eventually discover that AI will be able to learn how to drive like AI could prove to just give it like 2 min or thereabout to training and then see he's not able to learn how to drive through the track so he's not driving like a pro within less than 1 min or drout so anyway does he also here in action that is doing this.
+
+So imagine you have a game so and then you are trying to make AI to, you are trying to compete with someone and you, you have AI solution that can do that so that's the logic behind it and this is not just only in gaming, it also applies to reward which I'm going to show you later on in this, in this class so anyway this is another techniques Yeah, techniques Okay, I'll share you the link Okay, so that in action let's move forward.
+
+Yeah stop driving good better than me driving so anyway Yeah here is another AI model I've been showing images and then some gaming things and this is an audio classification that is, instead of taking in an image, so this time I is taking in the sound, is speaking the sound from my microphone and is trying to classify what is happening, so silence is you are able to discover that it's able to detect that is, silence, Notice it again, but by the time I start speaking it's able to detect that it is speech Okay with 90 to 95% confidence.
+
+Let me try to sound like a card, so I mean at some point don't make g of me anyway, I'm just trying to show you how it is behaving so that's AI and audio classification it means given some sound, it should be able to detect the kind of sound that is coming up from that is speaking up, that is being passed in.
+
+So however, I also want you to think, think and then try to come up with some place, some application where this could be applicable, I will ask about that later.
+
+So anyway, this is audio classification it means is not just limited to image, it also spam beyond that, so I don't for those that are image in the older generation they will know this movie? Does anybody know this movie anyways? This is Matrix? Yeah.
+
+So the in this AI techniques and AI techniques here is that is, trying to extract the dominant color in the image, so also for those that are into graphics design you may, you might have been using this indirectly, but any way so this is a dominant color, you also look at it, you notice some, some shades of green and then the another colour dominant colour in this image is black, so black and shades of green so and yeah so DI techniques or DI model is able to detect this the codominant color The Place where this is applicable.
+
+Let me show you a typical example so this is a and a logo Okay, this is a logo an application and then if you give it to application like Ka, I don't know whether many of us are familiar with Ka, so if you give it to application like Ka so I'm coming Yeah so let's say I create a new slide or a new SY and then I dragged in, I drag in some an image so this is the image and notice of here there was not, there was no image color detected initially so, but by then I dragged in this It was able to detect the dominant color.
+
+So where this is applicable or useful is that most of the time when you are designing like graphics or some presentation, or you are doing UI UX or about You often want to have some, some color, brand color or you want to have primary color and secondary color, and some other and some accents and likes so most of the time you also want your image to blend with some of those things that to be consistent with what you are designing so this some of those things that I already integrated into that you already using indirectly for those that uses some of this graphic design software so I just basically drag in the logo of the application and it's able to detect that you have green, you have light orange, you have gray orange you have orange, you have white just from me dragging in the logo so in a very typical use case scenario is that let's say for UI UX designer you are given the logo of a coin of a an application or a company about the want you to design and UI interface and then you just take the logo, drag it in and it's able to simplify the process of getting the brand color so yeah so behind the root This is how this AI model that doing it indirectly which you are not really like doing it consciously, so that's AI model that is doing that, the type of AI model that is doing that, I'm going to mention it later on.
+
+I'm just trying to get you motivated on some of those things AI and is coming up with so here is another this you've seen post estimation and then some of those use.
+
+Cases where this kind of idea has been used or is currently used is in fitness instructor so like take, for instance, you are coming up with an application has to do with designing fitness instructor or you are going to train the And we see a sports team and then you want them to be able to get to get monitored by some AI tools so you can use post estimation to notice whether they are doing they are doing the exercise correctly or thereabouts and this application is quite something that's G Grant recently, especially during COVID-19, when many but many people are not able to go to the gym to do some exercises where you have to stay At Home, So when this application AI Fitness instructor got launched.
+
+It's kind of amazing that people were able to use it to do some exercise correctly in their isolation or in the environment.
+
+So here is another AI use case so below here I told you we need to take AI to school and we need to take the AI model to school to train, so then after going through some training, then we can take it to the real life to demonstrate what it has learned so this is an AI model here is like a we call it simulated environment, we the AI like the classroom classroom for AI, so he's trying to learn how to put a peg inside and so so after it has been able to learn that then from there it was transferred to the robots to do the actual insertion, so that's AI model so that is doing that does and does it in some of the typical use case scenario Okay, but you'll be quite surprised that most of the AI model actually free and mean free, completely free so take, for instance, I talk about classification, Post estimation detection here is one of those model that is completely free online, which you can even download and use it.
+
+This is ZO you only look once the type the name is yellow which is you only look once, so here if you don't be scared, Okay, don't be was got disturbed by some of those COS you are see but if you download this code, I'm quite sure you're going to be able to run it on your computer and it's going to do the work for you Don't worry later in the class will walk through how to run this and see it in action Okay so yeah and then here is another Many of us we subscribe to Charbt we are subscribe to GNI and different model like that give sick to charts so but don't be surprised most of these thing are free, they like, they are free online that you can run on your computer without, without any privacy breach, so they are free and they are available for use So yeah any so for instance this is a deep sick, so aside from running it online or trying to chat with it you can download it on your computer and then and also so here is some of the things you can do with AI Okay yeah however, this has some caveats so in the sense like some Yes, you can run your computer you remember in the beginning I mentioned about GPU and CPU, so if you have limited memory or you have limited computational resources on your computer, it may overwhelm your computer.
+
+Okay so let's say for instance you are trying to build an application like for Nigerian constitution, so you've all Nigerian law, so going to the fact that many Nigerians maybe they are not aware about the right so you want to create an application that enables them to be able to just ask, maybe chat with it like what's up or quickly ask like and if police arrest me, What should I do or if police police have right to check my phone some of those and will be able to quote some of those constitutions for you and the like.
+
+So if you want to launch that kind of application basically, yes you may, you will definitely want to leverage on the language model.
+
+Like IGBT GDC candidates, you may want to leverage on that, but you need to get some of those data like the Nigerian law or the law of your country, maybe GA law or there so you get it after getting it then you want to supply to your model to be using that as the knowledge base, However, the thing is that to launch those application and by the time you start having the traffic it's usually kind of expensive in the sense like yes, you can run it on your computer machine you cannot run it in computer, but by the time you start having people and using it then you have a lot of traffic and then from there the computational resources What I mean by computational is the power of your computer, the CPU take, for instance, let me show you this CPU information about my computer This is my computer, the on my computer and then you look at it here we this is CPU, this is the memory, the memory means the Ram so and the disk space is the GPU so I have to GPU on my computer, GPU zero and GPU one and I have another CP CPU anyway, so the CPU has several calls it's cause so now if you look at this specification, What I mean by computational research is that by the time you start running like let's say Gny I Google Gi or Charbt on your computer, not online, not the Openi computer by time it starts running computer, you notice this graph, this thing that is showing on the computer will move from just 24% if you move, it may reach about a 100%, so depending on the type of computer you're using Okay, so some it can use if you have GPU instead of using CPU you notice your CPU is to be done, we to be at a very appreciable level then the computer will start using GPU, So then you see the GPU instead of being at 1% then you need to spike up to some bit larger usage, so that's what I mean by computational resources? Okay.
+
+So if you have GPU it means it's probably going to use the GPU, but if you have only CPU, it's only going to use the CPU and the implication is that by the time you have about 90% usage of your CPU, then some other application will start getting like frozen like you know you may not be able to use some other, some application, so that's the limitation and you running it for your own like you develop your solution taking question Okay, so so that we some of these thing another thing there is that if your solution is a type that already exist.
+
+It's often good to leverage on the existing solutions, so I'm not trying to market for anybody, I'm just telling you you can run it when your computer is free, but I tell you want to scaling up to support more users then it's becomes some challenge, so like let me show you an example from this one so let's say I'm developing an application like for this an application so so basically this application I want to use it like in a in a scenario where I want to be using it to detect sign language Okay ABC and D sorry yeah sorry DE So something like that.
+
+I want to be able to do that and then I want to say I love you so this kind of sign languages if you want to be able to detect it, you definitely need to be detecting the phalanges, the harm and how the ham is moving so in that case and you are trying to Yes, you're trying to help people to communicate and understand what people are saying and the disabled or some that is physically challenged is saying so in that case this solution already exists.
+
+Okay so we often what we often do is to leverage on the API so what I mean by Api is that Google Google already has this solution, so you may want to use the computational resources to do that and you'll be paying some certain talking to do that so they will give you some documentation and tell you Okay, this is how you're going to do it and then you can even download some sample code from them and then from there you start using it so the advantage is that you're not using, you're not buying a very expensive computer for you to be able to run it your basic feature subscribing so the same thing is what is applicable to what we are doing in terms of Gbt and the likes and that Okay so I believe we have some questions and then I will start taking some question then before we proceed further and also I also have some task for us so Iori the first person I can see that is currently racing and Is Iori So so I allow you already to talk now I already you still have question sir, Yes, I can hear you loud and clear.
+
+Thank you very much for that, for those lectures and all that.
+
+So when we are talking about using AI on PC, you are trying to show some things on your laptop over your notes.
+
+It was not showing at the GPU CPU so it was not showing so we missed that part.
+
+Okay our shades can you see my screen now, can you see the CPU, the memory and the lights, you slide, you allst in the slide really Okay please wait.
+
+Yeah Okay I believe we should be able to see it in the GP Can you see that now? Okay, yes, I see it now.
+
+Okay sorry for that I was initially sharing the window so yeah Okay so this is the CPU Okay so and this is the usage, The current usage is currently has 2519 and about 21%.
+
+So by the time I start running AI model you notice to jump up to maybe some appreciable amount, so maybe next time next class I will try to download an AI model on my computer, try to run it time for you to see how it's using of the computational resources and on my computer so this is a CPU, this is memory, I mean the ram random access memory and this is the ROM that is the hard drive.
+
+This is a set anyway, so and here we have have GPU, I have two GPU, GPU zero and GPU one.
+
+Okay.
+
+So if Since I have a GPU somehow if I run some AI model on my computer, it's can leverage on the GPU, so instead of using up my CPU then it will be using my GPU.
+
+So now instead of my CPU going to like maybe 90 something which will freeze all the application, then I can have it use this GPU and then the CPU will be free to run some other applications like that.
+
+Okay, so that's basically what I trying to explain.
+
+Okay so I will allow another person to talk I believe almost sure to I Okay, Okay, thank you.
+
+I already so now almost sorry, I need to take one more or two more so yeah, almost sure, sorry, I don't know whether it is almost almost sure so but anyway do you still have a question, so probably is not is no longer any question so yeah, so I will move to myk I sorry my GK you hear me now I want you Okay now I can hear you Okay, my name is B so I want to ask I I kind of I kind of join maybe like 6 min late I don't know is there is a outline for this course so that I will be able to know how progress for Eacher We want to read further whether we can go back to the course outline Apologize for that.
+
+I thought the, the, the administrative department has shared it with you but definitely there is all Okay, so thank you for raising that there is course outline Okay so and then here is the course outline so we are here today Okay and we are trying to motivate ourself, they to next class we're going to set up our environment and then we have quiz and yeah we have to so basically I will inform the administrative department to see whether they're going to share this with you.
+
+Okay, I am sorry for that.
+
+Anyway, I assume that you've been informed about the process, that's why I didn't mention about it.
+
+Okay, thank you.
+
+So so I would like to take your question before, I think you will be the last person who ask take questions from for this time.
+
+Then before I proceeded my chuma please Chuma, we can't hear you.
+
+Yeah.
+
+Muted Okay so I guess my is ging question Okay so anyway so here is my is my own question so and I so now I have shown so I have shown some AI techniques image detection, image client object classification, Audio classification and some of those things like that so I would like one or two people let a three to suggest some potential application, So for some of this I shared the use case of trying to extract dominance, color and then we being used so and then also shared and post estimation where it could be used as a fitness and a fitness assistant and I also showed a democratic demonstration of robot learning and then translating into real world scenario.
+
+So let's start with audio classification.
+
+Can someone tell me a typical use case of audio classification? Yeah so I'm trying to see people that are just raising up their hand.
+
+Okay now I think Abzak just raised his hand and Okay so Okay can you hear me? Yes, good evening my name is I can be the audio can be using healthcare healthcare in the healthc of kind of like a good one.
+
+Yeah, yeah there is a good input Okay.
+
+So yeah I will record as that you have, you have some points for that Okay, so then let me take in another person this time around let's see so in The Station we have where you have an and guest to recognition, so let me see who Okay so I will call on Immanuel, I'm coming now will enable Manu to speak now Emanuel Oh we have so many so I'm talking about Emano, Thank God, please could you give a typical use case scenario where we can use and gesture recognition I made mention of sign language would you give it to use case scenario good day, everyone good is Yes, so so I was reading my my hands when you asked for that of audio recognition Audio already Yes, I already give my answer in the question and answer section you don't you're not checking the That's section I have answered Even people, people have been trying to get your attention through the question and answer for audio for Audo recognition Yeah I, I mentioned language or accent detection and for this gesture I'm still like pondering, not gotten you the example you already gave is that of Yes, they found I'm still thinking of something not to take too much of a time maybe I'll just type it out later.
+
+Thank you.
+
+Thank you.
+
+Yeah, so thank God Emmanuel also has some points for that.
+
+Okay so sorry I just noticed there has been some responses in the question Answer Okay, so I will take one more Okay so then we proceed so now let's take the case of this cars so this is cars Okay, so I know this might be very simple so yeah let's see so can anyone give a very typical use case scenario of where we could use this solution Okay, please raise up your hand again.
+
+I will take I think some is customer Okay customer there are so many customer so Dixon yeah Dixon customer Dixon can you speak please? Okay anyway, I guess it is no longer.
+
+Yeah, that's also interesting.
+
+Yeah.
+
+Using A and G to control the volume.
+
+So yes, and you notice that in most some recent cars here you can just do your fingers like this and the volume will turn down and then you did in the other direction and the volume will turn off.
+
+Yeah, yes, yes, yes, that's and guest recognition yeah, good yeah, driving school yes me, yeah, Okay so we move forward in a class so yeah we've talked about the motivation and then some use case of AI, so now we go to we know everyone of us for taking this course we have some sort of expectation and some, maybe some people are into, like someone reach out to me to cart design and I believe you may want to probably use a card design to AI in this hard joining so that's a very good example.
+
+So now I also want everyone of us so that's is on this chart to try to type so your expectation from this cause and then your, your background so like for instance, I'm a bank, My expectation is I want to use AI to work on loan so that I'll be able to use to predict those that will be able to pay back their loan or they will not be able to take back their loan or something like that.
+
+So yeah I want everyone of us to try as much as possible to try and to type that Okay so I can see a good look E boo so I mean sorry for pronouncing it or more modern your name so I'm sorry so is I would like to automate web design with AI and a full stack web website is developer that is good.
+
+Yeah.
+
+So with language model I think that is possible so I'm expecting from other scholars, so moving forward we have limited time so we need to we motivated oursel and see some potential of AI so introduction to AI so I'm not really particular about the definition, so maybe you don't need to cram the definition.
+
+So however, what I'm particular about is trying to get the concept of AI itself, So if we say AI is Artificial Intelligence, So which one is the real intelligence, so that's the question We need to know what is really intelligence and then so we believe human being has the real intelligence or let's say generally haima so let me show you video this is a video of an experiment, so I will share the link with you, but here is the video so basically the idea is that the Champa in there is a display and is trying to touch the number from one to nine so whenever it gets it correctly, they're going to reward the cheap with some penote Okay, so let's see your screen so so basically when it gets is right, it's been given some so it's been given some to be able to reward him so and that's exactly how some AI techniques works, so we want to MIMIC this kind of intelligence like you give the input, you perform the action and you rewarding so let's say, for instance, for those that have like kids or that has maybe younger ones.
+
+So what you often notice is that if you tell your younger ones that bring this and he is grumbling, but by the time you give him like when you come back I will give you this so you are sure quickly go to where you sent him then by time he comes back to give him maybe some gifts, maybe sweet or thereabouts and then the next time you also say you want to bring something that you quickly go then when it comes back you also try to reward him so that kind of reward system is what some some AI techniques are using Okay, so that kind of reward system that human being is used to or when you do exam you get some score and then this call motivates you to move forward to another class.
+
+So imagine a situation we have why you are doing exam and then they are not using the exam to promote you or you are doing some contribution and the contribution is not kind of related to what is, determine the progress or what any it is not intensify anything, so what we want to do with AI is that we want to MIMIC that intelligence, that thing that makes the intelligence come.
+
+So remember the time when we were driving this racing car, So the idea behind this racing car is that if the AI model is able to maintain this track, it continue for as long as able to maintain the track, it continues to get reward so by the time the AI model heat any of these wall then it gets punished or penalized for doing that.
+
+So in that case the AI model is able to build up some intelligence that I should not to hit the work, then I should try as much as possible to maintain this track so that kind of also techniques is also what is applied in in the case of let's say image segmentation and gesture but in this case is not in term of rewards, it's also in term of reward, but not really directly so in that case we are trying to get some data you have, let's say images of something and then you have some targets which you expect the model to give us an output AI to give us output then when the AI he is able to get the answer correctly, then you give it reward, you give it a good job Okay when he's not getting it properly then you try to punish for that so that's the idea the way human being learn which is the real intelligence we are now trying to MIMIC it artificially.
+
+So what do I mean by artificial in this case is that this is more or less like mathematics equation.
+
+So mathematics was we may not de deep into the mathematics Okay, but what I'm trying to tell you, is that what you mean by Artificial Intelligence is that the real human intelligence which you look, you do and you get reward for it.
+
+We are trying to MIMIC it in a form of a computational we like mathematically or there about so to get the concept very clearly, let's take a game, let's say, let me say Super Mario I don't know whether anybody knows PAM Maru here, I believe some scholars we know is Super Mario BROS or let's say win a level there about so but let's say Sumaro for example, so in the case of Supermar you are playing the game Okay, so and what is happening is that you are trying to him some scores Okay, so what you're playing the game and then you are trying to avoid the enemy and you are getting some coins and you're getting the point so that is the reward, but by the time you hit the enemy or you fall into into the ditch, then the game is over or you lose some points so that kind of scenario we can is very, I mean it is not really easy, but it is quite easy to model for AI to learn that why you see many AI techniques they are very good at gaming because the game we already give them some point and that point will be used to tell them that you're doing good and by the time you lose some life, the AI lose lives they able to tell the you're not doing good in this area.
+
+Okay, so yeah there's another instance so briefly to according to Google, we can divide Yeah.
+
+Artificial intelligence is a field of science concerned with building computer and machine that can reason, learn and HA in such a way that will normally require human intelligence, so all that involves data who scale exceed what human can analyze so that's basically a brief definition of AI so let's break it down a bit so usually you can use and to do some of the calculation that involves AI but it's loves Okay, so we often use computer to do it.
+
+Okay, so and then another thing there is that we want to intelligence human already has some intelligence, but if you don't want human being to do that kind of what we might want to transfer the intelligence then we can use some data.
+
+Imagine you needing to read the whole dictionary or read the whole tests to be able to get some information, so in this case you just give it very high to learn about it and then you can ask the what it has read, so within some minutes or some there to give you some responses so part of to as a just a hint part of the way TGT was trained, was trained on Wikipedia you know what's is in Wikipedia billions of text, billions of articles, So which human being do you think will be able to memorize the whole of Wikipedia So when is so that's that you can when you get this slide you can look into the definition, but just as a disclaimer, I'm not really particular about the definition of a app you can know it for some other things, but the real application and the real interpretation of what Artificial Intelligence IS-IS what I am particular about now you often come across many of these things in AI what is AI? What is Machine Learning? What is Deep Learning? What is generative AI like? So AI ML DL so generative AI so AI is the the main thing which is the Artificial Intelligence, so this Artificial Intelligence Okay, it has some subdomain so part of the subdomain of Artificial Intelligence is Machine Learning and on Machine Learning we have another subdomain which is Deep Learning in the sense like what is meant by Deep Learning is that you have instead of having just simple mathematics equation you are not going to use the mathematical equation Doing this, you are not really fun of mathematics, Okay, but instead of using simple mathematics equation, you know, have a very deeper one, like two layers of architecture so that don't worry about the terminologies.
+
+The baseline of what I'm trying to tell you is that instead of having Simple One then it's much more deeper Deep Learning, so it means it's has a lot of layers of neural networks or and they're about to translate to some mathematics and what we have recently in term of Gbt and Jami and like they are the generative AI model that has the ability to generate text, images and some other what call outputs so those are what is referred to generative we may not cover that in this work in this was going to definitely mention it briefly, which in generative we have you have encoder, decoder, some other architectures like that which don't worry the ones that we are going to cover here is also sufficient to say you are into here and you can delve deeper.
+
+Okay hey hi we mentioned here hear what does it take to say that it's I'm having an AI solution or was it? It's the workflow in AI is basically from data to the modeling.
+
+From modeling we try to test, train and test anyway and then we deploy to deploy so all these examples that I've been showing which AI for and gesture and some other so they've already been trained and they've been deployed, so we are just on the deployment stage or that we are just trying to test is not really testing anyway, but deploying is like we already using it as a web interface or there about so except for the that of the recent car that has just training on the sports so to get the context Clearly I have a demonstration for you hon.
+
+And he I so here you a platform where you can work try to go through the workflow of AI, so let's look into image classification, So image classification is that you have an image we want to tell the type of the class the image belongs to Okay, so the first thing is that we need to say which class do we want? So we are let's say I have a orng j sorry lemma Okay so and then I have another class of juice Okay.
+
+So now we need to collect data.
+
+If I want to have more class I'll just click more class, but definitely I just want to so classes so let's remove it so then I need data so how do I get data because I want to because it's image I want to take an image and then give the class as output, so let me use my Webco to take some data.
+
+Yeah I will know myself so that it's only the so yeah so I've got in, let's say about one and something so data Okay, so I've gotten this data for the Lemma Okay and then let's move to here the DATS for lemon so let's move to juice Okay, so let's say I have this juice and then I want take data sets of Right we choose Okay so yeah so after taking the data set for juice so next thing I need to do is which is in the workflow it means I've got in my data and then the data is clean and then the next thing I want to do is to try to train the model so we have some parameters here Okay, which will talk about it later on, but first thing is that we talk about the excuse me first thing is that we talk about the epoch epoch is that the number of work it's more in details later on for epoch is the number of times you wanted to try to learn it so like you, it you take the AITA for the first time try to predict the class, maybe LE is Jewish or so you then need to try to repeat it 50 times so batches it means how many number of image should be taken at once, so this time if you take 16 images in one go Okay, so for each epoch to take 16 images so like to trunk the end for each epoch in those it should take images, and repeatedly so and the learning rate is the this rater which it should be, it should learn with Yeah I will tell you also the implication of that later on, but anyway so now so we can hit the training and then the model try to train is now training.
+
+Yeah.
+
+So so simply put it has been trained now the next thing is for me to be able to predict what this 100% juice so what is this? This is under represent lemma Okay, so this is juice, this is lemon because we just have two classes and it has to be between and and and what call So yeah so that's the model and then it's a collected data, I trained the model and then now I'm testing, so if I export data and then use it, it's here we infuse two things together the testing and the deployment because it's we are using a very simple if we are to do the coding you have to do the training and testing separately to determine the accuracy and then you can now deploy on the, on the platform where you want to use it Okay so yeah anyway so we can export the model, download the model and then you will be able to embed it into some What is it called some existing framework so yeah which you learn about it later on.
+
+Okay.
+
+So here if you want to use the Python code here is how you use it and anyway so yeah so let's go back to the a workflow I will share you this with you, so let's go back to AI workflow the idea is that you collect data which we've seen that we collected the image data, What part of what we also did when collecting the image data is annotation, which is also the way we separate it into classes so and also we did the We didn't do like model of a about to train the model which is what we did here, so herei mode in which is like training we just use the existing architecture that's was prepared on the system and then here we test and we deploy simultaneously because we are using to write the code you basically need to test separately to accuracy and then you deployed into the application where you want to use it Yeah anyway so that's that's that's our time is has really been fast spent so and I believe we should be able to take some questions Okay, so I already have some hand to waste, but I think I want you to raise up your hand again, I'll clear the kind so that I know do that as to Okay so I have a to I can talk to you, got the permission to speak, please proceed, we can see you, you hear me now? Yes, yes, yes, Okay.
+
+The question I have when, when you uploaded, when you on that model and you should be my Mdai that's a lemon and the juice and it took you to that other side where that's training icon came up where you talked about the epox and batch size you know after you did the two together is now but another window that should preview Okay so I, I, I didn't really get how you were able to like sports.
+
+The model did did you put did to like the lemon and the juice together or you did it one after the call I was trying to do it and I was seeing like the percentage of this thing the way flun to it.
+
+I don't know.
+
+How are we to put the two objects together, like the lemon and the juice together before exporting? I don't know if you exporting, exporting is not, is not part of the testing or that I did so.
+
+Basically, I'm just showing you that if you want to export the model to another platform or to, maybe to your own Web application, that's what the export is showing so, however, the idea of the export this is the export is showing if you want to copy the code and you want to use it in let say you want to use the Web application so you just copy this code and put it in your web you want to use it in a Python environment you can just copy this code and then you do you understand so that's the idea behind it Since you download the Moo so Okay, Okay I guess yes I guess do we need to like show the, the two objects again or it has already captured it.
+
+The already is because when you click on trigging, it means the air is because I just have one or lemon here you have another lemon and then you show the A given that it's able to learn it correctly, then it show the I need to predict the l one so you don't need to show it simultaneously with the case you can just Okay I can see you, thank you so much.
+
+Yeah so let's take another question from the Okay I think Austin Junior I would like to speak now Austin Junior, please do quick, we have limited time just 6 min to go, we can't hear you.
+
+Okay so I think Marvel should get ready Okay? Yeah I can hear you now a thing.
+
+Okay I just want one you were demonstrating for the using theude Okay hear me, can you hear me hear me, Could you come again? Hear me now please come again, you hear me Yes, I can hear you.
+
+The question is why you were for the I capturing when it was capturing the lemon and the use.
+
+I really didn't get that demonstration because my network on tweeting the question is, how do I get the light or the able to see theological, so basically you edit the class Okay, the name of the class.
+
+Let's say you want it to be lea you write lemon so and then you click on the webcom to capture the image Okay and then you hold to record so here is to capture the image and then you Okay you try to rotate the image so that rotate the lemon or the objects so that the AI will be able to have full information about how the objects looks like.
+
+Do you understand? Okay, Okay.
+
+So after that then you can it's the training, I mean I can't I won't be able to collect for now for the second one so because of time so you can do that and then yeah so so after that you, then you hit the train, you click on the training and then after doing the training then if you go to the preview stage.
+
+Okay so I actually definitely want to use this as an assignment for us so yeah but do you get Just thank you? We have limited time and I would love to take one more question.
+
+Please speak, you don't have time I am Yes, I can hear you now.
+
+Okay, when we were talking, talked about that he was showing this wikia Okay, not only Wikipedia, we have some, so many other sources Wikipedia We have some academics and publications and then it's also mentioned that they have some close source resources which they used Okay how like, how did they do it Okay.
+
+So do you have the time? Okay let me see Okay, so Okay maybe later in the class I'm going to, probably going to explain it or in the chat room, The Whatsapp group will drop some messages about it Okay so that because we have limited time right now we have just one minutes and the session will finish now.
+
+Okay, Okay thanks sir.
+
+Sorry, the time is so short so I will be able to say that quickly before time.
+
+Okay, maybe we may not be able to take on another question again.
+
+Thank you so much for the time we meet in the chat room.
+
+I hope you have a wonderful session and then I hope you have enough motivation, motivation to pursue.
+
+So my assignment is that you try to capture and different objects with this table Machine Learning and then send a video recording link to your Youtube OP I Youtube and then send the video link Okay thank you, I believe you hear the assignments.
+
+Yeah Okay.
+
+See you next class.

@@ -1,0 +1,1249 @@
+Scholars.
+
+It's another wonderful session today, I believe so please if you can hear me kindly signify which kind of tombs or some kind of emerging.
+
+Thank you RAF: Yeah, thank you.
+
+So I will today we're going to continue on where we from where we stop and Okay, Yeah, thank you.
+
+So we have some some pending questions, some questions and we so that we transfer that I we deliberately agree to transfer to the class so that every scholar so that scholars will be able to benefit from it.
+
+So today also will be continuing on the the coding and then the logistic regression that we're working on.
+
+So basically I want you to really to be really comfortable with this, some of these terminologies so that will know that we will be able to address the kittens and then the other ones can be the the other things could be at a much, much faster pace.
+
+So this, this is kind of necessary as I feel so that you won't get overwhelmed easily.
+
+If you have a good starting, good introduction then it's kind of going to be easy when we are trying to introduce a new, so say new concept or new topic in this new in this new techniques we following.
+
+Okay, I will be sharing my screen now give me some seconds.
+
+So the last class I promised, I mentioned that something about assignment.
+
+So but I feel a little thought maybe I should wait until today's class so that it will be much safe and software landing for for you to address the to be able to address the assignments.
+
+So I want to have notice is that when I give assignment, I often end up to give more comment about it than the assignment itself.
+
+How do I submit was the assignments was explain again.
+
+So yeah, just some minutes.
+
+I'm trying to so you can see my screen please kindly signify how it's kind of Okay.
+
+Thank you.
+
+So yes, I said we're still in logistic regression.
+
+So so we are still working on classification and invariable invariab logistic regression.
+
+So today's assignment basically is going to be to train logistic region to produce the classes of rang.
+
+So I'm trying to compose how it's going to look.
+
+So what? Anyway, the idea is that this is the assignment you're going to be classifying based on another data set.
+
+So that's Okay.
+
+I said, I need to speak up.
+
+Okay.
+
+So the idea is that the assignments is going to be training a logistic regression to create the classes of Racine in the classified data sets.
+
+So here is where it's going to begin.
+
+Okay? So here is thety classification data set, just as I mentioned the other time that when you, when you want to collect your data set, it's often good to check existing work that so that you know the sense have some sense of direction on how you're going to collect your own you, sometimes if you collect wrong data, your model will also not be able to do well on it.
+
+And then you get a double job and double job, like double task, sometimes collecting the data itself, it's kind of time bound.
+
+So if you, if you collect the wrong data, when you are now about to use the data and you discover that because that this data is not, is not going to be like the best fits for what I want to do.
+
+That's when you see a problem.
+
+Let me give you an example.
+
+You are an agriculturalist, you are collecting data.
+
+You collected data of pests or insects that affected your farm to, I mean, you've noticed that the pest, this is the training the pest.
+
+So let's say you are taking images of the pest, you took the image of the pest and then before you decide to apply a pesticide or insecticide to eradicate the pests, like we took several images of those pests.
+
+Apparently your aim is that you'll be able to train a Machine Learning model.
+
+You'll be able to give machine and specialist to be able to detect the pest.
+
+So I use some advanced techniques to eradicate it.
+
+So now the the images that was taken apparently maybe is not in the best is not taken properly or that's not the best way to take it.
+
+Now it means that the trauma need to wait another until another season and deliberately allow the test to invest, invest is Farmland before you will be able to take a proper picture.
+
+I don't know whether you get the scenario.
+
+So it's often important, often important for you to be able to be informed about the nature of data you're going to collect.
+
+So this Racine variety classification data set it, it's another scenario where for me looking at it, I can infer that they actually did a kind of previous research before they were able to before they collected their data.
+
+Remember we are we had racing data sets that contain CAME and Omanic.
+
+So these data sets they made use of and some features like features like area perimeter, major access length, minor access length, eccentricity and convex and some things like that.
+
+So that was what they did and basically they took images of the rice and then they use Computer Vision to extract those information.
+
+So if you look at this, this paper or this work, it was published or it was first published on this platform three years ago, maybe updated three years ago.
+
+So which means is not a recent one.
+
+So now you look at this recing data set, you notice the same style, the same technique, the same way the data set for rice was collected, they actually collected the same kind of information, which means that they probably refer to the some previous techniques for collecting data before they actually collect, before they actually collected their data.
+
+So and if you look at the rice, rice data and beans data set also which is a which was five years ago, so five years ago, you also notice they also kind of follow the same.
+
+This is example.
+
+So anyway, so what I'm trying to let you know is that to collect data or as as simple as data itself, you want your data to be eventually useful.
+
+It's good for you to get some previous intuition on who are those who are those who have done this kind of similar work and what are the nature of data they requested.
+
+So how do they process the data and then if they be able to get that, your problem is almost let say have half solved because I tell you if you get some Machine Learning problem you not know the direction to approach it.
+
+So thus you may not even like you can have some experience, but collecting the wrong data is one of the disastrous you can you can encounter.
+
+So and you now do not have the flexibility then you do not have the flexibility of getting new data of fresh data.
+
+Then that's when it's becomes more challenging.
+
+Okay? So actually he wanted to ask a question which I said we should forward it to the we suggest it should be has in the class so that other students scholars will be able to benefit.
+
+So could you kindly raise up your hand so that I would enable you to speak.
+
+So why we are waiting to raise So, Yeah, So now moving forward today aside from so the I was talking about the dressing DNG and varieties and data sets.
+
+So if you remember we so if you remember we had the code base for, I'm waiting, waiting your hands.
+
+So we have a code for for loading RISE data set.
+
+So thank God you said how did we download our RISE data sets in CSV format? Probably you are referring to this link.
+
+The rice data is already in CSV format.
+
+So yes.
+
+So you just click on the link or link.
+
+So the other thing, maybe you are referring to this spreadsheet, this spreadsheets where we have the RISE and data set here and then we use the link to generate the CD format of the data.
+
+Okay, here you have the flow.
+
+Could you kindly speak? Okay while we still are waiting to speak and I will proceed today last class, we talked about normalization.
+
+So normalization of data.
+
+So here is our please once you are ready to speak feminal.
+
+So here is our code base.
+
+Okay.
+
+So and then I mentioned that if you have data that have like some features are very widely like large than the other ones, they are widely apart.
+
+So I'm not talking in term of appliers, I'm talking in term of values.
+
+So take a look at this data.
+
+You look at the area is in the order of 1015 1000.
+
+And if you look at the eccentricity, the value is G, I mean equal to one.
+
+So I think it's not.
+
+Won't be more than one.
+
+So and likewise we have some that I just said something 90 something.
+
+So in that case you have some unnecessary like override by the ones that has big values.
+
+So what I mean is that if you, the ones that have big value, even if they are not even useful, even if they are not relevant to the, that to improve the model, they will because their values is kind of big, it will make it seems like look at this one, this area is 15,000, it will make it seem like the eccentricity it is, this area is 15,000 times important than the eccentricity.
+
+I mean approximately.
+
+So this is a very wrong judgment if the model is making that kind of judgment because and that's naturally what will happen.
+
+So that's naturally what will happen because you are supplying the data.
+
+And then the some features are kind of big.
+
+So the model will learn like he's trying to learn something from the data, so do so as not to make a kind of a wrong impression of the data.
+
+We usually tend to normalise.
+
+Another thing there is that it also helps the model to converge quickly.
+
+So once you have the data in such a way that all the features are quite on in a relatively similar range, then you it allows the model to learn quickly.
+
+So take for instance, Yeah, I'll run this, also run this, I just want to show you something.
+
+So split the data and then we try to train the model.
+
+So thank God is asking EB can you speak now? Okay.
+
+So thank God is asking how did we, How do we generate the link? So I tell you this, there are some.
+
+Yes.
+
+So if I run this, you see this notice or see this hero, I say this warning that says convergent warning, convergence warning.
+
+The algorithm is not able to converge.
+
+Okay? So it means the maximum iteration has been reached and the model did not successfully converge.
+
+So that's the one of those things you are you be facing.
+
+If your data is not normalized, that's like literal what it means the model is able to learn something, but the iteration which we check the you check and the parameters for the arguments for this logistic regression, you see maximum itration.
+
+Okay? Or you see tolerance.
+
+So this information are what tells the logistic regression or the model when to stop learning.
+
+Like once you try for you try to learn the data within one what you call iteration and you arele to achieve it, then stop.
+
+So but it will give you feedback that it was not able to, it was not able to achieve the minimum result or convergence.
+
+So before the iteration exceeded got exhausted.
+
+So that's one of those things you you're going to be facing when your data is not normalize, not only when data is not normalized, but it's really prominent when data is not normalized normalized.
+
+Okay? So yeah, that's exactly what I wanted to show.
+
+So for us to be able to do diligence to this, we need to try to normalize the data.
+
+So one way to do that is wherever you want to do it.
+
+So we just want to do it before the training.
+
+So you can decide to say you want to do the normalization on the train and test data separately.
+
+That's also fine.
+
+Maybe not the best, but it's also fine.
+
+So another way place where you may want to do the normalization is let's say you glued the data and then you just so you glued the data, this data and then you've been able to identify that, Okay, this data as some kind of weak values and then you want to try to normalize them.
+
+It's also fine after you realize this from the statistics and then you can create something to do the normalization.
+
+Okay.
+
+So for me, I will thank God that will answer your question.
+
+Please just give me some, let me, let me try to address this.
+
+So for me I may want to choose to put the, I want to choose to put it somewhere around here.
+
+You can put it, just do it before training before the training.
+
+So there is also you need to know which type of normalization to apply.
+
+And in previous class I explained that when you want to normalize depending on the distribution of your data, like the histogram, so you be able to make some sense of judgment.
+
+So if you model is uniformly distributed, then you may want to use min Max or I mean linear scale normalization.
+
+However, if your distribution is a normal distribution, I mean like L this normal distribution, then you may want to use something like a standard standardization or we call also call it Z score.
+
+So and to do that in to do that in this, in this, to do that in this work, we just simply say you want a scalar and then the scalar you say standard and that scalar.
+
+So this is a function in this is a method in sorry, function or package library depending on you want to use it.
+
+So we are the title in side.
+
+So here so we can load the library for The Standard scalar.
+
+So they are scalars as well.
+
+What here we want to use The Standard scalar.
+
+Okay, so we from SQL and the pre-processing in standard scalar.
+
+So then we can we can implement our scalar.
+
+OK, I am think that to go to, I don't want to use an video.
+
+So yep.
+
+Yep.
+
+So Okay.
+
+So this is what I'm going to do.
+
+I am considering moving this scaling somewhere else.
+
+I will move it when I have splitted the data.
+
+So the reason why I want to move it, I don't want to create another, it's possible to create another.
+
+I want to flow with what is already so that you make many much changes to the data.
+
+So it's not because of the error.
+
+I can we can fix the error, but I don't want to make so much changes to the to the data.
+
+So I'll move the scalar here.
+
+Okay, I move the scalar here so that we don't want to add really do not want to make a very serious change to the code so that you'll be able to see the simplicity in the process and more so you know, Okay, I, I think if you can rejoin, that's fine.
+
+Maybe maybe towards the next class probably or we can, you can have send the question in chats then we try to address it.
+
+Okay.
+
+So I mentioning that I don't want to M so much significant change to the code base for those that are still kind of learning.
+
+So I decided to move the, the scaling like the normalization to somewhere that's it's, it's better like I will just make some little change and then for instance, everything I want to change is is this one.
+
+So I've already split the data.
+
+So then I try to normalize the data and then use that normalization to also transform the test data.
+
+So yeah.
+
+So the and if I run this, so this run successfully.
+
+So it means that if I try to train my model now with the normalized data, it should not complain about the data and not converging that is finished.
+
+If you want to be double sure that is not because of is not because I've run before I deleted the instance, I try to run it again, I try to run it again and then let's see.
+
+So here is where we split the data and here is where we do the normalization.
+
+So everything about the normalizing is just this line.
+
+So yeah.
+
+And then I load the model and then I train again.
+
+So I shouldn't see the warning that it's failed to converge.
+
+Now the model converged easily and then we can make prediction.
+
+Yes.
+
+So yeah, So that's what I actually want to show to you guys.
+
+So the cross validation is just that the model will train five times if I say fivefold cross validation.
+
+So this is fivefold cross validation.
+
+And if I run the model, try to train the model, it trains five times.
+
+So 12345.
+
+So then you have like five results that that prevents you from just getting model the, the model that over fit or something.
+
+Okay.
+
+So thank God.
+
+Now to your question, you said out did we generate the generate the link to download the data set? So I can get your question from two perspective.
+
+The first perspective is how did we get the link to this dataset? This probably you're talking about this dataset.
+
+If you look at the link here, this link, the data is already a CSV.
+
+So we got it from one of those Google, Google data.
+
+But if you don't want to use that, you can just The data is the public data set, so it's not proprietary.
+
+So you just the dataset actually can also be got in from a face.
+
+So if that is what you are, please can you could you guys confirm if you can hear me, just to some kind of a motive, you can hear me.
+
+Okay.
+
+So someone please kind of kindly maybe rejoin.
+
+I think so Now as I was saying, this is The Source, one of the sources of the data, you can find it somewhere else once this public data, I mean you can get it almost anywhere.
+
+So so I just click on download and there are ways, various ways to download data.
+
+You can just download as zip for.
+
+Okay.
+
+But I personally prefer if you have the opportunity to use your link like the link is better to use link Than To download because you are using Goog call up.
+
+So and then the problem is that once your session expires, then it will delete the data.
+
+So you have to download again.
+
+So if that is the question you're asking, we actually got this link from Google, all of the Google coding task.
+
+So so if that is the question you're asking, so but the second way that's the question you're asking could come from like that I can figure your question from is this spreadsheet.
+
+You know, we loaded this data the same data using this URL, we loaded it into this spreadsheet and then we said we can download the each sheet of the data.
+
+So this is the feature Google Spreadsheet, Google Spreadsheet feature.
+
+So this is a Google Spreadsheet feature.
+
+You can download your Google spreadsheet, a particular sheet from the Google spreadsheet using this, this this URL format that I'm going to drop in the in the chats, I think I dropped it other time.
+
+So you basically need to visit this URL now.
+
+But before you visit you need to replace the spreadsheet ID and then the sheets name.
+
+So this spreadsheet ID is the this one, this random ID name.
+
+Then you copy it and then you paste it here.
+
+Okay.
+
+And then the sheets you want to download.
+
+Let's say you want to download the normalized sheets.
+
+So you just put the name of the sheet as normalized, just exactly as you so and then you can click on OK.
+
+And then the data is downloaded.
+
+Okay.
+
+So that's Okay.
+
+I will share it after the class, share the link after the class.
+
+So yeah, if you look at the center or the semantics in the of the URL is basically trying to say TQX like how and then you want the format to be CSV and like so it's, it's kind of a kind of a short way to if you want to do some programmatic way of getting data from getting a SPH data from this, like this, we can basically use this URL in in our app and here.
+
+So if you want to load something like that, but anyway, so and that's that, I hope the two ways that are presented explain what you want to achieve or what you want to know.
+
+Okay.
+
+So again, I've been able to establish that if you normalize the data, the model tends to converge quickly.
+
+So and if you want to try out the same techniques for those that are not using collab, that are using a much more kind of no-code approach like the matlab example, you MAT lab supports using code, but I don't want to talk about coding matlab.
+
+Okay.
+
+So I just want to be much more kind of visual and based on the assumption that you have some experience with special is the common knowledge.
+
+So I'm sorry to use the word, I'm not trying to brag.
+
+There are people that know so much more things on spreadsheet than that, but this information I'm talking about is just the dearest minimum thing someone can know in a spreadsheet.
+
+So if you don't know it, it's fine.
+
+I will encourage you to try to, er, try to put some little effort in trying to know something is some of these things are not quite difficult as I've beenmo-trated in the last class, like I loaded this data and if you even have problem with using it, just do some Google search and find me in this this, find this, this in this and you get the very probably satisfactory response.
+
+So basically here's the data.
+
+I loaded it from URL and then as part of the standardization or normalization using standard method, you need to have some kind of mean and the mean and The Standard deviation.
+
+You look at the formula for calculating, but you don't even care about the formula, you just want to get it.
+
+So if I say equal to and I say standard, so this is standardized, then standardize the normalization like a normalized equivalent of random variable.
+
+So and then you have to specify the value this let say this is the value and then you also to specify the mean of that of that, the mean of that feature of that input to I've already calculated the mean here this is the mean and then I'm also supposed to supply The Standard deviation, which this is The Standard deviation and then everything is.
+
+Yeah, that's all Okay.
+
+So so that's all that you know to need to know to do that.
+
+So I calculated the mean by just saying equal to average or if you don't want to type it yourself, you can just basically come here here and then you want average and then they tell you which column do you want to calculate the average for you click on the column and then select The Range and then you have the average.
+
+Okay.
+
+So this average, I mean if you look at this average 12667, and then you compare with what we have from from Python is the same thing for the area, the average is 12667.
+
+So and which is the same thing as what we have here.
+
+And you check the standardvision 17, 1732 is also the same thing as The Standard revision 1732.
+
+So yeah, slow.
+
+So it's Okay.
+
+The qu about me, so probably it's your network.
+
+Could you kind of maybe switch network or change location kind of.
+
+Okay.
+
+So let's move faster.
+
+So the same thing here, I, I was able to calculate the mean and The Standard deviation and then we get the normalized data.
+
+Just look at it is just standardized and then we try to complete the normal.
+
+I just want you to notice this in spreadsheet if you would drag your result like this, if you apply it to it, to say sequentially increase the cell to the cell ID.
+
+Like here is A to Okay.
+
+Which means we are referring to the row, this row and then this is A, the row, the column, the column is A, the row is two.
+
+So A to if you are referring to this one, it will be B and the row is two.
+
+So that's be two.
+
+So if you drag this, this this cross the course, you drag it down if you apply the formula that you have here and apply it in the next one.
+
+But here we don't have any formula.
+
+You just try to replicates the value, so which is not what we want to do anyway.
+
+So so the formula for standardize raw and a to and then the mean of that value.
+
+I wanted to notice that this, I wanted to notice that this do not have does not have the dollar sign because we don't want to increment it on the rows.
+
+So here we want to choose this means specifically the rhythm.
+
+Okay, I know everybody's hand, so as to know is not a false is not a mistake.
+
+So if you have something, kindly raise up your hand again.
+
+So just to move faster, I'm just explaining some basics of sphe.
+
+I really shouldn't be explaining this because let's just do the diligence and then we want to carry everyone along.
+
+That's the most important thing.
+
+So now we have this normalised data and then this normalised data is what we just downloaded and so for those that are using the matlab as their practice because it's not doesn't require coding.
+
+So what we just simply do is this is the space travel, medical devices, electrification.
+
+Is anybody speaking Okay? So so basically I just simply need to load the data, simply need to load the data, You know, I download data around, so the normalize data and then upload the data.
+
+So the data has been uploaded and I'm trying to load the data.
+
+So after loading the data then we can use the order, the regular method that we know to you go to hub, you go to Classification Lena, you go to Classification Lena, and then you click on in your data and new session from workspace.
+
+I mean, this is what we've done before.
+
+So I'm just trying to tell you that once you lose, once you have a normalize data, you tend to have a better convergence.
+
+Although matlab did not show some error or some warning that the model did not converge.
+
+But it's a good practice to try to normalise the data.
+
+That's The Bottom line of the discussion.
+
+So you choose your model, which is we want to do logistic regression and then we can then delete the tree method.
+
+Yeah.
+
+So then we can click on train.
+
+Yes.
+
+So Tanla is asking to divide normalisation.
+
+So normalisation is the idea behind normalisation is basically you want the features to be in a relatively the same the same range, not necessarily the same range, but the same scaling in the sense that a particular variable is is not too large than the other one.
+
+So in this, if you want to refer to the note, it determined plates feature so that they, I mean, are in similar range.
+
+It not necessarily that they must be minus one to minus ten plus one, maybe zero to one is not really necessary, but let them just be considerably be in the same range.
+
+In the case of the raw feature, raw data, you can see that some data are kind of some features are kind of extremely large compared to the other ones.
+
+This is like 15,000 times larger than this.
+
+So I hope.
+
+I didn't give a very like exam definition, but it's better you understand the notion of the what you call behind the, the normalization so that you'll be able to coin it in your own time.
+
+So that's my own understanding of what you mean by divine normalization.
+
+Okay.
+
+So we LOD data, we train the data, we have a nice 3% validation accuracy.
+
+Then we have a test data that we've already and loaded, we specify like 10% of the data should be for, should be for testing.
+
+So which is what we have here.
+
+So again matlab did not report anything that the model failed to converge or something like that.
+
+But really it's a good practice to have a normalized data.
+
+So that's the story behind this.
+
+Now what then to your assignment.
+
+So what's the assignment is about is that you kind of have some leverage when you are using coding to do something, especially when the process is generic.
+
+Here you have your, you have your code, let's assume, now give you notice that the process that we've been following is almost kind of similar.
+
+And if you look at this data set, this racing variety data set, it's also have some kind of similar trend or similar column in that sense.
+
+So we can just say, Okay, let's download the data if you, I mean to solve your assignment that I'm trying to explain, if you're using coding, you can download the data as a zip file or usually it's going to be in Z.
+
+So you can click on download and you download it.
+
+So for me, you can choose to do anything, just download the data.
+
+That's the most important thing.
+
+So for me, I will use a programmatic way to download the data.
+
+So if your assignment, try to see how you're going to download the data.
+
+So and then I want to load the data into pull out but and I want to try to leverage the existing code that already have so this is so so I need to download the data then they remember the data is in Z format and then I want to extract the zip zip again, if you don't know how to do this, download your zip and then upload it.
+
+That's that's the simplest way to do it for for you.
+
+So I downloaded data and the data.
+
+Okay.
+
+Oh, Okay.
+
+I'm using wood.
+
+Sorry.
+
+Okay.
+
+So I is your Yeah.
+
+Yeah.
+
+So again if you are not Okay with programming, please kindly download God is for me.
+
+Okay.
+
+So first question is are you finding the mean for ANCC value? Let me see if I understand what you're asking.
+
+So this is eccentricity.
+
+Okay.
+
+You are not.
+
+Maybe I should put it so that it so.
+
+Okay.
+
+So here is the mean and standard deviation for area, this is the mean and The Standard deviation for perimeter, this is the mean and standard deviation for the major axis and the minor axis, the eccentricity, the convexity, the extent.
+
+So you can see that all the features basically we computed the mean and standard deviation.
+
+So what I think, I think you need to refresh your, I think you need to refresh your question Deborah, so that I'm going to understand what you mean.
+
+So would have addressed your question.
+
+Okay, So that's that.
+
+Then someone is in tango is asking can I upload zip file and MATLAB.
+
+Yes, you can upload Z file MATLAB.
+
+So once you upload it, you can also extract, Let me see if I can just download the zip file, upload it and then let's let's download the zip file.
+
+The zip file has been downloaded as archive and then you can then upload it on matlab profile and then you write click on it.
+
+You can extract, this is extracts Okay? And you basically have extracted data.
+
+So you should, you can try it.
+
+Okay.
+
+So I downloaded the data sets so but you can you someone is saying we should not, we should talk the details about the assignment.
+
+So don't worry, we still have few that issue.
+
+So what I'm trying to do is to do diligence to is to copy the path and then inste trying to.
+
+So let's say we have data frame equals to pd.read.
+
+So this time and we are not reading CSV, we are reading Excel.
+
+Okay, so here then you don't need to paste the parts to the data set.
+
+This is racing data set.
+
+So without changing so much with the code, this is the reason why I said I don't want to change so much in the code.
+
+So without changing so much on the code, you can basically use your code for so many things or you saw a code online.
+
+Once you understand where the thing is, the data loading is happening, then you can easily kind of tweak the code and then for you to be able to proceed.
+
+Now I've gotten a new data, I just run, I can even restart the session so as not to affect D.
+
+So I import the data now instead of importing the rice data set.
+
+Now I'm importing the racing data sets.
+
+So then I can preview the data set.
+
+Okay.
+
+They like the same feature.
+
+The class is also on the same column.
+
+So now I can do the analysis, I can get the classes.
+
+Okay.
+
+So here we have Casein and they basic to we can transform and then we can split, we can normalize, we can use the same logistic regression and then we train it training model and yeah, we got, we get our result to to and then we get our results.
+
+Yeah.
+
+So that basically that the assignments if you're using code, maybe it's kind of easier but I don't know.
+
+So try to work on that.
+
+Yeah.
+
+So today we've talked about normalization and then the extent of normalization in your code.
+
+And then I briefly walk you through the recent data sets and for your assignment, if you want to also task yourself, they are dry and beans classification data set, which also kind of similar to what the call to the, to the to the rang data set, you may want to flex your mouse with this data set as well so that you will be able to have some well grounded knowledge in this.
+
+Okay.
+
+So our time has been fast spent.
+
+Let's move forward today, I'm going to create a path to modern binary classification.
+
+So we've talked about indirectly, we've talked about categorical data by saying we have class to class B.
+
+We have like in the case of rice varieties, we have the OS Manic and then the cameo.
+
+So that's the categorical data.
+
+So the nature of categorical data, the data has a specific set of possible values.
+
+It can just either have a cameo or have OS Manic.
+
+So that's is just a discrete thing.
+
+It cannot take anything in between.
+
+So if you convert it to zero and one, so it means it can either be zero or one, that's the kind of categorical data.
+
+Okay.
+
+So that is it can be grouped into certain category.
+
+So another example of that kind of data is different varieties of Okay, Yeah.
+
+And street name.
+
+So street name and bin number.
+
+What I mean by bin number is the other time we mentioned about if you have a data and then you want to group them in statistics, you just call them group to data.
+
+So that kind of or you want to plot an histogram.
+
+You can you always have some kind of a being to group the data.
+
+So that's the kind of a typical example of a category data.
+
+So discretize number.
+
+Let's say you have a number that ranges from certain number to another number, and then you want to group them into kind of a discrete group.
+
+Let's say you have age.
+
+Age is a continuous, a continuous integer, but you want to group them to adult, you want to group them to a child, you want to group them to that kind of what then it means you're converting it into kind of a categorical data.
+
+Okay.
+
+So like that, that's a typical example of what you mean by categorical data.
+
+So now as you've learned in the class, we often combat categorical data before then some categorical data, they have some low dimension like the dimension is not really high like snow day example of this is snow day.
+
+So true for so the dimension of that category that is just to skill level, beginner, practitioner, expert, that's three dimension season you have maybe not in Africa but anyway in Nigeria.
+
+Sorry, so winter, spring, summer, autumn, so for seasons we also have so for season, but maybe not the kind of name days of the week.
+
+So that kind of what you call that kind of thing is what we refer to a categorical data and they have their own dimension.
+
+So don't has to be planet because recently, I mean they've discovered that we have many planets, but the prominence when we have eight into is just EAS.
+
+So now do we have a question? Okay, before moving forward, let me take some of these questions that we have here.
+
+Yes, I will communicate the submission of the assignment to you later.
+
+Sure, I will drop the details about the assignments.
+
+So Abdullah is saying 55 min for assignment explanation.
+
+Are you just joining the class? Do you think I started discussing about? Explaining about assignments from the beginning of the class, I think you should follow the class very well.
+
+But basically I told you at the beginning of the class, I'm going to give assignment.
+
+I wasn't explaining it.
+
+I just moved on to the next the topic that we were discussing in the previous class, which is normalization.
+
+Okay.
+
+So then I after explaining the normalization, I moved to give you some clarification on the assignments.
+
+If you know, the number of messages I get from my DM regarding assignments, even the simplest one, you still get DM on it.
+
+So it's worth me trying to explain explicitly on what you have to do.
+
+I'm not really after you feeling anything.
+
+I just want you to be able to get your hand.
+
+DY.
+
+I'm not, sir.
+
+My question is how do we submit your a**? I won't raffle.
+
+I won't mention how you going to submit the assignment.
+
+I'll probably drop it on whats up because I know that I was to get question me about it.
+
+Okay.
+
+Okay.
+
+Dropped the question.
+
+So.
+
+Okay.
+
+So he is asking.
+
+I want to understand why I keep getting inconsistent responses for my customer service chat board, even after training my model severally.
+
+Like I mentioned, I used GPT two for fine tuning and fine tuning to to generate response from the existing data, which is which I had pre-trained and evaluated the data sets.
+
+Here is I worked on basically 705P quan response.
+
+About 60% of the query inputs, response outputs came out perfectly, but 40% came out partially correct even though at TRAAL.
+
+Okay.
+
+So the thing is that I think the recent CHARGB we have if you notice your using GPT to the is that we have as given US-A wrong impression about what GPT model can do.
+
+Like basically we give it something, it's almost 99% accurate if it is not on, but is always 99% or kind of 95% accurate in the response.
+
+So and if you look at what we are using is basically GPT five or GPT something, something like that.
+
+So it has gone through a lot of things.
+
+Imagine if they actually roll out GPT to as the, they as the Maing model.
+
+So you know that this kind of complaint is what people who complaining about.
+
+So yeah, I want you to know that that GT to is is not the ideal perfect GP we were seeing.
+
+So I want to establish that and I also want you to know that one of those things that you may want to try out, I haven't check the code anyway, I haven't check the code anyway.
+
+But one of those things you may want to try out is I need to check if your embedding is actually the is actually related to with.
+
+So whether you embedding is in line.
+
+Okay.
+
+So because the tokenization and then embedding for most of these models, they have different, they use different embedding like that.
+
+So like you cannot use, you may not get good performance if you're using recent embedding.
+
+But again I will say I haven't checked the code, so if I happens to check the code and then I will be able to give much informed, also much informed information about it.
+
+And I won't say your data set is small, is not is not the best, but I won't say your data set is small is small.
+
+But what I also want you to check is your training.
+
+When you are training, do you check the graph? Like try to visualize your graph training graph.
+
+So how does it actually behave? So do you tend to see some kind of convergence in your graph? So that's that's also going to tell you what is actually happening.
+
+You just if you just train, I'm not, I'm not abusing you.
+
+I'm just saying you just train blindly.
+
+You didn't evaluate the graph the was it call.
+
+So you will not know whether the model is actually learning something or is just you understand.
+
+So I would strongly recommend that you try to visualize the graph.
+
+So it tells a lot about how your model is performing.
+
+Just testing is just going to do evaluation.
+
+But during training is the mode as actually the MO as the model actually learned before you stopped the train training.
+
+Let's say you specify undrained epochs or you specify 15 epochs or there about.
+
+So for that period of 15 epoch did the model actually converge? I mean, are you seeing some kind of improvements? So that's also some kind of precursor you may want to check out.
+
+So again, first thing TGT to.
+
+Yes, it makes it easy for us to learn and to run.
+
+Because of computational resources, most of us, we cannot run TGB and GBT five or GBT even more than two.
+
+I have also tried it.
+
+I tried to run GBT to on a task.
+
+We had a project some maybe five until six months ago.
+
+Then I tried to use GPT two.
+
+I also used it with Google Colab or was it Google Colab or the the server.
+
+So I used it and I notice the response was not the best.
+
+Okay, as if you are trying to compare it with what GPT five that we are interacting with is going to is giving.
+
+So then first thing is GPY two is just for you to be able to have the feeling is you don't get the best of all results.
+
+So as compared to what we are getting GPSY five for GPO, meaning something like that, that's 12 is that you need to visualize your your training curve, your training graph, just even just seeing whether it's the loss is decreasing.
+
+It tells you whether you are learning something or not, whether you need to increase the epoch or you need to increase the change learning rate or something like that.
+
+And thirdly be sure that you are not using a wrong tokenization and embedding.
+
+So I think each of those model, each of those DBT model has their own dedicated tokenization.
+
+So those are some of the few tips I can give.
+
+That's one about by time I check your code.
+
+By then I check your code and may give you a much more TAO and specific response.
+
+Okay, So that's been said, I will try to we try as much as possible.
+
+I would finish category category CARA today.
+
+So that by the next class we will be talking about multi-class classification and then we will talk about some some more advanced model.
+
+So yeah, so this is a categorical data.
+
+And I have explained some information about the categorical data.
+
+Typical example that we've seen so far is the two class rise, rise variety.
+
+That way we've been talking about another instance of category Co dita.
+
+Another thing that you have noticed and I have explained is that usually we want to convert or transform category Co dita.
+
+You don't feed in that text that you see er true or what it called Cameo and Osmani.
+
+We don't fit it like just like that it's not done that way because the model does not rely on on the string, on the text itself, it try to work with number.
+
+So that's why we need to convert it.
+
+And usually we try to index it like maybe 01 for for binary classification, like the Osman and that we've been working on you just saying 011 is Okay, but if you have more categories like the, this example, I talking about colors, so we have red, orange, blue and the lights.
+
+So this, you can see that this is much more than just two classes.
+
+So we now have more than seven classes.
+
+So you can index it and say maybe red is zero, orange is one, blue is two, and then seven and the likes.
+
+So indexing like giving them number like I01, 23456 like that.
+
+So it's step towards that direction, towards the direction of handling category data.
+
+So then after that we also have one AUT encoding.
+
+So the idea behind 1A encoding, the idea behind one AUT encoding is that if you want to handle let's say 555 class or seven class prediction 123, 45678, let's say 78 class prediction.
+
+Like this color, you want to predict the color of something.
+
+So what we one way we do it is that to encode it into kind of a what we call one h* the coding.
+
+So how it does it is that if your model predict or if you have read, if the feature is read and the this is also read, you have it as one.
+
+Okay.
+
+So while other ones are zero, so for orange and orange, that when the column that represents the orange will be one, others will be zeros, the others will be zeros.
+
+So for each of those features, you only be having one that correlates to that features.
+
+So this may be may be on, you may see it as kind of being unnecessarily AVY in the sense that we just have why don't we just use one to eight and then er zero to seven and then we just learn beond that the problem there is that let's say red is zero, Okay? And Bran is seven.
+
+What the model will indirectly learn is that if you say it will learn that red is zero, that is not relevant as compared to Bran is not as important as Bran or let's say Orange is one number 101-23-4567.
+
+Let's say Orange is number one and Brown is number seven.
+
+What the model we indirectly learn is that it means Bran is seven times better or seven times important than orange.
+
+So you need to be able to think at the level of your, at the level of your model before you will be able to so that you'll be able to make some informed decision.
+
+You don't just think like human human, you need to think like model.
+
+You need to think like your model so as to be able to know what you trick and what you AD just so, yeah.
+
+So by giving everyone of them 1111, 110 will be able to say that.
+
+Okay, there's no, no, none of them is trying to prove that the value is larger than the other one.
+
+So that's one of one auth encoding.
+
+So and here is how the process work.
+
+You have your categorical name yellow orange, and then we have some kind of a look up.
+
+So this look up, give it some ID 01234 to that and the one AUTH encoding, we convert it to this kind of vector.
+
+Okay.
+
+So if like for instance, this first row, let's say this is 1234.
+
+So it means this number four is talking about zero-zero 123.
+
+So which means this is talking about 1012 3is talking about yellow, Okay.
+
+So this 101 is talking about orange, so this 1012 is talking about I think blue 012.
+
+Okay.
+
+So that's how we try to include.
+
+Sorry.
+
+So that's how we try to encode it for for the model to learn.
+
+So you see this in action.
+
+Okay.
+
+So some is saying like saying I don't understand sir, from the table of columns.
+
+Okay.
+
+So here what I'm saying is that notice we assigned index to this 01234 567 and like if we reset model are good with numbers, like trying to learn from numbers, so why don't we just convert it to 012-34-5678? Okay.
+
+But the problem there is that the model will indirectly learn something else.
+
+What it will learn is that if you have an index of one and bran happens to have index of seven, it will learn that seven Bran is seven times important and more important than orange, which is not what we want to do, which is not what we want to do.
+
+So what we often do is that the old color happens to be 123, 45678.
+
+Okay.
+
+So let's give everything one and zero.
+
+So if we are talking about orange, just give orange one and give every other one zeros.
+
+If you are talking about brand, give brown one and give other ones zero.
+
+So that's what it's actually trying the what a encoding 1A encoding is J you give this is red.
+
+You're talking about red.
+
+You give it one and give other ones zeros.
+
+So that way it will only be able to switch on another.
+
+Okay.
+
+One.
+
+I'm referring to red.
+
+And the red is what is important Now other ones are not of consideration.
+
+So if you want to talk about orange, you give orange one and other ones should be zero by that way, if you not mistakenly learn that brand is seven times important than other ones.
+
+Okay? So that's why that's what this people is trying to portray is basically one of the one encoding you may not need to disturb yourself about how to do manually.
+
+Okay? There package your library that you just call import one of the coding and everything is don't.
+
+So yeah, but you need to understand what is behind the board to us to be able to do that.
+
+Now the problem with one of encoding is that when you're trying to represent it, it's unnecessarily complicated things like as you've seen here, if you are trying to make about seven prediction automatically kind of have like seven by seven or it's by its matrix.
+
+So this is 123, 456-78-1234.
+
+So you unnecessarily have it's MAT, it's by its matrix which is almost eight times.
+
+That's 6464 numbers.
+
+So just because you want to address one or call so like in this case, let's forget about this ellipse that's say let's say is continuing 1234.
+
+So we have four.
+
+And for this alone we can have it times four, which is basically going to be like that's true.
+
+Yeah, that's that true.
+
+So so it's unnecessarily make the value.
+
+So if you have more more inputs, then it becomes bigger.
+
+So that's the issue.
+
+So we usually use PAE representations.
+
+PASS representation is basically you only try to minimize this to the ones that you're considering like store or the position of the vector is more less like the one at encoding, but is only referring to just one at once.
+
+So don't worry, you get it when I give more examples.
+
+And another way that we also address add dimension and dimensional category data is let's assume you have kind of English words that is up to like 500,000, so 500,000 and you want to quote it as a category data.
+
+It's probably going to be a problem.
+
+You first finish your memory, I hope so.
+
+So you probably need to consume the memory of your computer to store this.
+
+So the better way to do that, that what actually led to embedding.
+
+So in most words, text, text, linguistic things like that, you have to first embed and generate an embedding for that for that data.
+
+So before you be able to learn it or learn with it.
+
+So for now we won't talk about that, but I'm just trying to let you know that if you have a large categorical data, you or the CA to feature, you will now be considering you will not be using all one of the coding directly.
+
+So you using embedding.
+
+So that's why you when you're talking about GBT, you talk about GPT model, then all this language model and the like they will talk about tokenization and then embedding.
+
+So what it does is typically make the model train faster and then it makes the inference also so quick.
+
+Again, this may sounds like a theory.
+
+I think it's better I test introduce some of those things before you start seeing it in code because it is slower than a lot if we addressing it in code.
+
+Okay, surprisingly today's class is kind of faster.
+
+But anyway, I think it gives us room to be able to ask, Okay, someone is asking on how embedding works.
+
+Excuse me, let me see if I can.
+
+I'm trying to avoid using external resources for this because there has been some some issue external resources.
+
+So and I think my own perspective to those external resources that they, they've done some diligence to to the work.
+
+So that visualization, I, I am a visual enough.
+
+If I see something, it's kind of much easier for me to learn Than To just get that abstract explanation.
+
+If I see the they will able to interact with it, It makes it much easier for me to be able to complain.
+
+But Since we have some kind of restriction regarding some complain about using external resources, I think it's I will try as much as possible to know to show things that has to do with external sources like that.
+
+So bear with me, I won't.
+
+I will try to prepare a better slide to explain embedding, even if I know that some some resources may give you a very good visual representation of what embedding is.
+
+So but summarily, what embedding does is that let's say you have a data, let's say word some words.
+
+So what the words does, what the embedding does is try to project those words in such a way that is not is not just about word by word, it projects their interpretation, their meaning.
+
+Usually you say this is if you want to say some words like this is this is always following, is this this, I mean, I'm not saying the plural singular this, this is so then the following thing, a dog, a bag, something, the article follow it.
+
+Those semantics.
+
+If you just split those word things into just words without having some embedding that projects them, that they are always related or they are always together, then you are just trying to create some kind of discretized team.
+
+So but by having some kind of embedding embedding, try to project them such that what are related are always grouped together such that what are related, things that are related will be grouped together.
+
+And then your model will be able to.
+
+So sorry that I'm talking about embedding, I'm trying to check the comments so such that water related will be kind of grouped together.
+
+Let's say you're talking about food and fruits, and then you listed the name fruit, rice and beans, lemon, orange, guava, and like, so you mean everything is edible, Okay? But if you try to create a good embedding, will be able to project that maybe this ones are fruits, Okay, in the category of foods, maybe this one are in the category of regular consumable foods, like like that.
+
+So everything is edible, but you the projection projected beyond just splitting words, Okay.
+
+So it's projected in such a way that the the value, the index that will be generated will be mapping it to with their meaning.
+
+But don't worry, we also still talk more about anything that has to do with projecting interpretation with information, especially when you're trying to use PC principal components and the like.
+
+I would like to take a question so that because we have just 2 min left and then is good to to or Okay.
+
+So, so first thing, Umar, you have the floor.
+
+I think you can speak now.
+
+Please keep using external resources.
+
+I don't think there there is anything hope there.
+
+Sunday.
+
+It was a complaint from one of the scholars or some of the scholars that I'm referring them to too much external resources.
+
+So I need to, I need to avoid that.
+
+Okay.
+
+So yeah, what I think we do is contribute external resources.
+
+Okay.
+
+Okay, Okay.
+
+I will.
+
+Okay.
+
+I will share some of those links in the discussion group.
+
+I think that will be better.
+
+Again, I'm not enforcing you or compelling you to check those resources.
+
+I'm just checking for you to to explore.
+
+And by the way, before the end of this class, I will tell you to submit your W three school progress.
+
+So that's, I will be sure that the coding.
+
+Yeah, we are learning something in the coding.
+
+Okay.
+
+Abdul Muhammad Abdul.
+
+We have more than two in this class.
+
+Umar, please speak.
+
+We don't have mention.
+
+I think this, I think the hello.
+
+Yeah.
+
+Hello.
+
+Good evening, sir.
+
+Yeah.
+
+I mean, I just want to be clear about the assignment.
+
+Okay.
+
+Hello, Hello.
+
+See.
+
+I want to be clear about the assignment on the that's outload.
+
+Okay.
+
+We are we to use any of the method either matlab, Python or Google.
+
+Yeah.
+
+Either.
+
+Okay.
+
+That is what I want to be clear.
+
+Thank you.
+
+Okay.
+
+I think that marks the end of today's class.
+
+I thank you all for joining and I appreciate your feedback and your responses.
+
+Can you go don't submit it to Morrow.
+
+I will tell you so that those people have not finished some speeching off and things they will have time to so that I will drop information on the assignment and the group.
+
+So please check and Matlab also thank you by by.

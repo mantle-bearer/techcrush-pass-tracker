@@ -1,0 +1,1283 @@
+Yeah, scholars.
+
+It's a wonderful class today.
+
+I believe so I hope you had a wonderful time, said our previous class.
+
+If you can hear me kindly signify return with your thumbs up kind so that you can hear me.
+
+Okay.
+
+Know that you can hear me.
+
+Okay.
+
+So without wasting much of our time to comment pass.
+
+Okay.
+
+I'll show my now.
+
+OK.
+
+So please kindly confirm me.
+
+You can see my screen soft software.
+
+Fine.
+
+OK.
+
+So in the last class we will briefly talk about logic.
+
+We wrapped up work on logistic regression and then I tried to demonstrate show you how to do logistic regression.
+
+Yeah.
+
+To work with the logistic regression.
+
+So and also I show you some things on regression.
+
+I saw in the previous class and I mentioned that the platform is not as important as you understanding the concepts because very often you will have to use maybe different platform like even if you don't know programming, there are several other platforms that allows you to do some machine learning or some AI without the need for programming.
+
+So when you want to adjust your model, you maybe your model is not performing as expected, which is something that we have almost of the time.
+
+So I want to adjust the model.
+
+So you need to understand the interpretation of what you are adjusting, what is meaningful, what is not meaningful.
+
+So what is kind of going to affect your, So what is kind of going to affect your model performance? Like, for instance, I mentioned that if you have a very sparse data set and then you are trying to set your batch size into something that is, you know, that is completely not even realistic in your data set.
+
+So why setting device size so something like that.
+
+So yeah, today we will move to classification.
+
+So basically classification as we mentioned in a first class, we mentioned that first or second class, we mentioned that classification would be binary classification or multi-class classification.
+
+Binary means to class is spam or no spam rain or no rain, something like that.
+
+So we often have like a positive and like the negative classes since it's just true.
+
+So if you consider the positive class to be one, the negative class to be zero, so something like that.
+
+So that's how we create.
+
+And then for the multip class classification, it means that we have multiple classes that are like more than more than one.
+
+So and in reality we also handle remote class classification like a binary, but we just add some trick to the way we handle it.
+
+So and then in the previous class also we mentioned something about the thresholding and confusion matrix.
+
+So we we mentioned that the model could also be confused.
+
+So someone has that model can also get confused.
+
+Yeah, the model is confused on let's say you suppose the model is supposed to identify this as a correct actual and the actual prediction is this and then is predicting something else.
+
+So as we say, it's confused.
+
+So I wanted to be able to get the idea of the confusion metrics because very often you will be coming across confusion metrics as part of a method to do some calculation for other metrics.
+
+So take for instance, the idea here is that let's say you have the actual positive.
+
+So let's say the positive in this sense is SPAMM, the Spamm email.
+
+You know the Spamm email.
+
+Now, so the Spamm email is an the let's say after you've done your quiz, like the quiz that we did the other time, some people were complaining that they didn't receive their results, whereas actually the results was sent, but it was the email engine, Google Email or whichever email you are using mistakenly classified the email as spam.
+
+So instead of the email entering your inbox, it was not in your inbox, you didn't receive it.
+
+Then the email automatically push it and the email algorithm dramatically pushed it into the spam.
+
+You understand.
+
+So does it spam or not spam? If it's spam, then it's push it to the spam inbox.
+
+If it is not spam, then it pushes it to your inbox or your some other LE in your your email.
+
+So now in this case let's say spam or no spam spam if the email is classified as spam and as the positive and the email is classified as not spam as negative.
+
+So if the email let's assume a scamr the SE is daddy died and then is to claim a one billion dollar from his account and then what he is able to do that email truly, really, really, really is spam, okay? because it's from SCAMA.
+
+So now if the algorithm lets say the model predicts that when the email entered, the algorithm or the EMAL model predict that this is a spam, correctly predict that this is a spam.
+
+So we can say the prediction is positive and the actual is also positive, you understand.
+
+So we call that kind of coincidence or that kind of combination.
+
+We call it true positive.
+
+That is the positive, the positivity of being a spam, and then the prediction of also being a spam.
+
+So that is truly it is positive.
+
+So that is true positive.
+
+Now, so how we know is spam or not? So Tea is asking the question of how will how will the algorithm know is spam? So let me show you something.
+
+So you know, we have the impute features into the algor.
+
+So we have impute features in algorithm.
+
+Right? And in okay, I mentioned, I was saying the model we have in feature.
+
+Like in the case of logistic regression and linear regression, we let's say we usually say X as the feature and then Y has the prediction.
+
+So that includes feed, those include features could be one, be so many, those include features are what it inspect to say this is a spam or this is not a spam, so that's what it's used to identify that.
+
+Okay.
+
+So I will let me see.
+
+I will share a data set.
+
+I will show you display data sets.
+
+Now.
+
+So the data sets is a is a spam.
+
+New data sets.
+
+OK.
+
+So here is the spam data sets and on cable.
+
+So now here is the table of the ID.
+
+Here is a table of the data set we have.
+
+This is just the column.
+
+We have the ID, we have the label, we have the text something like a liberal number that is one means it is spun, zero means it is not spam.
+
+Okay.
+
+Now the input into the model will now be the following: We now be the following: The text, the text of the email, the text content, the content in the email is what will now be the impute.
+
+So and the output is expected to be able to say zero, not spam.
+
+One is spam.
+
+Okay.
+
+So now how does he know? That's the question.
+
+The question is how does you know? So by inspecting the the text of the email sometimes you can also: H I wish I can show you, let see if I can show you something.
+
+So sometimes part of the content of the text contains the header, something call the header of the of the email inside this text.
+
+Sometimes you can also have I wish okay, so this is not saying, but anyways what I'm saying is that in an email you can have the subject, the sender, the receiver, the what you call the edit.
+
+So in the header you can have some information about the origin is coming from the, the SSL certificate and some other things like that.
+
+So some of those information is what most of those information is what I could like that we confer, convert to some things to like trying to vector, vectorize the word words or tokenize it.
+
+So that's what we used to be able to as input into the ML model.
+
+Okay.
+
+So I believe you get the idea.
+
+So yeah.
+
+So going back to this email spam email correctly classified as an email.
+
+So let me give you another example.
+
+So we have COVID-nineteen or not COVID-nineteen.
+
+So if the model, if someone has COVID-nineteen and then the model is able to predict that this person has COVID-nineteen, so that's true positive.
+
+Okay.
+
+So yeah.
+
+Now what is false positive.
+
+First positive is that the the model is actually is not a spam.
+
+Sorry.
+
+The actual input is not a spam.
+
+The message that was received is not a spam in the actual sense.
+
+Let is your quiz results.
+
+So but the model, the AI model predicted that this is a spam, so in that case thee and we call it false positive.
+
+It means the the model, the AI model is false.
+
+Okay.
+
+So that's the what we are saying now in a situation where by the the the actual prediction, the actual level of the input is actually spam, but the model predicted a negative that is preed not be not be spam so that when we also say we said it is false negative.
+
+So and then an example is that an email, an email spam email M classified as not spam.
+
+Okay.
+
+So exactly AKO two.
+
+So yeah, so something like that, like someone usually it's very common.
+
+Like you get an email and then it's mistakenly classified as as far, it could be an interview email, it could be a scholarship email, it could be too many things.
+
+So yes.
+
+So you, you, you are now realizing the importance of NAV to being able to classify correctly that this is this.
+
+So depending on the nature of the application, it is quite important to be able to say with confidence that this thing is this.
+
+So let me give you an example, another example when we cannot risk to have a true negative instance.
+
+So let's say for instance, someone has some, there is someone the person was tested that whether with an AI model, whether ta co, the person has COVID-nineteen or does not have COVID-nineteen.
+
+So now the person actually do not, does not have COVID-nineteen.
+
+Okay.
+
+Now the model is now saying that all this person has COVID-nineteen, it means they will eventually mistakenly enroll the person into isolation center.
+
+So now so that's the implication.
+
+So now, so now let's now assume the person has COVID-nineteen.
+
+And now the model is saying that the person does not have COVID-nineteen, You know, it's also going to be a problem because it would eventually mingle with other people and then those other people will now be able to contact COVID-nineteen to person.
+
+So it's quite important you model is able to say with confidence that is, this is this and this is what it is.
+
+So depending on the application, it could be much more, this could be much more deadlier.
+
+Okay.
+
+So I will go through, go over it again because it's quite important you guess this actually.
+
+So let's get this, the column, this column, this is the table, the this column is referring to the plan truth.
+
+That is the true correct answer.
+
+Okay.
+
+So this rule is referring to the predicted.
+
+Okay.
+
+So now we have the positive, the positive prediction and the negative positive act and the post negative actual.
+
+What I mean by positive act as as an example is we are trying to predict spem on spam.
+
+Spamm predicting sperm is positive, predicting not spamm is negative.
+
+Okay? actual actually it is a spamm, It's positive actually is not a spam is negative.
+
+So spam positive, not spam negative.
+
+Okay.
+
+Now are you with me? So if the the true level, the ground truth of the input, the thing the email that is been tested is is actually a spam, Okay? Is actually spam, that's positive, actual positive.
+
+And the prediction is saying that is this is actually spam, it's correctly classified as as being a spam.
+
+Then that is true positive.
+
+Okay.
+
+Now let's assume that the the email spam is actually not a spam, but the model predicted it as being a spam.
+
+OK? So it means that is false positive.
+
+Okay.
+
+So now let's now say the case of false negative.
+
+First negative is that the email is a spam.
+
+Okay? The email is a spam, but the model predicted it as not a spam.
+
+Okay.
+
+So that case, we call it false negative.
+
+That case we call it false negative.
+
+So now, but in the situation we are by the model and the email is actually not a spam, and the model predicted that is not a spam, then that is true negative.
+
+So what we actually desire is for us to be able to get true positive when it's true positive, and for us to be able to get true negative.
+
+Okay.
+
+But in the sense we don't often have it like that.
+
+Let's look at this data sets.
+
+For example, this data sets that contains two side, the yellow side we said is the negative side, the purple side is, we said is the.
+
+So the purpose I is what we call the, the purple side is what we refer to as the positive side in these data sets.
+
+Okay.
+
+So now this and we can say is rectangular with square, the circle is the negative.
+
+The I made a mistake.
+
+Okay.
+
+So I thought I made a mistake.
+
+Okay.
+
+So let's proceed with just for the explanation in the question.
+
+So now let's take a look at this instance.
+
+So we have the data set and the circle and the pol, the negative and the square at the positive.
+
+So now if we are trying to consider this threshold of zero point five five, so by the ones that are actually on this positive side, and we try to count the number of the ones that are on this positive side, we expect that this square, that is, we counted the square, this is square and the model predicted to be square so that the continent we have forty.
+
+Okay.
+
+now.
+
+Okay.
+
+So this is what I'm saying.
+
+So now this is the data sets, okay.
+
+And then the prediction is that okay.
+
+This treasure is set to let's say zero point bango thereab or it can be something else.
+
+Like the example was the explanation was initially given.
+
+So now by then we count all these square that actually fall in the square in the in the region of the positive area.
+
+So we should be able to count forty.
+
+Maybe we don't have the time to count it now, but the one that is quickly noticeable is at the circle.
+
+The circle was supposed to be on the other side, this yellow side.
+
+So what's fair in the positive side.
+
+So if you can't it, you should be able to count for one, two, three, four.
+
+Those are the false positive prediction, okay.
+
+So are the false positive prediction.
+
+So and the case of the false negative prediction, it means that this thing supposed to be spoil what is now predicting it in the category of the negative, which is the category of the the or ins side.
+
+So if you can't this one, we should be able to get eight, one, two, three, four, five, six, seven, eight.
+
+Okay.
+
+That's why we have this state here.
+
+And if you can't the true negative, that is the ones that are circle or yellow and they were predicted in the category of that based on the threshold, then it should be forty seven.
+
+Okay.
+
+So this is what we refer to confusion matrix.
+
+You can if you have more data sets, it's you.
+
+So if you have more classes later on, you will see that it's it doesn't necessarily need to be just this to can be more and more, But the most important thing is a square matrix.
+
+So now one of those things that we probably one of those things that we prob tenure, I thought I mentioned what is confusion matrix.
+
+Okay.
+
+So this again this table because if I need to let you understand what's confusion matrix because everyone is in this class to date is going to be centered around confusion matrix in mathematics.
+
+Okay, we all know matrices, matrices where you have something like square column and rows and columns.
+
+But if you don't want to state it as a form of mathematics, let's say we call it something like a table, okay? table with rows and column.
+
+Now we have the color, which is the grand truth, the grand.
+
+What I mean by the grand truth is the is the the actual thing be the actual er results of the actual attributes of that thing.
+
+Like for instance, this is a square, actually the square, but if you now find it in the area of square, this an old message, I try to see if this is okay.
+
+So anyway, so the actual level of that TE is what we refer to as the ground truth.
+
+So and what is now predicted by the model because what model, what a model does is is trying to predict, he is trying to predict whether this is it based on some impute another understand that you can want you want to say is that it's it's what it's says that this on letter that you didn't know that new that it's rained but the weather forecast was telling you that it was not going to rain.
+
+So what weather forecast is telling is a prediction.
+
+But at the end of the day, let's say in the morning you check the news and the news was telling you that it was not going to rain.
+
+Now after that day, maybe before the after midnight, it's eventually rain.
+
+That is a grand truth, like the brain falling is actually the grand truth.
+
+So but what the weather forcast is telling you is the prediction.
+
+I believe you should be able to understand it like that.
+
+So what the weather forecast is telling you is a prediction.
+
+It has no rain and they are just predicting that probably is going to rain.
+
+So now what's at the end of the day is it eventually rain.
+
+What actually happened at the end of the day is what we call the grand truth, the correct thing.
+
+So yeah.
+
+Now trying to organize that thing then the prediction of the weather forecast and what actually happened.
+
+So organizing it together.
+
+So is what you can use to build our confusion.
+
+Matrix seed.
+
+Don't get confused with with the matrix.
+
+Okay.
+
+Just as AI model is getting confused matrix here, just see it as a table, like a table with rows and columns.
+
+Okay.
+
+So yeah, and then we have the true positive, we have the false positive, true negative, and the true false negative and true negative.
+
+Okay.
+
+Now some may actually affect the way your model behaves.
+
+So take for instance, this is tagged a separated dataset.
+
+It means that from the inception data is well separated, like there is a clear that's the fact we have some square on this side, there is a very clear separation between them.
+
+Okay.
+
+If I drag up to this point, you notice that this here, we definitely have more of those of those squares for squares.
+
+Okay.
+
+And if I drag this to this side, you definitely see that we have more of these orange circles.
+
+So which means this data is actually really, really separated already, but just some few ones that's got mixed up among the data.
+
+So what if I show you an imbalanced data, Okay? And imbalanced data is a kind of data where there are some instance or many instance where a particular class is much more than the other one.
+
+So here in this imbalanced data, we have more circles, more circles than the square.
+
+The whole square that we have in this data is just one, two, three, four, five, six, just six, just six.
+
+So that's the total of that we have in this data, in this imbalanced data, so that is an imbalanced data.
+
+And in in machine learning in AI, imbalanced data needs to be handled with some additional caution.
+
+So in the ideal scenario, we want the data to be quite balanced, understood.
+
+So on separated data is when the data is fully mixed together, like you find it very difficult to be able to distinguish what's the clear separation between those data now, but generally imbalanced data, it's often a problem for.
+
+Okay, Steen Alto, thank you for the clarifying something in the in the question question answer box.
+
+So the question is then does the data sets or data come separately or imbalance in the real life? The real scenario data is not, you won't get it balanced data for you have to force yourself to balance it.
+
+So you won't get the balance data in the real world.
+
+So let me give you an example.
+
+Oh, I just want to bring, I hope it works.
+
+Okay.
+
+So it is now working.
+
+I wanted to bring up my camera to show you because I'm already using camera here, so it's not working.
+
+So now let's take for example, I'll give you an example.
+
+This is this webinar.
+
+Okay, if you notice so far, if you collect all the videos that we've used, well we recorded in this webinar and then you want to use the video to train a machine learning model of maybe of me.
+
+Now we are not talking about class patient this time and just want to train the model.
+
+What you notice is that my sitting position of my head is always at the center of the of this video or somewhere Arang, you never see my head at this top right corner or top left corner.
+
+You not see my head at the top, bottom left corner, bottom right corner.
+
+Now that is what that's what we have found you in the little data you collected.
+
+So which means that if you try to label this data to train an AI model, the model will learn instances when my head is at the center of the image more than when my head is at other position in the image.
+
+That's the kind of imbalance we ideally want to get instance where my head is at this corner is at everywhere in the frame so that the AI model will be able to will not just think that he is always at the centre, he's always at the centre.
+
+What happen if there's a cameraman or there is shift in the camera and my head fall in this area.
+
+So you started.
+
+So is that eleventh is asking me if there is a class days test on Friday.
+
+I don't know if we don't have holiday yesterday.
+
+I'm sure.
+
+So okay.
+
+But I guess the grant truth is that there is already there is a test.
+
+So okay.
+
+So yeah, Well let's proceed without going into some of this.
+
+So another instance of imbalance is let's say you have this data set of sunflowers and then you have rows, so just two rows out of multitude of sunflowers.
+
+So there's an instance when you have an an imbalance in data sets.
+
+Okay.
+
+Now most often after you've got in your maybe confusion matrix or one way the other, we often want to calculate some metric that says that this is how the model is performing.
+
+Okay, So now computr matrix is mostly visual like you see it at a glance that oh, this model is confused or this model is doing well by visual, visually inspecting it.
+
+But we want to have a kind of a metric or kind of your value that says that this is seventy percent accurate or the seventy percent precision or something like that.
+
+So we want to have some kind of a metric like that.
+
+So, so now this metric is that we often use is the accuracy recall and precision.
+
+Okay.
+
+Now which one you want to choose, It also depends on a lot of things.
+
+So in an ideal scenario, you want to say accuracy, like the model is accurate like we wish to say so.
+
+And if you want to calculate the accuracy of a model based on your prediction confusion matrix, you say that the true positive because the true negative, that is all correct classification.
+
+And I told you we want to have a true positive or a true negative in that is true positive and true negative.
+
+That's the correct classification.
+
+Something is negative and the model say is negative, something is positive and the model say is positive.
+
+This two diagonal, this one, okay, not this other one, this two diagonal.
+
+The true positive and the true negative is what we actually want, like what we desire.
+
+So if the model is able to say everything that is positive as positive and everything that is negative as negative, then accuracy is most likely going to be close to one.
+
+Okay, So all correct classification.
+
+What we mean by correct classification is true positive is true positive, true negative is true negative.
+
+So that is the correct classifications.
+
+So all over the total number of classification and the total classifications.
+
+So that is the addition of the true positive plus true positive and true positive plus true negative plus false positive plus pos negative.
+
+So in essence is just the total number of the classification.
+
+So this is what makes all the accuracy.
+
+I will scroll down to show you what I mean.
+
+So yeah, I just pull up a calculator now.
+
+So we want to calculate the and calculate the accuracy of this model.
+
+I believe you can see my screen.
+
+So the accuracy is a true positive plus true positive all over the sum of everything.
+
+So the true positive, which is the true positive, which is forty plus forty four.
+
+Okay, divide by the sum of everything.
+
+That is we have the true positive plus true negative plus false positive plus false negative.
+
+So you calculate it, we have zero point eight eight for its something you approximate we have zero point eight five.
+
+So which is what we have here as the accuracy.
+
+Okay, so now let's go to move to the the recall.
+
+Okay.
+
+Before moving to the recall.
+
+So accuracy as the mathematics equation or the formula derived divines it as a correct classification all over total classification.
+
+So but what does it mean? What is a good accuracy? As you can see, if the first true positive and true negative, like the the most value is correct, completely correct, then dividing by the total, it means you're going to have a one.
+
+So in that sense, accuracy, good accuracy is when we have one represents so one times one plus one represents.
+
+So here it could be one.
+
+But if you multiply by one means one hundred percent.
+
+So thus what to refer to as a good accuracy, that is a perfect model is a model that has an accuracy of one, one or one hundred percent.
+
+Okay.
+
+So after I get your jokes and the entire process to positive test and then I'm also saying yeah, I get understand the, I appreciate the analogy to make it much clear.
+
+So yes, yeah, zero point eight five so and then if you want to convert it to percentage is eighty five percent.
+
+So okay.
+
+Anyway, now so that's the analogy, but the issue is that if you have an imbalanced data, again if you have an imbalanced data set of data, going by accuracy or saying using accuracy as the only metric of and to know whether your model is doing good or is the best is not the best.
+
+So that's the similitude.
+
+That's the logic.
+
+Now why is it not the best? It means that let's say you have instance when what usually happen for an imbalanced data, Let me go back what we often happen in an imbalance data like this one.
+
+Okay, what's often an imbalance data is that this this data already show an imbalance.
+
+And the implication is that if you look at the accuracy, if you look at the accuracy of this data is showing zero point five three percent.
+
+So, so this is because the model is actually not balanced.
+
+The data is actually not balanced.
+
+Some are much more than the other ones, so it will automatically make the accuracy not be a means to measure how the model is performing.
+
+Okay, now let's move to recall.
+
+So recall is simply put to positive rate of true positive.
+
+Okay, that is, you have correctly classified an actual positive.
+
+The corrective to classify actual positive in this sense is simply saying true positive, the positive one so is simply true positive.
+
+The opposite of it is the false positive rate.
+
+Okay.
+
+So in this case they are techn we are saying incorrectly classify actual negative so, but for recall or true positive rate, it is correctly classify actual positive all over all actual positive.
+
+Okay.
+
+So and the opposite of it, and for the false positive rate is all over actual negatives.
+
+So so is just the opposite of the so so what's the one we call recall is the same thing as a true positive rate.
+
+that is the true positive all over true positive clause, false negative.
+
+Someone is asking a question which I'm not quite sure.
+
+I get the question, sir, what causes the imbalance and separation? Data set data sets.
+
+Are you referring to the example I'm giving our in real life? what causes imbalance in data sets? Is that what you're asking? Please respond so that I will be able to get your question because I think this is the second time or to time you are asking that.
+
+Okay.
+
+So now we have the true positive all over true positive plus false negative.
+
+Now if we want to calculate the recall of the recall.
+
+So in a sense, we just basically work with the separation.
+
+Basically what we do is that and the record is actually is actually true positive which is forty divided by the all the positive client classes or classification.
+
+So which is true positive, false negative is eight and maybe you calculate this, this is zero point eight, three which is the same thing as what you So the recall is like you are picking this column, this column of the, I believe you can see my course of this column, you are picking the column and you are saying the true positive divided by the addition of this everything in this column okay.
+
+And whereas the other is the opposite of true position and the opposite of recall, which is the false negative reads and the false positive reads, This one is actually a false positive all over false positive for those true negative.
+
+So which is which means what we are trying to say is that everything in this column okay.
+
+So and although is not calculated in this example, I'm just going to show you that seven divided by seven plus forty four.
+
+So that is like thirteen points and eighteen point seven percent seven.
+
+Okay.
+
+So now now what is a good recall? So we need to know what a good recall is and basically what a good recall is that when is one or close to one, that's when we say this recall is this model is as a good recall.
+
+Okay.
+
+So I move to precision.
+
+So precision is the ratio of our life.
+
+We correctly classify actual positive, that is the true positive or the everything classify as positive, that is true positive and then false positive.
+
+So if you look at it, this is more less like you're talking about this row true positive plus false positive.
+
+Okay.
+
+So everything is okay.
+
+So that is what you will constitute your predict precision.
+
+So now here we can say that the true positive, which is forty divided by forty plus seven, So which is eighty five zero point eight five, which is what we have been.
+
+You are asking whether accuracy is the same thing as precision.
+
+No accuracy is not the same as precision because you have the same value zero point five, zero point five doesn't mean that is the same.
+
+So if I change the threshold, now you see that the value is quite different too, and the formula is different as well.
+
+So the formula of precision is like you are trying to work only on this, only on this row.
+
+Okay, that is true positive over true positive plus positive.
+
+Whereas for in the case of accuracy we are trying to work with this diagonal, which is true true positive divided by true positive, pos negative.
+
+I give you logic to be able to master the the concepts I see.
+
+I want to let you show you how to master the concept and although it is not is not composed with most time your what will be calculate the accuracy and relax what's in case you ask in the quiz, you probably be able to do the calculation.
+
+So that's just as just the reason.
+
+So let's say we have the true positive and then we have the true negative.
+
+Okay.
+
+So and then here we have the yeah, yeah, we have the force, so we have the true positive and true negative.
+
+We have the false positive and the false negative.
+
+Okay.
+
+Now when we say accuracy in the case of accuracy, in the case of accuracy, we are what we are trying to address is that is this to diagnose? Okay? this to diagnose is what's the calculation for accuracy and TAS that is the true positive and the true negative.
+
+So what you just do is that the true positive divided by true positive plus true negative.
+
+So that's the, what's the accuracy and close.
+
+Okay.
+
+So and then give it in term of the session, I copy this again.
+
+Okay.
+
+So and if it is in term of the precision that we are talking about so so for the precision.
+
+So what the precision actually deals with is the this row.
+
+So this row is what the precision deals with.
+
+That is the true positive, positive plus pos positive.
+
+Excuse me, I think my camera, I just show down Okay.
+
+So and then for recall, which is the same thing as the positive rate.
+
+So what's the record physically deals with is the the this col so which is true positive divided by positive, negative so yeah, so I believe this will make it a bit much helpful.
+
+I hope so Oh sorry AGY, I'm so so accuracy and the sum of everything.
+
+Yeah.
+
+To positive sorry.
+
+Thank you for clarifying.
+
+Yeah, it shows you are following thank you.
+
+Okay, my okay.
+
+So here is just the logic.
+
+Okay, So please, I hope this will be, I don't know why I'm making mistake on the video.
+
+Accuracy.
+
+Let me let me check again to positive, negative Yes.
+
+Yeah, so it's correct now.
+
+Okay.
+
+So that's the logic.
+
+Thanks for calling my attention to it.
+
+So let's move forward so that the time is really fast spent.
+
+But the reason I have to dwell more on the confusion matrix is because a lot of other things, as you can see, the accuracy, the record, the position all depends on the the on the confusion matrix.
+
+So it's quite important to understand what the confusion matrix is, although any platorm we're going to use will probably give you some means to do that, but it's also quite important for you to be able to evaluate it yourself so that you and know what? Okay, I tell you what is this, what is the interpretation of this confusion matrix or this matrix or this thing that you're showing and you want to explain the logic to your maybe, to your boss or to your clients or to what you call whoever it is.
+
+So you will be able to confidently say this is what it means and this is the implication on the system.
+
+Okay, So now and the I tell you which metric to use, which metrics to use is subject to the nature of the work you are doing.
+
+So, for instance, once you have an imbalance, using accuracy as a means of determining the performance of the model is not the best.
+
+I tell you is not the best.
+
+So now you are left with recall or precision and the likes.
+
+So and this two precision and recall, the they have some kind of resilience to to imbalance data.
+
+As you can see, if I there's an example, if I switch to imbalance like an imbalanced data, you notice despite the fact that the what we call the data is imbalanced, the accuracy is not capturing how perfect the model is behaving or how well the model is behaving.
+
+So the precision and the the precision is also low.
+
+But it's kind of a way to checkmate the recall that is saying a very good performance.
+
+So and another way to do that, like to sort of like finding the mean is what to call the F one score.
+
+So is what to call the F one score.
+
+So the F one score is like you're trying to find a kind of a me so between between the recall, the recall and the precision.
+
+So by finding the mean, you indirectly will be able to get a a model.
+
+So a metric that andrews class imbalance very well, okay, the class imbalance very.
+
+So simply put, the recall is more less like we are saying the F one score is more less like we are saying precision multiplied by the recall over the sum of the two.
+
+So okay, so yeah, let's move forward.
+
+So as I have said, this is a take-out trade off.
+
+So what you need to take from this, all these metrics is that if you want to use accuracy and accuracy is to avoid accuracy if your data is in balance.
+
+Okay.
+
+So that's that's one thing.
+
+So that's one thing you should know that you should avoid impal using accuracy to measure the performance of a model that is that is in balance for our data that is imbalanced.
+
+So we recall so is used when false negative and more expensive than a false positive.
+
+So false negative in the case of, let's say you the person is, the person has what you call the person as COVID-nineteen, really.
+
+And then the mother is saying this person doesn't have COVID-nineteen, leave him, let him, let him go.
+
+So and the implication there is that once the person leave, then he is able to spread the COVID-nineteen to other people.
+
+So so you notice the first negative is actually expensive to to joke with in that sense.
+
+So yeah.
+
+And then the precision is when it is very important for positive prediction to be as accurate as anything.
+
+So yeah, positive predation is the same thing as a true positive and the true negative.
+
+So yeah, So yeah, I just did, I just give the summary.
+
+I just give the summary based on this.
+
+Okay.
+
+So I think it's using an airport, Okay.
+
+So depending on the application, several applications uses one kind of metrics.
+
+And so you need to add an AI specialist or an expert in AI.
+
+You should know which metric is important.
+
+Okay, you should know the metric that is important to consider for your application.
+
+If you are working for medical scenario, I tell you it's not is good, you consider your record not just accuracy.
+
+So and then if you have class imbalance, it's good.
+
+You don't use accuracy as the metric that to evaluate the performance of the model.
+
+So for precision, one percent, hundred percent is the best.
+
+So most of this metric, aside from the false positive rates, most of this metric, if you have one or hundred percent, that's the best.
+
+Like sort of, But I mean you don't want to get hundred percent.
+
+So maybe there is a fitting or something.
+
+So what does the ideal scenari? So let's move forward our time as a fast spent.
+
+So now the other thing to evaluate model quality and across threshold.
+
+So what I mean by threshold if you remember, is this, So we are shifting this, we are dragging this, this is threshold.
+
+This threshold tells the model to know, help the US to know which proportion at what point do we say this is that this belongs to this class.
+
+Okay, On average you can say fifty percent.
+
+Okay, we fifty fifty okay.
+
+So if it's, if the threshold is fifty fifty, so it means the positive takes fifty percent, the negative takes fifty percent.
+
+So but sometimes you may want to be much more strict also depending on the application in Medicare, in Medicare scenario they always want something close to ninety nine percent as ninety nine percent as the threshold.
+
+So I believe you understand you remember what I mean by threshold, it means that if your model predicts that, so prediction is sixty five percent, Okay.
+
+So that's when you will be able to consider that this team belongs to this class if the model is not giving, like your logistic regression, logistic logistic regression, give you the probability that this thing is this, this thing belongs to this plus.
+
+Okay, So now is ch So let's say you are predicting spam or you okay, Let me use COVID-nineteen for example.
+
+Let's say you have predating COVID-nineteen and then you are getting a probability of fifty percent.
+
+This is critical for medical scenario.
+
+Fifty percent is not sufficient for you to say that this person has COVID in if you don't can't get an accuracy and sorry, and a probability of about ninety nine percent or ninety five percent.
+
+So then that confidence level is sufficient to say that this is this person has COVID-nineteen.
+
+So setting that threshold as ninety five percent demand, the model is able to keep in ninety five percent confidence that this is this, this belongs to this class.
+
+Then that's when we say that this model is correct.
+
+So that threshold is, that is what you refer to as the threshold that we are referring to.
+
+So in this case for us to be able to say that this data set in this data sets, it belongs to this positive side, the poo side, it has to be about sixty five percent, I mean six zero point six five times.
+
+That's what I mean by sixty five percent.
+
+Okay.
+
+So but if we are okay with fifty percent, so we can you understand.
+
+So what's you need is that depending on the threshold, it determines which was called the how the model perform and how the accuracy and some other things and perform.
+
+Let me tell you another instance is like thank you, sorry, Mohammad and others that are trying to get used to different class, different, different in class scenario.
+
+Sorry, please try to set alarm as advised by Steven Stev.
+
+Yeah.
+
+And then messy.
+
+Yeah, Thank you.
+
+I appreciate it.
+
+Er some of these things let me digress from this class.
+
+So I tell you this er the yes, it is important to be able to solve like to do the calculation to calculate it is good if you were able to do it.
+
+But I tell you the interpretation of what this means is quite very important and being able to calculate is good to be able to calculate it, I'm not working than the fact that you know how to calculate it is good, it's a good point, it's a good skill.
+
+But if you know the interpretation you have much more power than that.
+
+So because these days you have tose, you have to that does the calculation automatically for you now left for you to be able to be able to understand and derive interpretation from it.
+
+There's something that happened when I started my masters in in Egypt.
+
+So I was in the class and professor was telling me like, oh, do you know how to we got to we solve a problem, It's, I think it was in robotics.
+
+So we are solving a problem and then we got to some point where the equation or the result, the outcome of the solution that we are trying to do resulted into something quadratic equation.
+
+So I mean, if you don't know quadratic equation, don't worry something, something, some, something like that.
+
+So the professor is now asking me, do you know how to solve do you know quadratic equation of the something we did in primary in secondary school.
+
+I know quadratic equation.
+
+So I was like boosting like contra about why, why will you be asking? So now Okay, yeah, good, good, good and knowing to me that that wasn't what the professor was asking.
+
+So the professor after we solve the, of course he has the solution to the problem in his slide.
+
+So he just moved to the next slide and he saw he showed the answer.
+
+So now you askme you said, you know Qurat equation.
+
+So what's what do you understand by this answer? I like this is positive, this is negative.
+
+What as you want me to say, What, what do you understand? What is the meaning? what is the implication of this? I was like, okay, okay is positive.
+
+So I wasn't really able to tell you like what's this? What does this really translate to in real life? What is the meaning? what? how does it really apply to what we saw? So that's the what we find out.
+
+So we tends to know how to do the calculation or emphasize on I must be able to solve it without being able to attach it to what it actually means in the real world.
+
+Because once you get the answer is not just about guessing the answer, but being able to say that this is what's the implication of the answer we got.
+
+This is the implication.
+
+So he me just kind of a digression.
+
+So it's good to try as much as possible to capture and to digest what's the interpretation of something means because it is what we stay for with you for long, especially when you are doing your job or you are trying to work with the client or you are trying to apply it to your your application, you will be able to confidently say that.
+
+But this based on my results distinction, not between like this, so you will be able to say that.
+
+Yeah.
+
+Anyway, so let's move forward now we should finish this concept before we end us.
+
+Okay.
+
+So we are talking about ROC and ROC simply means receiver operating characteristic of.
+
+So it's actually worked based on trying to set get results for different threshold.
+
+Okay.
+
+So I'll quickly scroll down and show you what I mean.
+
+So notice this threshold.
+
+Okay.
+
+So if you drag this threshold to this side, this red dot is showing a different location.
+
+So that is what you mean by working with different threshold.
+
+That is you don't just get results accuracy of precisional recall based on just one threshold.
+
+Like you said the threshold to fifty percent, the only results you're going to get is if you just look at the accuracy and precision, I recall you only get the loose metrics for that.
+
+Just one threshold.
+
+What happened, how do we be will be able to evaluate that this threshold is better, this threshold is worse.
+
+This one is a bad threshold for us.
+
+If you said the threshold to this is a bad threshold for the model, how do we will be able to get it? So we need to be able to close or to be able to visualize how the model perform based on different different thresholds.
+
+Okay.
+
+So that's what those are means of evaluation of classification talks about.
+
+So in this case where this line is the ROC that is receiver operating characteristic of this line or this or maybe this line or which of which about this line or this line that I just show you.
+
+So that's the ROC.
+
+Okay, but AOC is the total area under this curve, the area under this curve.
+
+Okay.
+
+That's what the E, A, U, C area under curve means.
+
+Okay.
+
+So for an ideal model, very, very perfect model.
+
+When I say ideal, like, you know, linguistically, but for a perfect model we would have loved to have an area under curve to be one is not always like that anyway.
+
+So and of course the A is that was plot is the true positive rate and the false positive rate.
+
+So like we are plotting the recall against the false positive rate.
+
+Okay.
+
+So yeah, as I was saying now what is the first to move first, what is the implication of a receiver operating and characteristic called ROC? I just be calling ROC.
+
+So what is the implication of the ROC is, as I've said, is that is a way to say that we are getting the performance of the model at different threshold.
+
+When we say different threshold, how do we how we say a ready performance.
+
+So that's what it simply does.
+
+So now take take a look at these two models.
+
+The one on the left which is an AUC area under course of zero point six five and this other ones A, you see equals to zero point nine five comparing these two model like we usually used compared to models.
+
+Okay.
+
+So comparing these two models based on the different threshold, we would say that the one with area under curve of zero point nine three percent or zero point nine three percent is better than the ones that had zero point six five AUC.
+
+So okay, so yeah, so if you are now comparing to model, you see model has this, then it's better to go for a model that has this.
+
+So but in in some scenario you want to choose, you will want to choose a threshold, a certain threshold based on this curve.
+
+So sometimes is sometimes like this point A you this is this belongs to a certain threshold, this point B is another threshold that achieve this point C is another threshold.
+
+So while you may want to look for instance where the threshold is kind of up to this one at this point is not always realistic, to be able to achieve that, okay, is not always realistic.
+
+So maybe due to expensive nature of the operation, So and then it can be, if it's expensive to achieve this, then you go for the following, the preceding and threshold, or you go for a lower threshold.
+
+So that's the interpretation.
+
+So let me give you an example.
+
+So a much more relative example.
+
+Take for instance, you want your robots to be able to, you want the robot to be able to achieve this kind of use this threshold.
+
+But if you use this threshold for the robots, there's a probability that you need a much more better controller to be able to handle it.
+
+So what you do is to downgrade the threshold back to something that is if it's manageable.
+
+So yeah.
+
+So that's a typical scenario of somewhere where you may want to, if robots do not really have that huge computational resources like you cannot just build, put big computer and it, how are we going to note that the accuracy, precision and the record half could metrics like likely correct? Okay, I guess you right then.
+
+So the question is, are we going to know that the accuracy, precision or the recall have good metrics generally when the value is close to one for all these metrics, when the value is close to one is the best one, like is the is what we want to achieve or close to one is what we want to achieve.
+
+But you have to prioritize one over that depending on the application or depending on the scenario you're handling.
+
+Take for instance in this example.
+
+Now we have a precision to be equals to be equals to one.
+
+So what is it sufficient to just say that precision is equals to one? Now we just stop the model like that.
+
+I tell you this data set is this data set is a balanced data set, so going for precision alone is not sufficient.
+
+So it is better to consider the accuracy now.
+
+But if the data set is not balanced is not is really really in balanced.
+
+So I will tell you that you consider the recall or you may want to find the F one score from using the precision and recall to to calculate the like an average to as a metric to say that this is this model is doing good.
+
+Okay.
+
+I hope I get answer your question.
+
+Okay.
+
+So without so much delay so I believe we've been able to cover this now multi-class classification.
+
+So that's we know that we we've done something about classification and then we're just going to do some practice session maybe after your quiz.
+
+I thought we have behind, we are behind the schedule.
+
+So now the way we handle multi-class classification, as I said, we really handle it like the binary classification itself.
+
+So you know, binary classification is just to okay, this and this.
+
+So the way we can extend to multi-class classification is if we able to achieve one, to just pit these two together and say these two and others, okay, these two and others.
+
+So I was able to achieve A and B, I was able to classify a B.
+
+Okay.
+
+So now I now want to extend to see how print the this on the model that is able to establish A and B together.
+
+This one is very good at say this is one and then I will now train another model as C.
+
+Okay.
+
+So this will be this and another the A and B and C.
+
+So A and B together.
+
+Then see if I want to have to anal, I will bring another model like bring it together and say A B and C A B, C and D.
+
+So like I'm trying to group them together like that.
+
+I don't know, let me show you what I mean.
+
+So in the case of binary translation, we have A, B Okay.
+
+So this model is already good.
+
+So let's say we have model one.
+
+Okay.
+
+So this is model one.
+
+I really hope I will take question.
+
+So this is model one.
+
+So I now want to extend model one to this is a binary class A, B and I want to extend model one to be able to capture C.
+
+What I would do is this is C.
+
+So there will be model this one, this model one, this model one and then C.
+
+So these two will form another model, which is the third model.
+
+So if I want to extend to, I believe you understand you are getting more like me.
+
+So which means these two we combine them together and we say this is one and this is two, one and two.
+
+So if I want to extend this one, I combine these two together and then I form they form A this is D and then we combine these two together and then we have we have a model, let's say model so so and this the combination of model two clause and D now forms another binary.
+
+So that's logically that's how we treat, but it's much simplified when you are doing the implication, we just instead of using binary what you call what, So we just use catering particular and so is much simplified.
+
+Implementation.
+
+I'm just getting you the logic behind how we does the implementation.
+
+Okay.
+
+So I will open the floor for question because we have just two minutes left.
+
+So please when I enable you to talk, please do quick so that you will be able to take as much questioning as possible within just this few minutes.
+
+Rebecca: A lot and work please speak regarding please do quick regarding the you see to the exam.
+
+I think this is too is too early to have to say the exam.
+
+So when we, I will do revision for you.
+
+So I believe the revision.
+
+Okay, we can hear you.
+
+Please the AUC, I don't really understand you said it's better if he's close to one.
+
+But you want asked did the trace you said is better if you, I don't, I don't understand.
+
+The AUC is area on the okay.
+
+So what I mean by area under cover is that this is ROC, this line, this line is ROC, but the area under this is what you refer to as the AUC, the area on that curve, this is the cove, the area on the H.
+
+That's what we refer to us.
+
+That's what he saying.
+
+Technically, so now here we populate the area of this curve.
+
+This curve is one that is zero zero from zero to Y is one from zero to Y is one.
+
+So one times one is one.
+
+So that's the answer.
+
+Okay.
+
+Is like you are trying to find the area so obvious square.
+
+so one times one that's AUC equals to one.
+
+Okay.
+
+So now for in scenario whereby we have two models, one model is saying AUC equals to zero point six five, another model is saying zero point nine three.
+
+The one that says to zero point nine three is the best.
+
+I understand this aspect, but the aspect he said, the one that has three thresholds, I don't understand as ABC Oh, this one, I mean sorry.
+
+The time is this one.
+
+So your question is about a BC.
+
+So the way we cross this, this this call is by dragging this by having different threshold, this threshold here.
+
+Okay.
+
+The threshold is changing.
+
+So and look at the curve, this curve that is being plotted.
+
+So that's how we plot the we So it means at this point we have a threshold of zero point seven four.
+
+You drag it here, you have another threshold.
+
+This is another threshold.
+
+This is another threshold.
+
+So if you want to achieve, you want to use this result.
+
+Okay.
+
+This is a point where this result is desired, but it is not possible for you to use.
+
+It may be due to some limitation, so you can easily fall back to another threshold.
+
+Okay.
+
+I hope you understand.
+
+Okay.
+
+Sorry for taking time.
+
+I'm very, very sorry.
+
+I know you might have some of that.
+
+So until next time, please stay save And then we hope to meet you in the next class.
+
+Buh Bye.

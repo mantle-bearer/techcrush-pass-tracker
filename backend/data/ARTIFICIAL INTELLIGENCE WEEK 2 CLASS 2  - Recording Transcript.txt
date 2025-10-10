@@ -1,0 +1,1339 @@
+Hello Colas.
+
+Nice to be here again.
+
+There is another wonderful class.
+
+I believe we have a lot of teams to today please.
+
+I want you to fasten your dates.
+
+Yeah.
+
+In the meantime, I want you to remember that the assignment that was given to try as much as possible tomorrow is the deadline.
+
+And then also your quiz is going to be Friday, Saturday or Saturday.
+
+I out.
+
+So probably there will be no class on Friday.
+
+So yeah, trial.
+
+Not just to read the materials.
+
+That's the W three score, the feature on W three SC and the Google Machine Learning crash cost Google platform where I shared with you.
+
+So I also read the presentation like then not so much and then also try as much as possible to practice how to run code.
+
+So especially on Google love.
+
+So there a some of those tips or hints that would like to share with you.
+
+So yeah, without much further do start the start today's presentation.
+
+I hope we'll be able to move.
+
+So and then I want you to know that today's class is going to be a mixture of some background, some little just little, so little mathematics and so which you might have been familiar with and maybe your secondary school.
+
+So I'll try to limit it to your secondary school level mathematics so that it will not be not be kind of too heavy.
+
+So when it comes to the heavy part, I will just came through just for you to know, like to be aware about it and of course you can read more about it, but really we are not going to and they too deep because some people do not really have the science background like that and we want to carry everyone along so that it can not be overwhelming.
+
+Okay.
+
+So I believe you can see my screen please if you can see my screen, kindly signify by doing some thumb box.
+
+Thank you.
+
+Yep.
+
+So, so let's start.
+
+So last class we did some recap on programming basically Python.
+
+And then we also did some introduction to Machine Learning.
+
+So we always said Machine Learning could be Supervised Learning on Supervised Learning or Reinforcement Learning and sometimes we need some document in some books or references you may see Semiss writes or generative model.
+
+So yeah.
+
+So that's just the general summary of the previous class.
+
+So today we are supposed to do logistic regression.
+
+So sorry, linear regression.
+
+So the logistic regression and classification, I am quite sure will be able to cover up to that.
+
+So but if you able to get the logistic regression, I saw the linear regression as much as possible and I think it's a good point.
+
+So place to start and to stop and then we look into some programming progress on our programming because by next class we will be doing some bits much more coding.
+
+So coding AI.
+
+So now let's start with something like this.
+
+Okay, I think there is some mix up the issue.
+
+Okay.
+
+So here is the, I think I may up with my presentation nevertheless.
+
+So this is not supposed to be, I deleted this slide.
+
+So yeah, but anyway, so we'll still be able to do something.
+
+So here is the point.
+
+Take for instance, you have this data, you have X equals to zero and Y equals to two, sir, X equal when X equals to zero, Y equals to two when Y when X equals to two, Y equals to three.
+
+So the idea is that we want to get a model that will be able to, we want to get a way to be able to get 1X when X equals to one, what is the value of Y? So one way to do it is to go by the graphical method where you plot the the first value X comma Y.
+
+This is your X to be zero and this is your Y to be two.
+
+So you put the dots there and then the second value which is 2X equals to two and then Y when X equals to two, Y equals to three, you have this one and this one and then the next thing is to just use line to join them together.
+
+And then so if you want to find when X equals to one, you just say, Okay, this is X equals to one.
+
+Then you trace it until the data set with the line.
+
+And then you can say you can count the cells.
+
+So in this case you can say maybe roughly this is 22.22.4 and then maybe 2.5.
+
+Okay.
+
+So that's the idea.
+
+Now I'm not happy with the way I deleted.
+
+I think I deleted some slides.
+
+This is not so good.
+
+Okay, so let me show you something.
+
+So take for instance, we have this this graph.
+
+So our data.
+
+Remember I said thea maybe I should by said our data is X, our data is X equals to zero and then Y equals to two.
+
+So notice we are, we have it here and then the next data point is that X equals to two and Y equals to three.
+
+So now usually we want to be able to get some points.
+
+Okay.
+
+So now to get it, we can use some analytical method to get those points.
+
+So we can use some analytical method to get those points.
+
+So one of the analytical method is using line formula.
+
+So using the linear and the line equation of line.
+
+So here we can just say let me see if I can get cover this one in next boo.
+
+Okay.
+
+Okay, so let me use this so that we will not be disturbed.
+
+So equation of a STRA is you have why minus y one equals to m into bracket X minus x1.
+
+Of course we have some other equations of some other variant of the equation of straight line.
+
+But this is typically how equation straight line.
+
+And we are here is this slope And then you divine pass Y two minus y one or x2 minus x1.
+
+Okay.
+
+So in this case, in this case, in the case of our example, our x1 is zero, our Y one is two.
+
+So if we want to do some replacement, you can just say y minus two equals to x minus zero.
+
+Okay.
+
+And then we brackets multiply by him and to calculate M, you know, I said him is a so M is so M is y two minus y one.
+
+And then all of x2 minus x1.
+
+So yeah, we want to get them to simply put without much disturbance.
+
+This is why two, Why two is this is this row is 23, which is three minus two, which is three minus two, which is equals to one divided by.
+
+And then we say x2, which is two minus x1, which is zero.
+
+So the answer is to.
+
+So which means that basically the result of this slope is a one over two.
+
+So we can just say Y equals to one over two into bracket.
+
+Sorry, Y over 2X plus two.
+
+Okay.
+
+So that's what you are saying this.
+
+It's like customer, what makes you think so? Anyway, so what I'm saying in ex is that if I have one, if I put one in X and then equals one times 0.5, which is one over two, we we have 2.5, which is the same thing as what we got from the graph.
+
+But the problem there is that if we have, could you guys listen to what I'm doing, I stop asking which debate in which country is this? Yes, I'm in Korea.
+
+So yeah, please listen, stop debating on which country.
+
+So yeah, 0.5 plus two, which is 2.5.
+
+But in a test station where I want to get X equals to one, so X equals to one, it's going to be difficult or not quite straight for to get X equals to one from this graph.
+
+So that's one of those situation when the model becomes Andy.
+
+So we can trade with the data and just be working with the model.
+
+So this mat co model.
+
+So remember in the previous class we said that, so don't be lost, Okay.
+
+I'm just trying to use it to explain.
+
+I use some other means to visualise and to show the visualisation.
+
+So now without that, without stopping you much on the what you call, so I can definitely say Okay, let me have this.
+
+And then remember I said the model is and Y equals to 0.5.
+
+But in the case we, I don't know the model, I can just write the general equation of a line Y equals MX plus let's see.
+
+Okay.
+
+So then I can have this slider.
+
+Okay.
+
+So this slider.
+
+Okay.
+
+What I'm trying to do in A, I want to be able to create a line that align on this, these two points, the points already plotted.
+
+Okay.
+
+So the slider CIs meant to slide it across the intert.
+
+Okay.
+
+So now I will try to be sliding it to the point where I maybe I'm able to get something that makes the this line to fall on this point.
+
+So of course, I think I know the answer anyway.
+
+So so based on the analysis we already calculated.
+
+So yeah, because if you look at the calculation we have, we have zero this part to be 0.5, which is so I said, I was able to slide it to 0.5 and this part to be two.
+
+So and then if you look at sliding and the like we have this part to be 0.5 and this path to be two.
+
+Okay.
+
+So the line that's impse.2.1 and.2, this is the equation.
+
+So now, Okay, I guess I'm going to re-write it.
+
+I wanted to assume that which I treated me Okay.
+
+Sorry, I actually wanted to show you.
+
+I prepare the presentation.
+
+I show this step-by-step.
+
+I OK, let me see, could be able to cover, but let me see where can you? I will be able to recover the Okay, sorry, give me some seconds.
+
+I wish you'll be able to by understand this better.
+
+So I'm trying to look for the ones that I deleted.
+
+Sure, please exercise and patience.
+
+I will, I wish to recover those files.
+
+Okay.
+
+In the meantime, I think anybody has question.
+
+I think please kindly raise up, raise your hand so that I can't take question why? I'm trying to because Okay, I mean, yeah, I mean please speak.
+
+I mean you have the flow.
+
+Okay.
+
+Good, good evening.
+
+Can you hear me please? I can hear you.
+
+Thank you very much for the for the teachings on whole so far.
+
+So the question, I want to access that with the way the class started today.
+
+It seems it's it's very important to have some mathematical knowledge.
+
+So my question directly is that as a beginner, like from having zero for the zero knowledge of AI, is it part of our drilling to go back a bit to learn some mathematical steps rather calculations so we can so we can blend in the industry.
+
+Sir.
+
+Thank you, sir.
+
+Okay.
+
+So thank you for the question.
+
+So I said no.
+
+So because yes, it's good to have some mathematical knowledge.
+
+And then also it's good to have some some programming knowledge.
+
+So and then because AI is a multi-disciplinary something, so both the domain where you want to apply the knowledge, also the knowledge about the domain is also quite important.
+
+So the point is that is good to have those knowledge, but it's not compulsory because if we, if we were to be there, that you may be be limited or you may be having some challenges to let people come into AI.
+
+So the knowledge of the mathematics I'm trying to introduce is for you to understand some fundamental like, you know, just see something and then you be, you be dayed or you know, quite understand what it means.
+
+Like for instance, when we are using the trainable Machine Learning platform, Oh, sorry, teachable Machine Learning platform, you saw something like epoch, you saw something like learning rate, you saw something like batch size.
+
+What does they mean? Is not sufficient to just tell you the linguistic trans interpretation.
+
+It's not sufficient.
+
+So go knowing where it comes from.
+
+So it gives you the intuition of how to tun, how to adjust your AI model.
+
+You don't necessarily need to do the calculation manually.
+
+Okay, but just knowing where it come from will give you some sense of where, what does how does this affect my, my AI model? You understand? Alright sir? Alright sir? Yeah.
+
+So generally it's good to have the knowledge, but if you don't have it, you problem this class is just to let you know where we all this thing that you are seeing.
+
+Yes, some of them are coming from.
+
+So when you are using the AI to, you are training the AI, you are adopting the AI for work, you know, just yes, I'm just changing something.
+
+Okay.
+
+So I think I found the, I restore the file.
+
+So Okay.
+
+So I think I restored the file.
+
+So here I was talking about the line.
+
+So you plot.1.2 and then you try to use the line to join me.
+
+So and the thing is that if you want to get x equals to one, how do you get it? Then you can simply just look at the X axis and then draw the line to connect it to the waist until it does with this and the line of best fits.
+
+So and then you try to trace it to the waist and you get the value, which in this case it's more like 2.5.
+
+However, if you want to get it analytically, analytically, so this equation of straight line, Okay, is also this general equation which you might have encountered one or the other.
+
+So this is The Standard form, this is the slope intercept form and this is the point slope form.
+
+So what it means is that the picking this point slope form here we have y equals to y one equals to m and equal and equals to m multiply by x minus x1.
+
+So what it means is that the y1X1 is this 1X And why x2Y2 is this second one.
+
+Or you can pick some what you call con point like that.
+
+But Since you just have to point.
+
+So let's see.
+
+So now basically what we want to do is now we try to calculate the slope.
+
+The slope is Y two minus y1X2 minus x1.
+
+So we simply just say y two which is a three, x2 and y one which is two, and then divided by x2 which is two, and x1 which is zero.
+
+So I mean if you find it like three minus 3is 12 minus zero is two.
+
+So we have 0.5.
+
+So and then you have Y minus Y.
+
+The original equation is Y minus Y Y equals m multiplied by x minus x Y.
+
+So the slope which is to 0.5.
+
+We can replace the M and put 0.5 and then we have Y minus y one, which is true equals to 0.5 and then multiply by x minus zero And then we can transfer to minus two to the other side.
+
+So minus two.
+
+If you add two to both, you canl this two, you will have Y equals to 0.5 X.
+
+LO.
+
+Okay.
+
+Anyway, So we are not solving mathematics, so we are not solving equation.
+
+So I'm just trying to let you know.
+
+So this equation that we got is what we can say is the model of this data.
+
+So we can try with this data and then be working with this model.
+
+So that's the simple adaptation.
+
+So in the sense of Machine Learning, let me jump in the sense of Machine Learning, after you collected your data set, you need to maybe make the model one way the other you make the model.
+
+And after making the model, you can discard the data and then use the data, use the model to make your prediction.
+
+Okay.
+
+Like in the case of teachable Machine Learning, we took the picture of two objects.
+
+So and then we train the model, that model.
+
+After training the model, you can download the model and use it as NA Okay.
+
+So that is the representation of what you are trying, the two data, the two images you always call Okay.
+
+So yeah.
+
+So going back to the graph that I was referring to, so yeah.
+
+Basically the idea is that you have this, this is the line of fit and then if you want to get additional points, you can do that.
+
+So now what I'm saying essence is that for instance this so this is I just wrote the equation of a straight line, which is what you saw in this in this slide, which is what you saw here one of the Y equals to MX plus C and then so and then you can we wanted to we had something and then we are trying to move the line about like Okay, this is this is meant to rotate it.
+
+Okay.
+
+So I am trying different way different things to rotate the line such that it will be able to align with those points.
+
+So if I'm able to get something close to something like this and then I can drag this other one.
+
+So in essence, what you when you are training your AI model, you're training your AI data, what's trying to do is to select some kind of parameters like it, you try different parameters something like this, try this one, and then until it's able to align with the the exact data points.
+
+So that's what the AI model is.
+
+The training of the AI model does.
+
+So I will explain a bit more.
+
+So in this case the why that we are talking about, it can be the price of where and then the XIs the quantity of F that you bought.
+
+So if you have some quantity of then and you want to determine the price for this you can is a typical simple case.
+
+So case study of it.
+
+Now as I've shown you the equation of a line which is Y equals to MX plus C.
+
+We can convert it to what the AI use, what we use the term we use in the AI domain.
+
+Where we have the Y will be the prediction, the intercepts which the see you see will be the bias, and then the M which is the slope, will be the weights and X which is what we are changing.
+
+We are varying will be the feature.
+
+So do you get the point? So now let's assume in a real case scenario we will not just have two points.
+
+Two points is too small.
+
+Imagine you the number of images you collected for the for the two class mean lemon and juice or nose mask or no nose mask.
+
+Imagine the number of these are you collected and then you and then the number of features.
+
+So let me show you this the material will be adopting for this class.
+
+Take for instance, we have this, this data, this data points.
+
+So basically I just want to copy the data points.
+
+Okay, I just want to copy the data point and paste it into the into the graph.
+
+Okay.
+
+So you see, this is the data points that I copied.
+
+So just as we did, let's try to write the equation of a straight line Y equals to MX plus C.
+
+Okay.
+
+So we want to add slide that you can increase the so and then maybe we can assign.
+
+Okay.
+
+So now here we want to plow the data.
+
+So we have this slide where the data is Okay, this is the data, this is the data and this is the line.
+
+So what we are trying to do is to adjust this line such that it align at least align on this.
+
+So I'm trying to, you know, this line can rotate currently is rotating.
+
+So I mean this is not the best.
+
+So if you move it towards the negative side, you notice at least the line the data is negatively correlated or something like this.
+
+So we can see that.
+
+Okay, Since it's already kind of align with the data, we can drag this to see if we can shift it for.
+
+So we've exhausted this point range.
+
+We can say let's increase The Range maybe minus ten, so maybe PAI so slide it also.
+
+So let's just assoo a little.
+
+So, I mean so if you look at the current thing we have, we have, let's say we have -3.6 and C equals to 30.
+
+Why this is not the may not be the best, but how do we know the best? Like we're just looking at it visually, how do we tell and computer we want to make, so we want to make computer to be able to learn how to do this instead of dragging manually and then trying to adjust and this and then so we need to tell the computer or the machine to learn how to do this.
+
+Me, I can see, I can drag, I can see, Okay, this is, this is a bit close, this is closer.
+
+Okay.
+
+Maybe this is fine.
+
+So I can see, I can observe, but how do I make the machine to be able to also learn how to do this? So maybe easy to drag or to what it call.
+
+So which one is the best? So that is the whole essence of this.
+
+Okay.
+
+So in E sense, what? ', once you able to get this kind of graph, we can this kind of results, we can say if you want to get the additional data, you can just use this model.
+
+That's the idea.
+
+Initially, let me recap, we started with just two data points.
+
+Now we now have about 123, 4567.
+
+So we wanted to use the idea for the seven data points.
+
+So let's see if we can get this.
+
+So for human too is it's quite challenging.
+
+Okay, you keep, we keep on trying, trying, trying and say, Okay, this is this is better, this is Okay.
+
+So yeah, So the data set I copied from here, I will share the link with you is the data set for fuel cars, fuel efficiency.
+
+So given that you, the number of gallon or the longer number of the quantity of fuel that you use per mile and then the what for the weight, the weight of the car, how heavy is the? So expectedly, you know, trucks that are trucks are probably going to be using maybe much more was it? So although it also depends on some other features of the other information.
+
+So the number of cylinders and something like that.
+
+So, so the same thing I mentioned here is also what we have demonstrated with this graph.
+
+So Okay.
+
+So yeah.
+
+Now and then this the essence of all these things that I am showing you is basically hear me.
+
+I don't think I understand.
+
+Okay.
+
+So yeah, as I was saying, basically this is we are saying Y equals to MX plus C which is the equation of straight line.
+
+And if we want to translate it to the Machine Learning and knowledge or the linear regression knowledge, we said the YIs the prediction and then the B which is the intercepts is we call it bias, and then the slope, we call it the weight.
+
+Okay.
+
+And this is the feature.
+
+So in this case we are just considering one feature, we call it x1.
+
+So if you have multiple features, like for a car that we said is using certain quantity of fuel per miles, and we are saying that only the size of the truck determines the quantity of fuel is using we those that drive among us know that that is not exactly the the case.
+
+So for instance, if you have a car that is heavy but is using small engine, it's also we can say that it is not necessary that that's the only thing that determines how much fuel a car or a vehicle is using.
+
+So so had to make the model much more better.
+
+We can add more features.
+
+So when we talk about adding more features that when we talk about, Okay, if you want to formulate that more feature, we can have, the prediction will be this is we said this is the bias and this is the weight of the, the weight of the, this the weight of the car weight referring to is the like if value that we can adjust.
+
+Okay.
+
+So and this is the feature one which can be the weight of the car.
+
+The feature two can be the engine displacement in the feature three can be the acceleration of the car.
+
+The feature four can be the number of cylinder.
+
+Feature five can be the OSP.
+
+So like the power of the engine.
+
+So tacking all this together this X1X2X3X4X5 means that we have more feature five features to predict just the single outputs.
+
+Okay.
+
+So now it will not be quite easy to visualize.
+
+Now we just have to here we have just to know to visualize five features will be much more difficult to do so.
+
+But what we can do is to visualize each of those feature and how they are related to the outputs.
+
+Take for instance, we decide to plot the the engine displacement against the mileage.
+
+We can see that this is the if we try to fit a straight line, if you try to fit a straight line across this, this data, it will be it is going to be and like a negative slow Okay? So and then trying to also look at how the data for acceleration is related to the Kage, so is also fuel consumption is also this.
+
+So we can only not only but intuitively to human we can once the feature becomes more, it becomes much difficult to be able to capture or plots how it actually relates together.
+
+So yeah, but generally if you have more feature that are related that are correlated to the that are correlated to the problem, then you get much more better model that's just the general information and that.
+
+So I know this is this my son born so but don't get bored yet because if you, if you don't know it, it's fine.
+
+But if you also determine how deep or how much you can explore, I, I try to source for resources that will make it much interactive and then like less of talking.
+
+Okay.
+
+So when I plotted this data, I was saying that I use, I am using my H to see that this is better, this is bad, this is no good.
+
+I can use my H to see that.
+
+But if we want to make machine to be able to learn how to adjust this value, we need, we need a better way.
+
+We need some better way to tell machine that this is better, this is good.
+
+So and the way we tell machine we are able to tell machine is to calculate loss.
+
+Take for instance, your business man or business woman.
+
+So you, you notice that you bought some goods and then the best way a business woman or a businessman would be able to tell whether he is doing fine, whether he is doing good is basically through the profit is the EV he or she is making profit from the goods is selling.
+
+And you say I'm doing fine, but if he or she is making some loss, so so if he or she is making some loss, then you the she will probably not be not be good anyway.
+
+So or not will not be doing fine.
+
+So that's the general idea.
+
+So we need to be calculating the loss.
+
+So how do we calculate the loss in for as a business woman, the simplest way is just to subtract the cost price and the selling price.
+
+And then if you have a positive value, then you say, Okay, I'm making profits, Okay, but we have a negative value, have the problem? So, yeah.
+
+So in the sense of Machine Learning, so we also calculate loss.
+
+Don't worry, we didn't mention profits.
+
+Now we is not really particular about the term, but what we want to try as much as possible to do is to actually reduce, because the reason why it's called like we can call it losses, we need to reduce the error.
+
+Instead of trying to make profits, we need to try to reduce the error, like reduce The Gap between the actual, let's say the selling price and the cost price.
+
+If we break even, if you have zero, that's the best thing for us.
+
+Like we don't have, we don't have any negative, we don't have any positive.
+
+That's it like almost like the best thing for and in the case of loss.
+
+So not really just introductory, just introducing you to, because sometimes I'm going to be mentioning later, we require you to have some sense of where is coming from, but if you don't understand it, it's a fun.
+
+You are not completely out of it.
+
+We are moving through programming fine, right? So I guess you're going to move to this one.
+
+So anyway, so what we do in essence that if this is the this line is the model, that is the like the line that we came up with.
+
+So what we usually do is to find this line and subtracted from and subtracted from this point.
+
+So we try to find the distance, the distance between this point and this line.
+
+So the further way this is to this point, the bad we say is doing so, not that we cannot just consider this point, we have to consider all these points.
+
+So most of the time what we do is we find the distance between this point and this line, this point and this line, this point and this line this point.
+
+So we find all these distances and then we do something depending on what you want to do.
+
+So sometimes we find we just find the absolute value.
+
+JO: Yeah, No training mode for we haven't really started like coding anything that has to do with training module.
+
+Okay.
+
+So we are still even if you are going to train it, don't be beyond what you have you have done.
+
+We have demonstrated in the class.
+
+So don't be scared.
+
+So now what we do for the loss is we basically just subtract.
+
+The first step is forced to subtract, subtract the prediction and the actual values.
+
+So this point is the actual data, this red point, the data where this line is the line or the line of prediction or the model or the line of best fits.
+
+So we subtract this from this line.
+
+For this big thing I am talking is a subtraction.
+
+Okay? So don't be, don't be disturbed.
+
+Okay.
+
+So now another thing that we also often do is because subtraction alone is not sufficient.
+
+As I have said, we are not really concerned about whether it's negative or positive.
+
+We just wanted to be to show the magnitude, the value.
+
+Okay.
+
+So the more we are close to zero, the better we are doing.
+
+So if we are far from zero, then we are not really doing good.
+
+So we want to show the magnitude.
+
+So we also often find the absolute value.
+
+What I mean by the absolute value is that, you know, when you subtract, let's say you say two minus 52 minus five is minus three.
+
+We are not really concerned about this minus this negative sign.
+
+We just we are just concerned about the the value, this the actual value, which is three.
+
+So what we can do is to find the absolute value.
+
+Okay? Meaning remove the sign.
+
+If it is negative, remove negative, it is positive.
+
+Maybe remove positive.
+
+I say just leave the positive.
+
+So yeah.
+
+So that's the absolute.
+
+Okay.
+
+So you know that we subtract then the next thing is we also find the absolute value.
+
+Sometimes we want to remove the negative from the calculation.
+
+You can also square, I mean three minus three times minus three we definitely give you close.
+
+So Okay.
+
+So Okay, let rep play that.
+
+So yeah.
+
+So one of those few ways that we do those, that is we find what you call L one loss, L one loss, L one loss.
+
+Simply put, is the actual value minus the predicted value.
+
+Then you find the absolute value when you see this straight line, this absolute value.
+
+So it means remove the negative, don't care about the negative after you have subtracted.
+
+So that's what it means.
+
+So and and this summation, it means we should add everything together.
+
+Okay.
+
+So this data, if you subtract, find the this difference, the error here, the difference, the difference.
+
+Then for here we have 123, 45677 data points.
+
+So you just sum all the loss for all the seven data summit together.
+
+That's what it actually means.
+
+So that's L one loss, L one loss.
+
+Simply put subtract the actual and the predicted, find the absolute value that, that is, remove the negative sign and then add everything together.
+
+Okay.
+
+So now in the case of mean absolute error, MA E what it means is that is the same thing as the L one.
+
+But in this case you find the mean.
+
+It means you divide by the total value.
+
+So I told you that you sum everything together, then you you subtract, you find the absolute value, you sum it together.
+
+Then mean means mean mean mean It implies that you divide by the total number of data points.
+
+So if you had all the losses together, then you divide by 123, 4567.
+
+Then you divide by seven.
+
+That's what for this data and that's what it means.
+
+Okay, Yeah, I can to got take care of machine.
+
+Okay.
+
+Okay, please, once you read the what you you will be able to get the information.
+
+So yeah.
+
+And then the last L to LO L to this is really quite common.
+
+So I told you instead of finding the absolute value that way we do is to square Okay to remove the negative sign.
+
+So another thing we do is to qu qu also does some additional things.
+
+So let me give you an example.
+
+Let me bring out the calculator.
+
+So one thing we square is that it exactly exaggerate big values.
+
+So let's say I said nine, Okay, nine square, nine square is, it's one.
+
+Okay, But let me say I have 0.9 square.
+
+Now 0.9 square is kind of even much.
+
+Sorry, I square root square.
+
+So if you see you notice 0.9 square and 0.9 square and the actual value kind of kind of weir to see that the square is even the square of the value, probably value if you want smaller than the actual value.
+
+So whereas if you square the actual value, the the value that are not small, the big one, you tend to have a very larger value.
+
+Do you understand you guess what I mean? This is 0.1.
+
+You find the square of 0.1, this is 0.01.
+
+So the square of 0.1 is even smaller than the 0.1 itself.
+
+Now let's say I have ten.
+
+If I now find the square of ten, this is on.
+
+So what this means is that if you have small values in square will drastically reduce it.
+
+We make it insignificant.
+
+But if you have big values, like for a non bigger values, it will magnify it, it will magnify it.
+
+Let's say, for instance, tell you so there was this time when we are doing my undergraduate, a guy in the school boss usually like make some comedy.
+
+So so he was, he was telling know that he was hoking, hawking a drug like a medine.
+
+So the medicine that would boost your GP.
+
+So you as that GPC, GPC so GPC, you know, GP CGPA for those in the university or have gone through the universities.
+
+So GPC, GPC, GPC, this is GPC by GPC So you buy three for 50 N or yeah, 3450N.
+
+So you now say that what if you do to your GP if we square your GP, So which means that all that 0.5 GPU C GPA if you square 0.5, if you find the square of 0.5, you have problem, but that's already first CL that already have 5.0, if you square the person will jump up.
+
+So the implication is that the drug or the wet is selling is not helping the person that is already filling is just complicated the problem for someone that is already feeling.
+
+So do you get the logic? So anyway the job is to let you know the implication of square.
+
+So and you will further understand the implication later on.
+
+So yeah, and that's L two, L two.
+
+Basically instead of using the absolute, then we use square just to remove the negative and then maybe to exaggerate the error.
+
+So and definitely we submit and then in the case of mean square error.
+
+Sometimes in the name, you get the idea of what it means.
+
+Let me break down the name for you error.
+
+Error means if you want to find know the error in something or like in the case of profit and loss, like you bought the selling price and the cost price if you want to find the difference the that either loss or profits is more or less like you are finding error, the error.
+
+So we have the positive errow and negative erow.
+
+So subtracting is like you are finding the arrow.
+
+So that's the error in this term, the subtraction is the error.
+
+Okay.
+
+Now what's ever you do after that? Let's say you square it.
+
+So it means you put square at the back.
+
+So and then mean it means you sum everything together and you find the average.
+
+So that's how the name is derived mean square error.
+
+So that is you find the error, you subtract square, you put square at the after subtracting and the mean means you sum everything together, you find the average.
+
+That's what it means if you look at that of mean absolute error is also similar.
+
+So error, subtract, it means subtraction absolute, it means you find the absolute value.
+
+Then me it means find some everything you can find the average.
+
+So that's what it means.
+
+Okay.
+
+So you can just use that logic to understand what's it's an a**.
+
+So, so that I still have to the community because this time I remember that guy just like the guys just kind of crazy.
+
+So anyway so moving forward, that's just basically the point.
+
+So let's see going back to the the last.
+
+Okay.
+
+I think we need to speed up what we are doing now because the time is fast friends, we just have 30 min left.
+
+I think.
+
+Okay.
+
+So I wanted to show you some more interactive ways of understanding this.
+
+So, yeah.
+
+So here we are trying to let you know the implication of the loss.
+
+Like, so let's say for instance in the previous example, let's assume that the previous example this this graph that plotted the the best value, we we got 3.4 as -3.4 as M and then C with 29.
+
+And then they said that their one is 34 and -4.6.
+
+Let's try to use the, let's try to adjust, so let's see, let's see what it means.
+
+We have five.
+
+So then we try to adjust to that for that is for and then we are just these two Four Points.
+
+I Yeah, so using this they with and bias yes, we are still going to do we are still doing code, but some of these things is what you'll be applying later on in your code.
+
+So is Good To Go together with it.
+
+So we do part some theoretical understanding of Machine Learning.
+
+Then we do some coding parts.
+
+Ideally now we should be doing coding, but anyway, but I need to try as much as possible at least to finish.
+
+So the loss and make you feel the not just load you with the mathematics and have some feelings of how to interact with it.
+
+So now take for instance, you pick one of those values, let's say 2.37.
+
+So here, 2.37 this one, I think there is an error in the what you picked it, 2.37.
+
+Okay, which is supposed to be the actual value is supposed to be 24, but they made mistake, they call it 26 at the actual value.
+
+So to find L two norm L two.
+
+As I've said, L two is mean is mean mean square erro.
+
+Okay, sorry, not me like the sum squarero.
+
+So here what we do is we pick this the bias which is 34, and then the weight which is -4.6, and then we try to get the FE.
+
+The future itself is a 2.37.
+
+So just adding as subtract the predicted is 23.1, whereas the label the actual value also they also made mistake with anyway is a 20.
+
+Let's use the 26, because if you tell on the calculation, so to calculate the loss, the L two loss, it means we should find, it means we should find the difference between the actual and the predicted.
+
+Then we find this quick actual, the predicted, the actual is 26, the predictor is 23.1.
+
+And then we find the square.
+
+Okay.
+
+So that's what's the, what it called the L two loss means just as I have broken it down for you.
+
+So for each of these data, for each of these data, what we do is to calculate the loss, for instance to what we do is to calculate the loss and then sum everything up.
+
+So that's what also.
+
+So yeah, so that's the summary is that that's how one of those way we, some of those ways we tell machine that this is the error when you are when you try this value, this is the error when you try this new value, this is the error, this new value, this is the error.
+
+So you so the machine is trying to reduce the error to zero, so is trying to reduce the loss to zero.
+
+So if he is able to achieve zero, that's the best.
+
+Okay? So that's what the machine is trying to do.
+
+So as I've also made a joke, is that each of these error you need to, sometimes you need to know the nature of your data to be able to know which type of loss you should use.
+
+This is forget about all the mathematics.
+
+What I'm trying to let you know the summary of everything that I'm saying is that which laws, whichever laws you're going to use among this, this losses, it determines it also a very important factor for, sorry, a very important subject of your data.
+
+So let's say, for instance, I told you, if you have large error, what is it called square? Square in the error will magnify the problem.
+
+So which means in this case let's say the main data is cluster around here.
+
+This is the main data is very, very close here.
+
+Now you now have what we call this is what you call pliers.
+
+So these outliers, if you try to find the error between this outlier and this line, Okay, and you are now using square, any loss functionality, square, there will be a problem because this line, this model will be moving towards the like the outlier instead of moving towards the mean data and outlier.
+
+What I mean by outlier is let's say in a class in a classroom you may have some, let's say in maybe let's say three or so we can have all the students, almost all the students in the class at the same height.
+
+Then you know, have someone that is tall in the class, that kind of person is an outlier because whenever they are considering oh, sorry about that.
+
+So another scenario is let's say, for instance, you have someone that is too good in the class, so whenever they are asking question, you quickly answer me, hi, hi, teacher, hi.
+
+So if the teacher is considering the person that is saying hi, hi, hi, hi, that is answering all the question alone in the class, you will make that the person is an outlier because definitely the teacher, we want to assume that everybody knows it.
+
+So moving away from those that does not, I'm not really quite understand the concept now moving towards those that is getting the, the person that is saying hi, yes, I know, I know it.
+
+So, yeah.
+
+So that's kind of the problem with applier.
+
+If you have an outlier and you are using squared mean squared error or sum squared error, it's going to complicate or make the model perform wully like not enquiry.
+
+So try to first, you need to first know the nature of your data and then if the if you notice the data has some outlier that you filter out the outliers before you train your model or you use a better loss function, and this case absolutes mean absolute error, some absolute error, they are better in terms of handling of fliers were square squared base ERO like mean square, some square, they don't do well with APPL.
+
+They tend to move towards the applier instead of moving towards the general, the majority, that's the majority of the data.
+
+Okay? So that's just the summary around that.
+
+So if you don't take anything from what I have said, the most important thing is what I have said in this, in this last part of the, So I will just make use of this interactive demonstration to show how loss work.
+
+So take for instance, these are the data points that we have and then what this interactive was the graph below, clause 20 example of fuel efficiency data set.
+
+Okay, the heaviness and the the miles, the fuel consumption per per mouth.
+
+So and then we had to adjust the weight and bias such that it's this are the losses.
+
+So as I told you, the losses, The Well, the more the losses are closer to zero, the better our model is doing Okay.
+
+So that's how machine, computer or machine learn the best model.
+
+So let's assume I try to drag this to some worst case scenario like this.
+
+So notice this orange line, these are the arrow like this is the errow value, this is the distance between the point, the actual data and the pre and the predicted line of best fits.
+
+So and if you look at the loss on this side, loss seems high, it is not just seems all the loss L1L 2 ms and Okay.
+
+So I didn't mention root mean square.
+
+So root mean square error.
+
+So this is E is error SIs square, M is mean.
+
+Then root root.
+
+Easier to find the square root.
+
+So it means error.
+
+It means to find the difference like subtract then squared S squared.
+
+Then you find the sum and average of it.
+
+After finding the average then you find the square roots.
+
+So you thought about sorry, but this is what so if you want to learn about, I think it's the best course to take is prompt engineering that you basically just be prompting, not training model.
+
+Okay.
+
+So, but this is also kind of going to be a knowledge that is helpful in interacting with.
+
+I then will tell you another joke though.
+
+We sign a non-discl, non-disclosure agreement.
+
+What? This is a class.
+
+So we, I got some invitation to come and test AI model.
+
+I would not mentioned the name of the IT company, the big company.
+
+So now for each you try to what you do, what we do or what I did was to chat with the model and then if the model is misbehaving or doing some kind of call, I need to report that this model is is doing this error, this problem.
+
+So I, I have some background in Machine Learning and I know the problem that the Machine Learning has.
+
+So for each bug you report, you get $2, $2 or there, but I can't remember so apart from the base payment which is around $150.
+
+So yeah, one or $50.
+
+So sorry, $200.
+
+So apart from that base payment, if you report a bug, then you get additional $2.
+
+So I understand the fundamental of how the Machine Learning works and everything about how it works.
+
+So all the question I was asking you those problem, I know that you would not be able to do because I know Machine Learning they have this, this is the limitation around that.
+
+So each time I ask that question if you feel, I put it as a BO, I was able to report about, I don't want to exaggerate, but I think it was up to ten or there about or something like that.
+
+So they also have some rating for that.
+
+If your bug is very quite valuable, the prices are so much more higher.
+
+So what I'm saying sense is that if you have some understanding about this knowledge, you will be able to also do so very for anything like Yeah, you'll be able to do some critising stuff like that.
+
+Okay.
+
+So yeah, moving forward.
+
+So we try to adjust the weights and bias to move closer to the line.
+
+If you notice the way this is doing is the error as move from this I value is now reducing.
+
+So then you continue to adjust just see with better.
+
+So right now if I move a bit up again, it goes up, the error goes up.
+
+So I should probably come with it done Then maybe we give the value and I think this is, this is Okay.
+
+I don't know this is Okay.
+
+So for me I think this is Okay.
+
+For me this is this model is the loss is quite close to zero.
+
+So that's how machine try to learn this.
+
+They adjust the weight and the biases such that.
+
+And then they check the loss.
+
+So they check the loss, which of the loss you're using, so they check it and then from there they will be able to know that this is a good fit and this is a bad fit.
+
+So I will try, I try as I'm trying as much as possible to employ you to try out this interactive for the final result is a Also here you click on this drop down and see final result.
+
+I think is Okay minus sorry, I got plus 1.2 and then 16.960 anyway.
+
+So I'm not bad, I'm not, I'm not.
+
+I mean he's a human.
+
+So the results looks good to me.
+
+So yeah, I think we will stop on the theory today here and let's see if we can also look into the coding a little.
+
+So I will kind of advise you to read from the linear regression.
+
+Okay, I think you have test.
+
+So let Okay.
+
+Next, so we will continue on linear regression.
+
+We look into, we look into loss, look into parameter parameters in the next class.
+
+So for now I'm not sure I need to take questions so that it's not Okay.
+
+So let me take two questions.
+
+So please raise up your hand if you have question.
+
+Okay, Dixie, please speak.
+
+I think you should get ready.
+
+Said good evening.
+
+If possible we can get a zero arrow.
+
+Maybe after running it, there is no error in.
+
+It is just possible.
+
+It is possible, but there is another problem.
+
+It is possible to get the zero, but that is also another problem.
+
+Usually we want zero, we wish we have zero, but if you get zero, you should also check the something else because in a complicated model, like in complicated system where you have so many features by then you start having that zero.
+
+There is a possibility that you are over-fitting and we will talk about over-fitting later on, But the implication is that your model will only be doing good on the actual data.
+
+It should not be doing good when you take it to some other scenario reward scenario.
+
+So that the summary of the question and the summarize response to that.
+
+Okay.
+
+Thank you sir.
+
+Yeah.
+
+Qu me.
+
+Hello.
+
+Yeah.
+
+Hello.
+
+Alright.
+
+I want to ask question about this one about the losses.
+
+Okay.
+
+Alright.
+
+So I wanted to know that in case maybe as beginnings as we are and we want to embark on this maybe problem and maybe we don't know, we don't know the characteristics of the features of, I mean we don't understand the parts within the data.
+
+How then can we, what then can we do to ensure that these errors can be, I mean can be minimized? I'm not sure.
+
+I get your question.
+
+I mean like, I mean as beginner as we are, maybe we want to like solve such a problem.
+
+I mean going to linear regression.
+
+But then we have to consider the losses.
+
+I want to know that Since we are new and maybe you might not understand the pans within the data set, what then can we do to read reduce the error? Is it that you have to do try an error maybe going in for L one If it doesn't work, we come back to L two something like that, that's that's a rough answer that you can What is it? That's a rough answer.
+
+So I would say that's the way to do you try also does it sometimes you you have a very complicated what it call for data set.
+
+So but another thing is that we usually do some usually usually if you have a data set, someone ask a question.
+
+Sometimes you go that can you work with the data set or what is it called? So that's the problem.
+
+Most data sets are not clean.
+
+That's the initial notion you should have.
+
+So we usually do data exploration that you need to check is not like you open and you start scrolling.
+
+You can just do some summary like some in the sense like, Okay, what's the maximum in this data? What's the minimum in this data? What's the mean? If you notice that the distance between the, the difference between the maximum and the minimum and the mean is kind of true wide, then there is a potential, there is a, there's a possibility that there is an outlier in that data.
+
+So the common thing we do when you take get the data set or your the data for your problem of for what you want to do.
+
+Even if you a beginner, the common thing you do is you need to explore the data.
+
+Just look at the data.
+
+You is a small data, you can scroll in Excel or what, but it a big data.
+
+You can just do some summary like summarize the data.
+
+Most of these software has summary, some libraries to have like Pandas it has described and if you describe the linear regression and so the maximum minimum and quota, the quota and some other stuff like that.
+
+Okay, So the simple answer is that yes, you can use, you can try L one, you try L two, you try, you try any of those ones.
+
+So you wonder those better.
+
+Okay.
+
+Yeah, pick it.
+
+So, but the best way which even before any training is you check your data.
+
+So by the time you are checking your data, you would notice that.
+
+So this is this, this problem in the data.
+
+Okay.
+
+Well, I get, I am, I think I'm calling, calling your name correctly.
+
+I guess so.
+
+Okay, I think we should not do Python today because but I will advise we read from IF statements to, I don't want you to go into OP yet, but OP you will require you to understand some concepts.
+
+So let's see from IF statement to ARS basically the same thing as for the list and the what.
+
+So read from dictionary to R.
+
+So yeah, please, I repeat, please read from dictionary rest stop from dictionary data dictionary D.
+
+So you read from dictionary to sorry, from dictionary to Harri.
+
+So please Sim Lua, I think you have a question.
+
+Let me check the question answer section.
+
+Hi sounds Ganyan here.
+
+I have some Ganyan friends.
+
+So your voice remind me of my friends in Ghana.
+
+Okay.
+
+So the only set of you that are still in hand the is seem Okay.
+
+Similar.
+
+You still have your hands up and I mean, I mean, so similar, please proceed.
+
+Yeah, Okay, I can hear you.
+
+Alright sir as you explained the linear regression and all that as part of what we would like, what the AI would basically do when trying to get the like the most minimized error in that and sounded to us because in like 23 classes go, you mentioned that sometimes to train, I think when you were talking about love to train some of these machines, it can take like 24 hours if you don't you you have to run again at all.
+
+So bringing it to training model if we do, if we like train model at first and maybe the error is like is too is too large and trying to tune it to a more minimized error, would we have to like read, read like after the turning of AI, would we have to do that manually or DAI would train itself like the one you showed us about the racing car that it was moving around trying to find the best way to go through the route.
+
+And if you understand my question as I understood your question, SO2 separate thing.
+
+So now let me clear for this class will not be running models for 24 hours.
+
+Okay.
+
+So but in real life scenario you can run model dances for one week.
+
+Okay? So down is something you can encounter and relate.
+
+Okay? So now later on in this class we talked about hyper parameters.
+
+Hyper parameters are the parameter you need to change.
+
+Let's say for for instance someone I think we may ask that you can if we is not sure, and as a beginner, let's say you tried L one and L one did not work, tried L two no work.
+
+And then you keep on trying different.
+
+The problem there is that you don't even want to try it when you have huge data set.
+
+I give you a typical scenario.
+
+There was the time I sometimes ago I had to train the model that that took one week to finish.
+
+Okay, so the least I could make.
+
+The least mistake I could make is to mistakenly wrong something that is not correct because by the end of one week unit you are just waiting, waiting for wrong results.
+
+So imagine if you are trying to check, try different values like that.
+
+Let's say you try low L one, L two, MMM4.
+
+So in one month you are just trying something that you're not sure if your code is taken and one week to finish, so you also need to.
+
+So anyway the short, the long and short of the response is that you for have to do manual SUI like not manual adjusting of the weight and bias.
+
+The AI will do that or the Machine Learning will do that, but there are still some parameters you need to adjust.
+
+We talk about the linear rate.
+
+You saw the linear rate in the teachable Machine Learning class and assignment.
+
+The linear rate is one of those things that is very important.
+
+Batch size also is important.
+
+Epoch is also important to some of those ones as those things are just that influence, influence the way the AI will be able to learn better.
+
+Okay? So that's what I will say regarding that.
+
+Yeah, Alright, thank you so much.
+
+Yeah, I mean so I think there is no more time.
+
+I thought I mentioned about the A OC, I OC of the exam, but I am of the quiz please, that please read the the Google file I share with you on ML crash cost which is introduction to Machine Learning, please read the introduction to Machine Learning is not including regression, linear regression.
+
+So we just introduction to Machine Learning and also read W three score introduction to dictionary.
+
+So this parts you have your quiz, I focus on this parts for your quiz and then try as much as to try the example and the exercises this exercises in so in need.
+
+So it's also going to help you and know how to wrong code.
+
+No to wrong code please.
+
+So I think we have to call the date now and Okay.
+
+See you next time.

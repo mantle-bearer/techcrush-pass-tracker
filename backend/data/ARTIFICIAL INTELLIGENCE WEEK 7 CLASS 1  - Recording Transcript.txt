@@ -1,0 +1,965 @@
+Yeah, Hellas it's wonderful.
+
+So here, I hope we had a wonderful weekend so we don't have so much time today.
+
+Please if you can hear me, kindly to use some LG to signify Yeah, good, thank you.
+
+Yeah, Good marvellous Chica in the way Muhammad twice.
+
+Okay, Okay, yeah, Thank you Richard A.
+
+Okay anyway, so yes, so we won't do so much today.
+
+We will not be revising the quiz because now some people are going to be having quiz today.
+
+So yeah, but funny now we really do not have like so many misses like that.
+
+So yeah, so today's class is still going to be on classification, but we're going to be delving into something much more so and I hope we'll be able to do more despite the limited time.
+
+So if you can see my screen, please kindly signify it's kind of a thumb.
+
+Okay, Yeah, Thank you.
+
+Okay.
+
+So classification as you know is techniques that we used to assign class or model that we that predict class that some data kind of belongs to.
+
+So so far we've been talking about binary classification.
+
+I mean yesterday's class is one.
+
+Yeah.
+
+So we've been talking about binary classification and we also talk about category data so which happens to be kind of a prerequisite so multi-class classification.
+
+So yeah, so yeah, now, but before then we need to talk about something.
+
+So so far we've been talking about RICE data sets and all what we've been doing is basically just feeding all the features into the model like the area perimeter, major axis, lens, minor axis length, eccentricity, convex area, extent, and then we use the class as the output.
+
+But in in reality we are lucky because these data sets so yeah, blessing.
+
+So we are lucky that the data, the data that we fed in were basically kind of all relevant.
+
+So in that case we do not really experience some certain issue or some certain problem that might occur.
+
+So number one problem is that if this feature will be much more than this, let's say 1000 in inputs, it's going to cause some issue for some kind of model because the larger the inputs, the more difficult the model is.
+
+So and sometimes not all the inputs are actually necessary.
+
+So some of them, some of those in we might eventually cause some noise to your to your model like for instance, the good or the most relevant event data in are pulling the model of towards good accuracy where the relevant data are definitely pulling down.
+
+So just like if you are in a class and then the, we have so many scholars in the class so that when the lecturer or the teacher is trying to explain and trying to move like quickly ahead, maybe some students are not concentrating the class and then the teacher has some question and they were not able to answer.
+
+So it means the teacher will probably need to reiterate or go back to that concept.
+
+So sorry for using that example, but that is the closest thing I could use.
+
+I'm not trying to refer to our class.
+
+You were free to ask any question.
+
+Okay.
+
+So I'm just trying to let you know that in your model, some hello.
+
+Okay.
+
+So in your model, some features, some inputs that has good correlation to your problem to the program, you, the problem we are trying to solve will kind of contribute towards the success of the model, whereas the ones that are not related, they are not correlating to the model.
+
+I just kind of being like an inhibitor that is not making the model to achieve as much as it should achieve.
+
+So now how do you know sometimes what you need to do is just and pick those models, those features that are a good contributor to your to the performance, good performance of your model.
+
+So for instance, also, for instance, if you look at this correlation, so this correlation, if you look at perimeter and area, you basically discover that using area and perimeter as input, the seems to show a correlation.
+
+If you use major axis length and area, they also it also show good correlation, likewise minor axis and area, except for eccentricity, that is an area that is not really showing a large correlation as compared to old ones and extent.
+
+So now if you look at perimeter and some other parameters like that, so all you know, you can see that extent, the extent is the only feature that is not consistently given a strong correlation, either acoustic or negative, is just in other close to 0.1 or 0.2 minus or plus or minus.
+
+So that's the kind of correlation, this type of feature, extent, it's kind of an inhibitor to the model.
+
+So if you kick it out of the model, you probably discover that maybe the model will perform better.
+
+Although sometimes those feature makes your model kind of robust, but sometimes they are just kind of an inhibitor.
+
+They really do not constitute a very significant contributes significantly to the model.
+
+So now looking at correlation alone does not really tells the story because that's not actually what you want to do, you want to do classification.
+
+And even if you plot this correlation matrix or scatter plot like this, it also won't tell you the exist because what you want to do is not actually about correlation, is actually about being able to separate two classes and this is not telling you the story.
+
+So like for instance, this plot is actually plot of two different classes.
+
+How will you be able to distinguish between the two classes in this plot? Likewise in all other plot.
+
+So you will not be able to get the full gist from this, from this correlation or from this plot.
+
+So rather the best or the good way to do it is to actually also visualize is to actually also visualise the the the classes along with the correlation.
+
+So when you plot the scatter plot of perimeter against convex area, yes, perimeter against convex area, perimeter and convex area, they showed correlation 0.969937.
+
+Okay.
+
+So which is close to one, But if you want to really see if it actually related to the either actually corresponding to the task you want to do like you want to, you want to make some classification distinction between the classes.
+
+So then you need to actually also attribute some like for instance color coordinates.
+
+Here we collocate the classes.
+
+So desp plotting this scatter plot that shows the correlation.
+
+We are also showing that this class, this two parameters or this two features, they actually show some kind of sense of distinction.
+
+Like we distinctly show that this is the Cameo class and this is the Osman class.
+
+So as such, by using by looking at it from this perspective, you will be able to know that Okay, yes, they can still use this impute as the feature.
+
+Okay.
+
+So if you also look at this extent and the parameter perimeter, you notice that the extent and the perimeter is also showing some distinction but is not as clear in my own view and is not as clear as that of the perimeter and the convex.
+
+So which means if you look at the per extent and perimeter in the correlation curve, extend and perimeter, if you look at it, it's actually not showing a very strong correlation.
+
+So which also kind of also plays out a little, not so much a little in the in the plot.
+
+So in essence, what I'm trying to tell you is that if you are doing some, if you are trying to work on your model, one of those things is that you don't always have to use all the features because sometimes the feature, some features are just kind of like a pullback to your performance, the performance of your model.
+
+So what we often do is to feature selection.
+
+So we aren't peak.
+
+Sometimes we also use automatic method, which I'm going to explain later in the class.
+
+Well sometimes we also pick, we also pick, we also un-pick the, sorry, I just want to close my mouth.
+
+So we also pick some of those models.
+
+So let me show you what I I mean, so yes, MATLAB.
+
+So here is MATLAB and then let's say we have already a data loaded onto the matlab.
+
+Okay.
+
+So let me choose one of these things.
+
+So here is so we have the data, we in import the data and then we go to our classifier classification leer.
+
+So and then we try to try to load data.
+
+Really, you mean you can't see my matlab screen.
+
+Can anyone or can you guys see my matlab screen? Okay? I think you should consider checking a network.
+
+Okay? Yeah.
+
+Probably the so Okay.
+
+So I've loaded the data.
+
+So let's do the usual the binary classification.
+
+Okay.
+
+So what I would do is I click on SCATU.
+
+Okay.
+
+So then from the scatter plot and I can see this scatter plot that distinctly show this version AL correlated, they are Okay.
+
+It's also showed that the blue class which is, I think is Osman.
+
+Yeah.
+
+The blue class which is the Osman and the red class which is the Commun class.
+
+So we're shown So you can also choose another feature.
+
+Okay.
+
+So trying to plot perimeter against perimeter is not is not informative.
+
+So major axis against perimeter or you can try to plot and visualize the data and see how the correlation the class this time and Yes, the correction is important, but this time and what we're actually concerned about is those actual does this which feature actually separate the two classes so properly? So sometimes you just see it modular in some feature space.
+
+So so in the case of perimeter vs a major axis vs perimeter, we can see it also showing some kind of distinction like distinct class, so eccentricity veus perimeter, so it also showing distinction so convex area vs per meter, so major axis extent vs per meter.
+
+There is no good correlation, but the classes are still kind of separated in some sense.
+
+So this kind of look into the data will give you some insight into some of the features that you can combine that you can select the ones that is good is Okay for you to drop them.
+
+So you can also get that instant insight.
+
+So how do you the drop model? How do you, sorry.
+
+Feature? How do you drop feature? So you go to the summary and you click on your drop down.
+
+Okay.
+
+So it's release all the seven features.
+
+So so far we've actually seen that most of the model, most of the features are actually kind of showing some distinction, but we can actually drop some features like the extent is not really contributing significantly to the model.
+
+And I think maybe the eccentricity maybe is also not showing some we can check it again anyway.
+
+So it is eccentricity.
+
+So yeah, the class is separated it like to some extent, but the correlation is also not so de.
+
+So this case the COR is not the most important anyway, but the class separating the class is as much important, so is much important than the the other ones, the correlation.
+
+So Okay, Tea is asking the is it always perimeter? That should be the Y axis? No, you can change it just you can make it major axis, you can make it minor axis.
+
+So depending on what you want, so you can visualise as far as you are concerned, you have seven inputs and it means that you can do it seven times seven ways.
+
+So you can do fixed area and change all other ones, then change this perimeter and change all other ones.
+
+So you can compare, try to compare how the ones that are so, but basically what I'm trying to let you know is that you can drop some features that probably are not contributing significantly to your model.
+
+So I can, I believe you, I have answered it indirectly like some of these features that are that may be inhibiting the performance of your model, you, you can drop it.
+
+So let's say, for instance, the HR department or the say marketing and sale department, they wanted to know some information about some customer or you wanted to predict some information about some customer.
+
+Most likely they just export all the data and they just dump it for you like something, some information that not even necessary, just export everything and just dump it for you.
+
+So you as the Machine Learning specialist or specialist, you are not supposed to just pick out.
+
+Okay.
+
+This is what they gave me and you just throw it to your model and expect it was, you might be lucky, just as we've been lucky in the Rice data set that we just passing all the data and performance seems fairly, I mean, pretty good 90 something percent is not bad.
+
+So, but sometimes you have some kind of inputs like that they can pull down the performance of your model drastically.
+
+So you need to keep that in mind.
+
+Yes, thank you will work for me.
+
+Yes, 49 ways, but some ways the diagonal ones are not actually necessary.
+
+So but yes, theoretically 40 ways.
+
+Okay.
+
+So by dropping some of this extent somewhere like the extent, we can retrain our model and then also try to see how it performs in that regard.
+
+So 93% so we can do some.
+
+Okay.
+
+So we didn't select testing sets during the.
+
+So if you are having the C that you can't see anything to click on, probably you did not select the testing sets where you are actually loading the data.
+
+So Okay.
+
+So I believe you understand this.
+
+I will show you the same thing in in Python and Python.
+
+Okay.
+
+So this is not exactly what you want to do, but I believe it's we are not to this.
+
+So this is the wise data set I've been working with.
+
+Okay.
+
+So I had it some additional libraries, especially the plot library, the plot library, the library for plotting and data.
+
+So which you also, sometimes you can also use it for plotting.
+
+So it's much more interactive than MAT.
+
+MAT is also good.
+
+So this is a good plotting gives very beautiful one.
+
+Okay.
+
+So yeah, I added this this libry so then you can let me start, you're asking what is the difference between K-fo itration and epoch.
+
+Okay.
+
+So let me begin with an epoch.
+
+So and also let me first remind you that in this library SQN you there are some limited thing that you can do.
+
+So as time goes on we try to use much advanced advanced library.
+
+SQLN is not it's robot is good for some simple Machine Learning can also do some, but if you want some kind of control, like so much freedom, like so much flexibility, you may need to consider some other libraries for your Machine Learning.
+
+Okay.
+
+So but for now as an entry level skill does a lot of things.
+
+I've used it for some projects and some freelance project.
+
+I got on and up work and some other platform like that and does the job.
+
+So, Okay.
+
+So depending on the amount of flexibility you want to have, if you just want to have little tweer and your work and you get a good result.
+
+Okay.
+
+Good.
+
+So you can proceed with it.
+
+So now going back to your question in SQLN, you don't have that so much freedom to specify the number of epochs, especially in time for the logistic regression.
+
+So because you are, you don't have, you don't specify the B size.
+
+So in this case the B size is one.
+
+And once you have batch size of one, as I've explained, iteration, number of iteration and epoch is the same thing.
+
+Okay, if you have on epoch, it means it also interpret interpolate can be interpreted as one re-iterations.
+
+So what I mean by one iteration is that is you pick all the data sets, you try to let you try to give it to the model to train on it.
+
+So after that you get the error.
+
+Okay, the result of like the performance of the model.
+
+And then based on the performance, you try to make some corrections to the model and then you pick it again, you try it again, third model to try again, try again.
+
+So on times, it means the model is going to pick all the data sets, try to learn from it.
+
+If you say the epoch is on drain, it means to do it on times.
+
+So iteration is also the same thing.
+
+Since you do you only specify but size in circuit.
+
+The B size of one is the default and is the only thing that is available.
+
+I believe you understand that anyway.
+
+So in term of care fool K food is what I refer to what I explained as cross-validation.
+
+So cross validation is usually used for to make your model much more robust, like to avoid over-fitting to.
+
+In that case you try to train the model K times.
+
+K times means its decay can be five times, can be three times, can be ten times.
+
+So if you say fivefold cross validation, the full pronunciation is k-fold cross validation.
+
+So if decay is equals to five, it means your fivefold cross validation.
+
+And the meaning of that is that your model will train five times.
+
+If you say five fold cross iteration.
+
+Now let's assume you specify an iteration of one range.
+
+So if the when the model finish one iteration, it will now start another one.
+
+So we making it true.
+
+When it finish another one range, it start another one.
+
+So making three.
+
+So if you specify five, it means it's almost like you DR training 500 times.
+
+So there different like separate model that are going to be generated as out of that.
+
+Okay.
+
+So let's move forward now because we don't have so much time and I think I, this is not the exact thing you want to do today.
+
+So yeah, you import the libraries and then as you know, we loaded the library and the data sets just to preview with the statistical distribution.
+
+And then I mentioned that correlation, this is correlation that I told you.
+
+Okay, so I collapse something here.
+
+So that's Okay.
+
+So basically this part is not the main concern today.
+
+Okay.
+
+So correlation to show the correlation of the data.
+
+So but the part I wanted to show you is here the plot or some of the features, some of the combinations like that.
+
+So here, so we use plot and the plot, the library and we did this scatter plots, we provided the data frame which is data frame and the data set and the axis that we want to plot X against Y.
+
+So this is the X and this is the Y, this is the X, this is the Y, X Y X Y.
+
+So and what we did is to look like for each of these data, pick this one, try to plot it after that, pick this one again and try to plot it this one, try to ear, you know, we are going to be having 123455 plots.
+
+So it is more or less like the matlab that we're kind of selecting here, we're selecting different features so like this.
+
+So in code, you know, we cannot be clicking like that.
+
+So we basically need to specify some previous combination.
+
+And just as we've said, you can have up to 49 combinations, we just selected just a few of that combinations.
+
+So if you can't see this plot, you should be able to see five plots because we are looking through 12345.
+
+So the first one will be the first one will be area, sorry, major axis length vs eccentricity, your access link vs eccentricity, then followed by extent and perimeter vs extent.
+
+So this is a perimeter vs extent and.
+
+And so on until we get to area vs eccentricity, which is area vs eccentricity.
+
+So yeah.
+
+And then as I have explained, this is 2D plots like X and Y.
+
+If you have more than 2D, you can combine about three features X, Y, Z.
+
+Okay.
+
+So and if you plot it, you have a 3D plots so which you can also use to visualize the data.
+
+So after this 3D, I don't think there is any other data that you can visualize.
+
+So because the data, the maximum that is visualizable is in 3D, me is asking if there is no whole inclusive library that can perform all your coding activity instead of importing many libraries.
+
+Sadly no.
+
+So because anyway, no.
+
+So for programming language is just a language that enables you to do something.
+
+So it's not you can people can adopt it to their different domain to solve their own problem.
+
+So so the library is one of those will be used to extend it.
+
+So this sadly the answer is no.
+
+Call out is actually in my GitHub reposure, I usually have to be so you can check it out.
+
+Okay.
+
+So feature selection.
+
+That's why I'm trying to explain.
+
+So we can also just select some features like as we did in the matlab.
+
+So instead of we, so here what we do is instead of we having the DF, this one to be the whole of the data, we can select some data like DF equal to DF, then we can then select the area, we can select the perimeter, we can select the just just copy.
+
+Okay.
+
+So, Okay.
+
+So this is not what we want to do today, but I guess probably is the only thing to do.
+
+But let's see.
+
+Okay.
+
+So I have just selected some of the people that I've dropped.
+
+You notice I dropped the eccentricity.
+
+So we have 1234, Sorry, I have dropped the extent 123, 4567.
+
+So it's major access twice.
+
+Sorry.
+
+So we have 123456.
+
+So six inputs then one output.
+
+So by so doing, I have dropped that's one.
+
+And then I'm only left with this six features and then we can do the other things and split the data.
+
+Okay.
+
+So yeah, we train the model here, Okay.
+
+And then we can make a prediction and then we can calculate the accuracy.
+
+Okay.
+
+Yeah, so Okay.
+
+Okay.
+
+So I hope you understood the concept.
+
+The concept is that you don't always use all the data or the feature input feature, the HR or the marketing team, they gave you the data.
+
+You don't just put everything in your model.
+
+You may have poor performance.
+
+So if that is the case, try to look at the correlation or the film data, plot it and see what you have and then you can make some judgments on what you do next.
+
+So, yeah.
+
+So that's that one.
+
+I hope the concept is much clear.
+
+So today we've been talking about logistic regression for quite some days.
+
+So for some weeks.
+
+So now we'll talk about another model which is a K nearest neighborhood.
+
+So K nearest neighborhood is also a classification is for a classification sovice learning method.
+
+Sometimes they also use it for linear regression or regression.
+
+So but it is also used for classification, but by default it is actually for classification.
+
+But there are some variants that you can also use for regression.
+
+So now what is K nearest neighborhood? So now you also often come across KK KKK in machine lear, K full cross validation, K nearest neighborhood, k this KD and KKK.
+
+So is no k drama or k pop.
+
+So what? Basically a k.
+
+The K is usually to denote like the number of something that you want to achieve.
+
+Let's say, for instance, we want we have this data, this blue square and then red rectangle.
+
+Then we just got a new data point, this color green, a new one.
+
+We want to determine which which group does it belong to, does it belongs to the triangle or does it belongs to the blue? So what we do is that we true, we try to match the neighborhood like the people that lives around that data.
+
+So whichever the data is close to is the class it belongs to.
+
+Like for instance, in your, in your neighborhood, you have different houses like that.
+
+Okay? So most likely that those houses that are close to you, close to your houses, and probably people that you interact with more than people that are far off, far away from your neighborhood.
+
+So the idea behind K nearest neighborhood is that those that are close to you, so you are probably belonging to them and those that are far away from you.
+
+So now how do we determine that the K does when the K comes in place? So if I say 3K nearest neighborhood and K is equals to three, it means that if I count the number of people, like if I draw a circle and I can't the about three people that are close to me, then if two of them are, I'm close to two of them more than the third one, it means I belongs to this third one and to this, this would be one that I am close to.
+
+By I mean the two that I'm close to.
+
+Take for instance, look at this circle or this rectangle, square and triangle.
+
+So we have two classes: recta, square and square and square and red triangle.
+
+Now we have this circle, green circle with The Green doesn't mean that is another class is just something we don't know where it belongs to.
+
+So what we do is we draw a circle, Okay.
+
+After drawing that circle.
+
+So we now try to measure the distance between this new point to the ones that falls within the circle.
+
+So we measure this distance, this one to this one, this one to this one, this one to this one.
+
+After measuring the distance, we now try to rank them which one is closer, so is closer to this red triangle.
+
+First this first one, then we which other one is also closer.
+
+We then's closer to this one as well, making two, then's closer to this one as well, making three.
+
+So if we say our K is equals to three, it means that this two the red triangular classes, we will it's already two.
+
+Okay, two of them.
+
+So it means by our judgments, by the judgment of K nearest neighborhood.
+
+It means this circle principle belongs to the, to the red triangular class.
+
+I hope you get the idea.
+
+So don't worry, I will explain because we basically don't the testing, but I will explain in we do another example.
+
+So you get it better.
+
+Okay.
+
+So he's asking how do we test our model after training the model? So which is simple because it's simple that why you didn't notice that we've done the testing.
+
+Yeah, you just called predict and it makes prediction.
+
+We've done the testing.
+
+But anyway, so I will explain better maybe after explaining this concept.
+
+So I believe we understand this.
+
+Let's look at this, this one, let's assume we have circle red circles like this and then blue circles.
+
+So now have this on colored one, this white question mark circle.
+
+We want to know where it belongs to.
+
+So we try to measure the distance.
+
+You can draw a circle, then thereafter you try to measure the distance.
+
+This one to this one is close to this one, That's one, this one to this one and then this to the other one.
+
+Those are the three ones that are close to it.
+
+So if it is five nearest neighborhood, which means you're going to consider five close by, close by data points.
+
+So by by looking at this one, which is three neighborhood.
+
+So it means we have two of these classes that already belongs or that are already the neighbour of this unknown one.
+
+So it means this unknown one belongs to the great class.
+
+So I hope you will get the concept.
+
+So let me explain again.
+
+I will use this animation to explain.
+
+So look at this animation, we have this data, Okay? This data and the red and the blue class.
+
+So what we want to do actually is not just about one data point, but we want to be able to draw some kind of a boundary that divine where the blue belongs to and where the red belongs to.
+
+So now this data we try to firstly decay is three.
+
+So it means we are considering three neighborhoods.
+
+Okay.
+
+So at each point when we put different samples, this sample that is sliding through the data point, we are trying to measure three nearby neighborhoods.
+
+So now the ones that has the highest voting is not about only about this that the ones that has the highest number of voting, the that's where it belongs to.
+
+So in this case, in the case of this one, look at this blank circle we can, we have been, we've been able to identify the three neighborhoods, the three neighbor neighboring data point, this blue one, this red to this order three.
+
+So now if you try to do the counting, the voting, this red already have two.
+
+This one is only having one.
+
+So which means that it belongs to this class that has the highest voting.
+
+I think you should get the concept now.
+
+Oh, Okay.
+
+So Austin JR it is close to the blue.
+
+But in term of voting, in term of voting, if you vote is only one is't is the only one is just close, it is not is not having the highest vote.
+
+So majority car is the vote if you have one red.
+
+Okay.
+
+So that's the idea.
+
+So now this is just for one data point.
+
+Now you want to draw a boundary that divines where where the data points and like the jurisdiction.
+
+So then we can then create different data sampling around and then try to find the number of neighborhood.
+
+Then we can draw the boundary as this, this is this boundary will be for the red, this will be for the blue.
+
+So I hope you understand the concepts.
+
+Yeah, thank you.
+
+So this means K we always be.
+
+God bless you somewhere.
+
+Yeah.
+
+That's a very, very brilliant judgment.
+
+Yes, I like that induction or deduction.
+
+So because if you actually put K to be even, it's a problem.
+
+Yes, that that's exactly what it is.
+
+Okay.
+
+So if if K is even, then it means you get, you might probably get a tie.
+
+And once you get a tie, you are not using the techniques correctly.
+
+It's not going to give you the correct classification.
+
+So if you want to choose your key, choose odd number five neighborhoods, three neighborhoods, seven neighborhoods, something like that.
+
+So Okay.
+
+Yeah, I like the the deduction.
+
+Thank you someone.
+
+So yeah.
+
+Now, but there is a problem with K nearest neighbor we call if we have the opportunity to do a practice, there's a problem with K-nearest neighbor.
+
+We call it cause of dimensionality.
+
+So let me show you what I mean.
+
+I told you that we can do feature selection.
+
+Like you just pick some features like that, but not all the time we can do feature selection, not the time.
+
+You can't do it for everything.
+
+So let me show you what I mean.
+
+I, I hope you'll be able to do it today.
+
+So Okay, before we move, someone asked that how do we test the model after training the model? I think as so this is where we are testing the model.
+
+So once you just call the model, you've trained the model here, we train the model calling.fits.
+
+Here you say.fits and the model is trained.
+
+Okay.
+
+So now saying.predict that the model.predict and you passing your input, that's the testing.
+
+You've done the testing.
+
+Okay? So it is just as simple as that.
+
+So but yeah, there is always a caveat.
+
+It's on the naive end, it works.
+
+But when you get into the complicated thing, you definitely have that thing to crack.
+
+So now there is cause of dimensionality, it means that usually in theory if your motor, if your input is greater than ten, you have problem because actually Kenya neighborhood, if you observe, it's usually store the data, stores the data, it doesn't trade with the data.
+
+So because it's uses it to make judgment for which category does this, other ones belongs to.
+
+So now if you have imput that is fairly large, more than ten, then it's boom poor.
+
+So it becomes large and it becomes on effect ineffective in doing what ever you want to do because it asked to do comparison with all the data points each time you supply the inputs.
+
+So now we have what we call dimensionality reduction.
+
+So the concept of dimensionality reduction will only be talking about one concept.
+
+We have so many concepts.
+
+I will only be talking about one concept.
+
+So dimen no, if any, No, no, no, no, K nearest neighbourhood is not limited to binary classification.
+
+I will show you an example now, so I wish demonstrate an example.
+
+I hope we have, we don't really have done lots of time, but Okay, next class we're going to do full hand coding and the voice.
+
+I'm going to show you the code that have already prepared so that you will not get some misconception or you will not be too much confused.
+
+So now here is a data set called MN data set.
+
+You remember, I showed you this data set sometimes ago that this data set and also it was part of your one of your queries like that.
+
+So this is having data set is actually the data set that has been collected long time ago.
+
+So they collect handwriting of TGS by book and the likes.
+
+So you know people you H so you write one differently for differently like that.
+
+So they collected so many and WRTN what it called TY for calligraphy of figures from zero to nine.
+
+So that's about the data set.
+
+So now so we have different ways that which it has been processed for Most often you come across this some version that you have the dimension to be 28 by 2828 by 28 means that it's image, Okay, but it's what it means is that you have just a single channel.
+
+Life is just black and white.
+
+Like binary is not binary class.
+
+I mean black and white, No color image is just black and white.
+
+Just as you see here, you cannot have color red, color blue, color green.
+
+So you only have either black or white.
+
+So that's why Earth it's me.
+
+So now if you have colored this one will not be one, this will be 31 will be red, one will be blue and one will be green.
+
+RGB sorry, are red, green and blue.
+
+Sometimes it also could be blue, green, red, but let's just agree with what we already know.
+
+RGB So but here we only have one.
+
+So it means it's just monochrome or Yeah, So now this is what I'm saying.
+
+So far we've seen the RISE data set.
+
+Don't worry about this calculation.
+
+I just want to show you what I mean.
+
+So you've seen the RISE data set is just seven inputs and we removed one and we have six.
+
+So it's not going to face a dimensionality reduction problem.
+
+But in this case this is 28, which means it's 28 times, 28 times one.
+
+Instantly The input is 784, 784 is large.
+
+Okay.
+
+You may, you may not want to agree with me, but because if you compare with the image in the regular image, your iPhone, your Android phone is taking is much more larger than this.
+
+So that's the thing.
+
+So now this 784 you cannot do and picking a feature in this one because the implication is that each picture, each each of these pixel is actually an image.
+
+So let's assume you decide to remove the part that has this, this upper one, you decide to remove it, you it return to zero, which is another thing.
+
+So you cannot remove anything from this feature.
+
+Just agree.
+
+So now the only thing you're left with is how do you and do it so that you try as much as possible to keep the information that is available at information about the data without disrupting the interpretation of as little as six and nine, you know, six and nine, if you turn six like this, if you rotate six, it turns to nine.
+
+If you rotate nine, it turns to six, as little as that is going to cause your problem, cause a problem for your model.
+
+So if you doesn't do anyhow with it.
+
+So now in essence, what I am trying to tell you is that in this case 20th by 20th or 20th, 2784 is large.
+
+You cannot use K and K nearest neighborhood directly.
+
+So you need to do what you call dimensionality reduction.
+
+So one of the ways you can do dimensionality reduction is through PC Principal Component Analysis.
+
+So what we component analysis does is that let's say you have to call and then you want to reduce the input.
+
+So you can say that Get Me, let's say 55 best is not that it's going to quote the input, but it's going to do some computation around it and try to compress.
+
+We also use it as compressing was to compress your data.
+
+Okay.
+
+So it's compressed the feature, the important information in the feature, it compresses it to the number of places you want to reduce it to.
+
+Okay.
+
+So now without so much talk, I will just briefly let you see the code already prepared so that you'll be able to get the gist.
+
+Now this is AI just import the model and so the libraries.
+
+I don't want to talk much about the library.
+
+We talk about that in the next class.
+
+I just want to show you what is on.
+
+So the data sets and the reason why I choose this data set is because the are available in and Goog colapse.
+
+So you don't need to trouble yourself about the origin data was thereabouts, so is available as part of the which is M test and then train small.
+
+Okay.
+
+So anyway, so we import the libraries and then we load the data sets from the default one that was already been provided by which available up and then will review the data.
+
+So if you look at the preview of this data notice is just is zero to 784 to be zero is where we have the actual label.
+
+This is number six, this is supposed to be number six is supposed to be number five.
+
+That is, that is if you transform this data, you're going to get number five.
+
+Okay.
+
+So if you transform this data, you going to get the image of number seven.
+
+So that's what it means.
+
+So take for instance, I just did a random sample or I just did the random sample.
+
+Okay.
+
+So when I did a random sample of the data, so it's just choose a number at random and tell you that I choose number eight and then he tries to transform it.
+
+I will explain that later in the next class.
+
+Okay.
+
+So but it try to transform, I try to transform it and then it's showing this weight and the label that is attributed to it on column zero, this column column zero, which is what I selected for the label.
+
+So then it shows it.
+
+Okay.
+
+So I hope you understand the concept.
+
+So but what I want to let you know basically is not about the wast, how simple the concept of the PC and everything is.
+
+So I will explain how we introduce a pipeline or the idea of pipeline to in the next class.
+
+So basically this is the breakdown.
+
+So I extracted the libel.
+
+So now this time and we don't just have zero to nine, we zero and one, we now have zero to nine.
+
+So we need to also transform that.
+
+So that's why we now we are not using manual way to transform it, we just use the library to transform the data.
+
+Okay.
+
+So now after that, then we do normalization.
+
+Normalization in this case is just going to be min Max normalization because the data we have is actually not just zero to 256.
+
+SO2 550 to 55.
+
+So I will also explain that better in the next class.
+
+Then we did Principal Component Analysis.
+
+So here here is where we transform if you look at the input, the input is 784.
+
+So by doing Principal Component Analysis, we are able to transform the data to 154 inputs.
+
+Okay.
+
+So this is a very significant reduction.
+
+So we requested for 0.9, 95% and has 95% variance.
+
+So this is a very significant reduction compared to step 184 it done again with.
+
+So then I run the principal and the neighborhood, we test the model, and then we got the accuracy which is 96.
+
+So in the next class, so you have to evaluate that depend, you know, image size varies.
+
+So the time complexity is going to scale as the image size.
+
+Okay.
+
+So like the dimension of the image size.
+
+But if you want to do the analytical way of doing time complexity, you have to do the big notation.
+
+If you want to just test, you can just use a percentage, this percentage time meet and then it will give you the the time complexity that it takes to do that.
+
+So if I run this one, it will run it five times, several times.
+
+I think.
+
+So I give you the time complexity so you can check out.
+
+Okay, let's stop here for those I have.
+
+Quiz.
+
+I think next class will continue.
+
+Alright, this, take care.
+
+Have a wonderful quiz.
+
+Buh bye.

@@ -1,0 +1,1311 @@
+I hope we had a wonderful weekend.
+
+I got a beautiful session today.
+
+Yeah, so if you can hear me kindly signify with sound some kind of Yeah, Rod Raging Greetings, Richard.
+
+Yeah, Yeah, Hello, we may be, we may be, I guess.
+
+Did I pronounce it? Well, Yeah, so just a reminder.
+
+Okay, Thank you.
+
+Yeah, Paul.
+
+Just a reminder this week you're going to be having your quiz.
+
+So and I think it's probably going to be the last quiz, final quiz, think so anyway, IA is the final one or not it you're going to be having this week.
+
+So I think you should back of your mind so that you won't forget you forget.
+
+Okay.
+
+So we really do not have much time left and I think I would discuss more on on our projects.
+
+I'm still thinking so on what we should use as our projects because we have diverse platform that we need to put into consideration.
+
+So we have the option of either either doing just a single projects like for or we handle it case by case such that those are using mobile phone, we let them use we did do a separate application and those are using computer, then they go up with application.
+
+So I'm still, I'm still thinking on which way to which we should adopt, but nevertheless what I think will be most paramount is that you either we make use of what we've learned so far or we try to use it to learn new team.
+
+So at same time I'm also thinking like some of the projects that have done on freelance platform probably we may want to consider so that you'll be able to see that this knowledge actually useful and I really want and most importantly they can hear you some, some through some money.
+
+So which I'm, I'm also thinking, I'm also putting that into consideration.
+
+Yeah, so Okay, so so Brainstorm on that maybe sometime in this class to maybe today or maybe next class but definitely has to be this week and then we will be able to so we were able to move forward from there.
+
+So today we will be looking into will be continuing from where we stopped and then we also we will continue from where we stopped and then we will also have some new knowledge into another bank.
+
+So someone suggesting, I think for me suggesting a pool for those have ph or laptop first and Okay.
+
+So Okay, let's see, let me, I don't know, let's let let's wait a little for those that are know here before creating the pool so that you have a a much significant response that captures the the people or the audience so that we won't be making decision behind all the phone.
+
+So Okay, so let me show you something before showing anything else quickly D into today's class so that you will not waste so much time on something that not is that they are not relevant, but at least let's know that we have something that we Okay.
+
+So today last class we've been talking on Yeah, just like yesterday, so last class we talked about classification, multi-class classification, we demonstrated in both matlab and Python.
+
+So and then we were talking about deploying it so that you have the confidence in like what you are doing is not just like to present confusion matrix or to present results alone so that you can have it as a kind of application that runs in real time.
+
+So so regarding the videos, I'm not sure, I think it's, I'm not sure the make is available, but anyway we can ask, but I'm not sure.
+
+So so I was mentioning that we have different ways if you most a model, we actually work with them in in Python, like because Python most LI is like tense of flow with no use, tense of flows with no use and what it called PyTorch.
+
+So but definitely most circuits that we've used, most of them are in Python.
+
+We have designed C++ and see GB as well and some other platforms.
+
+So but I mean most once you have your model in Python and you want to deploy it in Python thing, it becomes much easier and much simpler.
+
+So because literally you just have your model in Python already, you just need to create a kind of an end point.
+
+Let's say using web web as a use case because you can use AI model heading way website or harden it.
+
+Your website is just one out of ways you can use it.
+
+So I wish I would be able to show you an example in this what the call.
+
+So like for instance, I usually mentioned that robots, robot, robot because I work, so I work with robots and like so we usually also deploy it on robot for it to be able to do something like that.
+
+So yeah, in the way particularly we are using you're talking about VSL, particularly if you're using stream leads.
+
+I think streaml V does not support streaml because Veel actually work with on container technology and needs often shorts than your container one is.
+
+I do so and streaml actually requires like to be grown in continuously.
+
+So if you're using something like a Flask application, like you develop a Flask API, fast API, Flask or fast API application where you can just hold the point.
+
+Okay, Yeah, it work.
+
+So Python hosting this hosting.
+
+I'm talking about hosting your application.
+
+Python is also a platform for hosting Python application.
+
+Also it has limitation as well.
+
+So all those limitation is you do not have access to Internet internally.
+
+And then this space, this this space is kind of limited.
+
+So but anyway it also one way to go about it.
+
+So for ourself you can host fast application but not streaml.
+
+I posed last application on before and I have some that has to so Okay.
+
+So yeah, now we're going to take a case study on streams.
+
+So Streaml is just kind of a it's more we or fast WA for AIO Data Analyst or machine is engineer to make their work like quickly available.
+
+Like it's so fast and so simple.
+
+In fact, sometimes you don't even need to worry about the HTML and like CSS if you just want a very rough and quick deployment, you don't need it.
+
+You just you and I will show you how it's goes in this subsequent slide.
+
+So here we, we worked on our model here and we have the export model, process model, transform model and train model which we we have done here.
+
+Okay.
+
+So basically we train, we develop the model pipeline.
+
+So which I said it's better to package everything together if you have the feature, but if you are treating it separately, you probably need to export each one of them separately.
+
+So you don't just export the model and expect it to do some wonderfully, well, probably not going to do so.
+
+And even the result, you will give you certain result, you doubt it, you don't export all this for that processing and the likes.
+
+So we basically did that and we export the results.
+
+So usually usually we dump it as the people file.
+
+So if you dump a model as the people file, it will basically just save it as model.
+
+The name defile and the extension will be PKL, which is people.
+
+So we often write as a binary.
+
+Okay.
+
+So the other ways to save what we can still work with this.
+
+So now, well, I know we need to run this again because I did it.
+
+Okay, I think I downloaded it.
+
+Okay, I done it.
+
+So I just, I don't need to run it again.
+
+I just come to here.
+
+Let's assume we want to, This is where we want to host or deploy our model.
+
+Well, you know, pull up is not the ideal place to model, but just want to use it as an example.
+
+So as for you to get digits, So I'm in order for you to be able to do that, you need to install Streaml.
+
+So this, I think you is just quietly means you should quietly.
+
+So yeah.
+
+So we need to install Streaml then after installing Streaml.
+
+So actually if you disloy a model, maybe I should show you my local local environment first so that you get the gist.
+
+So here is my local environment.
+
+Okay? So I've installed stream leads and then I just want to say let's say Streaml run application.
+
+Okay.
+
+So now once I run this, it will generate an IP address.
+
+So this is either you use this local host or you use this IP address to visit the application.
+
+So I can copy this and then paste it here.
+
+Okay.
+
+And the application will come up.
+
+So this is the application and this is the.
+
+So this is the application running on my computer so I can upload, let's say figure four and then it will predicts is still trying to run.
+
+Okay.
+
+So it predicted that figure four.
+
+So we can write another thing and but the most important thing I want to show you here is that, Michael, you raising up your hand.
+
+Is it Okay? Is everything Okay? I will lower your hand.
+
+So if you still have something to say, please read it again.
+
+Just show you is not mistake.
+
+Okay? Since Michael, I have something serious to say.
+
+Okay, Michael, I enable you to speak.
+
+Please proceed.
+
+So that a good evening.
+
+Yeah, Good evening.
+
+Thank you for the opportunity to speak.
+
+It's unfortunate couple of times I have missed the classes, but I'm trying my best to follow online, the recording.
+
+But one thing is not really set in for me so far.
+
+I've been privileged to have some background in Data Science, but until now I'm still struggling to find the distinction between the Data Science and then the AI to be specific.
+
+Is it that we haven't got into the, the aspect of AI in particular yet? If it so, then fine.
+
+But if it's not in that direction, I'm still struggling to get a distinction between Data Science and Artificial Intelligence as to all that we've done so far being in alignment to better sign that I know of to understand, I been privilege to probably even deploy some models that are built and I just can't wait to get to that level where I know probably not enter into intelligence.
+
+So that is that is mine.
+
+I mean deli now if there's any clarity I can get from from that side, Okay.
+
+So well this if you you, it's good to hear that you have a Data Science background.
+
+So and as you might maybe during the course of your Data Science or was it so you might have noticed that they are, they are kind of interwoven or there is a kind of overlap in in it.
+
+So that's why you're saying that you've not really seen what is Data Science or what like the distinction or whether we've not got into Data Science or whether not got into AI or something like that.
+
+So but I want you to know that there are there are some kind of overlap in Data Science and then Machine Learning or AI.
+
+So in fact, most of the techniques that we use in AI or was it for the and they are almost quite synonymous to what's is in A.
+
+So I will bring up a kind of event diagram now to show you that Data Science AI, we have some kind of overlap so that you get that we are still on track.
+
+This is not an ultimate what it called on AI is.
+
+Okay.
+
+So I, I want to show you this.
+
+Can you see my screen? So yes, I can see your screen.
+
+Okay.
+
+Yeah, So look at this VEN diagram.
+
+I believe you might have come across it.
+
+So yeah, if you look at this, this is a special intelligence and that we have Machine Learning on the machine, we have the learning so and this is Data Science.
+
+So if you look at this diagram, it shows that there is a intersection here you have the Data Science and you have the Artificial Intelligence or some other components of intelligence.
+
+Clear.
+
+Okay.
+
+So with this class, we cannot cover everything about Artificial Intelligence.
+
+So it may be a fortunate for you to have come across some concepts like that, so which I believe it's useful or relevant.
+
+So, but nevertheless some, I don't know whether I used to catch anything in this class, but I let you know that we are still in AI and we have done something in relation to AI.
+
+So I hope maybe the project or something we challenge you enough for so so so thank you very much.
+
+Yeah.
+
+Okay.
+
+So well we we got the wonderful question from Michael.
+
+So here I was telling you that if you want to visit this application, you just need to use either the IP address or the local host with PO number.
+
+So and this actually came up Okay.
+
+So which is Okay.
+
+So someone is asking My look environment am I using? This is common from CMD.
+
+You can use you can use GIT, GIT, bash, I don't the voice voice fine.
+
+So by anyway what I'm trying to show is that you need the IP or you need the to use LOAL.
+
+So unfortunately you don't have that access directly on what it call on COLAP.
+
+So let me show.
+
+So if I say I have config, I should be able to get the IP address of COLAB.
+
+So this is the IP address, but this is actually internal IP address, like you cannot access it remotely.
+
+So just as you see this local host of this IP address, this IP address, you cannot, I can if I send it to you, you cannot doesn't mean you can have access to that because this is a local network, Okay? So you can't have access to it remotely.
+
+Even if you're going to have access, you probably have to be on the same network as myself before you can access it.
+
+Do you understand? So what we usually do, the bypass we usually do is to do some kind of look at ONL.
+
+So this look at tunnel is a way we so this look at TL is a kind of a library and not just library.
+
+So we that allows you to pipeline your local look IP or look up project into a, a remote something.
+
+So it's assign an IP, a URL to it, just random URL to it.
+
+So then you can access it from that URL.
+
+So that's the function of this library that's I'm going to install.
+
+Okay.
+
+So the library is installed.
+
+Now we want to build streaml application so that you will be able to deploy the model.
+
+So first thing.
+
+So if you remember this is a magic magic cell.
+
+So in collab or in notebook I mentioned about the magic where you have passion and percentage do percentage.
+
+So what is magic, right? File does is that it create a file called this name pie.
+
+So the reason why I want to do that is because we want to run it separately, not to.
+
+If you run a code in a notebook, if the code does not finish, you will not be able to run the next cell.
+
+And we want to be able to run more cells.
+
+So we want to generate this such that it will be running in the background.
+
+So that's why we want to do that.
+
+So now this is a imports, the string relates because our model is a P.
+
+So we install imports people as well and we want to also use this.
+
+So the library to do some manipulations.
+
+So now yeah, we load the model, this is model people load, then we open the firm.
+
+So remember the fire is not here yet.
+
+So I just need to upload the firm because we already trained the model at the other time.
+
+So we don't need to train it again.
+
+I just upload this.
+
+So yeah, I, I just uploaded the file to the model which I downloaded.
+
+Okay.
+
+So in streaml if you want to sell the title like Predict and WRTN digits.
+
+So just as we have here Predict unwritten digits, this title, so what you just do is like the Stream lite and shop shot and alias.
+
+Then you try to and you write Predict and sorry, I think I need to show down my Okay.
+
+So yeah, so this title if I want something like this, I like this title, I just do that.
+
+So then the next thing is for me to upload image.
+
+So if you check the documentation so file uploader.
+
+So here is where the documentation that says file uploading is.
+
+So I can just this and then Maritha, Which file are you talking about? Do you mean the model I uploaded? So so basically I just need to do upload file and then STL.
+
+So the name of the file is upload image.
+
+And here is the sentence type.
+
+We have the label we have upload image.
+
+So and then the file I'm expecting GP CANA because this image I wanted to upload and I don't just want an arbitrary uploading of file.
+
+So that's what we usually do that.
+
+So then we need to check if the file is uploaded.
+
+If it's uploaded, then we can we can proceed with other thing otherwise it is not uploaded and what we want to do, any prediction.
+
+So we can say if if upload file is not know it exists.
+
+So then we can proceed.
+
+Okay.
+
+So now remember we imported this file Peel from Peel import image.
+
+Actually this library is usually used for image manipulation, like to load image, to manipulate image and cop that, things like that.
+
+So Okay.
+
+So I will.
+
+Okay.
+
+So that's what's this those So now this image, now this is actually image like actual image.
+
+So now the thing is that the image can be in different size.
+
+But remember when we are working with our data set or the first thing we notice is that the image was in, Let me show the image was already vectorized and it change it by 28.
+
+The most important is 28 by 28.
+
+So we need to actually resize that that image that is uploaded or the new image that we are going to upload, we need to actually resize it to 20 by 20.
+
+So there I'm saying so.
+
+So remember this is like 20th, we look at this bottom, this is 20th and the column the word is also 28.
+
+Okay.
+
+So this is 20th by 28.
+
+So which means that the image that we uploaded should also be resized to 20th by 28.
+
+I hope you get the Okay.
+
+MU Murtala.
+
+So basically you can also get the model by running the code that will make this repository available to you.
+
+Once you run this repository, you save this model MOS something.
+
+So then you can download it and upload it here.
+
+The file is kind of not really too large, but I think it is not advisable share 25 mb.
+
+So you just take up something that is take off space that is not necessary.
+
+So I'll just let you know.
+
+I worry.
+
+Okay, let me come again.
+
+So what we're trying to do is for us to deploy this model.
+
+Okay, So we trained anigate character recognition last week or maybe two weeks or there.
+
+So now the thing is that the the, the model is not just about training and model is not just about having the confusion metrics, having the accuracy.
+
+Yes, it's good.
+
+You have it that that is the metric that tells you how well the model is doing.
+
+But most of the time you may want to use it for another application like as a web application that's works in the on the background and the user interacts with each in the front end and then the back end does the magic.
+
+So if you have like back end engineer, you can just tell them Okay or back end, Back-end Developer, you can just tell them how to integrate AI model into it.
+
+Another thing you can do is to provide an API end point.
+
+So you deploy the model and then you provide API end point.
+
+Like I did an internship and with the company in Japan.
+
+So basically we have the the AI team, I am part of the Machine Learning team and we have the Front-end Developer, the the Back-end Developer full structure.
+
+So we have those ones.
+
+So what we does is that once our model is ready, so we provide, we containerize it and then we provide an end point to that container on the AWS and platform.
+
+So we provide it to them and then they will be calling it as an API, they submit request to it and then it gets their response.
+
+So as much as we may want to say that is not your role as a Back-end Developer or as a Machine Learning to make to deploy your application it, but you need to make it available for those that want to use it.
+
+So either you deploy it somewhere or you tell them how to deploy it.
+
+So what I'm telling you now is a typical use case or case study of how you can deploy the application.
+
+Okay.
+
+So now what I'm now saying is that we've trained the model, how we have the model.
+
+So this model that we have, so let's assume we want to give it to or we want to deploy it.
+
+So that's what I'm saying.
+
+Okay, so for us deploy this, the input is an image image of someone writing something or someone wrote a number.
+
+So you need to upload that number.
+
+So that's why we said, Okay, we need file upload.
+
+After uploading the file, this the file, the image is saved here, I think in byte.
+
+So then you can use the library, this library called image and pillow library to load the image.
+
+So one thing you need to know all you have at the back of your mind is that the type of data you're going to be working with will determine the type of library you will be using.
+
+Like so far we've been using pandas, pandas, pandas like that.
+
+So for, but panders is not for everything.
+
+Like now we're working with image.
+
+Okay.
+
+Image.
+
+So we need to get libry that is dedicated for image loading image or processing image for the, I don't know where you get N is fact fact.
+
+But Python does not render formatter, text or HTML in some way.
+
+You mean we should deploy API, you may deploy an API, but no Python also can render HTML.
+
+So like for instance, if we are using Flask, Flask has this ginger templates engineer to templates, it has engine that uses this engineer to templates.
+
+And then yeah, this kind of templates and it can render HTM.
+
+So yeah, Okay.
+
+Anyway, Okay, let me focus on what I right.
+
+And so you know, we have too many people that will get lost.
+
+Okay.
+
+So we look at the image and then what we need to do is to resize the image.
+
+So resize the image.
+
+After resizing the image, we want to convert it to gray scale because it's possible that this image is actually and a colored image.
+
+So then now after that, so we want to vectorize the image.
+
+So to vectorize the image because this is change by change.
+
+This is a matrix.
+
+You actually need to convert it to vector, which is 784.
+
+That was the impute initial original impute.
+
+So and we to do that we need to use a non-PY.
+
+So that's why we imported non-PY here.
+
+So this is non-PY and then so numpy we convert the image to a non-PY data and then we can then vectorize it, which is the shape of this one.
+
+That is we shape the image shape the first one and the second one.
+
+So we multiply to get the vector image.
+
+If you are lost, just let me know.
+
+Okay, so is you, you're saying that isn't, this isn't the developers work or was about to embed around the workfloor as a specialist, you need to tell them even if you are not going to, even if it is not your rule to do that, you need to tell them how to do it.
+
+If you don't know how to do it, you can't tell them how to do it.
+
+Like for instance, you are the one that owns the model, you are the ones that develop the model.
+
+If you export the model, how do you expect them to be able to know the model? how? The question is, if you are doing the architecture something, you need to tell them how to do that, how to use it, sort.
+
+What you just need to provide is just provide them with result and graph and visual visualization.
+
+But if they need to use your model, you need to tell them how they are going to do it.
+
+So that's what I'm trying to emphasize on.
+
+And also AI just something about web is just the cheapest thing you can, you can deploy it, I would say, but AI could be for anything, anything like as little as, you know, headset.
+
+So you need to tell the Embedded Engineer how he is going to use that.
+
+So, Okay.
+
+So we lost Rafael.
+
+Okay.
+
+I think we need to move faster.
+
+The time is really fast spent and I want us to do so many things today.
+
+So now after that, after we've been able to vectorize the model, then we need to predict.
+
+So because we already have the, we now have the model and the inputs in the in the like format that is close to what the model is expecting.
+
+So the predicting with the model is just as simple as saying model do predict, just as simple as saying the model that predict.
+
+But the bulk of the thing is that it's really, really must be, it's really, really must be in the expected format, it is not in the expected formats.
+
+You're just going to be having some kind of error.
+
+So now after that you need to personalize the outputs.
+
+So and that's all the everything about the model is just this predict predates this disease and write out the output, you load the model and you predict, that's the reason about the model of the model.
+
+But this all this preamble are something that is really necessary for you to be able to get the required and expected output.
+
+So I can run this cell and then if you write the file, you notice it you had if file called five here.
+
+Yeah, so exactly what I wrote inside this file here is what is right inside here now generated inside the file.
+
+So now just I have said the next thing for you to run the model.
+
+So usually we want to run it, like to run the application.
+
+So usually we want to run it in backband mode.
+
+So yeah, this is case of we wanted to run in background and also log out some login.
+
+So in Linux you want to run in background, you just put this on.
+
+Okay.
+
+So the application is literally running in background, but for us to know whether it's running that or we have this log and the log will show you the local host, the internal IP address and then the external IP address.
+
+So this external IP address is actually what we should actually visit to be able to access it, but to collab as it is, it will not allow you to access it directly.
+
+So so that's why we needed to get the Lively Tonel like L-TOL.
+
+So to run the local kernel, what we do is is just like we are running the regular application, see if you not allow it, you allowing.
+
+So what we do is we just pack it using this application and then this one will generate a random space of domain and then you can click on this one and now available.
+
+So now for you to be able to access it, we actually actually use uses kind of the IP address as the password.
+
+So we can just copy the I and then you see the application is already looking.
+
+Yes, we are still under data classification and what we're doing is that if you have your model, if you have your data, you have classified, you have seen confusion matrixs.
+
+How is it usable? You often have faced this kind of question when you have an application or you plan application, how is it usable? Well, you be able to use it like I this thing I am explaining or is even simpler now when I also like was learning about Machine Learning or AI, all those things.
+
+I anyway, I'm still learning anyway.
+
+But when I started because I had Web Developer as I had a background as a Web Developer, I was kind of confused on how is this useful? How will I be able to put it in my web application? How like we usually see news Google is using AI and YouTube is using AI, Facebook is using AI, the likes like that.
+
+So now how is it useful? How will I be able to? I integrated into the system? Okay, please, I need to understand more how to deploy.
+
+NET works because particularly I'm interested in the server part because most of this online, how do you manage what we that training training? I still don't think I got your question.
+
+If your question is about how to deploy server part because most of this online platform like Google COUB and matlab as CPU, how do you manage that while handling over the train model to them? Okay, let me assume, I understand what you.
+
+', So let me assume I understand what you're saying.
+
+Good luck.
+
+So now when you are training your model, you often use GPUs and like high hanked cpus.
+
+So now if you want to train your model like you want to influence sometimes is good if you have access to GPU, let's say that it is good if you have access to GPU and then it will be much like fast when you're influencing, but if you have only CPU too, it may just be a bit slow.
+
+It's also going to probably work out well.
+
+Now to deploy the model.
+
+Let me explain.
+
+You need to export your model.
+
+There are different ways to export the model.
+
+So I'm citing Streamlet as an example, because we are already using Python and then we have a model already in Python.
+
+So streamline is the simplest way.
+
+You can just quickly make your application available.
+
+So now let's say for instance, we're using javascripts.
+
+Yeah, JavaScript Developer, your develop your text, they are using JavaScript.
+
+So if it is not possible for you to have your model in JavaScript, like for them to be able to use it, you can just deploy it in Python or you deploy a container for it as a server less was call.
+
+Then you give them the API, then they can just be calling the API and API do you understand? So you can just give them that and they will be calling that now.
+
+Later you can use another techniques which we call, I don't know, we call it ONNX.
+
+So basically how I mention about ONNX later on.
+
+So what onnx are different integration.
+
+So different integrations like if you C-Sharp Shard, C-Sharp developer, it has integration for that.
+
+If you JavaScript Developer, it has integration for JavaScript.
+
+So let's see.
+
+Okay.
+
+So here like for instance they giving you in the documentation you have, yeah, you have JavaScript developing and deploying as a JavaScript and if you want it to be running in the back end, like let's say you are using the GS as your back end express and the likes as a back end.
+
+You can deploy it in your back end.
+
+It means you're going to bear the responsibility for the CPU computation or GPU computation.
+
+Now if you want it to be in the front end.
+
+So there is a CDN.
+
+So if you wanted to be in the front end, there is a CDN that you need to call.
+
+I need to be using the user, the clients CPU to be able to do the inferencing.
+
+So a lot of logistical and that you need to make that decision.
+
+Okay.
+
+So I don't know whether I answer you question or maybe I went in the wrong direction, but basically does the my understanding of your question.
+
+Okay.
+
+So, Okay, so let's move forward.
+
+Yeah.
+
+I showed you the results already.
+
+So if you want, we can use paints to write something, this is pants, we can just write the number.
+
+First it should be black blank.
+
+So then next we write something.
+
+Let's say I write Okay, so let's say I write it, I can please and then save it.
+
+So I will give it a name that is not attributed to the number.
+
+So that should not be likely cheating.
+
+So then I can come here, browse the number, upload it and then yeah, so see it's wrong so, but anyway, so that's part of so that's part of the attempt of the model.
+
+But yeah, let's see if we have another one.
+
+Okay, so we are wasting so much time on this practice.
+
+So yeah, the pipeline is you export your model, if you have pre-processing, make sure you export pre-processing, if you have transformation, make sure you export the transformation and then export a the training model.
+
+So after that you import the pipeline or the modular pipeline that you export, you import it to where you want to use it.
+
+Let's say you want to use the Python, import it to Python, you want to use it with JavaScript or something, you can use it there.
+
+So then accept user input, transform, you apply those transformation to that and then make prediction and then you can use your results.
+
+Okay.
+
+So now we will be talking about neural network because it won't be complete if we don't talk about neural network or deep neural network.
+
+So here then so the idea about neural network actually came from human brain.
+
+So we are trying to to yes.
+
+So here you don't feel disgusted.
+
+So here we just just trying to show you an animation of how the human brain function.
+
+So now the human brain contains some neurons.
+
+So each of those neurons are axons and dendrites are the primary transmission lines of the nervous system.
+
+Dendrites bring information to the cell body and axons take information away from it.
+
+Other cells like this one create and maintain insulation to these axon transmission lines.
+
+So this large brains electric output is approximately 20 W of power.
+
+So this might be an exaggeration of the brain, but actually it, it's kind of like a preamble or visual representation of what I want to explain.
+
+So this is human brain.
+
+It contains neural network.
+
+What I mean by neural network that it has neurons that are connected.
+
+That's like let's say you have computers and you use they are connected to the Wi-Fi router or you they are connected to your router.
+
+So if you have several device connected that the router is probably connected to the internet.
+
+So they are like a network of computers.
+
+So in this case we're talking about neurons, then interconnection of the neurons at the neural network.
+
+So neuron, then the connection of the neurons are the neural network.
+
+So each neuron has because neuron it has the nucleus, the dendrites so and then some other to and the axiom and like so the dendrites, I think it takes in the information and the axiom communicates the information, like outputs the information.
+
+So if this axiom is connected, this axiom usually connects to another dendrites.
+
+So the output of this axiom is the impute to another to dendrite.
+
+So that's how they were interconnected like that.
+
+So now what happened is that when you receive a signal, let's say someone lock you or you step on a on a needle or nil.
+
+The signal, the post or the what it called the signal will trigger from one neuron to another until it gets to be going to do it communicate information to the brain.
+
+Well, we have the same motor neuron and the sensory neuron and the like box.
+
+That's not the mean for cause, but perf reason of your hand.
+
+Is it Okay? Is there is Okay.
+
+So now this, this internnection is what we actually want to model or was model that brought about at vision neural network.
+
+So human being, the brain, the neuron, the neural network of the brain.
+
+Okay.
+
+That's terminology, that techniques.
+
+So that wonderful biological system is what is model that brought about artificial neural network.
+
+So what we did, what we usually do is that this dendrite serve as the input Now for the dendrites to also be able to trigger something like an electrical pulse.
+
+So we have some kind of activation function.
+
+So the activation function is like the minimum or some kind of threshold where it should reach to fire to provide an output.
+
+So let's say you have an electricity.
+
+I don't know, maybe some country does not experience that, but I think Nigerians maybe able to relate what I want to say.
+
+So let's say don't have use the country, let's say you have touch light and then the torch light is kind of drained like the battery is drained.
+
+So if you try to pull it on, probably the lights will not come up or it will be too dim to be able to shine it somewhere.
+
+So let's assume the batteries and the battery is not enough or it does not have enough power to be able to power the light.
+
+So it means the treasured or is not enough to activate that lighting.
+
+Now if we have enough power, then it means that the activation has been triggered.
+
+So in the case of neural network, Thank gosh.
+
+Okay.
+
+So now I don't want to talk much about the theory, I just want to let you know that the dendrite is the impute.
+
+Then what determines what to come out of the output.
+
+The axiom is the activation.
+
+So if this impute, the combination of these imputes then was able to trigger the activation, then the output will provide something.
+
+So if someone slap you and are so resistant and know you may not crack.
+
+But if you are not, if the activation is over part you start Okay.
+
+So now I will be showing more visual representation than the mathematics behind the what called neural network.
+
+So near talk we've been using logistic regression, will be using regression, linear regression and the likes.
+
+So but one thing within TALK is that it has the ability to handle both linear and very highly on linear, non-linear applications like, So let me give you an example.
+
+So this example I'm showing here, look at this two cluster.
+
+We have the blue and the yellow or the orange.
+
+So this is quite simple.
+
+Just draw a simple line across like that device into two.
+
+Yeah, it's a simple but thus but for this one is not that straightforward because basically you cannot draw just a single line to divide the orange and the blue.
+
+So you probably need to draw something like a curve like this, a curve like this and a curve like this to separate the orange, another curve like this, another curve like this.
+
+So to separate the.
+
+So let me show you the visual representation of this.
+
+Okay, So I will try to remove the hidden layers.
+
+I will talk about them later.
+
+So let's say we have this data, this tool data, this data is really quite simple.
+
+And then let's say we have linear, linear, linear activation.
+
+So if I try to train this model, these are the inputs, just these two inputs.
+
+Okay? And this is the output.
+
+So if I train this model, you see very quickly it's I divided the that divide the model into two.
+
+This is like this linear simple neural network.
+
+Now let me bring in much more complex data to data like this.
+
+This is the example of showing this one.
+
+So let bring in much more complex data.
+
+So this two, this is the two input that we, this was the two input that we use here, attack I research it.
+
+Then let's try to train.
+
+No matter how much I try to run this epoch, it will not get the results because this is this neural network is simple and the activation is even linear.
+
+Okay.
+
+So even if I increase the number of hidden layer, so which brings me to the concept of the input layer, the output layer, and then anything in between, in between the input and output, we refer it as the hidden layer, eidden layers.
+
+Okay.
+
+So now very often, very often when you're training your model, you will hear that I, I have 20 layers of ten, The neural network is ten layer, 20 layer, each layer, something like that.
+
+Okay.
+
+So very often when you get model, you will be hearing like because 1 billion parameters like the if you search for the number of as INGBT GBT, let's say GB to, So if you search about the parameter size of GBT two, if you hear in seven, 774 million per Metter, so a million parameters, this means that the it is not simple neural network, but the neural networks and the layers, the combination of all the parameters makes 774 millions and imagine just GP two.
+
+Let's talk about GP five, which is billions, which.
+
+So the point I'm trying to drive at is that the neural network, the sometimes or most time the departing network and the more the the non-linear, Yeah, include the activity, nonlinear activation function for it to to be highly non-linear.
+
+But I was to mention, I was explained that let me show you something.
+
+I want to show you something.
+
+I explain the concept of to explain the concept of parameters and then.
+
+Okay, so so take a look at this.
+
+So here I want to explain the the concept of parameter again.
+
+So now here we have three inputs 123 and we have one output.
+
+Now in between we have hidden layers.
+
+Okay, now the hidden layers it has the hidden layer has the first hidden layer or the only 1234, it has four neurons.
+
+Okay, now if I had, now if I want to count the number of parameters for this, I would say this is, I follow this is one, W11W21W31.
+
+This is 123 plus the bias four.
+
+This is for the first one, next 567, 819-10-1112, next 113-14-1516, thus 16.
+
+Then close another another set of was that connects the the hidden layer to the output 1617, 181-92-0201.
+
+So which means that this model, this three input, one output with one hidden layer has 21 parameters.
+
+Do you understand a engineer? Can you get this Machine Learning document for further story? I had initially been using this, but some scholars complained that it's an excellent resource.
+
+So I think maybe I will drop in the discussion book anyway, but maybe not in the.
+
+Okay.
+
+So do you get a concept like it is just ordinary three inputs? One output with one Eden layer has 21 parameters.
+
+So now let's talk about GPT two to has 774 million parameters.
+
+So which means you know how he that is.
+
+So yeah, Okay.
+
+So now back to the discussion that if you have simple inputs, outputs with linear activation function, the linear neural network neural network behaves like in linear model.
+
+So it will not be able to solve complicated problem now, but by the time you introduce some nonlinearity into it.
+
+So what I mean by nonlinearity, the activation function literally determines whether it's linear or not linear Here the activation function I selected is linear.
+
+Okay.
+
+So it means it, it will only be able to handle simple problem like this one.
+
+This, I hope you can see my screen simple problem where you, you can use yourself, you can draw a line to divide it and by the time I run this, you see easily sharp, sharp, it's a good to divide it.
+
+This is yellow class and this is the blue class.
+
+Now let's choose a much more complicated data.
+
+This is a more complicated data.
+
+You have the orange here, you have the orange here, the blue here.
+
+You cannot just draw a single line across it without affecting, without cutting across the blue as well.
+
+So if you try to run this model for this, no matter how much how long you run it, it will not converge, it will not get the results.
+
+I really hope you are getting it.
+
+Okay.
+
+So please repeat some.
+
+OK.
+
+Come again the Eden concepts.
+
+Okay.
+
+Can we go over the parenthes again? What I'm saying.
+
+Let me come again about the Eden layers.
+
+You often hear the concept input layer, output layer.
+
+So here this is the input layer, This is the output layer.
+
+Let me show you another picture.
+
+Here is the input layer.
+
+Here is the output layer.
+
+In between the inputs we have Eden layers.
+
+We call it Eden layers.
+
+Like, Eden-like is not directly.
+
+And the input that you interact with, so input, output input layer, output layer.
+
+In between, you have the hidden layers.
+
+Here we have just one hidden layer, you can add more, you can add more hidden layer, add more hidden layer.
+
+Okay.
+
+But for now I'm talking about just one hidden layer.
+
+Now this all range, they are the neurons here we have 12344 neurons, one Eden layers for neurons.
+
+Okay.
+
+Now where you want to talk about the parameter parameters of this problem of this model.
+
+So now I will click on, I click on the first one because the way Eden layers are connected.
+
+Let me show you this is the, this is the impute, the input one line or neuron one dendrit there, this one connect to this, it also connect to this, it connects to each, this line connects to each of these neurons, the second input, it also connect to this one, connect to this one, this one and this one.
+
+So so if I click on it, you'll be able to see it's better the line from this third input connect to each of these neuron.
+
+Likewise for the output, the line for each of these Eden layer, each of the neurons in this EIDDEN layer connect to the output.
+
+It won't be just sufficient for me to just jump to the practica is better.
+
+You really understand this because you you'll be playing with this lots.
+
+Okay.
+
+So now let's count the number of parameters in this problem.
+
+So now I click on this for this neuron, the parameter that makes up this one is one, W one, sorry, W11, W21, W31.
+
+And the bias, that's for 1234.
+
+So for this one as well, we have the 121, 2232 and B so which is another 41234, Okay.
+
+So if you check for this one as so this is another four, I check for this, this is another four, so which means four times 12344 times four, that 16.
+
+Okay.
+
+Now if you check for the output 1617, 181-92-0201.
+
+So it means we have 21 parameters.
+
+So for this simple three inputs, one output, one needden layer, we just have 21 parameters.
+
+If I increase this neuron had more neuron, the parameter will also increase.
+
+If I had more layers, the parameter also increase.
+
+I hope you get it.
+
+Okay.
+
+So let's never Okay.
+
+So I think Blessing has question.
+
+Blessing: Yeah, please ask your question.
+
+Blessing.
+
+I can't hear you.
+
+Okay.
+
+We can continue the derivation of one to three in the class.
+
+Okay.
+
+Let me count again.
+
+Okay.
+
+So we have maybe I should reduce the number of new.
+
+Let me just mention this.
+
+We have three inputs.
+
+We have 12344 neurons and four neurons in the Eden layers.
+
+Okay.
+
+And we have one output.
+
+If I want to count the number of parameters for this, let me click on this way you see the parameters is the weight and the bias W11, W21, W31 and D.
+
+So which means this is 11234.
+
+Okay.
+
+So if this as four, it means click on this one, this will also another have another four, this we also have another four this we also have another four.
+
+So four for each of these neuron it means four times 12344 times four.
+
+16.
+
+Okay, so I already have 16 between the input and the hidden layer.
+
+First hidden layer.
+
+Now the input and the output.
+
+Now we have 16 here.
+
+Let's call this 12345.
+
+So which means 16 plus five, which is 21.
+
+Okay.
+
+One.
+
+So we have 21 parameters in this model.
+
+Okay.
+
+So now let's go back to this.
+
+So it means even if I increase the number of hidden layers here and I try to train it again, I'm still, I'm still not going to get something significant because this is linear program.
+
+This is a non-linear problem and I'm trying to solve it with the linear model.
+
+Even if I increase this and I try to run it, it will still not solve it.
+
+So in essence, what I'm the knowledge I want you to gain from this is that if you have a very difficult problem, sometimes you need to change, increasing the layers may not be the solution.
+
+Changing the activation function is a way is one way to go.
+
+Okay? So now let me show you immediately.
+
+I change the activation function.
+
+Let's say I change it to tanch.
+
+Okay.
+
+And then try to run the model, see whom the division becomes very obvious.
+
+The same layer, the same number of layers that filled with linear Okay is now doing big man chap up with.
+
+I do.
+
+I hope you understand the concept.
+
+Like the activation function plays a very significant role in in your model, in our your model models the the problem, the nonlinear problem.
+
+So we can try some other nonlinear activation function, rectify linear units.
+
+So it also an example signal function is also an example.
+
+So say each of these model the lear Okay.
+
+This action the learning, but they have different ways by which they lend the model well use.
+
+Okay.
+
+So now what is the significance in this? This I want us to disclose our A.
+
+Okay, let's continue.
+
+Maybe I will drop some information on the group so we will have enough time to decide and make the decision.
+
+No, we don't have much time left.
+
+Okay.
+
+So now I think so.
+
+Okay.
+
+So the in training the model, so you use some activation function which also determines how well the model, you model the nonlinearity of the model.
+
+So you can have a small hidden layer as you want, you can have increase the number of neurons.
+
+So here we have 123455 neurons.
+
+Here we have all neurons 1234.
+
+So you say if you want to divine this model, you say the model has a two inputs, one output, and you have two hidden layers.
+
+Each layer one has five neuron layer 2 ha two neurons.
+
+Sorry for neuron.
+
+Okay.
+
+I don't know what you're asking if if they crush WEI class, I honestly do not know what we can ask.
+
+Okay, So now here is the new network.
+
+Now I want to move faster that we would to know that we've covered some significant part of this thing.
+
+So now another thing you notice is that another thing you notice that we have regularization.
+
+How to this and then now the regularization that we already mentioned during logistic regression, Okay, is also quite applicable.
+
+So now there are some certain problems that you need to know even if we can't dive into the theory there is this what you call vanish ingredients.
+
+Vanish ingredient is that when you try to train your model, it just starts getting very, very small values and it has not learned anything.
+
+So using RA because you saw me selecting times, saw me selecting and sigmoid rectify that you need, that's really so sigmoid function you saw me selecting that, but we don't really know the reason why we are selecting it, they have specific reasons.
+
+So when you may want to take advantage of their property, so really if you are having finished vanish ingredients so that your model has not learned anything and it is just out being 00000, so you can, we may want to switch to RA and now one is exploding gredients when you have explode ingredients, I will talk about bizion hopefully.
+
+So yeah, bation is used to correct exploding gradient.
+
+You have dead RA units.
+
+So when you your weight or some of the weight is not even triggering your RELU.
+
+So that's what what we refer to as death relo.
+
+Drop out.
+
+Okay Babaj, make your brain post please.
+
+You need for next class.
+
+So dropout regularization.
+
+The idea behind dropout is to show you.
+
+So the the idea behind dropout is that at a specific time or at any period training you want to delete like delete neur this neurons at random because we want it to be like to make the model robust to drop out is usually used to make the model much more robot.
+
+We also hopefully will also make come across it during the practical session, a much more practical session.
+
+But it's good.
+
+I just mentioned about it and now so that when you see it will not be talking too much on it, we just remain pointing at it.
+
+Okay.
+
+So because you don't have so much time left, I need to cover as much as possible.
+
+Okay.
+
+Now we've talked about artificial neural network, but how does it play out? Others relate to deep neural network so so that we will have something.
+
+So say this 7 min.
+
+Okay, then let me rush you.
+
+I would give you some case studies of some application or some challenges I had work with in the past so that you will be able to get inspiration on on our CM project.
+
+So which I will probably walk you through.
+
+And then each and every one of us we also try to see how we can get our and stating so here is a an upwork work, I got an upwork the projects, the total cost I realized from it was $130.
+
+So which is not is Okay, but not so much.
+
+So now the task was actually specifying as something something Slam robotics project, but actually the person that gave the project really does not know the task itself.
+
+So what what you often come across when you get projects or get what it is that the person that wants to give you that work really, really does't know much about it, You only you she only knows what he wants like, but what it takes to do it maybe does don't know it.
+
+So it's and but the the advent of CHARG actually will me if it's worst because some of them we just ask CHARGB on some requirements and some things like that and we just don't it as part of as the job requirement and tell you that you have to do this disease which Okay, so you said this thing want to bust your head is it to this class or all the classes? So let me know.
+
+So anyway, so the guy, the person that gave out this job Yeah, so she, I don't know.
+
+Okay.
+
+The person was mentioning this copula seem as slam robot.
+
+Yes, it looks like it involves robot, but eventually the problem is just classification, like the first project, the first problem, because it was true, the first first gave me this project, the Simple One, which is a classification.
+
+Then we proceed to the advanced one, which is a regression.
+
+Okay.
+
+So I I collected the data, I collected the data and then I trained the model.
+
+Everything I use, I think I used a cyclic length for everything.
+
+So we may want to check it out or work through it.
+
+Okay.
+
+So this other one, it's actually partly robotics and partly an AI.
+
+So it's I was able to realise 1000.
+
+$870.
+
+So and I say this is the highest I've actually realized on the freelance community.
+
+Oh, time has gone.
+
+So but the AI part of it is it has to do with robots following crowd.
+
+So but the robot need to detect the crowd.
+
+So the robots one need to detect the crowd, literally it need to detect people.
+
+That's H in the crowd.
+
+So yeah, we may also want to check out this will not check out the reinforcement and parts, but we talk about we can also check out how the AI model detects the person.
+
+So I I think I I think I have over used my time.
+
+I think we should stop here.
+
+Okay.
+
+So I have some other one that I would like to show.
+
+But maybe next next class please think about this too for now so that we can have some though this will probably require us.
+
+Maybe I will just collect data and give you to use on collab.
+
+So maybe anyway.
+
+Thank you so much for today's class.
+
+See you in the next class.
+
+Buh Bye.

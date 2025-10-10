@@ -1,0 +1,1063 @@
+Yeah, I'm really, really very sorry for turning late.
+
+I'm sorry for joining.
+
+So I, I sincerely apologize please.
+
+So yeah, so we already had some set back so let me share.
+
+Okay, so today we looking into it will be more of walking through code and then also trying to explain some concepts and like so I want to ensure that we have a kind of a like easy entry into program and to have some confidence.
+
+So yeah, remember we've been some basic concepts into programming and also trying to learn people's code and like so yeah, all these just like to give you confidence and to give you software entry into programming for those, I already have some experience with programming.
+
+Don't be annoyed.
+
+The fundamental is also something that is that will not make you be like you're not learning anything in the class.
+
+So and at the same time we need to also carry everyone along.
+
+Okay.
+
+So yeah, I believe you can see my screen is kindly signified within TOS of you can see my screen.
+
+Okay.
+
+Thank you.
+
+So last class we talked about with this little programming and we talked more about the fundamental, some fundamentals like the linear regression we talk about.
+
+So we talk about the linear regression and then we also talk about some funamental terminologies like epoch, we talk about the, the learning rate, the batch size, and then we briefly mention about where they were coming from.
+
+So today also we will be continuing our journey and then we try as much as possible to wring on this theories of programming and the like.
+
+So firstly, I would like us to take a look at some some notebook specific things and then also talk about some things about program, especially in term of package installation and then importing packages and the like.
+
+So, Okay.
+
+Now, so here is a notebook as you might have known, this is Google Colab.
+
+And now in Google Collab we have this, we have the TERMINA.
+
+Fortunately this TERMINA was just introduced recently, so it was not there initially.
+
+So it was just a new feature that was added to.
+
+So the terminal is more or less like a command prompt.
+
+So it is more or less a command prompt.
+
+So command prompt, I don't know, it's every computer, almost a computer has this, this black background or black area where you can enter some commands.
+
+So let me tell you a brief story about command front.
+
+So all the features that you have on your computer today, like you can drag, you can drop, you can end up click on folders, you can rename, you can delete all those features actually running some commands in the background.
+
+So if you click on the folder and you try to rename the folder, you are actually running a command.
+
+So what's the idea of GUI? Graphical user interface has made it kind of easy.
+
+So so that when you do that, you can just do that with your mouse or with your what is it called and some of those impute peripheral.
+
+And if you're talking about screen touch, you can just use your hand to tap it and solve like that.
+
+So for those are quite familiar with Microsoft DO, MS DO, Microsoft is operating system.
+
+So MS DO is the command interface of of my Microsoft Windows.
+
+So then we have that everything you want to do, you literally have to go to MSD to be able to achieve that.
+
+So but these days we now have an GI, so we waiting can be done from the GUI.
+
+Okay.
+
+I believe you should be able to see the have increased the fund size based.
+
+Okay.
+
+So for instance, for instance, if I want to list all the folders inside here, I can just say LS, that is list.
+
+LS like list all the folders and then I press enter so it will list the folders and the files inside this.
+
+So if you look at this side FO that are here we have the SAMP data, SAMSCO data and we have.so do is a hidden foe, that's why it's fitted.
+
+It's an eating folder or fire.
+
+So anything that starts with dots in a in a Linux, no Windows operating time.
+
+So it's considered as an E file.
+
+So this same thing that is showing here where you have some data config, it's more or less like it's rolling LS like list, list all the folders and the F list.
+
+So if I want to, if I want to and change into this folder, I want to enter this folder and then list all the file.
+
+So the commander called CD change directory because folder is literally called a directory.
+
+So I say CD and then I press space and I say sample data.
+
+So then I press enter.
+
+It means I have changed directory from CONT into sample folder.
+
+So then if I press LS list then it will list all the files and folders that are inside sample of data.
+
+So literally what, I just instead of just clicking and then it's list of the file.
+
+What is actually doing in the background is that it's changed the directory and then list the content of the directory.
+
+So CD is change directory, LX is list, then listed director, list the content of the directory.
+
+So I believe you get that.
+
+So and then if I want to delete something, I can say, let's say, for instance, I want to delete this read me file.
+
+Okay? So I can just say remove read me, read me file.
+
+And once the press enter the file is gone.
+
+So notice it gone here, sir.
+
+So D thou dare thou command front or terminal works.
+
+So now anything you want to do, you using GUI to do, it's running the command on that would so and if you don't want to use the GUI, you can use the command to learn that directly.
+
+So the thing here is that but I want to warn you this command prompt if you read anything from the command prompt is not going to recite with it is gone supportive.
+
+So he's gone.
+
+So you have to be careful when you are working with him and come on from to direct.
+
+Now why am I saying this? Why some of you might have known it already.
+
+Like CD change directorys this list and what is it called REM movies to remove, remove file or folder.
+
+So yeah, so that's those ones that I shall command.
+
+So if I want to do similar things in the note boo Okay.
+
+So some I need to execute them using if I want to execute similar command from in note book, I should probably put Victoria at the beginning and then say less I want to do ELS than I types.
+
+So if I run this, it will least the folder.
+
+Okay.
+
+And of course if they are fouls, it will least the and if I wanted to include the eating files to, I can just say to include the eating files.
+
+So do you get the idea? So if you want to run shell command from your notebook directly, it's important to put factoria at the beginning of that at the beginning of that command.
+
+So if I want to do to maybe say display the contents of some file so I can see CDS and lets call.
+
+So then let me see.
+
+And so here I'm trying to display the content of, I'm trying to display the content of this variable, this file.
+
+So do you get a logic? So basically what I'm trying to let you know is that if you want to do shelf command, you don't necessarily need to go to the Tainar before you can do that.
+
+The notebook is is designed for you to be able to do that directly from there.
+
+So now for instance, if you want to, now let's talk about if you want to make an installation Python package or Python library.
+
+So Python package depending on the type of, depending on the type of, depending on the type of.
+
+Okay, so can I still bring read me file back? Okay, I can still bring it back, but it is not that I'm, I'm bringing it back is like I'm restarting or resetting the notebook.
+
+This is a notebook.
+
+I told you a notebook is a Google service that once you, once you take so long or thereabout, you can shut it down and then start it again and need to come back to default.
+
+So for instance, the read me file has gone.
+
+Someone is asking can we bring the read me file back? We can bring it back not because we brought it back, but because we reset the notebook to default.
+
+So let me let me disconnect and did it the wrong time.
+
+Okay.
+
+So I've disconnected and deleted the wrong time.
+
+So let me try to reconnect.
+
+So if you open this again, so you have to read me file again, but it's not because I brought it back really, really, because if you do it on, your computer is gone.
+
+So that's what I want to let you know if you do it on your computer's gone.
+
+Don't don't expect it to come back again at all.
+
+Yeah, Joy Joy Kid clone.
+
+Yes, exactly.
+
+K CL So you might have also noticed this in your in the focus package while you see that the code was doing some hit.
+
+So let me show you.
+
+Yeah.
+
+Yeah.
+
+So if you look at this here, the focus command is basically doing something here, doing a shell, running a shell command with the fact shall command with the factoria and also doing kit cloo with this factoria.
+
+Okay, don't worry about the percentage letter.
+
+I will tell you more about it.
+
+So is also running a shelf command here.
+
+So all this that is happening here, you can do it from the terminal directly here, but the you can do it directly from the terminal.
+
+But for you to be able to do it from the notebook, this is a kind of a way to do that.
+
+Yeah.
+
+Thank you, Joy.
+
+Yeah, that's basically what I'm talking about now.
+
+I haven't said that.
+
+You sorry to be able to install package in Python.
+
+Usually we use so P.
+
+I.
+
+P.
+
+So Pip is a is a Python package manager, so is pypi.
+
+So here you can find a lot of Python packages.
+
+Python packages, although T is not just the only Python package managing platform.
+
+So we have KA.
+
+If you're using an A Conda on your computer or your personal computer, you might have come across KA something something on and install conduct this.
+
+And recently we also have something UV.
+
+So we have UV, which is also a more recent package manager that is trying to try to address some limitation of JEEP.
+
+And like, so what in this class we are going to be using PP, It has almost all the packages and some that that some, some of the plan thats not you then in your system then no, then you basically was, I didn't put any of those files, I haven't uploaded any file on the collap.
+
+Listen, all this sample data, I didn't do that.
+
+It's something that that by default, once you start to pull up, they are made available.
+
+So I didn't put it there.
+
+So yeah, Okay.
+
+So yeah.
+
+So what I'm saying in a sense is that the package manager, Python package manager that will be taking most of our library from give from people.
+
+So let's say for instance, then you want to install, you saw something like you want to install and Pandas.
+
+So Pandas is a library and for handling some data in a Python.
+
+Okay.
+
+So so Pandas you may see several targets like that, but the most of the time the top one is the the command on the most popular one.
+
+So Pandas is a likely for handling and defence and data Analytics.
+
+Is it possible to use Stroqu? So yes, it's also possible but not on Google.
+
+So yeah, yes, you can use chocolate but it is not on.
+
+You don't use it on Google.
+
+Okay, Thank you for asking.
+
+So Pandas like that.
+
+And then if you are not sure of the library use for a specific task.
+
+So let's say you come to Google and you site like plotting data in Python.
+
+Okay.
+
+So you see videos like that.
+
+So you may want to have library.
+
+So you may want to have library.
+
+So here as some example.
+
+Okay.
+
+So that you can go for let's say for instance we pick the mat cloth leap example.
+
+This is also an example Python library.
+
+If you check MAT PL LE guide.
+
+So you probably see something about installation or anything.
+
+So so take for instance and we just check the get started or we try to look for installation.
+
+So what do we see? Most likely is that you see the command pip install multiple.
+
+So this is the command to install that particular library in Python.
+
+You see the KA equivalent of the library as well.
+
+But most of the time you will see people because people has been here for long.
+
+Okay.
+
+So if you know the name of the library, you can go directly to PEEP to search for it.
+
+But if you don't know the name of the library and then can you still hear me, please kindly signify if you can hear me, I noticed my camera got frozen.
+
+Okay.
+
+Let me see my camera just stopped working.
+
+So we are to why I'm trying to fix the issue and the camera.
+
+So let's see.
+
+So I think the camera is Yeah, so yeah, Thank you.
+
+Yeah, I think I my time is up again is so in essence what I'm trying to tell you is that to install in Python, it's as simple as install so so so let's say we want to install PaaS.
+
+Okay.
+
+I just say keep install pandas.
+
+Okay.
+
+But this is if I'm running it from the terminal, but if I want to run it here, I have to put Factoria, Factoria peep in install, then the name of the package I want to install.
+
+So you get the logic.
+
+You put factoria in in the terminal.
+
+You don't put factorial, you don't put factorial in the term factorial when you are running in the book.
+
+Sometimes on commands may work without putting factorial, but know that it may not scale like, it may not scale well with command.
+
+So if I set people in stock like that, so when I press enter then it will show the process of doing installation well, funny enough because Anaconda, sorry, Anaconda or G standard book, they are designed for Data Science and Machine Learning.
+
+And like some of these Libris that are popularly known for by Data Analyst or a Machine Learning specialist, they've already been, they've already installed it.
+
+So we want to check the list of packages that has all that has already been installed your in your notebook in this.
+
+So you can just say P list.
+
+So P list will show you the packages that has already been installed.
+
+So mind you, I'm just showing you the terminer to be able to get the logic if you want to run it from terminal or if you want to run it directly from the notebook.
+
+So I will close the terminal now so that you will focus on the notebook because not all the time you have access to the terminal.
+
+In fact, I tell you the feature of terminal in Python in Collab was just a new team that got introduced for everybody.
+
+So I learned that the true user already have terminal but not in the free version.
+
+So recently just added to it.
+
+So if I want to check for the list of packages, they will install just a peep Factoria peep list.
+
+So all these packages, these are the list of packages that are already been installed on this.
+
+In this not, I tell you again, Factoria Factor is to let a note book know that this is a a shell command.
+
+This is a terminal command.
+
+That's the simple thing about it, that's Okay.
+
+When you want to run that command in the terminal, you don't need to put Factoria, but if you want to run it in the notebook, you have to put FACTORIA.
+
+Okay.
+
+Fact to that is the exclamation mark that I put at the beginning, Okay.
+
+Sometimes some may not require, but it's just the temporary.
+
+Usually if you want to use it in our notebook consistently, you have to prove factoria.
+
+So that's just the logic.
+
+Okay? And then anonymous certain DIs asking ten seconds would die.
+
+Probably like some SU what we are trying to achieve today, we are trying to work extensively with Python.
+
+Okay? So and I want we started by trying to show you working with Python Notebook specifically and the difference in when you are trying to run command in TERMINA and then when you are trying to run command from Notebook.
+
+Okay, so yes, there is a pro version of Google Colab.
+
+So pro version in the sense like you have more access to access to more GPU.
+
+So here you can only use GPU for certain period of certain period in this version that you are using free one.
+
+So but when it comes to the Pro version, you have access to a much more HE or expensive gpus.
+
+So this is free and then it's free, completely free.
+
+I'm not telling you to make any payment's free.
+
+So going back to what we are discussing, here are some of the packages that has already been installed for you to use out of the box.
+
+Once you just open your Google, you already have some packages to install.
+
+We have popular packages, Okay.
+
+So that commonly used for Machine Learning and for Data Science and some other things like that.
+
+So together you just say factorial list and you get all the packages listed for you.
+
+So yeah, Okay, I believe this is understood.
+
+Now we now have some additional commands here, have talked about the factoria and then that this is for my shell command.
+
+So we also have magic commands.
+
+So sir, can you use the shortened version of the words after the people? So like in the terminal we we you used R RM for remove directory, CD for change directory.
+
+Yes, you can use if I get you correctly, I get you correctly, Amara: So this the idea of using realm is not just a shorting something is like to remove something is not just a shorting thing.
+
+It's a standard command in in terminal.
+
+So any terminal, any terminal if I say terminal, if I say shell, I say command prompt, I'm literally kind of referring to the same thing.
+
+Okay.
+
+They all command interface where you enter so things so.
+
+But the difference is that the terminal is often used for Linux and then some Linux or Unix operating systems.
+
+Why? In Windows we often use command prompt or power shell or something like that.
+
+Okay, So I can use The Standard commands.
+
+If you check your check cuckoo and say you want to, you are looking for list of command prompt, terminal commands you click on you check list of terminal command.
+
+These are standard commands.
+
+I didn't just shorten it to PIP or RM The Standard commands in terminal.
+
+So what I'm saying is that if you want to run that same command from your notebook, you necessary need to put Victoria, So I didn't shorten it myself.
+
+It is another command.
+
+Okay.
+
+So here are some of the list of commands that you may you may encounter in a in a Linux.
+
+Okay.
+
+So for instance, if I want to check for the IP, current IP of this P UP, ACC contact and just say, I have conflict, Okay, so I need to list the IP address of the of the Google Colab accounts that I'm using or do this IP address you may not be able to access it from outside like so, and then it's constantly changing.
+
+So anyways that's just that.
+
+And then someone is asking like will the commands to run in Notbo without a Korea? Yes.
+
+I mentioned that some commands are probably going to run, let's see.
+
+So, but you want to have something that is consistent.
+
+So this commands is also likely going to run or likely not going to run.
+
+So see, I did not put factoria here.
+
+Okay.
+
+But for some commands, let's say PWD.
+
+If I do PWD, it's likely going to work its present working directory, Okay? And if I put factor at the beginning, it's also going to work.
+
+Okay.
+
+So however, some commands, like if config that I showed you is not working because I didn't put factorial at the beginning, so if I put factorial at the beginning, then it works.
+
+So to be reliable, to get a reliable response, if you want to run a terminal command in your notebook, I advise you to use factory at the beginning because you will probably want to export this notebook to another notebook and then you end up discovering that is not is not as you want.
+
+So Okay.
+
+So the thing is that you prefer VS code.
+
+I also use VS code, so don't get er, er tricked or twisted with it.
+
+I also use VS code and then I work a lot with so it's also my go to go to ID.
+
+Okay.
+
+So what I need to tell you is that I've mentioned it in the in the beginning of this class that we literally going to be using, we literally going to be using Goog Colab because if you have any issue with your local and package your local installation, I will not be able to help you with that because it's most of the time requires you to do some remote remote access into your computer or do some video sharing or something like that, which I won't be available to do that.
+
+So for us to be able to have a consistency or consistent issue addressing it is better.
+
+We use a common and Central Point.
+
+You have a problem with your Jupiter notebook or your Google Collabor can just share the link with me and then I will be able to check, but not to the point of meeting and screen sharing a remote access to your computer to be able to get your V.
+
+Okay.
+
+So please get the logic.
+
+Okay.
+
+So we are wasting so much of our time.
+
+So I tell you, I have let you know that you can use factorial.
+
+We also have the magic commands, which is a line magic command and cell magic command.
+
+So the difference between line magic command without dwelling too much and too much is that if you put a line magic command, the percentage is what is used to indicate a line magic command.
+
+What it means is that everything you have right in front of this magic command, this percentage is going to be only for that line.
+
+Okay.
+
+Take for instance, I want to change my notebook directory into let's say sample.
+
+Okay, sample data.
+
+I want to change it to sample data so I can check percentage CD sample data.
+
+Okay.
+
+So it means I've changed my clients working directory into sample data.
+
+So now I then I can proceed to run some other things.
+
+Let's say I can proceed to say and cards read me Okay.
+
+So because I've already changed the directory to let me Okay.
+
+So here is the content of the cards and then I've changed my current working directory into here.
+
+So the tender is that the line command this percentage is only applicable to anything on this line, everything on this line, not everything in the cell.
+
+But for cell commands to cell commands advantage this, it's applicable to everything in that cell.
+
+Take for instance, I want to display an HTML code or HTML tag to use it to render something on the page.
+
+So I can just basically say each one yes, so, and then I can proceed to another line, maybe say paragraph anyway.
+
+So, so everything here, everything in here is true under the context of the cell command.
+
+Okay, that is this percentage because I have two percentage here.
+
+Anything I still write here is still under the context of the the C command.
+
+So if I run it, it's going to show and HTML render and HTML and outputs like similar to what you have on your on the website or there about.
+
+Okay.
+
+So I believe we understood the concepts about percentage and double percentage and the factorial.
+
+So if you want to get more information about the magic commands and then the line magic command and sell magic commands this link have a lot of information about that because this most notebook apart by ipython.
+
+So here are some of the magic commands you may want to, you may want to explore or you can encounter them because of this and know this cost throughout your usage of notebook.
+
+And like so yeah, you can dev more into it now moving forward.
+
+So we've talked about the notebook specific command so and then we also talk about trying to make some installation so, so trying to install Python packages and the likes.
+
+So then we can talk about importing packages.
+
+So there are several ways you want to, you can import Python packages.
+
+So I told you some of these packages have already been installed and for you so, Okay.
+
+So now let's say I want to import some default packages in Python, like for instance one of those way one of those packages to is mark package.
+
+So so much in the sense like mathematics, you can get some mathematics from functions and constants from it.
+
+So you just say import mat So it means you have imported the MAT libri in Python.
+
+So and then another way you can what you may want to do some importation, importing of a is you can say imports, let's say nonp as NP.
+
+So usually we want to give alias using this as is for you to give alias to if for you.
+
+Okay.
+
+So I mean you don't need to do that because this is a Python-specific command.
+
+So Python code is no longer the terminal command.
+
+So you don't need to put in front of it.
+
+So the question is that why don't we don't need to have a factorial while running the import command? No.
+
+So this import is a Python code like that syntax is a Python code is not the terminal command.
+
+So Okay, moving forward, it means that you can decide to put alias like us something so in front of after doing the import, because the implication is that if you do as we did mat, import mat, it means that every time you want to use this library, you have to put MATT at the beginning mat Okay.
+
+Let's say I want to call and the pi and the regular pi that we know pi mathematics pi R square P this.
+
+So if I type, if I want to call the pi function, I have to first put smart at the beginning before I can get the pi.
+
+So now the thing is that if this name is longer than this, then it becomes a body because you literally have to be typing match.
+
+Do something mat does this mat that all the time.
+
+So let's say for instance, you want to find the square root of the value so.math.sq RT So of the number, let's say I want to find spirit over 81.
+
+So yeah, which is my Henry.
+
+Do you get the logic? So it means if this name is longer than this, you literally have to be typing it all the time.
+
+So most of the time we usually use shorthand like like an alias.
+
+So imports.
+
+Here, I did import non-file as empy.
+
+So instead of typing non-file all the time, I don't need to type non-file.
+
+I literally just to say need to say empy.p Okay.
+
+mp.p and then Okay.
+
+So and also if I want to get the square root of a number, I can say MP sqlt is one.
+
+Okay? And then I have similar thing.
+
+Okay.
+
+So the idea of using this alias, this as something is not just for you to be so simplified your typing so to make it readable and the idea of also using HEP, some of these packages, they recommend certain convention like Okay.
+
+So when nonpy was introduced, the alias that they often use is MPNP, MPNP.
+
+So that's why you often see it and take for instance that you want to import a, er, a library for like you want to import and some specific library inside another library.
+
+Let me give you an example.
+
+This library matplot leave is for plotting and visualization in Python.
+
+So if I want to import just a specific library for me because in the library we can have some some other packages that are inside it that I want to import, so I can see from that is from leave imports, pip plot.
+
+Okay.
+
+So you notice is already suggesting like SPL, that's the regular thing or common thing that we usually do.
+
+So so yeah, imports worries me is that inside MAT plot Leave we have a folder that is called PIP Cloth.
+
+I wish I could be able to dig deeper into this, but let's say do let me get you overwhelmed.
+
+This is just know that if you want to import some specific just a specific one out of all the packages IT library may provide, you can do that by using from or sometimes you can also use Okay, Sandy, I guess you've understood the meaning of Okay.
+
+So good luck.
+
+He will qu So yes, you can, You can Good luck is asking if there is a possible a possibility of managing the package, the version of that package in the and the Google app.
+
+So yes, which there's a there.
+
+There are ways like for instance, I just did keep in store and or P install Numpy, P install anything this, we install the latest version.
+
+Okay.
+
+The latest version as that August 21 TRA 25.
+
+So the latest version that is compatible with your client version of Python.
+
+So the later version was released in August 21, 2025.
+
+And then it's if you scroll down, it's compatible with a Python TRE up to from Python 3.9 up to eleven: 103.113.123.13.
+
+So but in a situation where you want to install order version, other version of Thunders because the current version is 2.32 depending on the version of Python you are using, so you can go to the history and then you'll see different versions.
+
+Here are the different versions that have been released so far so that APRI thir 2020 we have version 2.0.0.
+
+So I click on this, You notice here that your PP has changed from PAS, just ping stop PAS to include the specific version you want to install.
+
+So if you copy this command like keep in stop and as equal equal, that is, it must be equal to it must be this specific version.
+
+Okay.
+
+So so if you copy this command and then you try to do your installation of that particular version, Okay.
+
+So it means this panders, the ponder of this particular version will be installed on your computer.
+
+So, yeah, Okay.
+
+So also talking about so you may also come across Yeah.
+
+Richard is asking Richard is asking that can we do in import.py PL as yes, you can do that.
+
+So yeah, yeah, Okay, let me start.
+
+Amen is asking if you can use any, any symbol, you know, I've mentioned in the beginning of thely Python class.
+
+That's syntax and semantics.
+
+Syntax is what you must use.
+
+If you don't use it, you're going to get error.
+
+Okay.
+
+So if you must use it.yes, you must use it dot There's no replacements for it that the syntax.
+
+Okay.
+
+So if you must use maybe factoria that.
+
+So anyways, so that's the syntax, there's no replacement for the dots for now.
+
+So maybe it may, you may want to introduce it.
+
+Okay.
+
+So we are wasting much of our time.
+
+We still need to do some.
+
+Thank you David the runi thank you.
+
+Okay.
+
+Yeah, thank you.
+
+So does any of this installation require data network connection? Okay.
+
+There are two things for you to be able to use googleap you already using network.
+
+Okay.
+
+Now if you're doing an installation is not your network that is being used is now Google's network CR logic.
+
+So Google device.
+
+So this Google Colab is already on the internet.
+
+Okay.
+
+So if you're doing a certain installation, that installation is being pooled by Google Network.
+
+So let's say for instance, if you want to install Kudas, Kuda is a library for handling GTUS for data Analytics and likes, we want to use KUDA.
+
+So KUDA is up to can be up to, I think to gig order about can't be up to two gig.
+
+I can't remember the size.
+
+So that does not mean that you need to have two gig when your font or you need to use ER to give this SP in order work on your phone.
+
+No, that is been doned by Google Network.
+
+All the network that you are using is just for you to be able to view the interface, type or nature be like that's the only thing you're using.
+
+Do you get logic, but if you are doing it on your own VS code on your own personal computer, if you're doing any installation, you're not, you are going to have that network pull from your data.
+
+Yeah.
+
+Thank you.
+
+Thank you.
+
+Oh Vena Simple.
+
+Yeah.
+
+You're doing that.
+
+Said that, I, I like Lemo.
+
+Okay.
+
+Thank you.
+
+Okay.
+
+So, Okay.
+
+So I think we need to move faster.
+
+Let me let me give you a typical example of this plotting that I mentioned.
+
+See, let me see the missing.
+
+Let me move faster.
+
+We've talk about this, we've talked about this.
+
+So actually we've not done the exact thing or some thing.
+
+The O thing here is another commands that's imports command that you may encounter.
+
+So like someone has we use DOTS.
+
+So this is another example of imports.
+
+So from SQLN and DOTS linear model import linear regression.
+
+So not is we introduce a.here.
+
+So Okay, I think I should show you the origin of this, the origin of these dots so that you know the meaning because it's one of those things you will probably be battling with or trying to understand what it's actually behind the wood.
+
+So let's say, for instance, we have a package installed, I will use my personal computer to find an example as an example.
+
+So I have an accounta installed on my computer, so have an accounta installed on my computer and then I will try to show you something.
+
+I will bring it up now.
+
+So I just want to ensure that I have it.
+
+Okay.
+
+So don't worry, I'll bring it up.
+
+So I believe you should be able to see my screen.
+
+Okay? So usually if you have a Python package, if you have a Python package, so here is a.
+
+So here is my folder where I have my Python packages installed.
+
+So if you notice inside this LEAP folder, you have the packages you installed.
+
+So specifically inside sites and packages, this location is where you have it for in the library that you do keep store.
+
+This is where it's often located So on your computer.
+
+Now if I do like here I did, I have much plot installed on this notebook and I say from MA plot import pip plots.
+
+Okay.
+
+So what it means is that in this here in this installation, I have a folder called mathpl.
+
+Leave.
+
+So it means from this folder matplot.
+
+Leave, I should have another file or another library that is called pyplot.
+
+So import Pip Plots.
+
+So now let's see if we can see anything that has to do with Pip Plots.
+
+Here it can be folded, it can be F.
+
+So here is a file that is called pip plot.
+
+So when I say from mass plot lead import Pip Plots, it means from this folder it could be another file.
+
+It could be another folder.
+
+Okay, so import Pip Plots.
+
+Do you get the logic? So so I can open this with notebook notes, notepad and then we can see that Here we have some calls that are in India which I can then import.
+
+So I can then load those things from.
+
+So that's the logic behind from this, import this from this imports that.
+
+Okay.
+
+Okay, So I think you should be able to understand this concept.
+
+Now, so let's go into some code work, work you, I walk you through some code.
+
+So I able to understand what we have done so far.
+
+So here is the code that accompany the last class we did, which is on linear regression.
+
+And then if you want to access it, you just click on on the linear regression exercise and then before the this class and I want you to be able to, I want you to be able to before the next class, I want you to be able to make sure you run this code.
+
+You may not necessarily understand it, but read these texts that we have here.
+
+Okay, read all the lines.
+
+So now as we've mentioned in a Machine Learning problem or you're trying to solve user problem, machine lear sol a problem, you need to there are some things you need to do.
+
+Usually data set aspiration is is a good is an important part of it.
+
+So but today we've done something on import, installation and the likes.
+
+So which is the part I want to I mentioned specifically.
+
+So now part one of this exercise is more like trying to import.
+
+So then let me show you the installation, install required libraries.
+
+Take a look at this place.
+
+So we have PIP install.
+
+Okay, we have PIP installed, they are trying to install Google ML do and this is the specific version they are installing.
+
+He also wanted to install Keras, which is what they are trying to do is and yeah, it's good you have you install this version or approximately this version they are trying to install Mass Plot, Leap and then this is the version they are installing, they are installing in No Pie and this is the version they are Story, they are installed Pandas and this is the specific version they are installing.
+
+Likewise Tense of Flow, this is the version they are story.
+
+So if I run this cell, it means that it will install all these packages.
+
+If there is an existing version that has already been installed, it will remove that one.
+
+Then we installed, installed the version that was specifically mentioned or approximately mentioned.
+
+So requirements already satisfied means that the packages or the dependency has already been installed.
+
+Okay.
+
+Okay.
+
+So installation may take so long.
+
+So yeah, take a look at this.
+
+This is Tensor Flow that is installing and Tense of Flow basically requires 66 115 mb, almost one gig, not 1G almost one gig.
+
+So this 615 mb is not my data is actually pulling using Google Internet or Google network.
+
+Okay? So and then what you notice is that there was an existing version of Tensor that has already been installed and then it's literally going to install it and then install the specific version that was requested.
+
+Okay.
+
+So that be as it may then we now have load dependencies, load dependencies.
+
+What I have explained to you that imports, nonpy has MP, import Pandas as PD, import KERAs and some other libraries like that.
+
+I believe the knowledge of what I've just explained is becoming more handy to you now.
+
+So if the installation is complete then this imports can then be processed.
+
+So, Okay.
+
+So now loading data sets now the data sets is is called the taxi and the Chicago taxi datasets now will now be talking about library-specific means of using some library specific command.
+
+For instance, here is the data someone as in a group that are we going to be using SQL or something like that.
+
+Okay, I tell you we are not using SQL specifically.
+
+Okay, but we can have some data on the internet.
+
+Take for instance, this dataset is is called Chicago Taxi or so which I can literally download and then and then decide to upload it on my Google Dry and Google Colab.
+
+Okay.
+
+So here is the content of the data set.
+
+So we have the title here.
+
+Okay.
+
+And then we have rows, each of those rows.
+
+So see Pandas as one of those library you can use to read data.
+
+That's let's say table rows and columns and likes.
+
+So that's Panda library for you.
+
+So if I want to read CSV, I can have the CSV on my comp on this computer, this Colab here inside this folder or I can have it on where URL, this is the link to download the CSV for file.
+
+So if you notice this file is not here, it's actually from a website.
+
+Okay, so what this will do is it will download the data, it should download the data from the internet, it has downloaded it by running this code, downloaded it and then so what I want to do is to explore what is inside the data.
+
+So is as simple as you opening an Excel to see it, but we want to see it from code because we want to work with code.
+
+You want to use code to do something.
+
+So if you look at this sheet, we have a lot of columns, this is a start trip like see as you have an HOA, you are an HOA Machine Learning specialist.
+
+So you collect some data, start strip and trip start hours and some of those information that it might, you might probably get when you are when you are working with let's say Huber application or you are working with boards application or some other data from those platforms.
+
+So this is the amount that was paid.
+
+This is let's say that there was a cheap or gifts and then the the payments method and some and the other companies and some other things like that.
+
+So that's basically what the data is, what we are not really interested in, all the data points, we just want to select all the columns, we just want to select some specific columns and which is what this does.
+
+So we've loaded the data set and then we are trying to select some specific columns which are the trip mouse, the trip seconds, fee, company, card type, antic to it.
+
+So and the next thing is that we are trying to head head means you select the first 200 data, the first 200 rows in the data.
+
+So which is what we are here, that is from zero to 199 which is the first two rows.
+
+Okay.
+
+So in total if you try to compare what you have in the Excel sheets, we have 31,030 1606 195 rules and which is also corresponding to what we have here.
+
+You, I, you will notice that I didn't Okay.
+
+So I think I will take questions as that you know that we we've gone through something.
+
+So next class specifically D data exploration, Okay.
+
+And then training model and then valid model.
+
+So yeah.
+
+So if you have a question, please signify, but in the meantime someone is asking the question, a question here, I think if you is asking that some factoria people install was used as equal equal preceding them and while some version has approximately equal in front of them.
+
+So why do we have that? So I mentioned that if you want to specific, if you want to strictly install a specific version, you said equal sign Okay.
+
+So you put exactly equal to Okay.
+
+So and then using the using the approximately equal to sign is just as it sounds like like approximately equal to that.
+
+You can install some other variants of that version, do you understand? So let's say you have version 1.2.3, that's what was mentioned.
+
+So and then you want to install some other variants.
+
+Let's say 1.2.41.2.5.
+
+Those versions might not changes in version.
+
+So that's what that's what about what there is no assignments.
+
+Okay.
+
+I am just telling you that this notebook, this notebook, you should try to read the notebook, this give a notebook.
+
+So because you will be doing many Python things.
+
+So if we don't have question, are you using AI in Goog collab? So what do you mean? What do you mean by? How do you use AI in Goog? Okay, So I once again, I sincerely apologise for joining late.
+
+So yeah, Asham is my ill.
+
+Please speak you, you have the floor, the time is fast and please kindly can I hear you.
+
+Please speak.
+
+Okay.
+
+So how do you access the linear regression? Okay, I will share the link with you on the group.
+
+So, but we in our last class we did some linear regression so and here.
+
+Okay, so for now I will tell you we are not going to be doing some just we are not going to be doing some just studying Python.
+
+You're going to be using it and learning from using the Python.
+
+So I shared the link with you.
+
+I don't know Asam, Asam or SA is not able to speak.
+
+So you sorry.
+
+Okay, I can hear you.
+
+We have limited time please to speak sir.
+
+Thank you so much.
+
+What I want to ask all those libraries that you mentioned that you install, do we also need to install it at our own site or it has already been installed in the Google Colab.
+
+Yeah, most likely is already installed in Google Collapse.
+
+So you don't need to install them.
+
+But if you have any problem trying to run anything, just try to install it.
+
+But most of the time, almost any all those libraries for MA AL installed.
+
+Thank you.
+
+Yeah, Thank you.
+
+Okay.
+
+So once again, I sincerely apologize for joining late today.
+
+Please kindly accept my apology to meet in the next class.
+
+So Okay.
+
+Bye.
+
+See you next class.

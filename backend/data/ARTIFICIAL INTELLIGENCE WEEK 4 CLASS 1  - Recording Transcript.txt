@@ -1,0 +1,1421 @@
+Yeah, lets call wonderful when you here today again we're going to be having a cloud as usual.
+
+Yeah, please kindly signify if you can hear me, maybe with tones of Yeah, thank you, thank you, thank you.
+
+Okay, MEA.
+
+And so anyways we, we have a lot of things to cover today.
+
+So so I would to move swiftly.
+
+So I honestly appreciate your feedback and then as much as I would love you to be able to carry everyone along in this class.
+
+So I try to modify the way I teach you so that you'll be able to get the concept.
+
+So last class.
+
+Yeah, Razak, I don't care.
+
+So look, so I think you speak German.
+
+So anyway, I, I try as much as possible to modify or try to restructure where how you're going to get the answers.
+
+So yeah, today we will also be because we are slightly behind the curriculum in our curriculum.
+
+So I want us to to be able to cover as much as we can and also to be able to balance between you understanding the concept and also trying to cover the syllabus.
+
+So welcome to today's class.
+
+Last class was about programming.
+
+So I notice many of the scholars, they were kind of not comfortable with programming.
+
+I would tell you programming programming, yes, yes, yes, it may not be completely evitable in may not be completely in Machine Learning.
+
+However, the Machine Learning everything is not about programming.
+
+The programming is not as important as the as understanding the concept because basically we have several platforms that allows you to do Machine Learning without even is doing a single coding.
+
+So and then it now comes to the point like what if you now want to do your Machine Learning and you want to treat your Machine Learning, you want to be able to find so and so many things.
+
+So so how do you do that? So without understanding the concept.
+
+So I'm trying to structure to bypass the programming thing I will be with.
+
+You may not be able to do the programming completely, but it's it's also there are some platform that also offers you ability to do some Machine Learning.
+
+You deploy Machine Learning without understanding coding, without understanding programming, but you need to understand the concepts.
+
+That's the most important thing.
+
+So and then another thing is that the thing days once you are trying to shy away from programming, you should know that sometimes you will probably need to go for a subscription-based platform.
+
+So take for instance, I mentioned about Google, Google and B query sometimes ago Google B query, they simplify the platform to the point that even if you are just SQL person, I just understand just the SQL, you can do Machine Learning, you can train motor and you can without even downloading dataset directly in your database.
+
+You can do Machine Learning.
+
+So that's some of those ways they simplify things.
+
+Today, I'm going to be showing you explaining the concept with SMARTL.
+
+Okay, let's get it clear.
+
+This class is not about SMARTL.
+
+Okay, I just need you to be able to comprehend the concept.
+
+I'm explaining.
+
+If you want to explore matlab, it's fine.
+
+You have tried and you can explore it.
+
+Okay, So but this class is not about matlab.
+
+I repeat, this class is not about matlab.
+
+I just needed to be able to comprehend the concepts that I explained.
+
+So it's not about the platform.
+
+So because otherwise we will have stick with Python because it's free and then DEL likes.
+
+But we notice some scholars are not comfortable with programming, so we need to try as much as possible to also make them understand the concept.
+
+So today I will say code or no code, the platform is not as important as the concept.
+
+So once you understand the concept, whether you're using Python or you're using HARD or you're using anything, so just be able to deliver a good Machine Learning model.
+
+So that's the logic.
+
+So before we, so in just few minutes I'm going to show you some things about in, we're going to do the same linear regression we did in in matlab.
+
+So also, I repeat, this is not about MATLAB, it's just I'm trying to get you a platform that is not code based.
+
+So that's why I am choosing MAT Lab.
+
+Okay.
+
+Okay.
+
+So let's say I have a math lab online.
+
+This is matlab online.
+
+Okay.
+
+So I can, I can open the link and then I basically just so, so so basically what I want to do is to be able to explain the Machine Learning concept to you in MATLAB.
+
+So briefly, matlab is it allows you to do coding and it allows you to use the GUI interface to be able to do some Machine Learning or some mathematical calculation or some control, a lot of concept, Deep Learning, many many things.
+
+So allows you to do that.
+
+So what I want to do is to be able to the data set that we had the data, so the data set we had, which is the taxi, the taxi data set, so which is the tax data set that we had this one complete to download the data sets which already downloaded here, already downloaded data sets so which we were trying to explore.
+
+So what I would do is to import the data into my lab.
+
+So I just need to import data.
+
+And then I have already imported data here.
+
+I just need to import it to my workspace.
+
+And then here I sure show me some of the datails.
+
+So matlab or no MAT lab, you will have some platform that allows you to thank you, David.
+
+You have some platform that allow you to bring in your data.
+
+So I downloaded the data from the link and then I uploaded it from my lab.
+
+Okay.
+
+So then I have the overview of some preview of the data.
+
+Then I have, I can do some modification here if I want to.
+
+I'm just not concerned about that.
+
+I just want to import the data.
+
+So that's all so sorry.
+
+Okay.
+
+So yeah, I just want to import the data.
+
+Okay.
+
+So the data has been imported as you can see here.
+
+So I didn't use, sorry, I just then use the app, some of the app that I have provided in matlab.
+
+I basically want to do regression and the Machine Learning we have reason is so UNLI Machine Learning, the planning and the like, I just choose the linear regression.
+
+Again, I repeat, if you're just joining, this is not about matlab is just to explain the concepts.
+
+Okay.
+
+This is nothing about matlab is just explain the concept without disturbing with the codes.
+
+Okay.
+
+Yeah, So I can just fetch my data regardless of the platform you are using.
+
+I just, I just want to fetch the data.
+
+So the response is the what we want to predict, as you can see based on the documentation of datasets we checked the other time.
+
+So we just say, let's say we want to predict the price of the taxi.
+
+So I'm based on some feature.
+
+So the feature this time and we want to use the mouse that is the distance traveled.
+
+Let's say you're going from, in the case of Nigeria, you're going from LEGOs to Abuja.
+
+So like the distance that took you to cover from Lagos to Abuja, I probably going to have some implication on the price of the transport as compared to Legals to somewhere like I or somewhere like POR.
+
+So the price is probably going to be different.
+
+Okay.
+
+So here we haven't mentioned about cross validation.
+
+We're going to mention later on.
+
+So I want to reduce the cross validation first.
+
+I would love to remove it, but it didn't allow removing cross validation.
+
+So it's one of those measures to avoid over fitting.
+
+So but another thing you might, I've also been taught or we've mentioned in this class is about test sets.
+
+So I mentioned the last class that we have training and validation set.
+
+So here the interface is telling you what is the percentage of the data sets of this training data sets and this data are downloaded.
+
+What percentage do you want to allocate for testing? Okay, So here the default is 2010, but we can change it to 20.
+
+So which means that 20% of the data set we want to reserve it for validation and for testing.
+
+Okay.
+
+So, so which as I mentioned, regardless of the platform, you're probably going to be meeting, some concepts that are D are generic.
+
+So test sets, validation sets, as I mentioned, I didn't mention about cross validation.
+
+We're going to mention it later later.
+
+But yeah, so then if I click on start session, I can this math of just automatically suggest the possible, what it called the possible model to use.
+
+But we can, I just can't select the model I want in this case, let's say I want a linear regression.
+
+And then I also want to try a new neural network.
+
+So I just choose a simple neural network.
+
+So Okay.
+
+So in the case of the neural network specifically, so they are mentioning about the some concepts which we have not explained.
+
+So both the one of the important thing is here they are talking about iteration, iteration is kind of synonymous to epoch that we mentioned, but not exactly the same thing.
+
+So most of this platform they usually abstract some information and as I mentioned, you cannot completely avoid what it called documentation if some of these text terminologies are not quite familiar or they are changing some terminologies.
+
+As regarding the fundamental you learn your best friend is just the documentation.
+
+You have to go through the documentation noation to get some additional information like that.
+
+So I repeat you still need to read some documentation about the platform you're using.
+
+Okay.
+
+So here they give you link to the documentation which you can give me want to check or there about.
+
+So but for now we just leave the devote value, we are not touching anything and the next thing is just for us to train.
+
+Okay, so run the training to show its progress and then you have maybe the result.
+
+So here is comparing the result of linear regression to the result of neural network.
+
+So now this is the results of training neural neural network which is the model three and this is the result of training linear regression.
+
+So now aside from this, what you will notice is probably the errors.
+
+So here we have the mean square or the mean average absolute error.
+
+Okay, we have the root means squarero and some of those parameters, they were hyper parameters, they were used and the loss functions.
+
+Okay.
+
+So and likewise for the neural network as well, you will see some of those because the loss and details.
+
+So, Okay.
+
+So I repeat, I think some people might might just be joining.
+
+I repeat, this is not about matlab.
+
+This is for me to be able to explain the concept, to show you the practical implication of the concept that I have taught you.
+
+Okay.
+
+So now let's say after we have trained the model, we are expected to test.
+
+So and then you can we remember we receive some portion of the data for testing, 20% of the data will resolved it for testing.
+
+So we can just click on testing and then he does the testing.
+
+So without any coding so we can we may want to visualize the results of the testing.
+
+Here is the result of the testing.
+
+You see, this is the line of best fit.
+
+And also here we can also visualize the result of the testing here.
+
+So basically you can see that this model well kind of was able to learn the data.
+
+So that's the general idea.
+
+So now going back to the idea about linear regression and relax.
+
+So what you notice is that we, you can decide to change some parameters, you can say to modify some parameters and try to retrain if the result is not so Okay, and then something like that.
+
+So no, that's me trying to explain some some of the concept that we've come across and trying to let you know that whether you're using coding or you're not using coding, the fundamental knowledge, understanding what each of these things means, what it interprets to and how it can affect your model is quite important.
+
+So that's just the summary of what I am trying to show you in my lab, MAT lab here is in no coach so that you not be scared about coding or programming or there abouts.
+
+So I see David Daniel is raising his hand.
+
+I will quickly take is is question or something wherever whatever he has in mind that we could proceed.
+
+This is meant to be the last class and the previous class and lessen, but because of the programming, so I guess we had to skip it and then bring it up again as engineer.
+
+So I guess you have some question, A engineer, you have the floor.
+
+Please speak, sir, can you hear me? Yes.
+
+I can hear you half the give your name on the linear regression.
+
+Okay.
+
+So after the last code you, I think that was describe we have described in the BR that course.
+
+I hope that the link, you know, that related to using the same method you did for the previous one or they came with the link.
+
+I'm trying to guess what you mean, but wait, just wait.
+
+Okay.
+
+So here was the link I shared.
+
+I added the material.
+
+Are you referring to this? Yes, Okay, Okay, you know from the first step after the code, the first one you generated, so you mean this the code because you got in that and the first one FE for how to install th thats Okay.
+
+Okay.
+
+Yeah.
+
+From there, from there you went to the code then you did that to describe.
+
+Okay.
+
+Now I am saying for the code that followed, you know we didn't only run of everything for that course that only same you did to get them.
+
+Okay.
+
+So last class we were we we were only able to describe this, I think the first this first four cells something like this kind of like this.
+
+So I mean something similar so but the other ones Since I notice the class is becoming scary.
+
+So I had to have to open a prepared one already prepared this one before the class.
+
+So but I wanted you to be able to get out to source for information, how to read documentation.
+
+Okay.
+
+So that was why we are doing the class, but it was getting scared to many people so they are not understanding the concept.
+
+So I have to bring out this one that I already prepared for you to be able to see the running and the results of the coding.
+
+So in the class, we did not talk about how to source for this or how to generate or how to get this to work, but is already prepared.
+
+And I only ran the code to show you the results.
+
+So does that answer your question? Yes.
+
+Thank you.
+
+Okay, right.
+
+Okay.
+
+So moving to today's class.
+
+So moving to today's class.
+
+Do you have anything? The QU is not scribe but depending on what you imported, maybe you import upon simply but is actually is usually PT PT describe sorry.
+
+Data FR you can call it data describe something like this.
+
+Is that? Okay.
+
+Okay.
+
+So going to today's class, we are going to logistic regression.
+
+So yeah.
+
+So the idea is that so what is what do we mean by logistic regression? Linear regression? Logistic regression is the logistic delivery? What are we talking about here? So, Okay.
+
+So here is the idea, you know, the linear regression as you know, regression and that we've been talking about, it predicts some numeric value.
+
+So that's map exactly has the output we are expecting to say for instance, you want to predict the price.
+
+You just you have your input, your output is the predicted values and like so yeah, so it's model likely mapping from the linear mapping of the input to output, also be a much more complex mapping anyway.
+
+But in the case of logistic regression is not like that, we are not predicting the exact value, exact regression value.
+
+So what we are trying to predict is the probability, so the probability that this outcome, this is the outcome of this is the outcome of this so, and as you know, probability usually is between zero and one, so between zero and one represents so like for instance, if you, if I ask you like what is the probability that you're going to have an AI class and on Wednesday you're most likely going to say 100% or 90% in case there is some network issue or some sometimes maybe I slept so something like that.
+
+So but anyway, what I'm trying to tell you is that the probability is often zero to one or zero to one percentage you are using percentage.
+
+So now in the in logistic regression, what we want to achieve is that we want to be able to tell you the probability that something will happen or probability that you want to predict the probability of something and understand is that the way your email email works and try to classify some data, some email as spam or no spam.
+
+So what we do in that case is also to try to predict the probability and that this is this is the probability that this data, this information is a spam spam.
+
+So I mean, do you get the logic? Okay.
+
+So, Okay.
+
+So yeah.
+
+Now the thing is that there are some family of functions that Okay.
+
+There are some families of functions that are that you can leverage to be able to achieve some that kind of value.
+
+What we do, usually you do it almost exactly as linear regression, but we usually transform the output to some other things.
+
+So I'll show you something from this graph.
+
+So here is a one of the logistic functions, standard logistic function.
+
+So we call it sigmoid function.
+
+Sigmoid function is the name is from the shape X.
+
+So it's real from S shape and the function is this is the function one over one plus E raised power minus X.
+
+So that's the function.
+
+So which means that if you calculate your regression output or your equation and you just use this equation, this formula to convert it to, to convert it to something that will be between zero and one.
+
+The unique thing is sigma function is that it should not be more than one.
+
+Is that zero less than it's going to be zero or I mean between zero and one, it should not be more than one.
+
+Even if you have 1 million, it will not be more than one.
+
+If you have -1 million, it's not be more than zero.
+
+So that's what it does.
+
+So and this fitting into the idea of probability, you know, probability zero and one.
+
+So if you have any problem you're trying to make it to stay within The Range of zero and one, then the one of the function you might want to consider is sigmoid function.
+
+Okay.
+
+So now let me show you how it translates to this.
+
+So I said the function is a one over one plus X raised to power minus one.
+
+So let's try to use our graph and software this to see how it works.
+
+So say we have Y equals to one divided by one plus E raised to power minus X.
+
+Okay.
+
+So here is the function I'm talking about the everything that the sigmoid function.
+
+Don't be scared, it's just this one over here is one plus this.
+
+So if you zoom in, zoom in and then you notice when zero is 0.5.
+
+Okay, you try to drag, drag, drag the information this is 17 minus seven minus one.
+
+It shall not be more than zero no matter how much you drag between.
+
+It will not be more than zero, zoom, zoom, zoom, zoom, it will not more than zero.
+
+Go to the positive side of it as well.
+
+Here you go here this is one and you try to drag it.
+
+It will just not be more than zero.
+
+So this function is what powers your logistic, your logistic regression.
+
+So so this as little as this change is what changes the story of your model trying to say you that I have like 50% confidence or 70% confident that this is lemon, this is an orange or this is juice or something like that.
+
+So but the thing that we detain with logistic regression is that we are going to learn that it's only good and it works best for binary classification.
+
+So but there's a way to modify it to make it work for other classes.
+
+So now without telling you this kind of concept, you've in the first class, you've try to train a model that can classify two things and you don your assignments and try to classify two different two objects.
+
+So from image, but on the in the background, what is happening is actually logistic regression.
+
+Okay.
+
+So, yeah, so that's why Felix.
+
+I think you should check your network, probably the network, so you can see my screen.
+
+I think you should probably check the net.
+
+OK.
+
+So take for instance, we now say XIs equals to one.
+
+So we now have a range of.
+
+Yeah.
+
+So so here is the plot of let's say we have X equals to minus to.
+
+We check the value of X equals to minus to somewhere in this space.
+
+And then logistic regression is no more than 0.1.
+
+It's not going to is not going to be more than zero, and it's not going to be more than one, less than zero is not going to be less than zero.
+
+It's not going to be more than one.
+
+So that's the logic behind and logistic regression.
+
+Okay.
+
+So so this behind the whole in the logistic regression is the sigmoid function as I mentioned.
+
+So when you're trying to maybe train your model, you may see like the output layer of your neural network, we say sigmoid function, sigmoid, sigmoid, sigmoid.
+
+So that's the meaning.
+
+Like you are trying to predict the probability that this is the output.
+
+So now how do we now combat the regular linear regression? Sorry.
+
+Here is the resources we are using the Google resources we've been using.
+
+Yeah, so here's Google resources we've been using for the class.
+
+Thanks to Google.
+
+So now and just as I've mentioned is the by the sigmoid function.
+
+So and also as I've mentioned, I only plotted, I plotted the graph, but definitely this is a data you can copy and you can and plots the data as well.
+
+Okay, so now how do you now convert your regular regression into a logistic regression? Okay.
+
+Here it is simple.
+
+So what you do is that after you calculate your regression, after your regression has been calculated, what you just need to do is the value, the result of your regression.
+
+You just put it in this an equation of the logistic regression, and then you convert it to the probability.
+
+I hope you understand what I mean.
+
+So let me show you.
+
+So take for instance, we have this equation.
+
+We have this equation.
+
+Let's say Z is equals to 2X plus five.
+
+So this is the equation.
+
+This is the linear regression.
+
+This is a linear regression equation or linear equation.
+
+Okay, as you know, this is the one of the linear formula.
+
+So now we want to convert this equation, this thing, this particular problem or model, want to convert it to logistic regression problem.
+
+So what we do is just say YIs equals to one divided by one plus E raised to power.
+
+Now what is the result of the regression is Z.
+
+So just a minor Z.
+
+Okay.
+
+So if you notice this have been converted to this formula, this one, this model having been converted to logistic regression model.
+
+So which means that if you look at it is not more than one and if you scroll to this side is not less than zero, that's it.
+
+So how do I know the linear regression? Okay.
+
+So here is a linear equation.
+
+Okay.
+
+So this equation, this it conforms with the formula been explaining in the in the previous class where we say Y equals to let me use that so that to confirm what Y equals to MX plus C where we say M is the slope, which is also one of the weight and this is the bias weight and bias.
+
+Okay.
+
+So if you compare this equation, this is the same thing as this weight and this is the same as this bias.
+
+So where XIs the feature.
+
+So we can have as many feature as we want.
+
+So this is just a simple representation of it.
+
+Do you understand we if you convert it to logistic regression, it cannot be more than one.
+
+I tell you it cannot be more than one because the nature of the equation, this is equation, equation doesn't behave strangely.
+
+Equation is equation is proven and it cannot be more than one.
+
+Everything is because of this exponential that is there so that this thing.
+
+So the property some some functions have this property that is not is not just like abnormal behavior is it won't be more than one.
+
+Like for instance, you have a quadratic equation like something is X square something like that.
+
+So you we all know the property of if you don't know, but anyway many of us know the property of quadratic equation.
+
+So it can be it you always have two values, the two value might be equal, that's another thing, but it always have two values to to result.
+
+So now saying that what if Qurat equation have three answers? No for that equation, we don't have three answers.
+
+So it generates only two answers.
+
+Yes.
+
+The Quadri yes is not just assume that's what it's usually is that you replace the and the regression.
+
+So with the divide, the result of regression, put it in place of in this place and then you get the regression.
+
+Okay.
+
+So thank you.
+
+Let's proceed.
+
+Okay.
+
+So moving forward, we've talked about logistic function, logistic regression.
+
+Now we've talked about converting the transforming the linear regression into a logistic regression thing.
+
+Now how do we now train? Because we've learnt how to train logistic linear regression.
+
+How do we train logistic regression? So there is a slight difference in the way you train logistic regression is just in the loss, nothing really special.
+
+So in if you remember in linear regression, what we do, what we do, we can like the example we did, we used means square.
+
+Er so here we have the mean of the, we calculate the mean square error.
+
+So Yeah.
+
+Here here in the previous class what we did is to calculate the mean square error.
+
+So the mean square error is then what we calculated the loss.
+
+Yeah.
+
+Used to calculate the loss and the gradients of the loss.
+
+So this is the main difference between the training of logistic regression and training of linear regression.
+
+So in logistic regression, so instead of using this squared loss, the problem with squared loss is that it requires more memory to preserve precision.
+
+Here is what I mean by that yeah.
+
+Is what I mean by that See computer.
+
+Okay.
+
+So here is what I mean by that.
+
+For instance, we have this output of REGIST regression, the outputs of an equation.
+
+Then we try to complete the equation and then you got something like 0.9930.9970.999 and like that.
+
+So as the value increases, the number of precision, Okay, the number of the number after decimal places increase case just not to go beyond.
+
+Okay.
+
+So now if you try to work with this, your memory, your computer will struggle with handling and decimal places because floating point is a kind of issue for computer.
+
+So yeah, so that's affects the way computer will be able to handle that.
+
+So eventually you will not be able to gain significant improvement as time goes up.
+
+So to go to mitigate that.
+
+So that's why we use a, we cannot use and SP loss.
+
+Okay.
+
+So now but the alternative for that is a log loss.
+
+So the idea behind the log loss is that now Since we are using this, so we find the log of the, the logistic regression and then find the derivative of that and sum it together.
+
+So that's the kind of log loss that either being used in case of and logistic regression.
+
+Also, I want to try much as possible to limit the mathematics.
+
+I present you in this class so that you know, some get overwhelmed by the mathematics derivation and like what is quite important, you understand the concept.
+
+Okay.
+
+So well this is also much information, but The Bottom line of this is that giving that you the label that you are trying to predict is Y and then the predicted value is Y prime, so which is between zero and one.
+
+So try to find the difference and the submission of all the Okay.
+
+So now another thing that is also different in the in the training of logistic regression is a deregularization.
+
+There is something of regularization and regularization is the way that we used to regularize the complexity of the model.
+
+Just as I said regularization, trying to check me or regulate something.
+
+So now why do we need the regularisation? So there is I mentioned the previous class or maybe I thought of someone asking that I'm over-fitting.
+
+So over-fitting is a problem in Machine Learning.
+
+And if you don't handle over-fitting over-fitting very well, your model will be doing, will be doing big boy big man in the playground.
+
+So it should not be able to, it should not be able to generalize in the real world is like you have a laboratory, you your model or your experiments did wonderfully well.
+
+So and then when you now want to give it out for make it work in the real world then is now is now fumbling.
+
+So another typical example is let's say during COVID-nineteen, you know where people are clamoring for all the world was clamoring for vaccine, vaccine, vaccine, and then they were doing experiment on vaccine in the lab.
+
+So let's assume the lab scenario, the vaccine works perfect perfectly well, like very 100% good.
+
+So now if the vaccine is able to exhibit that kind of performance in the laboratory and then we now want to deploy it on a type of human being to consume or to injected into human being, then is now is not behaving unexpectedly or not as potent as it has done in the in the laboratory.
+
+So we say that kind of scenario is like the the vaccine actually over fitted to the test scenario or to the experimental scenario, but not to the real world.
+
+So I mean that's just kind of analogy.
+
+So now for us to be able to do that, to avoid that there we say we use the regularization specifically in in and logistic regression.
+
+It's important to handle regularization properly.
+
+Now take for instance, one of the example or the simplest way to handle regularization in in logistic regression is a stopping.
+
+So what I mean by stopping is let's say you're trying to train your model and then when you are training it, you notice you have the training and you have the validation.
+
+So you want to notice that the training, you know how the training laws should go, we should go down, and the validation loss also show we wanted to be able to reduce to go towards zero is not equal to zero at least be doing done so.
+
+So now the moment you notice that the model, the validation of the model instead of going after as once done then it's now started going up, that's when you should stop it because that's is when the model is no longer as learn some significance in and then is not going towards over fitting.
+
+So what do you mean by that? Is that the after the validation trying to see doing good, am I doing good? So is now no longer doing is not doing good on the training and they now doing worst because the MAT is not going up.
+
+It means he's doing worst on the validation is not doing, he's doing good on the training is doing worldwide is doing worst on the validation.
+
+So that point, that's when we call early stopping.
+
+You don't necessary.
+
+Let's say you said two epoch, you don't necessarily need to reach that epoch, you can stop it earlier.
+
+So that's what it means.
+
+So most libraries, they have ways to different ways to check for early stopping, so which you can just implement as a maybe in the cold, you just say you won't tell you stop in after the certain threshold, after the certain amount.
+
+But the thing we tell threshold stopping is that is not optimal in the sense that it is not the best like you can, you can say you get the best sometimes the model just jumped up and then it will still come down.
+
+So even at stop it at that place, you probably do not know whether it is actually just due to noise or due to apply or something like that.
+
+I jumped up and probably still going to come down so you have stopped it and then Yeah.
+
+But that's the simplest tell very simple no coding nothing just terminated.
+
+When you see that you notice that is the violation loss is about to go up.
+
+Good luck.
+
+Okay.
+
+Kind of kind of kind of stop loving for trade, you know, just maybe any other trading as well that you notice that the the trading I think is bullish or something like that.
+
+So kind of Yeah.
+
+Yeah.
+
+Something like that.
+
+Yeah.
+
+Thank you for the analogy.
+
+Good luck.
+
+Yeah.
+
+So as for regularisation, you notice you, I think you guys might have noticed that L two is kind of familiar here.
+
+So we did L to lost so and so it means we also have L to regularization.
+
+And the simple thing, the simplest way to describe to loss is just elation that is it works with squaring thing like square something.
+
+So yeah.
+
+So what is so what else organisation does is that.
+
+So when you have your loss and you the weight of your model, so what you do is and you square each of those weights.
+
+So now the you notice that by squaring the weight, it gives priority to weights that are very, very important while the ones that are less important kept as they like minimized.
+
+So the contribution of which that are very important prioritize.
+
+So the idea is that if you have model, complex model, all those small, smaller, smaller weights are just kind of making the model kind of complex.
+
+So is that they are creating, creating a very significant contribution to the move to the model.
+
+For instance, if you notice this is a feature and the feature that has this weight five, it means that that feature is a very significant making is making a very significant contribution to that model.
+
+So IW the other 10.3 just there like to make it more complex.
+
+So why don't you just give much more poty to the ones that I'm making The model? Like that is very, very important to the model than going for than just giving everyone of them the same chances.
+
+So that's the idea behind regularization.
+
+So now what we do in after the squaring of the weights is that we apply a kind of a parameter or hyper parameter.
+
+So this hyper parameter, we and T it, so we can call it lambda or something like that.
+
+So it's called the regularization rate.
+
+So which means that and of course the regularization rate is often between zero and one.
+
+So which means that if the regularization value, if this regular this this lambda is high, it means that you are prioritizing that the strength and you are prioritizing model to keep the model less complex case to reduce the complexity of the model and this reduces the chance of overfitting.
+
+But if you say the regularization value to be low, low regularization value, it means that the model is encourages the model to tend towards overeating.
+
+Let me show you what this is.
+
+Loss.
+
+This is the regularization time and this is the model.
+
+So if I multiply this by zero, it means I'm literally just working with the loss and the model that developed that generated the loss might be complex.
+
+Okay, So now, but here if I multiply with a value that is I.
+
+So it means that I'm trying to encourage a very simple model.
+
+So that's the interpretation to that.
+
+So if you have a model, generally, the simple thing is that if you have a model and your especially logistic regression model, if it is over-fitting, one way to correct it is to use regularization.
+
+And the simple parameter you can just set is just regularisation read.
+
+You don't need to go about the square and delight it.
+
+The system handles it just you just rece regularisation read in your in your maybe the clock on whichever class you are using.
+
+Okay.
+
+So I have explained stopping means you are trying to stop it.
+
+Okay? So I'll show you what I what over-fitting means with this animation.
+
+I hope it's welcome.
+
+So while we have over-fitting, we have underfitting and we have fitting.
+
+So as you know, overfitting too much underfitting, too low hitting.
+
+It's just like the private perfect thing.
+
+So the over-fitting is that it has mastered the training data and then is not able to like to understand some other things outside the training data.
+
+That's what fitting on fitting means, that it's not even able to capture the training data itself.
+
+So Okay, that's on the fitting and fitting is one that like balances between over-fitting and under-fitting.
+
+What you want to achieve is to have a good fitting, like fitting.
+
+So but we don't want to go to under-fitting and we don't while also avoiding over-fitting.
+
+So I Okay, so I'll show you this.
+
+So now this model is on fitting because where we have some data here and some other data there, so some other data points here, the model is not able to capture those ones.
+
+So by increasing the complexity of the model slightly, then we can get some percentage appreciable percentage of the data captured after this point, after this, this one, any other thing that starts bending coing complexly with some complexity, then that is over fitting.
+
+Okay.
+
+So yeah, see, this model is bending too much, is doing like coving to each data points as much as it can.
+
+So that is over fitting.
+
+Yeah, Yes, yes, yes, Babaji.
+
+We can relate this to Data Science quite be exactly the same thing.
+
+So let me show you another example of over-fitting.
+
+Another instance of let's say we have this data, these data sets.
+
+So this data sets, I will show you now.
+
+Okay, this data sets.
+
+We have data sets of LD tree and seek tree.
+
+The circular shape is the A CC tree while the the square or The Diamond is the the six tree of the tree.
+
+So let's say I want to draw a model, I want to creating model.
+
+So I'm now trying to generate the model.
+
+Okay, so yeah, this is the model trying to capture every data points.
+
+So I would like someone to tell me whether this is over fitting on the fitting or fitting.
+
+So this is the model I was able to come up with anyway.
+
+So now it means that what this model means is that if I bring another data, if I bring another data point and data point, let's say this, let's say this which should be arranged like, So let's say these data points now, so let's say these data points now for in somewhere like this.
+
+Okay.
+
+So now this model because it has coved, it's very, very, it's really complexly called to the actual data point.
+
+You kind of misclassify things on the real data when you are on when you take it to a test scenario that you're trying to test it on real world data.
+
+So this is a kind of a complex data point which is probably going to fill so in when deploy.
+
+So you need to try as much as possible to avoid this kind of complexity.
+
+So so you just it calls and wind and wind and wind to capture the data.
+
+So yeah.
+
+So that's the yeah.
+
+Over fitting.
+
+Yeah.
+
+Thank you.
+
+Samuel Isaac Emmanuel for Latino.
+
+Yeah.
+
+So yeah, that's the logic behind that.
+
+I hope you understood the idea.
+
+Okay.
+
+So moving forward.
+
+So yeah.
+
+So this is what we mean by model complexity when I say model is complex like it's just have to wind three TWE wee until it's able to capture the Audita does the potential over fitting.
+
+It means data is probably going to and the model is probably not going to be able to generalize to reward.
+
+So that's the same time.
+
+So now here is a simple model if you compare it with this obviously, you know, see that this ones complex and this kind of looks simple.
+
+So and while the problem you notice when you are trying to train such a model is that it's will the loss will not be as low as this.
+
+So if you are just looking at the loss alone to say this model is doing good like is doing perfectly well just based on the loss, it's probably is may probably be just an overfitting, maybe not something like that's so you need to be able to do some more damage or like doing some validation.
+
+So and sometimes we do cross validation also to check me that the model is not over fitting.
+
+So Okay.
+
+Yeah.
+
+So we spent one hour.
+
+Okay.
+
+So I will take some question then we also proceed, then we will proceed afterward.
+
+Kingsley: So Kingsley customer Hamad please also you have the floor and Zacary.
+
+So I think Daniel will probably go because some other guys are not, other guys are not responded.
+
+Okay, we.
+
+', hello, sir.
+
+Can you hear me Mamd sir, in the cost of while we are discussing a logistic regression? Okay, I, I see that what, what is the name of the tool you are using to to analyze the the equation? This name.
+
+Can you see my screen? Yes, sir.
+
+Do you mean this graph graphing tool? Yes, sir.
+
+Listen, sir.
+
+You are breaking.
+
+I can hear you.
+
+I mean, do you mean this? I'm sharing my screen, right? So can you see my screen? Yes, Yes, I can see your screen.
+
+This is demo, demo graphing tools.
+
+I think the length is in your document.
+
+Your PDF.
+
+This is not the first time I'm using it.
+
+I used it when we are explaining linear regression as well.
+
+So it's online and you can visit the link if this is what you are referring to.
+
+Yes.
+
+This is what I'm referring to Sir.
+
+The link is in your PDF file.
+
+I used it only linear regression class as well.
+
+So Okay.
+
+Thank you sir.
+
+Yeah.
+
+Okay.
+
+So who next is going? Next is a quick.
+
+We can thanks.
+
+Thanks.
+
+Okay.
+
+Tay.
+
+Hello, Sir.
+
+I am.
+
+Yes.
+
+I can hear you.
+
+I said give us about you choose is over fitting in down that they seek and elly trees there an X, a circle that you put X somewhere in the downmo part somewhere in the circle PA like what does the X represents like the entire blue mode, the colour blue, you check just that XIs that XIs the X represents so.
+
+Okay.
+
+So here is the hex.
+
+Are the ones that the model mistakenly classified as being ELD.
+
+Okay.
+
+So take for instance the circle.
+
+We say the circle is a six tr.
+
+Now the blue area is supposed to be the area for healthy tree, but now we are having a sick tree there.
+
+So which means it has been misclassified.
+
+So likewise in the yellow-orange area, so you have a square.
+
+So and the square is not supposed to be here, it means it has been misclassified.
+
+Is it possible for a model to not make any mistake? Like we should not have a misclassified one, Like everything should just be accurate.
+
+Okay.
+
+So it's possible you can have a 100% and what accuracy.
+
+So what Also you need to check some of that things.
+
+Once your model is saying 100% or 99% accuracy, you should check, make sure you check some other things especially maybe you do cross validation or you do some.
+
+Like validation has some validation data so that you be sure that is not super fitting is actually that the model is good not that is hitting.
+
+Okay, Sir.
+
+Thank you sir.
+
+Yeah.
+
+Okay.
+
+So we have Zay, Zay, please speak.
+
+Can you hear me? Okay.
+
+So I think probably the guy is not able to speak now.
+
+Okay.
+
+So moving forward, so we have talked about the logistic regression.
+
+Now we need to test our knowledge about the logistic regression.
+
+So I give you, I'll give you assignment.
+
+Okay.
+
+So I want you to visit this logistic regression testing knowledge about logistic regression.
+
+And so I want you to please check your network code.
+
+I think we've been changing screen so long.
+
+I'm sharing the old window.
+
+So I believe you can see the logistic regression test your knowledge screen and page if you can see it.
+
+P Kindly to thumbs up.
+
+Okay.
+
+Thank you.
+
+So please, please check your network.
+
+I think so.
+
+Okay.
+
+I shared you the link to your test knowledge about logistic regression.
+
+So please try as much as possible to do this quiz.
+
+The mode of submission.
+
+I'm thinking, I'm thinking of the mode of submission.
+
+So I am, I'm, I don't know where you many will be comfortable with it.
+
+So I'm trying to draw a pool now to get your response on mode of submission for this assignment.
+
+Yeah.
+
+Okay.
+
+So yeah.
+
+So the model of submission, I'm thinking you probably share the link on your LinkedIn profile or you submit some people will allow me to drop it.
+
+Choom.
+
+So depending on the outcome of the poll is what we're going to go by.
+
+So right now we have about 91% saying we want to sol from Okay fin Okay.
+
+Now moving forward we so now we talk about classification.
+
+So now logistic regression is like stepping stone to stepping stone to classification.
+
+So and very often you come across two type of classification to class.
+
+And so you have something like binary classification and you will have multi-class classification.
+
+So the example of binary classification is what's with many of us we've done, although some people did multi-class classification.
+
+So whenever you have two class is so classes just to yes or no.
+
+True of course lemon or lemon or juice by the way we ZB because I know I like to so so I think someone is and we have some questions first and the result of the liger in the pool that we use and Google form.
+
+So I will share Google form with you then you submit the link.
+
+Yeah.
+
+So going back to the questions, so the question is that.
+
+So the question is the handling linearly inseparable data.
+
+So now yes, you are right that theistic regression cannot may find it difficult to handle linearly inseparable, what we call separable data points.
+
+However, there are some other techniques that could be used when we are talking about classification.
+
+So aside from the linear way of handling it, we have also some er, some other functions, some other function like radio base and some other was equal to that and complex model that are not linearly separable.
+
+So yeah, but yes, do you do I answer your question or you want to answer some additional information about it.
+
+So and in practice what TE can be used to improve performance in substitution? Yes.
+
+One of those techniques apart from that is that you use some other functions.
+
+So example of such functions is base is also a very good and function that can also handle what.
+
+So yeah, can handle complex and model and by and large logistic regression or sigma function is it it's really good at because the function itself is not kind of that linear exponential is not linear if you notice if you are having some challenges trying to undo that kind of data.
+
+So I suggest you use radio based, you can also use some canal.
+
+We have another formulation for canal kind of be function.
+
+Do you understand? Okay, say Okay.
+
+So so let's move forward to classification.
+
+We have classification and then in classification we are trying to classify object in a setting in some classes.
+
+So we have binary classification.
+
+It means you just have to class spam one, spam, no lemon juice, cat or dog or something.
+
+I just have to class.
+
+Whereas for multi-class classification we have Okay, I see now so for much class classification, it means you have more than two classes.
+
+So for the in the classification, Okay, so I, I believe we're still going to address some additional things about classification in the next class.
+
+So now in classification, we usually said something like a threshold for you can say this class, this belongs to this class.
+
+So like if you don't have threshold, how do you want to be able to do that? For instance, you have decide the probability sum up to one.
+
+If you have two classes, it means this class plus this class is equals to one.
+
+That is the probability of this class plus the probability of this class is equals to one.
+
+So now at what point do you want to say that this probability belongs to this class? Probability belongs to this class.
+
+So in that case we have to have some kind of a threshold.
+
+So 50% is not a good thing to do because by using 50% it means you are just using random guess.
+
+Okay.
+
+So that's what we refer to as a 50% was it go So of of course it's less than we say less than 50% is definitely not that particular class, but 50% signifies that an equal likelihood that this class belongs to this or this class.
+
+So it's for for two classes is just as much as you saying that they have equal chances.
+
+So now whereas the creation of something like more than 50%, let's say 75%, is certainly very high chance that this is the class that is not a matter of not sure.
+
+So 70% or 75% is appreciably bankable.
+
+So let me show you the idea behind the, what is it called the threshold.
+
+So we don't, we don't say 50% threshold anyway.
+
+So usually more than 50%, maybe 5152 something.
+
+So is what we set as threshold.
+
+Now the way we also measure the performance of classification is a confusion matrix.
+
+Confusion matrix is how much the model is confused.
+
+As simple as that.
+
+I'm sorry I just missed on asking question.
+
+So someone is asking eleven labs is part of AI something like, Well, I won't used it personally.
+
+So but most of our platforms, we can assume especially one of that has to do with textual speech and then some voice cloning are often AI, the because they open source what it call in AI models.
+
+That's honestly, I can't say about that.
+
+You, you as about eleven labs part of ML.
+
+You also ask about voice AI companies as MLB.
+
+I can't say yourself for what they say because we are using their planning, you are just using their platform, what they have, whatever they provide.
+
+So and you don't know what is happening on the wood.
+
+So like for instance, there was a scam recently, a company claims to have to be using AI to develop your code.
+
+So what you do is submit your prompt and then the prompt, let's say you want to design an application that does something, something, something, Okay, a very complex application.
+
+So then once you submit the prompts to the plan on the platform and the AI said, AI will come up with the full model of full application.
+
+So after maybe two hours or five hours or something like that.
+
+Okay.
+
+So recently and the company actually got a lot of fundings, a lot of fundings like millions of dollars.
+
+So what eventually the little discovered that the later discovered that the company actually employed some Freelancer or some guys in some countries, some other countries that their income or their standard of living is a bit lower.
+
+So like take for instance, let's say in Nigeria, The Standard of living in Nigeria is this why you think might be things might be expensive now, but it's not Living in Niger is kind of still not as expensive as being in maybe places like US or UK.
+
+So if they are working with the company in UK, so and the company is paying you in pounds or something like that or you so you're working, maybe you are working us and paying us allow kind of like that.
+
+So by the time you convert that money to my journal, the value will be kind of high.
+
+So even if that amount is not equal to the minimum wage or minimum power written in in US or in the UK.
+
+So that's the kind of the scenario we're talking about.
+
+So if people are PL par platform decide they want to do to do this and it's kind of cheap and decided AI, but whereas behind the wood they are paying some developer in some countries that have a lower standard of living.
+
+So I think so, so I'm not quite sure.
+
+So that's why I didn't mention engineer.
+
+I think the, I can't remember the, I didn't mention it.
+
+So so anyway, so that's the idea.
+
+So if they said they're using AI until it's debunk, that is not AI.
+
+We just have to believe that they are using AI.
+
+So that's just it.
+
+So we are just the front end user.
+
+And then you may not be able to dig deep into what they are doing and something like that.
+
+After the scam was discovered, most of the investor pull out, pulled out and yeah, so there are several it comes like that.
+
+So Okay, so let's move forward.
+
+So confusion metrics.
+
+So confusion metrics, it is small, less like the model is confused.
+
+So that's just how how much confusion is, how much confused is the model.
+
+So here is how we measure it.
+
+So we have the actual positive, actual negative, predicted positive and predicted negative.
+
+So let's call the the sometimes call true positive and true, true positive and false positive, true negative and true NE true positive and false negative and true negative.
+
+Okay, So now what do we mean by this? Is that let's say you have a model, the model we let's for example, let's use the spam classification as an example.
+
+So you have the model and then the model, the actual model, the actual data is that the the actual state and label of that class is that this thing is a spam.
+
+Okay.
+
+So if the model actually predicted that this is a spam, thus actual positive and predicted positive.
+
+So we call it true.
+
+The model is true and the result is positive.
+
+Okay.
+
+So that's true, positive.
+
+Now, but illustration where by the actual prediction is a is actually spam, but the model predicted not spam.
+
+Okay.
+
+So now this is false.
+
+Okay? And it is also a negative prediction that is not spam, spam and not spam.
+
+So so that's what we mean by and that's what we mean by false negative, Sorry someone As let me finish it and the explanation on matrix.
+
+So now in the expression whereby the actual prediction is a not spam, Okay.
+
+And the model now predicted and predicted that it's a spamm.
+
+Okay.
+
+That's where we say false positive.
+
+Now actual prediction is A is not spam and the model predicted not spam.
+
+Then as when we say is true negative.
+
+So now what we now do is we count, we try to count the number of predictions that are true positive.
+
+We count the number of predictions that are false positive.
+
+We count the number of predictions that are true negative.
+
+Our carin of prediction attack false positive and false and true negative.
+
+So that's how the confusion matrix is represented.
+
+And we can also have, we can also derive some other calculation from it's likely the accuracy, the precision, the recall.
+
+So which you are going to mention in the next class.
+
+Okay.
+
+So this is a what a model, an example of data sets.
+
+So we set the threshold to 50 and this is the confusion matrix.
+
+Okay.
+
+So the data set comprise of the circle and the square.
+
+Okay.
+
+So now if we are trying to count the number of I mentioned treasury, the probability, like the number of probability that you get that would say that this is this thing belongs to this class.
+
+If you say the minimum threshold to say that this belongs to this class is 50%, it means this side has 50% chance and this side also has 50% chance.
+
+Okay.
+
+So now let's see if we are trying to count the number of data that are actually on this side on the actual and actual label is is square and the predicted label is actually square.
+
+If you can't it, you should be able to get 40.
+
+So 123-45-6740.
+
+Don't mind my accounting, I'm just ring about it to be definitely 40.
+
+So for you to be sure if I, you know, notice this is just one.
+
+So if I drag here, we should be able to reduce it to 39.
+
+So, Okay.
+
+Yeah.
+
+So I hope you understood where I explain so and then actual actual negative predicted positive so which means that this thing is actually is supposed to be square so but it's predicting it is supposed to be circle, but it's predicting it to be square.
+
+So if you can't it, this is 123, 4567.
+
+So this is seven.
+
+Okay.
+
+So I like that.
+
+So that's how we get the confusion metrics.
+
+AI automation.
+
+Someone is asking then asking what is the automation? automation? Er it er it could be a lot of things.
+
+But in this current era that we have is like we are trying to use AI to automate some processes.
+
+So one of those platform that can be used for AI automation is N sorry, N.
+
+So this is the NIT.
+
+It's finally now with an open source something.
+
+So what it does briefly is that you can then create some AI agents.
+
+Let's say you have your CHARG VTI to be able to do some automation like fetch information from your database and then to be able to push it to to generate a push message to your Slack or to your Google driver to send SMS or something like that.
+
+So about are hearts.
+
+You have agents, agents like an LM like open a G API or you have Google that is doing the work.
+
+So I think we're going to stop here please.
+
+So see you in the next class.
+
+Yeah, Have a wonderful day week, bye.

@@ -1,0 +1,1431 @@
+Yeah, yeah, hello everyone.
+
+It's a wonderful evening today.
+
+Wonderful night and morning.
+
+So I hope you can hear me please kindly signify by doing some thumbs up if you can hear me.
+
+Okay.
+
+Thank you.
+
+Yeah, hello, maybe may.
+
+Yeah, thank you.
+
+Okay.
+
+So we have a lot of things to do today.
+
+So I'm sharing my screen and Okay.
+
+So without too much delay and last class we talk about some programming especially some things are and notebook and then we also talk about something about Python installation and then yeah, and we briefly and walk through linear regression just briefly.
+
+So today we're going to we are going to get our hands dirty and then I hope you follow me as we go on the journey.
+
+So I believe you actually read the document and the notebook I shared with you regarding linear regression.
+
+So if have a question, Okay.
+
+I think I would allow E to speak because she is kind of saying pressing question, could you raise up, raise your hand so that I'll be able to grant to permission to speak.
+
+Thank you.
+
+Okay.
+
+So you may have giving you the permission to speak, please ask a question.
+
+I hear you.
+
+Okay.
+
+Why you are still trying to sort out your microphone.
+
+Yeah.
+
+Thank you.
+
+Gu read one line is good.
+
+You going through it.
+
+Okay.
+
+So now today we're going to do a project based learning.
+
+So we have a project and then we want to also try to study along with the project so that you will be able to solidify some of the Python knowledge you have learned so far.
+
+And also, I tell you this, you need to also be able to read documentation.
+
+So documentation in the sense like if you, if you are given some kind of data set or you are given some kind of things, so you need to be able to read documentation to understand what surrounds, that's what it entails.
+
+And also Python is really dynamic, dynamic in the sense like the rate at which some of these packages have been updated by time they get updates, what you think you know will quickly go into go obsolete.
+
+So maybe not exactly.
+
+But let me give you a typical example.
+
+So when I was in, when I was doing my masters, I was quite familiar with ten of one point, one point something, something, something.
+
+So by the time I started my PhD, the release tensor flow to point something, something, so that to point something is entirely different from one point, something entirely different.
+
+So the all things about how you train your model, how you do this divine so many things is completely different.
+
+So for those that have memorized 1.5, you have to relarn, so you have to check the documentation again.
+
+So in my own opinion, I think it is good to be familiar with the documentation Than To memorize the documentation because by the time it's changed, it changes.
+
+You will probably be stuck in some of those things you are quite familiar with and easily it kind of can just be depreciated.
+
+So I duplicated.
+
+So EB have you find a way to speak? Your hand is up.
+
+You have been granted permission to speak.
+
+Please speak.
+
+Yeah.
+
+Hello.
+
+Can you hear me? Can hear you.
+
+Alright.
+
+Good evening, sir.
+
+Thank you so much for the opportunity.
+
+So I've been having this present question.
+
+I was, you know, trying to get a little bit familiar with some platforms, some AI agent platforms, right? Especially relevant AI.
+
+I wanted to know like the information behind the workflow because I've been trying to like build kind of workflow, something like a compensation AI kind of workflow.
+
+So I just wanted to know like in that light because basically I'm, I'm a customer support person and I've been trying to build some, you know, AI agents that can actually facilitate, you know, customer service or clients more like I'm trying to sell these services to clients, right? So I'm trying to figure out in this course when you talk about data sets, Okay, does it have any similarity to, you know, building like that like like a backend workflow, like the data set or the instructions that we give to this, you know, like when we're trying to be a workflow, the instructions that we give or that we impute into this workflow, you know, that we're Gonna direct to the conversational AI.
+
+Is it? I don't know how to put this question, but I'm trying to say like they said, is it like in relation to what we are doing right now, like the impute and the output that we get from, you know, the impute that we put into workflows.
+
+Okay.
+
+So I get your point.
+
+So Okay, let me come out straight, we're not going to get to that place in this course.
+
+So however, I can give you recommendation on how to proceed with that.
+
+Of course, the knowledge you gain from this class will definitely be relevant in how you treat things.
+
+So, Okay.
+
+So here is how it works.
+
+You basically are working on conversation AI and which is quite related to NLP Natural Language Processing.
+
+So here is the pipeline you have your the way we do it is that we usually use large language model.
+
+So like CHARGB or we use a cloud or we use any of those or GNI, so we use that, so that will be your the language model will be generating the text.
+
+Okay.
+
+Then you have text speech.
+
+Okay.
+
+So maybe it's because you're saying customers, so send customer support maybe on phone or you are on any what you call maybe voice responder to response.
+
+So you need text speech.
+
+Also now regarding your data set, so what we do is that we usually have a knowledge bank or knowledge base.
+
+So the knowledge base you put some is likely let me put it like this, like you are trying to build frequently asked question but not strictly frequently asked question, but that your data set will be in something like that.
+
+So you have some questions, a lot of questions, Okay? And then you put as part of your knowledge bank and some of the processes you do for your work, like for instance, a bank you are working with, a bank or one of your clients is one of the big bank in the was the call.
+
+So they can give you the documents about their services, their works, everything that it entails about your their work.
+
+It could be in PDF, but not just KY.
+
+Scanning is not the best.
+
+Okay? But text and like so those will be your knowledge bank will quickly because you have a specific question which we may not get there in this, I will quickly show you something now.
+
+Alright.
+
+Thank you.
+
+So take for instance, this is just an example.
+
+Here is an open source platform.
+
+I'm coming.
+
+Okay, So let me show you Open Web UI.
+
+So this is open Web UI.
+
+So in this platform is like a free version of of of charity, not really charity in the sense.
+
+So in this document here you have information on how to set up this interface for you to be able to build a conversational mode in AI.
+
+So it has as part of the documentation here is how you integrate Text-to-Speech model with it.
+
+Okay? So and then it can be in your back end while people call the API because they are API end point to that.
+
+Okay.
+
+So I need to respond as just with what they call the the necessary outbooks and you can have different clients and set up the accounts from there.
+
+So what you'll be maintaining is you get the data, data.
+
+What I mean by data, I have mentioned that the process is the part of it is it should be inform of like frequently asked question answer.
+
+But it is not strictly that some of those things that their customer will probably be inquisitive about and then some other things like that.
+
+So typical type of documents you may want to get.
+
+Okay, did I answer a question or you need more information.
+
+You know you actually did, you actually did.
+
+Thank you so much.
+
+I appreciate another one that you may also want to check is rag flow flow.
+
+Yeah.
+
+That flow.
+
+So rack flow is also an open source platform which is also free.
+
+You can integrate into your pipeline.
+
+Yeah, it's completely free.
+
+So you can download it into your back end, you can integrate it and then you can have what you say here is agent agent that you can have and then you can have an example of agent that is available with SCS customer support agent.
+
+So here are some of the examples that's laid the foundation for what you probably want to do.
+
+But the most important thing is that the data set, so you need to have your knowledge set, Okay.
+
+Part of the data sets.
+
+Okay.
+
+Do you understand? Yeah, I do.
+
+I do.
+
+So like is that like like a code? Like is it like the like the focus report that you showed us? Like we can, you know, running, maybe trying to modify what we're actually looking for and just run this is, this is the repository you can Okay, Okay, Okay, this is like it doesn't have the integration, doesn't have the integration of, you know, let's say doesn't have the integration of let's say the LM you are talking about likeg P Close doesn't have the integration in it.
+
+So basically you want to integrate your chargeability with it.
+
+You just need to get your API key.
+
+Of course you have subscribe to chart to then you get the API key and you integrate the API key.
+
+Here is where open and coming open.
+
+So here you can add your open key as part of the process.
+
+I don't have it installed on my computer, but it's something I've used and then Okay, Okay, maybe some other time.
+
+So, but anyway, you can integrate API, create it and have used it and it's something that's quite possible for you to do then what next? Yeah, the repository is free.
+
+You can download it, you can clone it and then Okay, so yeah, thank you also, but that one may be expensive kind of.
+
+So also another thing you may want to, you also could want to experiment is that there is a free LM that you can host on a personal computer, but you don't have a good a very high-quality specification either bits it may be lagging like this is OOMA, so OOMA you can install on your computer and then you'll be running the model without using CHGB.
+
+Yeah, Okay, my my my spec is about, I think I have, I think it's 88 RAM G RAM.
+
+Yeah, eight G RAM.
+
+So I don't think Yeah, the way you smile, I don't think it's Gonna do it, do it in its GPU.
+
+Yeah, Okay and yeah, thank you so much.
+
+I appreciate.
+
+Thank you.
+
+Right.
+
+Okay.
+
+So I think a question is kind of a specific and it's not something we will get to in this course.
+
+So I need to attend to that.
+
+So if you also have kind of similar thing and that is related to your work, please shift it to raise it for other source of benefits anyway.
+
+So yeah, as you're saying, data sets.
+
+So we have the so data set.
+
+Okay? Our talking about the need to read documentation and if you can't read documentation, then it's probably going to give you some challenges so that your course, even if you learn the fundamental, you may probably, you may probably be hooked up in some.
+
+So now let me give you, let me give you a typical example of what I mean.
+
+So you have a data set, let's say a company or your company or thereabouts, give you the data set.
+
+So or you you are going, you are trying to get get your own data set that's getting your own data sets for existing problem is going to is usually easier than getting a data set for something that you don't even have an example, you don't even have anything that exists for it.
+
+So which I don't know the type of problem you want to solve, but maybe you may not encounter that there any moment soon.
+
+So now we often have some dataset that are just free, like I mean it is not free in term of free to use.
+
+But they didn't split it, they didn't group it into anything.
+
+We just leave it for you to decide.
+
+Okay, So this is this taxi trip data set is an example that we show you another data set is the one that they've already splitted it, like the splits the data set into some by some issue.
+
+So what I mean by splitting is that when we train, we want to test the model.
+
+We want to test the performance of the model.
+
+So we usually split into training sets and testing sets.
+
+Sometimes we also have training, testing and validation sets.
+
+Okay, so the training is from what you hear is for training the model like model, try to learn from the data, so the testing is for to evaluate the model.
+
+However, if you have a validation set, so during the training, the model with the training loop will try to validate like try to check if it's doing well.
+
+So after the old training.
+
+So you know, use the test to get like some performance metric on the model.
+
+So basically the validation tries to let you avoid some er, I will say overfitting, but I have not explained over fitting to you guys.
+
+So but take it over fitting means that the model will only learn the data sets, the training data sets, without being able to generalize to other new data that's over-fitting.
+
+So what if you have a validation set along with your training? So the model will try to also be by trying to validate itself during the course of the training.
+
+So even prior to doing the testing.
+
+So I will show you an example now, so it's example of pre-split example.
+
+Like I just give it the name does not a conventional I just need to give something so that you get the logic.
+
+So if we take a look at Google Colab, usually when you open collab, there is some data sets that are readily available so that are readily available for you to use.
+
+So wait for it to load.
+
+There are some data set that are readily available for you using the sample.
+
+We this sample folder.
+
+If we expand the sample folder, we have some data set.
+
+This is California housing.
+
+You see tests California house in training.
+
+So it means this data has already been split into train and test.
+
+Okay, So if you load the data, you load this sample for train, you load the sample for test.
+
+So here is another data set.
+
+Mist data set, the priority split it to train and test.
+
+So this is already splitted.
+
+Okay, now let me show you what I mean by the ratio.
+
+But because you need to know the ratio of train to test.
+
+Usually usually we have more training data than testing.
+
+So because you want the model to be able to capture more information about how the data is or how the data could be.
+
+So it's kind of in some cases that kind of almost cases kind of logical for you to have data sets that are training data set that is much more larger than the test data.
+
+So Okay, I have downloaded this data then I will try to open it with my computer because it is CSV file so I can try to open it with Excel.
+
+So here is the data the California housing train set.
+
+If I scroll down, so you notice it's actually 17,000 data points, this 17,001, you know they will be tied to so T at the top.
+
+So we have 17,000 data points.
+
+Okay.
+
+So which means the data, the training data is actually 17,000.
+
+Okay.
+
+So now for the test, I will also P the test data.
+
+So here is the test data.
+
+So if I scroll down, so you notice these 3000 data points, so which means that train training plus test data, we both some to 20,000 data points.
+
+So if you want to know the ratio of the training to test is just simple mathematics, you can just say 3000 divided by 20,000.
+
+So this is 15.
+
+So it means that the training is 15% and then the test is 85%.
+
+Okay, they just sum 100.
+
+So train tests train.
+
+In this case the training testing ratio is 85 to 15.
+
+Do you understand? Okay.
+
+So can your lies asking me about work fitting? So work fitting is that your model is only able to understand the training data is not generalizing to other data.
+
+So maybe after you've trained your model and then you now try to test it on another data, it will not perform quite well with it.
+
+But if you try to test with the training data, it will perform excellently.
+
+So like when you are training, you discover that it's getting like 11 accuracy, 100% accuracy, 99.9% accuracy.
+
+Now we now try to use the model to train, to test, to evaluate and test data.
+
+Then you know, see something like 45%, 50%.
+
+So that's more like like a random guess.
+
+So which means the model has only over-fitted to the training set but did not generalize to the real data to the order and real data.
+
+Okay.
+
+So that's that's that.
+
+So which means the ratio for this California housing data is actually 85 to 15.
+
+So if you want to also check for that of M data.
+
+So I downloaded the data as well.
+
+The train sets for the MNS data, the train set is 20 to 20,000 and then the test set is so for this the test set is run and 10,000.
+
+So if you had changed 1000 to 10,000, that's 30,000.
+
+So which means the, which means the ratio is that you have 10,030, which means you have 33% test and you have 66% trained.
+
+Do you understand? So that's splitting like data that has already been splitted.
+
+Okay.
+
+Now but in some situation you are you encounter some data that they not be already splitted.
+
+So here is a typical example of this data, the California and so the taxi trip data.
+
+So this taxi trip data is data sets for in Chicago city of Chicago of trip.
+
+So from 2013 to 2023, so take for instance, let's assume Hoo Hoober, any of these commercial and taxi in your location in your country.
+
+So they are taking record of people that bought the taxi and then that's and both exit so through their platform from 2013 to 2023.
+
+So that's literally ten years.
+
+You should expect something of such to be quite huge because 2013 to 2020 3is ten years and it means everybody or at least one person and one car someone is taking care per day.
+
+So at least we're going to have 365 times ten, so which is about 33,000 something, something so so which is quite not so much, but when you know, make it in terms of seconds, minutes and then multiple cars, then you're going to have a lot of data points.
+
+So basically this data, this kind of data we have to protect privacy, Okay.
+
+So is reported to be chic to the city of Chicago in the role of a regulatory agency for time taxi trips.
+
+So if you, you can read some other information according to this, it has also been updated to 2024.
+
+So and then here you notice it as a 122 112 million rows.
+
+That's a lot, so million.
+
+Let me see how did you get 66? Mistak: Okay.
+
+So how did I get 66? That's Debra asking.
+
+So I think has actually answered that.
+
+What I'm saying is that 66 the training data, this is the miss training data.
+
+This is another example of data setup has already splitted.
+
+So this is if you look at the rows of the Excel sheets, you you notice the total number of rules that you have is a then 20 is 20,000.
+
+This row which is 20,000.
+
+Okay.
+
+And you check the test set, it's 10,000.
+
+So if you had 20,000, if you had 20,000 to 10,000, that is the total number of data train close test.
+
+Okay, that's 30,000.
+
+And then if you do 10,000, that is number of ENT train of test divided by the total which is 30,000.
+
+That's 0.333 times one.
+
+If you want to make it in percentage times 100.
+
+So which means you have 33 if you have 33 the other side of it 100 -33 66.
+
+So and you don't want to do it that way, you can just say and 20,000 divided by 30,000, which is definitely 0.66 times 100 plus 66%.
+
+Okay.
+
+Do you understand? And so someone is asking what is sampling? So over sampling is basically we usually use over sampling to to avoid bias.
+
+Okay, So let me talk from another point of view.
+
+Then sampling.
+
+Let's say you have a data set that is not balanced.
+
+Let me give you a kind of a typical example.
+
+You have a data set that is not balance.
+
+What I mean by no balance is that you have two data.
+
+Okay, two data points for class A, you have maybe 1 million.
+
+For class B, let's say you have just now 100,000.
+
+So there is one that is much more than the other one.
+
+Okay, you need to the the best is for you to have a balanced data because if you train, if you train based on this kind of data, the model will be biased towards the one that is more so I want I, in fact, I wanted to tell most of you to watch back the video you submitted those people that their classes are non-poor.
+
+You tend to discover that the class that has the highest number of data is always the one that will be showing almost all representative when there is nothing.
+
+So that is for done sampling.
+
+So over sampling is the opposite of done sampling.
+
+So Okay.
+
+So someone is asking, is asking if the data set is not splitted, is there kind of a recommendation on out to split.
+
+So we're going to also work through that in this class today.
+
+So there is no strict rule on the how the data sets should be split.
+
+But first thing first through is that your train should be more than test that the first through.
+
+So now the command common splitting.
+
+So you have 60, you've seen 6030, but which is not really that common, but the most common one is 8010, 8020, 9010, something like that.
+
+So depending on the quantity of data you have, you want to have some appreciable number of data too.
+
+So there is no strict rule as far as I know.
+
+So but they are common leaders.
+
+There are common ratio that people and that is well adopted in the merchn and community.
+
+Mostly 7030 is also used and 8020, 9010.
+
+So that kind of ratio is also very common.
+
+So another thing that is also common is that if you get, if you want to do validation, sometimes you only do train and test, then the test data, you then split it again to include validation.
+
+So yeah, Okay.
+
+So moving forward.
+
+So this data set, so I am trying to talk about these data sets, Okay? And then some other things.
+
+So the data set, basically it doesn't have any information about splitting or whether splitted or not.
+
+Splitted is just the old data sets all together and is so 112 million rows.
+
+So this 212 million rows, you can decide to download the data, which I don't recommend anyway, you can decide to download data or you can decide to visualize some portion of the data on this or you can use a PI to call it.
+
+So that's on that.
+
+So Okay, let me let me show you the data.
+
+Let me just have view of the data.
+
+So as I said, this 12 million rows is trying to calculate the 212 million rows approximately.
+
+And then you notice there is nothing like splitting.
+
+Yeah, this is the old data.
+
+Okay.
+
+So when you get this data is now your role or your responsibility to decide on which ratio to split them.
+
+So we're going to use this data in this class, but it is not the old 201,000,000.
+
+That's going to be a lot so, but I mean is something that is possible to undo.
+
+But so, yeah, anyway, so that's the idea.
+
+So for the case of data that are not splitted, you need to be on to decide on how to split them.
+
+Now here is the thing when you're working with data like this, we often have some issues to use some of these existing applications.
+
+So take for instance, the trip data is twelve, 2,000,000 and  from Gole Go already provided us with one of the data.
+
+This data got the sample, some samples of this data, so which we will work through soon.
+
+Let's say I want to open this data in Google spreadsheet, so I need to open it and I can just say for import, you import data and then sales trains.
+
+Okay and need permission when is trying to when you encounter this problem, resource is a resource at U contain maximum size, exit maximum size size.
+
+So which means dita you cannot, you will not be able to load it with Google Spreadsheets without doing some additional process.
+
+So it's it has exist the size that it can accommodate.
+
+So that's one of those kind of challenges you face with and some of these existing tools.
+
+So they have some other dedicated platform for huge data like this.
+
+Okay.
+
+So now I downloaded it offline and then I have it here on this computer.
+
+So Microsoft Office, Microsoft Excel is able to open this file successfully which is there's no problem.
+
+And if you scroll to The Bottom, you will notice is actually this is actually 31,695 out of it 212 million D just samples 31,695.
+
+So say, for instance, I want to perform some additional operation on it, I can just say let's say I want to get some column.
+
+So I want the column.
+
+Let's say I want the column for trip in mouse.
+
+Okay.
+
+So I get that this another sheet and then I want to get another column.
+
+Let's say the this one.
+
+So let's say I get this, these two columns.
+
+Okay.
+
+And let's assume I just plot the data.
+
+I'm trying to show you something like some of those things you may be facing if you have large data like that, if you first thing is that you may not be able to use Google Google sheets for it.
+
+So that's one thing, the other thing that you may also encounter.
+
+Let's say you want to use EXL for it either EXL may get laggy like get slow, it may crash.
+
+So take for instance, I try to plot data, see it's frozen just because I resized, so because the data is large.
+
+So and let's assume I'm also doing some additional operation like plotting trend line in this, I click on trend line is still loading.
+
+So anyway, in essence, what I'm saying is that if you have large data like that, you kind of have some lag or some slow behaviour from the the software so and anyway, so that's the point.
+
+So at this point this makes a someone is asking if you're going to have written that test today.
+
+No, you not having test today.
+
+So yeah, this is some kind of experience you will be experiencing with some of these existing tool.
+
+So apart from sometimes not been free.
+
+So some of these platform they have limits and then they perform, they have slow performance when it comes to large data and sometimes they may crash depending on the system specification.
+
+So now that's when sometimes you need to use platorm platform that kind of optimized for large data.
+
+Example is Python and some other and platform like that, some big data big query.
+
+And so now in this class we're going to be talking about Python and then we try to walk by.
+
+You will try to get solve the problem by just reading documentation and making some Google search together.
+
+So here the data sets, I have shown you the tax data sets it contains.
+
+According to the documentation, it contains 212 million, but we are not using the 212,000,012 million  anyway.
+
+So but we're not using the two and 5 million.
+
+We are just taking 31,000 samples from it.
+
+So but why you have you get data set like that, you need to check the documentation of the data set or somewhere they give you information about datasets, say like you got data from a bank or you got data from a from a company.
+
+So they want you to analyze it or your company you want that they want to do some prediction on something, something, something.
+
+So you need to request for some data right to maybe the IT engineer or it was it probably give you data from the database and some other things like that.
+
+So you need to have some description of each of those columns of those data.
+
+So take for instance, the description of the 23 columns of this data is a trip ID, taxi ID, trip starts time like the description.
+
+This is just the title, this is, this is just the column name, this is the description.
+
+So each of these columns they have their descriptions.
+
+So distances of the trip in miles, so time of the trip in seconds, pick up census track to pick up area, pick up community area, the fear of the trip that is the Mon, the the passenger paid the the driver and maybe they use a card or they used anything or they paid by cash.
+
+So those are part of some of the information you get from the from the description.
+
+Okay.
+
+So someone is asking the dedicated platform to access large data.
+
+Since Microsoft and Google sheets are lagging there are there are if you were talking about G high page and what is it called.
+
+Google also has a some like a big query is part of their platform and they also have this data rank that also handles and kind of that and MO.
+
+So and for Microsoft they use there is another way to do it instead of loading the data, you can just get the link to that data, so it will only be performing some certain operation on those data, but it will not load it completely.
+
+So there.
+
+Yeah.
+
+Anyway, Yes, someone, someone is asking can we use Python to handle large data sets in Python? Yes, you can handle some appreciable large amount, but sometimes you also need to switch the engine that's the Python is using.
+
+For instance, we have Piquet, we have Paro, we have different type of engine like that, so which some are much more efficient than the other.
+
+Yeah.
+
+Okay.
+
+So we will also mention that.
+
+So anyway, so that's the data we need to be able to now use a like Python.
+
+Let's say we want to use Python to work with data.
+
+The first thing you need to ask is that the data is is in CSV.
+
+So how do we lose CSV data in Python? So so how do we lose CSV data in Python? So we can do some Google search CSV data.
+
+So some of the suggestions, especially this, Jamy, I likes the number suggestion.
+
+We often be pandas until there is another one.
+
+So what we can do is just to go and check the documentation of pandas on how to do that.
+
+Although this has already given us some slip snippets on how to use that, but we can go with this.
+
+So we can try to check some documentation like that.
+
+So which one? Okay, let's go to the documentation.
+
+I think the purpose of this class is to be confident with documentation.
+
+So now you click on the link or you search for pandas.
+
+Like here you search panda so you can search for PAAS and you get the link to pandas.
+
+So mostly you want to get started on Python pandas.
+
+So what you want to do is so you need to see the installation.
+
+So and if you remember you are not at this point enough, you are not new completely.
+
+And Hamad, I think you, maybe you came late.
+
+We are just progressing Little By Little.
+
+So please take patient.
+
+So yeah, So now we as this stage of our Python journey, we've understood that there are several ways to install Python and Pandas or libraries.
+
+Okay? In general and Python.
+
+So but basically for us we are focusing on using PEEP, which is what I explained the older ones.
+
+So but I only explain PE because we are using Google Collab and PEP is the means source of installation for now.
+
+So you can scroll, continue scrolling, Installing PAAS, installing with an ACCA.
+
+Of course you don't have an ACCA installed or except with a computer installing MINA, installing with from people.
+
+So which is the one you are familiar with and I believe we are familiar with, so it as simple as just keep instop and that you can copy it and then come to your HO and then to what do I need to install? Which answers the question of at this point what do I need to install? So remember, I put this factorial there.
+
+So Factoria I mentioned in the previous class to run shard command so keep install PAS.
+
+So by running this will be able to install PAS.
+
+Then the next thing is for us to really get started.
+
+So on a simple note, we want to install from CSV.
+
+Okay, so you can make your search here, read CSV or install CSV or load CSV or there abouts.
+
+So whichever one works for you, we check the documentation so, but anyway, so we can try to see if we can get where to reach CSV.
+
+So yeah, here.
+
+So now here we have the Pandas IID reader function and accessed like like Pandas R CSV which is what we actually want.
+
+So Pandas R CSV and then you will be able to get a some of this information about the documentation about how to reach CSV.
+
+Now before you read all this documentation, if you scroll down to most Python libraries, you will see example that you can copy, that's The Standard.
+
+So here is PD read CSV and the why and the name of the file.
+
+We can copy it and then just Okay, so we can copy it and just put it where you want to read it.
+
+So, yeah, so, but this is not the data I want to use.
+
+You want to use this URL so you can copy the URL and then replace it here.
+
+So here we've been able to translate some information we have in a document in the documentation to at least as simple as just to be able to read something.
+
+So we run the installation, we try to put this code, but of course this code is going to fail.
+
+We know, because in Python before you can use anything you need to import.
+
+So especially those lib readers are not.
+
+And the Imbu library of Python, I, I would do which part do you want me to explain? So I'm waiting for the Party wanting to explain.
+
+Yeah, So we've been stalled the pandas and then we need to we copy the code of how to read CSV from what it perform.
+
+Okay.
+
+So we copy this code like we've also we check the documentation, the documentation said that for you to reach CSV with pandas.
+
+So basically this is the command pandas, which this place means it takes so many informations.
+
+Okay.
+
+So some of the information, we don't even know how to use it.
+
+Okay? We just if you scroll down in most Python documentation, you will see the command to example.
+
+This is an example.
+
+Now we can just simply copy the example.
+
+So when you copy the example, you paste it in your code.
+
+So but of course this is not your data.
+
+data.csv is not your data.
+
+This URL is where we have our data.
+
+So we can use this, copy this and then replace what you have in here.
+
+So with that you'll be able to read your, you've been able to translate your code.
+
+But this will not work because we have not imported this library, the library that we downloaded, the library that we installed, we have not imported it.
+
+One way to do that is to also check the documentation on how to import the the library.
+
+So we should be part of the guest started installation and guest started.
+
+So so part of where you get it is import spors.
+
+So you are, I believe at this moment you should be comfortable with knowing that to work with to import libraries, which I explained earlier around is import the name of the libraries you can put alias.
+
+So you cannot, you not give me signs.
+
+So first in this case we want to put areas.
+
+So because usually that's what is recommended in the documentation.
+
+So we copy or paste.
+
+So now there are some problem.
+
+So problem number one is that this import is what you are familiar with because if you copy code from, if you copy from those platform, they usually put some additional formatting which is not needed.
+
+Number one, formatting is why do we have this one? This is not necessary.
+
+This is not part of the code because if you run it it will give you ERO, I don't know why it's not giving error, but it should supposed to give error.
+
+Okay.
+
+So now but usually you should delete it because import is just import from the imports, this from this or imports this as something.
+
+I don't know.
+
+Please check your Okay.
+
+So the Quadri is asking if we can get the find documentation in PDF formats.
+
+I think you can get it from here in PDF format.
+
+It's downloadable, but nevertheless, yeah, this user got it.
+
+I think it's possible to download the PDF from adverts regardless.
+
+It is always online.
+
+So and I don't really well, I understand the situation.
+
+We may be facing a media network or something like that, but I think it's quite easier to just read it online because they often update this documentation.
+
+So take for instance, this is these are the versions that exist.
+
+So from 1.01.1.1.3 so you dad this one, so maybe in some months or there about then we get updated and the PDF easily get outdated.
+
+Okay, so we need to move faster.
+
+So yeah, we've imported this and then we want to run this.
+
+This is also going to give us problem supposedly, but if Panda is doing something, but anyway this is this arrow, this to this arrow three arrows is also not supposed to be dead because it's not part of and Python syntax is just indicating that this is terminal.
+
+And in some instance you may see this upper hand sign, this sign when you copy code, so which is not supposed to be there.
+
+Okay? So now the origin of this harrow and this upper sign is actually from here.
+
+So let me show you for the upper sign is actually from TERMINA.
+
+So usually so, but usually if you run Python, you see this arrow.
+
+So this is the arrow that they copied together.
+
+So that's why you're having a day, but it's not supposed to be there.
+
+It's just something that appears without you putting it there yourself.
+
+So if you copy with your code, you should remove it.
+
+Okay? So, yeah, so now we have the funds, read CSV and it posed and the data, like the data completely, although it truncated around.
+
+So about not that we want to actually PO down the data, we want to assign it to a certain variable so that we will be able to use it later on.
+
+So and you know, in Python, assignment is done with equal to.
+
+So we can just say DF equals to so which means once you run this, if you know, point, then it will only show you assign the value into DF.
+
+Remember of course you've also studied at that assignments like to put the value of something in another variable or in a variable you use a co-sign.
+
+Okay, so we have this data frame, this DF, call it data frame.
+
+So we can say DF.
+
+So now we want to preview view some sample of the data.
+
+So if you want to preview some sample, you can just here, you can just put it there and just run it, because of course you've seen it when you run, run it, it's PO data.
+
+So if you want it like that, it's fine.
+
+So what it will do when you run it like this is that it will show you the first five and the last five.
+
+OK.
+
+I do we, Yes, you can, you asking can we focus on the pandas on the view three school for now just to get the idea.
+
+Yes, you can use that as a as a getting started, but I'm telling you you can use that.
+
+I'm not disputing that the purpose of this is for you to know that you don't have tutorial for everything.
+
+So sometimes you need to read documentation to be able to get and your existing little knowledge about what Python is all about.
+
+You always use new library.
+
+I tell you, you always use new libraries.
+
+So when it comes to Machine Learning or when it comes to coding, especially Python, you we always use new library.
+
+I repeat, you always use new lib.
+
+Even myself, even myself, I'm using a new library that I'm not really familiar with.
+
+Let me give you an example.
+
+I want to do an internship with the company in Japan.
+
+So when I go to the company, what they believe, like, the idea is that I'm an ML machine and specialist, so I'm here to do internship, to use Machine Learning to solve your problem.
+
+Okay, I have understanding about some Machine Learning and with some different type of data.
+
+Now I got there.
+
+I got to the company when they did introduction to me about their their work and dating.
+
+Sadly, the data we are using is actually satellite data.
+
+They're using satellite imagery data.
+
+So which in my in my home field of work, I have never used satellite data.
+
+Maybe many of you might have used it, but personally I have not used satellite data.
+
+So it is not left for me to be able to use to even to for me to apply the Machine Learning that I know I need to be able to handle their data.
+
+So now I start studying about satellites, datas and then I pass spectra and some stores like that.
+
+So is until I was able to get some library to load those data to the hours when I was not able to contribute to what is on ground, the task I have attained.
+
+So don't get confused, wacky.
+
+I think you're hearing the story of a week after I'm telling you.
+
+What I'm telling you is that I went for an internship and also needed to learn a new library that I was not familiar with because I needed to load your data.
+
+So and data they had was the satellites were satellite image data, satellite data.
+
+So that's that's The Bottom line of the story to Abu Bakar who said, someone that said, can we just so that we can we just stick with the three school data, whatever, whatever you can do that.
+
+But I need you to focus on this because this is what you encounter in real life.
+
+Everything is about Storia.
+
+You don't even in this class, I won't go.
+
+I'm not going to teach you everything.
+
+Okay.
+
+So but if you know how to fetch for information, if you know how to work your way, well, AI is yet to help you in some other things, you can just say, hey, generate this easy to generate for you.
+
+But still I have experienced in something that you are messy.
+
+AI also in terms of data may not be updated.
+
+And then by the time it generates some based on his cut-off cut-off data, it generates old version of data for the library for you.
+
+And then you installed recent version and then you're not trying to run it.
+
+You enter problem.
+
+I faced it.
+
+That was what I was solving in office last week.
+
+I was I used AI to generate code to this.
+
+Unfortunately the AI generated based on old version.
+
+I have new version installed on my computer.
+
+So I was just solving something that that is not a problem, simply just go to the documentation, check the documentation and then I fixed it.
+
+Yeah, I wasn't able to fix it because it's it Cut Off story was based on old version.
+
+So again, I emphasize to you Stop Face where I'm explaining on what can you through, how to read documentation based on your own little knowledge about something you always need to face documentation is reality.
+
+Oh good.
+
+If I, I use satellite imagery every day and I hope to apply EML and DIPL after this course.
+
+Yes.
+
+Yeah, you should also recently they are using a foundation model.
+
+We're using foundation model with satellite image, so you can also check on foundation model.
+
+So Okay, I want to tell you that all that I've been talking is not beyond the fundamental we've handled.
+
+We've handled the installation of Pandas libraries generally.
+
+So in real life you will be handling different library.
+
+You need to be able to install it.
+
+The only thing I will tell you is the documentation.
+
+We handle importation of libraries.
+
+Okay? And then we've also handled assignments.
+
+This is the only thing this one will copy from the documentation.
+
+Okay? So don't get overwhelmed is not too far from what we've been doing.
+
+Now we want to review the letter.
+
+Okay? So by mistake we discover that even if we want to get the letter, just run the data, don't run the very when it F than the data.
+
+And from what you can see 12345 the false data, four set of data, five false five set of data it showed you and then here is also be the OIT I showed you from the exhaust sheets that I showed you around is just 31,000 out of 32 102 and something million.
+
+We just got the length to get some sample out of it.
+
+Okay, do you understand? So please stay confident there.
+
+This is not a problem yet.
+
+I'm telling you from some of this experience I had and you definitely pass treats as long as you are doing a machinery, you definitely pass tre Okay.
+
+So I'm not annoyed.
+
+I'm not and what? I'm just telling you the reality.
+
+Okay, so we have the data.
+
+Okay, but the whole column is not what we need.
+
+Let's assume we need to remove some column.
+
+We only need to get some specific column.
+
+We need to go back to the documentation which we we get read CV.
+
+We need to get back to the documentation and see how we need to read just the needed columns.
+
+So here we passed the name of the data we want to read that five part or something to what you want to read.
+
+So if you look at all this, this is where you have the parameter and the description of what you want to read, five parts or buffer strange or something.
+
+You say a valid, any valid link, valid strange part is acceptable.
+
+The strange part could be the strange could be a URL like the one who passed valid URL scheme.
+
+It could be HDP, FTP, S3 buckets, GS, so something like that and FAR.
+
+But what we are concerned about is we want to read some specific colon.
+
+Not all the columns you can search, but you can also try to look look at this documentation line by line.
+
+So because this is what you will be facing so separate characters or regx pattern to treat aimer, this is not what we want.
+
+Alias for sew numbers, row number and containing column label and marking the start point of the data at zero please look like what we want but maybe not.
+
+Let's continue name of sequence of column label to apply here index column column to users row, use column to use column, subset of column to select so denoted either by column label or column indices.
+
+This kind of look at what we need and then they even provided an example like KAS read CSV detector and use column.
+
+So yeah.
+
+So basically we can see that from this information we want, we can get from the data documentation, we can get some additional information on what we want to some additional thing we may want to do instead of just using the devote example.
+
+And if you are not confidence that you can just Google.
+
+So so you can also just Google and thank God these days we we can just search here and this will give us some examples like that.
+
+So which we can leverage on probably and we often check Stack Overflow, overflow or documentation we also to where you can get it.
+
+So Yeah.
+
+From here we can also see that and let's see, let's say we use EULUM and then EULUM says that we want to get the some list subset of columns to select denoted either by Colomb labels.
+
+So column labels.
+
+So we have the column libver here had the column libver.
+
+Let's say for example, want to get trick Milee so you can copy the trip Milee and put it there tri Milee So let's test this.
+
+If it works, then FIN So it means we are getting strip strip mouse.
+
+Okay.
+
+Yeah.
+
+So basically it's able to get only CHCK mouse.
+
+So let's get additional information.
+
+So I see, let's say we get trip seconds like the time it took the trip and took the driver to achieve the trip audo trip, let's get additional information.
+
+Okay.
+
+So I'll tell you, let's say we want to predict the price that the person pays at the end of the trip.
+
+So yeah, we've gotten some information maybe it's Okay, maybe we can get more.
+
+So you have the full data, but you're just trying to sample some some out of the data.
+
+Maybe you don't need everything.
+
+Okay.
+
+So we loaded some sample of the data and yeah, I believe.
+
+Okay.
+
+So this is what we have Now we need to get the summary of the data.
+
+So this is the task summary of the data.
+
+Usually if you have a data, let me see if you have question what is DF used for TER? So the DF is the variable we assigned.
+
+It can be anything, you can call it your name, we can change it to TEL you want so you can call it anything.
+
+So as far as you assign it, that is when you get the meaning is when you download the data and you get some column, put the data inside this variable which is the F.
+
+We just call it data frame TF.
+
+Okay.
+
+So what if you want we can put your name Which part didn't didn't miss search.
+
+Yes, Yes, Yes, you can use the search in the in the documentation.
+
+How to use it.
+
+Oh, time is fast.
+
+I want to move.
+
+Okay.
+
+So anyway to get the description to describe to, we need to describe the data or get some statistical summary of the data.
+
+So yeah.
+
+So it's as simple as maybe saying DF describe.
+
+Okay.
+
+So and we also check the documentation, DF describe, DF describe and as described this.
+
+So here you just called the describer.
+
+You can scroll down to check the example here.
+
+Describe.
+
+Okay.
+
+So what's this statistical description telling us? So now as I said, we usually need to explore our data.
+
+Mohammad Bakari: Don't discourage your server orders.
+
+You could choose your three.
+
+It's fine as well.
+
+I'm letting you know what you face.
+
+So if I don't make it real like what you face in reality, you would have issue later on.
+
+So that's the reason why if you are having an issue now, just kindly watch the video again and it it will make sense later.
+
+And if you have issue, just I will share this code with you so you can also try to check it.
+
+Okay.
+
+So what is the DA telling you? So if you do describe and then he's giving you some summary about your data, you can see is giving you the mean of the data, The Standard deviation of the data, the minimum 25th percenta, sorry, 50 percentile, 50 875th and 75%, and then the maximum.
+
+So this might not make sense to you anyway, except if you have some statistical background.
+
+But let me explain.
+
+So the mean means that the average of the data, like from all these data, you sum everything and you divide it by the total number.
+
+This is the average you're going to get for the trip in seconds.
+
+For the mouse, you sum it everything together, all the columns together and divided by the total number.
+
+You're going to get this as the average.
+
+Okay.
+
+So that's what it actually means.
+
+And for each of these columns, so the minimum is 60 seconds.
+
+I think the maximum is at zero point and the minimum of a miles is 0.5 mi.
+
+The minimum amount that was paid for a trip is at 3.25 maybe dollars.
+
+Yeah, Okay.
+
+So and we have the maximum as well.
+
+Now, Yeah, one and one for quarter.
+
+First quarter, second quarter, fourth quarter according to what we have described is to give a statistical summary.
+
+So sure.
+
+Okay, sir, please, I want to suggest if you can summarize this the classes again after.
+
+Okay.
+
+So do you mean do you mean to send text message on the group? Okay, Okay, let me class is confusing.
+
+OK.
+
+I will share you the complete code so that this code already developed it.
+
+So I just want to walk you through on how to on how to tackle some kind of problem.
+
+Like you have a data set and then you have a data set.
+
+Take for instance, and you want to explore the data sets even before you do the regression linear regression that we've learned, the theoretical linear regression lear.
+
+So that's the idea.
+
+Now the data set we got is the ER is the trip data sets, the California trip data set and California taxi trip data set.
+
+And of course, I think I shared you a link here and in the previous class this link, I shared you this link on Go Colab where you have information about the dataset and I told you to read this document.
+
+I want to assume majority did not read this document.
+
+So yes, so otherwise all this information will probably not be new to you.
+
+So but anyway, now I get the idea that you didn't read these documents I share with you.
+
+So but instead of just sharing document for you with you to run it, I want you to be able to fill the process, not just to give you a prepared code and then you run it.
+
+Running is everything is about running code.
+
+You sometimes also need to develop code and how do you find some of this process of finding it is how to implement what you read and the like.
+
+So that's the thing.
+
+So I know this is kind of new to you in the sense like trying to understand some process and the likes.
+
+So what I tell you, you will be facing some of this.
+
+Someone is asking now, does this apply to view watch scenario? I've given a very typical example of how I had issue with data that I was not familiar with and I need to be checking documentation.
+
+Documentation is is just the main thing.
+
+Everything will not be able to do.
+
+You, you know, get story of everything.
+
+Okay.
+
+So that's the best, Ruth.
+
+That's the grand Rul, the only basic you've known about Python, A, OPOR V, Boo and like importing libraries and 30 libraries, you, I do some of those things that you will be needing so now so, but I still emphasize on it even if I share this code with you, you just run it.
+
+Yes, it's run it finished.
+
+So, but the process of me developing the code or the person that developed the code I share to you don't know.
+
+And that's what you will face in real life.
+
+You want to use AI for your work pipeline, work process.
+
+If it is not available, you have to implement.
+
+But anyway, before the time runs out, I will walk you through the ones I developed.
+
+So the idea is that we have a data set, data set of Chicago taxi train, taxi train.
+
+So I, sorry, Chicago taxi.
+
+So we wanted to load the data and to be able to do linear regression with it.
+
+So now the linear regression is to be able to predict something, the value of something.
+
+So we don't know the features that we want to use as input.
+
+We need to also be able to explore our data.
+
+So so we import the libraries and then how we load the data we use PAAS.
+
+PAAS is one of the LIBRA that we use to load data, especially in Excel, CSV, text data and relax.
+
+So we blew the data and we choose some specific columns from the data.
+
+So now we wanted to check for some samples of the data.
+
+So here is the first five sample of the data.
+
+We wanted to get some statistical intuition on how the data looks like, What is the data about, what is the maximum, what is the minimum, what does it translate to? So, Okay.
+
+So we have this mean.
+
+What it means is that on average er, the people that bought the taxi, they spend $23.9, $23, $0.90.
+
+And then on average people that travelled with this taxi from 2013 to 2023 that was sampled and they traveled 8.2829 mi.
+
+Okay.
+
+So and it means that on average 60 seconds distance then is the smallest.
+
+I imagine someone traveling 40 seconds.
+
+It means 1 min.
+
+So I'm going from here to that place.
+
+So that's just what this means.
+
+And then er, and it means the minimum amongst the person as people are paid doing that price, $0.03, three dollar, $0.25.
+
+So and the likes and you have people that traveled and the maximum of seven and seven to 7040 seconds.
+
+Okay.
+
+So now we have gotten this data, but we needed to, so what we needed to know which column to use or which data to use to predict for prediction.
+
+So now we can plot the data using scatter matrix or we can also use correlation.
+
+But let me show you with scatter matrix.
+
+So if you look at data, this is how you read the scatter matrix, trip in seconds and trip in seconds.
+
+This is the vertically A is the horizontal trip in seconds, trip in seconds.
+
+All this diagonal axis.
+
+Do we have this strongly correlated data? Okay? So like histogram just showed the possible.
+
+So however this other ones, it means tripping seconds is striping second.
+
+Corlat is striping seconds to this one which is a mouse.
+
+If you notice it is a bit correlated but not perfectly correlated but is positively correlated.
+
+If you look at tripping seconds, how is tripping seconds related to fear, the amount of speed? It also kind of related a little too.
+
+So that's how you read data.
+
+So like this one, how you strip in mouse related to trip in seconds, you should expect that the plot here will be equal to what we have when you take this one.
+
+Maybe it will just be the orientation will just be changed.
+
+So what the most correlated from all this data is fair is correlated to miles mouse is collated.
+
+So if you look at this line so which means this you can use this line is one.
+
+Okay.
+
+Anyway, I will share this code with you so that you can also read it.
+
+Please, I please, I need you to run this code and also try to understand the code because it's quite important for you to be able to have it.
+
+So, but anyway, before we finish our time completely, I explained about splitting data.
+
+Okay.
+
+So in this case we try to split data using 20% for test data.
+
+So the remaining one will be for training data, which means we are using 8020, Okay.
+
+So and then we select because we're able to get that this fear, the payment and the distance that was travelled is correlated, so we can easily use it as a feature.
+
+So that's why we select 3 mi and fair mile.
+
+So we can get the training data and we can get the testing data that we splitted and then we can build the linear regression.
+
+After building the linear regression, it is just as simple as saying model fits and you have done your training, the training is done, and then you get your results.
+
+So everything with all this library is kind of simple.
+
+But understanding the concept is the most important thing.
+
+If your mother is not performing well, how do you, how will you be able to trick or you want to change so, but anyway, so we try to test the model by predicting and then here and then we run, we plot data.
+
+This red is the data point and this is the predicted data.
+
+If you can see the model that will trained is able to fit onto the model.
+
+So I have some additional for better performance and that will correlate with what we've done in the class, which is the learning rates, the batch size and the epoch.
+
+The maximum iteration is also the same as epoch if I run it and then here we train it, and once the model converges, we can also predict and then test the data and we also have it.
+
+So the concept is not as difficult.
+
+The implementation with some library is not as difficult as trying to navigate your way across it.
+
+So everything is simple to implement.
+
+Just call this code is.
+
+But understanding the concept is the most important thing.
+
+So I will share you this code.
+
+I believe you.
+
+I hope you'll be able to check it, which hopefully and yeah, maybe next class time is fast.
+
+Alright.
+
+Take care.
+
+See you next class.
+
+Buh bye.

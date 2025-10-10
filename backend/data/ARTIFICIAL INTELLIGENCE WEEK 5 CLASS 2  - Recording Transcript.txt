@@ -1,0 +1,1509 @@
+Yeah, hi guys today.
+
+I hope you had a wonderful day.
+
+It's another class today and I believe it's going to be an interesting one.
+
+So if you can hear me, please kindly signify with some kind of Emerg like thumb or thereabout so that we start the business of today.
+
+So I, I believe you, many of you are we able to do the exam.
+
+I've already received your test score or you already seen your test score.
+
+So, yeah, so I I before we start, I would like to take some feedback and you, you guys because I think I've been getting some feedback from scholars and how to move forward some things like that.
+
+So I would also like to get at least some people's feedback.
+
+And to be honest, I think some scholars that are given feedback are not really active in the class per SE in a sense like I can only know what is happening based on those that are give me and that I responded maybe in the question answer section.
+
+So otherwise I won't know.
+
+So it's good to give feedback and it part of the system so as to be able to get better and as a lot of some of the feedback we've been getting, I will going to change the style of the teaching.
+
+So in the meantime I also like to get some feedback from from you guys.
+
+The first thing is that I want you to focus on the way we've been teaching so far and also I wanted to also focus on the quiz.
+
+So whereon in the quiz.
+
+So I know the average going by the average we have about 1440 marks has been the average over average.
+
+So I mean if you well is not too bad, ten is not ten for the exam of 20 marks, ten is the ideal average.
+
+Then for us to have 14 marks as an average, it I think is not bad, but nevertheless we still have to call and the minimum he was, I think five.
+
+So he he said 14 is bad.
+
+Well, I understand perspective.
+
+We are talking and I also happen to do my program or one of my policies or some of my posies outside my native country.
+
+So talking from Nigeria point of view, er potty marks is not er over 20 is not bad.
+
+But talking from some other country's point of view, potty mark is a bad mark.
+
+So I will give you an example.
+
+E when I was doing my masters the the minimum mark for we have a A plus zero, A plus and a zero, Sorry, a plus and a minus.
+
+Yeah, A plus A minus B plus B minus C plus.
+
+So the difference between a plus and a minus is just five marks.
+
+So the you miss five marks, just forget you are not in a plus, you are no longer a plus.
+
+It means that if the score is on and then you already missed five marks in the assignment, like five marks in the assignment.
+
+So definitely you are not in the plus category, any number.
+
+So no matter how much you do the exam, just forget it.
+
+Yeah.
+
+Now in A, so I understand what you're saying.
+
+Like the for Marx is is not so good-looking at some other countries perspective.
+
+I have that similar experience.
+
+So Okay.
+
+So I would like to take some, just some feet, maybe two to three people to speak on behalf of everyone and please kindly raise up your hand.
+
+You have to you want to speak.
+
+I want you to really, really give me an honest feedback.
+
+So this we will determine how far going and then how we need to change your strategize how we are doing our classes.
+
+So, Okay, so I can see Muhammad Ei and so I never Mohammad and Okay, Mom, please speak up.
+
+You've been allowed to speak.
+
+Hello, Good evening sir.
+
+Yeah, I can hear you.
+
+Okay, sir.
+
+So from my own from my own point of view, I think the way you have been carrying this class is Okay because all this, I've been following a class and I understand V really everything you take from the class, but sometimes I think the problem is from the question, Maybe the way you said the question is of a bit confusing, like those aspect where you said we can select as many as possible and there's only option for me to just select one.
+
+So some of us we misunderstood that aspect, like me, I thought maybe when I'm asked to select as many as possible and I find answers yes.
+
+So I thought maybe the wrong ones are the possible answers.
+
+But actually I know those answers, but I, I presume I assume that maybe I'm supposed to take the negative aspect of it.
+
+So I think that's one of the contributing factor though.
+
+My performances from the test, I think so far is not, it has not been very good, but it has also been bad because I score 14 from the first test and the second one, I scored two of so and one of the contributing aspect is those, those aspect that we have to like, we have to like open those document for me to be able to analyze the questions.
+
+So some of us, we are very afraid that we're going to lose so ample of time there.
+
+So we just wait direct and use our head to just select the answers.
+
+So that is thank you, sir.
+
+Okay.
+
+Thank you so much.
+
+I appreciate that.
+
+So alright, I would like to assure you that from after this quiz, you're not going to be having any question as to do with clicking link.
+
+So I also noticed that from the nature of response, from the nature of the question that scholars, most scholars missed.
+
+So I mean, it's not just a coincidence that to question that I require them to click on link and where the most missed question.
+
+So yeah, I understand that.
+
+And next please, you're not going to be clicking on links.
+
+I assure you that Okay, please.
+
+Yeah.
+
+Hi.
+
+So good.
+
+Yeah, Good opportunity.
+
+All right.
+
+So UM, I have for the test and for me that is very terrible.
+
+And I think my feedback from that means that I'm not following curs actually, I got confused, you know, see some of the questions and I was trying to figure out exactly what the questions meant.
+
+Okay.
+
+So I'm guessing that's the reason I had to fall short.
+
+My question is, you know, the calculations that you've been teaching us, like, I want to understand, isn't there like tools that we can, you know, incorporate like, Okay, we're trying to calculate, we're trying to train a model.
+
+All right.
+
+Isn't there like tools that we can incorporate into this training without having to do all the graphical, you know, the woven graphhing, all this graphical stuff and doing.
+
+All right.
+
+So isn't it like something like a tool like when we're doing or app network in cloud computing? Okay, there are some tools used to apportion network sizes to different network apartments.
+
+Right? So I understand, isn't there something we can incorporate in trying to train a model like a tool, what I happens to do a calculations and all of those background stuff, you know.
+
+Okay, So I get your point.
+
+So there are two perspectives to the response.
+
+First is is there are tools to use? Definitely, there are tools to use.
+
+In fact, many tools, we give you the results straight away.
+
+So however, you need to also be able to interpret what those tools are giving out.
+
+Like at what point do you really, really need this? So I get a point.
+
+Like the mathematics, I think is like simple, it's not really simple to some some of us in this class.
+
+So I get a point.
+
+So, but nevertheless, I will answer the question straightforward that there are tools that you give you the the calculation right away, like you don't even you just need to specify.
+
+Let's say, for instance, you're trying to do some accuracy, you just type it, I want accuracy as part of the answer.
+
+So it will give you the accuracy.
+
+Like I want confusion matrix.
+
+Like you just put confusion matrix as part of the PA and it will just generate the computation metrics for you.
+
+So you want the mean standard deviation and the like so many tools like that to give it as part of what is there.
+
+So yeah, just understand.
+
+Okay.
+
+I, I just want to solicit on my behalf.
+
+I don't know about other people, Okay? Because I don't know how they are dealing with a cable for me.
+
+I like to solic see on my behalf of myself if you can, you know, incorporate those toos, you know, Just so I understand how I'm supposed to use those.
+
+Okay.
+
+I understand that the background is important for interviews.
+
+Okay.
+
+I can do the background for interviews.
+
+Okay.
+
+I, that's not a problem, but I just want to understand, like when I'm doing this in real life, when I've passed the interview, what I'm doing, like product co-terms.
+
+Okay.
+
+I want to understand how I'm supposed to do because we're going to be doing a project.
+
+So I want to understand how I'm going to navigate when I'm going to be doing my project.
+
+That's just what I want to understand.
+
+Okay.
+
+Okay.
+
+Noted.
+
+Thank you so much.
+
+I appreciate.
+
+Thank you.
+
+Okay.
+
+So sorry.
+
+Today's class.
+
+Yes, we're going to take this class where I think this feedback is kind of very, very necessary so that you be able to rest, strize.
+
+The best thing is for us to be able to learn from what has happened and what is happening so that we will be able to change the courses.
+
+You know, it's not be good to be like learning after the end of the course like, Okay, next call to do this D So it's too good.
+
+We are able to rectify things.
+
+Soana you have the floor and then as is Abdulaziz, Abdul Aim you kind of also get ready can I Chuck also please get ready to speak after Tanla And then I think Babaj should also prepared, be prepared Tanla please.
+
+Okay.
+
+So I moved to Okay.
+
+Yeah, the classes were I your I think like we should be able to do more project so class so you that post host like me, I just, I don't know on those work.
+
+Okay.
+
+Okay, yeah, I got a point and then I, I rest assure you that we're going to focus more on practical, although the practica is a bit tricky because we have people, we have people are not programming inclined, so we have to be doing to practical session.
+
+So one will be for something that does not require code and something some will be for people that are programmatically inclined.
+
+So but anyway, we will try as much as possible to work on that.
+
+And Okay, anyway, I get the point we will focus will be learning the concept from practical perspective as from maybe today and then can I please, thanks for this.
+
+So far is concerning the tests on my own point of view.
+
+I don't mind those questions that to another site, all those ones that has linked think this so not an issue.
+
+I clicked on the link and do not look me up although they told that will not be will not be able to open and others.
+
+But when I saw question has a link, I felt we put that into concentration and so I just tried it out and it includes my Google phone.
+
+So I continued doing it and all those questions are happening.
+
+I was them because this one handling to me they very simple and they are clear for me.
+
+And also, so I don't think you should stop the link questions, I think they're Okay.
+
+Just let the coordinator know that we should not block us from opening that still.
+
+And also because I know what the lady said about those calculations.
+
+Yeah, I remember one time in the class you should us new, you have been a very wonderful.
+
+So we try to make us few relax, not overwhelmed, the assure us that we should not worry about it too many calculations and yet told us that there are there are software, I say software, but there are things we can use to help us run.
+
+Yeah, that kind of was wrong.
+
+These calculation.
+
+So I feel going let was say you should let us know about these things, so not to use the word our head when trying to do the solution to our SEF and the third one.
+
+So last was second as a flaw.
+
+There's a question maybe should try to explain to us again.
+
+I don't know.
+
+Maybe it's only me, No one that talked about we are considering the best in features to training linear regression model.
+
+The one that says based on the results, which feature is the second best, actually got the one that was the best miles.
+
+But I still the second on this, I don't know why.
+
+I just need clarification on that question.
+
+Thank you very much, sir.
+
+Okay, Yes, Thank you for the feedback.
+
+I appreciate.
+
+Okay.
+
+So I maybe, I actually, I'm sorry for making you feel using some ambiguous term.
+
+So the time the statement is ambiguous to say you not come across calculation.
+
+Okay.
+
+So yeah, the reason why I said that was because I know the calculation that is actually involved in Machine Learning, it's much, much heavier than that, really heavier than that.
+
+So just brushing through some accuracy and some things like that, I felt is is just a very basic one.
+
+So but anyway, I understand and then I will try as much as possible to leverage on the available tools.
+
+So yes, Buaji please, you have the floor to speak.
+
+Yes, I can hear you.
+
+Okay.
+
+Thank you at first.
+
+Actually, like the fact that you start with that untable machine like we using, you know, you using Lemon as an example and all that.
+
+So it's actually, you know, makes it easier.
+
+So to know what's A is all about and what's A is capable of doing another.
+
+So ball when I was, I was actually going through the quick belongs to the PDF.
+
+So and from there, I saw something like we using Python, program language, non-PY, Pandas and all that.
+
+So now at some point I got a little bit confused because I was expecting us to be doing some kind of, you know, put in INI like we actually creating something, you know, we can actually, you know, used to present that Okay here these words AI is capable of doing even if it is of this particular thing because I remember when we even started, so that's that's teachable machine to my intention was like, Okay with this, I can't even start, you know, posting to my social media like a form of road map.
+
+Okay, like, Okay, this is what I've been able to do, you know, after leaning from Takeh, you know, me posting and let him know, you know, and letting you know the audience be aware of, Okay, what is actually capable of being another BO it's to you like more perception.
+
+It's kind of like more of theory than classical.
+
+You get more more than polical.
+
+And all I was actually expecting is, you know, more of the classical.
+
+It's your apart from me actually using Python language or Okay.
+
+So that's my first.
+
+I get your points, so I get your points.
+
+Yeah, I think the idea now is mostly inclined towards the practical rather than the the theory.
+
+So we I I understand now and I think we're going to be much clearer in our classes towards that.
+
+So yeah, thank you so much.
+
+I really appreciate the feedback and then I think we're going to walk based on that.
+
+Abdul Laim, please, you're going to be the last person I'll call for this feedback session please.
+
+Good evening.
+
+Thank you very much.
+
+Yes, I can hear you and thank very much for the classes then up you for the way you started the class because when I check the outline, I not that we be going to look then, I also know that we cannot even maybe like finish like I know we all go in-depth into AI, but you really try theist, you beat it a lot, but I think I don't know for the most of the times, maybe because of the way the course is utterly strong, like in the life experience, women's maybe need may be like after the classes may be Okay.
+
+Whenever you take a particular concept, can just give us snippets or like tips on.
+
+Okay.
+
+Also get we like there was a time a guy sent a particular documents to the group about AUC and the rest, and it's actually that was standing on the fitting and fitting like the whole document, just two pages.
+
+But it's like summarized the old concept of AUC Andra, this regression and fitting over fitting.
+
+And it was really because you're just Okay, this word is time, like you can't be able to visualize what's that particular topic is about.
+
+So like when we did the T machine, like I able to realize, Okay, we can use this thing in maybe facial recognition, can use in bunk up.
+
+I could like visualize what's this stuff was about then also like for the person like when we're doing reinforcements learning.
+
+So I know that's Okay.
+
+I can't give my model a particular data then you should learn it on too so as to be very accurate.
+
+So I don't know if you can do, I know it is might be a like work or so on your side Neede extra work because summarizing the concept might be somehow SE or so.
+
+But if you can just posal can just like know how to visualize the particular concept.
+
+Not that you have to like like now sometimes you have to like listen to the old audio again, but you do not still help because it's just like staying back in class again was it like that's the public class.
+
+I think I get a point blackim and then it also around trying to be much more practical inclined in the class.
+
+So yeah, which I think this is what majority of the class favor.
+
+So honestly, I appreciate your feedback.
+
+And then I think getting feedback is part of learning.
+
+I will be candid with you.
+
+I personally saying talking about practical is what I, I do mostly.
+
+So the theory I also need to get, I mean, do some revision even because before the class so as to be able to give you some diligency.
+
+Speaking of practical, these are some of those things I I do, I work and research as robotics and engineer.
+
+So you should be sure that I have a lot of real life scenarios that I have done, have interacted with that could be helpful.
+
+So the reason I also have to go through the theory is because of diligency.
+
+And then also, I don't want some of this concept to be strange to you.
+
+Like I just come up with things and then I started talking about it and started using it.
+
+It's, I feel it's going to shock you so so, but anyway we will find we around it and will be much more practical in our session.
+
+So thank you so much.
+
+We spent almost 30 min in taking the feedback which is obviously necessary.
+
+So yeah, the first one I will be responding to will be the question, the quiz question, I asked to do it and they asked to do it.
+
+The second best teacher to use.
+
+So I vision my screen now so you able to see my screen please signify with some MGS so that no.
+
+Okay.
+
+Thank you.
+
+Okay.
+
+So now moving forward.
+
+Okay.
+
+So we've reduced drastically quickly.
+
+I think most people miss the fact that the time mean for Wednesday is quite different from the other classes or two classes.
+
+So I think that's possibly one of the reason why we have and that's reduced the number people missed the class because they they actually thought the class was as usual.
+
+So anyway regarding the question asked to do with second best parameter of second best feature to use, so here is how to check out for it.
+
+So we have with this email is showing the correlation, so definitely mouse, and if it is out, read the row says mouse, the columns says mouse, so definitely MAE and mouths will be correlated because we are literally checking the MA, the tripping mouse, the same feature, you just comp the same feature which definitely will be correlated.
+
+But you can, you can really use them to as a yardstick.
+
+So also seconds, seconds is 11.0 which means they are strongly correlated.
+
+And also you can also you can't use that as a yardstick as well because you're basically comparing the same thing, seconds and seconds, the same thing.
+
+So the same feature, likewise the FA.
+
+So generally the diagonal feature is not something you and this diagonal and result of the correlation is not something you use as the Y stick.
+
+However, the question has been clear that you are considering fear price.
+
+I mean the price of the transport.
+
+So which is this one or you can look at it from this one anyway.
+
+So now let's say you're looking at this fear.
+
+Now you need to be able to compare the correlation with other features.
+
+So which is if you look at the fair and you look at the dark column downward to the column downward to fair and the trip in mouse is 0.97.
+
+So which is very close to one.
+
+So that's that's one of the best feature that could be used if you look at trips trip in seconds is 0.83.
+
+Okay.
+
+There's another feature that is also showing strong correlation.
+
+Of course you can use here again because here is you can't use as input as output as well.
+
+So now if you look at it, tip rate, tip rate is negatively correlated and it's very, very close to zero.
+
+So 0.07 and thereabouts.
+
+So this is not the best feature to consider.
+
+So in term of the correlation striking out fair again, so we're going to have the first one will be 0.97 which is the trip in my which is the first best and and then the second one is trip in seconds which is 0.83 which is the second best.
+
+I hope you understand the the idea Yes.
+
+Also highly negatively correlated is also something of consideration is not is not a problem.
+
+So because if you try to plot the graph it means if it, if positive correlation is like this, then the negative correlation would be like this.
+
+So it's to correlated.
+
+Highly negative correlator is also a good feature.
+
+But in this case this is not a very highly negative people that this is 0.0.
+
+So it's closer to zero like almost not correlated, almost random.
+
+Yeah.
+
+So yeah, that's that.
+
+And then so today we're going to be continuing from where we stopped and then it's basically the binary classification that we started last week, sorry, on Monday.
+
+Yeah, Okay.
+
+So and then what we we are trying to explore code so and then go to explain the coding of our to achieve the binary classification.
+
+So now the data sets we mentioned that the data set is actually the Rice, Rice variety classification.
+
+So which was also presented which was actually presented in this AI article that's present like CA the data and then try to present the is the data to the community if anybody wants to use it.
+
+This is how we caught the data.
+
+And then these are some of those things we extracted and this are the AI model that we've tried on it.
+
+So that's basically what the paper or the AI article we talking about.
+
+So you talk about how they got the data maybe from the image processing after taking the picture, they extract some features which are forming numerical data.
+
+So and then we have these two classes of rice and they also mentioned that the AI techniques that they've tried with the support the random forests, multiline perceptron, logistic regression and then so they also presented the results.
+
+So which are the accuracy, sensitivity and the likes.
+
+Okay.
+
+So those are some of the results that they presented.
+
+So this is typical of what you'll be seeing in AI paper.
+
+Gideon, please could you kindly try to rejoin if you can't hear me.
+
+So so if you can't hear me, so this is the origin of the data.
+
+And then which means I also mentioned that this data, this kind of paper, they give you an inspiration on how you're going to get your own data.
+
+So your problem and is most of the time will not be unique.
+
+So is of always good to get inspiration from the successful techniques or successful way.
+
+Actually data was has been was it established? So yeah, anyway, so that's the nature of the data and the information about the data is also made availability.
+
+So yeah, now to run the report or to do it programmatically.
+
+So you need to have some question at the back of your mind.
+
+You have a data.
+
+Okay, you got your data, you need to know the nature of the data you you have either you're using code or you're using something else.
+
+You need to know the nature of the data you got.
+
+Okay.
+
+So for instance, this is the, this is the data of the rice and variety.
+
+I just copied the link.
+
+Okay.
+
+I can just download it or Ione and and spreadsheet.
+
+So sorry.
+
+I will, I will need to go back to the code later on.
+
+I just want to let you know even without programming, you should be able to check your data, see what is in your data.
+
+So, so I just want to load time into SPADH.
+
+Yeah, so this, this is how the data looks like.
+
+So now this brings me to the concept of concept of numerical data and then also having something that are not that is not numerical.
+
+So here is here is if you look at most of these columns or this, yeah, this columns they are numerical.
+
+So why this one is not numerical.
+
+So the issue there is that if you want to use any Machine Learning techniques or any techniques with this, AI is no good with text.
+
+Forget about all these Strivy and some other ones, they are not working directly on your text.
+
+They are doing something called TOIZ.
+
+So they first to kize your data.
+
+So before they can work on it, let me see if I can bring up or open open a EY playground.
+
+I hope it works.
+
+Okay, I'll show it now.
+
+So this is how Andi or any of those techniques they, this is how they combat your text, your words, your anything that your charts, these are the converted to tech number.
+
+So if I say hello, so yeah.
+
+So they try to each of these either words, you can consider it as a word, but sometimes it's for complex, complex words or there they try to truncate to each of these words.
+
+Many words map to one token, but some doesn't in individually.
+
+So Unicode character, this is the text generated anyway.
+
+So but this shows you the column map of how they, but the number I'm talking about is this one.
+
+This is what they get converted to all the text, all the charts that you are sending to charge or you are sending to Google the first.
+
+So they have to tokenize, it is part of the process.
+
+You don't DOC, it is not going to work.
+
+Okay.
+
+So the converted to number.
+
+So these numbers and they have some kind of a map, so that tends to map back to what it actually interprets, actually means.
+
+So what I am saying in a sense is that the fact that you are entering texts does not mean that AI model they are using the text explicitly, just like the text as you have, no, we are basically converting that text to number.
+
+So AI is also based on all those mathematics change behind the W.
+
+So for it to be able to operate on your text, it converted to, so it's converted to the the number, and then from this number is what it perform the operational.
+
+So let me see.
+
+Okay.
+
+So Okay, I've dropped this link.
+
+I, I don't know the length you're requesting for, but I think maybe you're talking about the chats, the tokenization of here.
+
+So someone is asking that please help, please send the link of this website to you are using to teachers.
+
+I don't know the link talking about probably soon.
+
+So and so please, sir.
+
+This is a bit of topic, but how does reading AI papers help our learning? Only This is basically not of topic.
+
+Let's be clear.
+
+A.
+
+I.
+
+Nobody has a.
+
+I think I said it, I quoted someone some time ago as some otman or whatever.
+
+So in a seminar in A and tech show, tech DOC, they're asking how are you employing your AI specialists or AI engineers? He said.
+
+Or nextly, there is no body with 20 years or 15 years.
+
+I can't remember the value we put that experience in AI.
+
+So AI has always been in the research world.
+
+AI has always been by the professors or by the researchers.
+
+Like that is not something that we're using actively, as was the call as the day to dating is just recently and this recently is not up to is no more than ten years.
+
+So if you have a unique problem, if you have a unique thing that you want to solve that you think is unique, I'm sorry.
+
+You will have to check research outcome before you can be able to use do whatever you want to do.
+
+For instance, I'm not saying you should read the paper, you are in a company, you are working with a company or you have your own problem that you want to solve.
+
+Usingi to solve.
+
+Collecting data is a very, very crucial part of your work.
+
+If you don't know the type of paper data you're going to collect, you will not be able to solve it.
+
+I have worked with some non-A high domains and I tell you they said they have datas, but most of their data are useless.
+
+They'll try you, Oh, we have data, we've been collecting the data for this so so years for by the time we check the data, United data is completely useless.
+
+It's very, very crucial for you to know how you're going to collect your data and what type of data you need to collect.
+
+You don't get that by just searching Google, how this disease, you don't get that once you are solving a problem.
+
+Inspiration and how you get data is often from the research because that's where AI come from, that's what those are the ones that have been doing the AI, not just ten years ago, 20 years ago, even more than decade ago, the AI has been locked in the research.
+
+And if you want to get anything that is not just search for code and AI is not generating the code for you, especially data.
+
+Okay, let me give you an example.
+
+Let me give you an example.
+
+Few weeks ago or last month, we had, I don't know whether I've mentioned it and I actually be explicit about it.
+
+We had a problem to use.
+
+We have a robot that will be serving coffee.
+
+The robots will be picking up this and then you go there, you will pay your money and it will pick the coffee and take it to the vending section and then it will deliver the output coffee to you.
+
+So now and some other ones like that, the issue there is that the issue there is that AI the we need to get use an addition like image.
+
+We want Computer Vision to be able to get the location of robots because whenever the lights turn off, let's say there is light outage or there is internet outage or thereabout The robot forgets wherever it is like it's forget his position.
+
+So so what we wanted to do is to use camera to be able to know the location of the robots and be able to communicate the location to anyway, if the light is off when the camera is on, the camera will take the picture and send it to the system that this is the current location of the robots.
+
+So now from there we need to be able to know where this is just picture for him.
+
+And you look at the picture, you can know where the robot is, but you want the system to be able to determine that itself.
+
+So now what nature of a high problem do you want to use? You may want to say object detection, but object detection will not solve it because knowing the location of the robots does not mean you know the location of each joint.
+
+So we need to be able to know the location of each joint and the angle at which each joints are for us to be able to do the control.
+
+Okay, So how do you do that? What is the nature of data you want to collect? How do you actually find out about that? So solve this unique problem is what you come across.
+
+And I kid you not, you need to check some of these research.
+
+Also, the tensor flow we are using is from research before who actually packaged it.
+
+So if you're using a deep dig data big query, Google query also stem from research outcome.
+
+So I'm don't think my voice is harsh or thereabout is not.
+
+I'm just trying to emphasize on the fact that he's not off topic.
+
+You will encounter a real world problem that as simple as collecting data for this program.
+
+I just described this and this projects and that has to do with robots.
+
+We only just, we only had two months to be able to tell the engineers that, Okay, this is the data we want.
+
+This is the real, this is the result for this.
+
+So just two months to do that project.
+
+Now if were we mistakenly give them, we mistakenly requested for the wrong data.
+
+Some one month is out of the project.
+
+So requesting for the wrong data, I will know you that you will not be able to use at the long run is the problem Now for you to now use the AI model.
+
+Which type of AI model are you going to use? What's what do you use to annotate those are the problem you be facing in real life.
+
+So most of its research work is what has been doing that we've been doing that.
+
+But in terms of the real world was the core we are just applying it is just imagine forget about STG that just him or that just make everything much more popular, which is maybe less than three or four years ago.
+
+So that's outcome of some of those things that have been happening under the W.
+
+Yeah.
+
+So anyway, that's the the part of it, the ring reading research paper is not just reading for you to be able to understand the mathematics.
+
+It gets in inspiration as little as data is important.
+
+This data set, I just downloaded this spreadsheet.
+
+Okay.
+
+They are telling you that we downloaded the data sets.
+
+Okay, they are telling you that this is 15,231.
+
+What does this area means? What was the meaning? So if you don't check this kind of paper or this paper that presented it or this document that presented it, you know, know literally this is telling you that is in pixel pixel.
+
+So it's not in met what we are you meter square.
+
+What we are used to is meter square, centimeter square.
+
+So you'll be talking rice can rise as have this kind of area rise rise that is this tiny how is able to get this kind of area.
+
+So I can't emphasise so much on research outcome, you will come across a real problem and you can just use AI to generate the code or AI to give you some answer today in the way I am researching, I still had similar challenge today.
+
+So forget about the theory and the playground that is the learning area.
+
+Real world problem.
+
+You face it and then you are left to make decision.
+
+Yeah, anyway, that's just that.
+
+And also why, the reason why I also wanted to bring up the idea of we doing live coding, like trying to learn, go through the process of live coding.
+
+That was exactly the reason I wanted to bring it up.
+
+Like, but I notice most people are getting overwhelmed easily.
+
+So that's why I think we need to do better justice.
+
+So, Okay.
+
+So how did you open the data? Just download and click.
+
+I downloaded it and click on it so it's opened.
+
+Someone is asking you from the timing.
+
+Okay.
+
+So thanks.
+
+Okay.
+
+So I'm trying to check the question.
+
+Okay, so don't let me waste so much time.
+
+I think we I have wasted a lot of time in not really waste, but I think I need to convince you anyway.
+
+Research and development.
+
+Oh, messy.
+
+Sorry.
+
+Take care of yourself.
+
+Watch the recordings.
+
+Okay.
+
+Anyway, sorry for the delay I'm trying to check for.
+
+I'm trying to check the question answer session.
+
+So here is the data.
+
+Okay? The the data that I just loaded.
+
+So you notice if you just observe the data, you notice just by looking at the data, you notice some values are much bigger than the other ones.
+
+So and also you notice some no values are numerical while some are.
+
+So a specific column is is text.
+
+So by being able to look at this type of data, just visually inspecting the data, so it's part of your AI.
+
+So number one thing is that this text that you have here is a problem.
+
+AI doesn't really work directly with text.
+
+So we need to find a way to make this something that I will be able to work with.
+
+Okay.
+
+So yeah, so we need to be able to find means for here to be able to work with this type of data special this text.
+
+So what we often do, we call it like we can convert it to number.
+
+So for instance, anywhere we have this CMO commo, so we can change it to one.
+
+And anyway we have the other variants which is a anyway we have the other variance so which is OS Manic, so we can then change it to zero.
+
+So by that we will be able to, So by that we will be able to Yeah, we have to Osmani.
+
+And then we have Cameo.
+
+So those are the two variants.
+
+So we can convert this from this, this we can make Osmic to be zero, Osmic to be zero.
+
+And then we can make a Cameo three equal to one.
+
+So from there we can then make make use of our data.
+
+So how are you going to do it? Depending on your tool telling you that this is what you do.
+
+So for instance, we can just say yes, yeah, so yeah.
+
+So we've been able to convert it to zero.
+
+And then the other one will be, so the other one will be one.
+
+So and the other one would be one.
+
+Okay.
+
+So these are some of the typical things that you will probably do to your data.
+
+So first thing is that this is in text.
+
+You can work with this data as it is.
+
+So you have to convert it to number two.
+
+That's number one thing you need to establish.
+
+Okay, So I'll be juggling between the code and the the spreadsheet, so I will be able to carry everyone along.
+
+So in code you will import the library, install the libraries.
+
+As we've learned that installing libraries part of process KERAS is for Machine Learning.
+
+So kerasal tensor flow.
+
+So the MA plot leap is for plotting as the name imply, non-P pandas.
+
+Therefore for handling some data processed and PAS specifically for loading data and then for handling your data NONP for some basic mathematics.
+
+Also PAS use MONOP, NONP would and it also use PAS.
+
+Yeah.
+
+So anyways after doing the installation, what we need to do is to import the data.
+
+I'm trying to check the Okay.
+
+So someone is asking why the so we import the library and the libraries that we installed, mostly the Pandas, the MLA too.
+
+This is just a an ELPA library provided by Google.
+
+So it's basically for us to to just record results just for educational purpose is not really for reward or you program thing.
+
+So and sometimes you want to do some configuration which is fine.
+
+Now I need to speak on how this kind of thing is achieved.
+
+So if you know you have a certain problem or issue with the way your result is showing, you can check the documentation of the thing that is providing that service.
+
+For instance we are using PANDAS to load CSV by default.
+
+If you check the data of PAAS, it will give you five rows and you are not Okay with five rules.
+
+You want to see more so you can check the documentation or check.
+
+You can also do Google search anyway.
+
+So this is why we brought about these settings is not compulsory, it's just a setting to.
+
+Another typical problem you may face is if you are running notebook if you want to plot your data, someone asks a question.
+
+Okay, someone is asking tokenizer.
+
+So tokenizer sometimes it depends, it depends on what you call and it depends on some different techniques like there is a standard on how you tokenize and and it research outcome on its own tokenization.
+
+So another thing that is that follows after tokenization is embedding.
+
+So embedding is also another down is an AI model.
+
+Okay? So embedding is trying to trying to find some similarity or some relationship between some words.
+
+So it's map it in such a way that it is not just a mapping sentence word for word.
+
+If we are doing some translation, he tries to map it in such a way that it's map the meaning along with it.
+
+So in fact, Okay, I think just part of real world scenario that you might want you my encounter, we used to English because English is our English is our official language in most of these countries, almost of the African countries, Yes, we have those that speaks French and some that speaks Swahili and then the like.
+
+So I was, I just need to digest to also let you emphasize on research, I joined, I got invited to a project some months ago.
+
+So the project was about trying to interpret some documents like that.
+
+So surprisingly the documents is in Arabic.
+
+So now most of the embeddings and the tokenization that we have, they are very, very good with English, very good in English, me English because most most research about it center around the English stops.
+
+So we, we had a little challenge about the Arabic, so we had to check research and then we discovered that some embeddings were published for Arabic Arabic.
+
+So it's also one of those things you going to encounter.
+
+Yeah.
+
+So as I said, the data is a, this is the code below the data set which is the spray CSV is the same as what we have.
+
+So this, yeah, is the same as what we have here.
+
+Okay.
+
+So I'm trying to show you the code and then also show you from the spreadsheets perspective and I, I hope I will be able to also show you how we do it in teachable match answer in Machine Learning for kids so that we will be able to get the idea.
+
+So I prepared this already before the class so as to be able to explain and the concept is disturbing.
+
+Okay.
+
+So so you need to be able to visualize your data, even if you is not plotting, just see what you have in your data.
+
+So which is another thing if you want to do in code, this is SPAS.
+
+SPAS is very good in visualizing your numerical data, not image.
+
+If you have image you delete in another way.
+
+Okay.
+
+So over here is a numerical data.
+
+So of course the class is not numerical, but anyway, so now we get the summary about the data.
+
+So the summary about the data is usually from described.
+
+And then the summary is that the number of rows, the number of rows in the data which is 3000 3810 if you also explore and your exile and your spreadsheets is actually 3800 for this rule and title and this one case so 3110th of the sentence.
+
+So and then you can find the mean for each of the columns.
+
+So if you want to use an spreadsheets to do that, maybe I should open the spreadsheet I prepare so that I will not be bringing the double.
+
+So that will be, I will just be navigating it so I will not be entering.
+
+Okay.
+
+So we try to find the mean.
+
+So here is the mean if you look at the mean in spreadsheet for the area, this is the area it correspond to each of these area perimeter, major axis, minor axis.
+
+So here is also the same 112,007 to 12,007 and 454 for 54 like that.
+
+And then we also compute The Standard deviation.
+
+Okay.
+
+So what's the meaning of all these thing that we computer, why do we really need it? Okay.
+
+So the reason why we need it is we need to know the nature.
+
+So the reason why we need to check, look at this data, apart from trying to check what is numerical or not numerical like categorical.
+
+So the reason, that's one reason, another reason we need to check the data, we need to also check it for statistical distribution.
+
+Okay.
+
+So the statistical distribution where I mean you don't necessarily need to calculate it yourself.
+
+Okay.
+
+Like in spreadsheets, you just use er, you just have to use average.
+
+That's me in this one, you need to do STDF.
+
+We have operation anyway.
+
+So statistical deviation, we can find the minimum, we can find the maximum and we can find the percentiles.
+
+So this, this will give you some insights on how the data is the number one issue with this data, which I hope I'm going to show you, is that this data, if you look at the mean or each of these data you notice there are widely they are not in the same scale.
+
+Some data has 0.9, another data has 12,000, another has 12,900 and something 1000.
+
+So this variation, it's a problem, it's a problem because one data or one feature will be causing unnecessary unnecessary contribution or the weight of one feature we give, we make you think is the best.
+
+Like for instance someone that's something that is unnecessarily big and you are now using it alongside with something that is small.
+
+So that sense you will not be able to give chance to those one that are small.
+
+So in this case we have to fix this problem.
+
+Okay.
+
+So also if you look at the minimum and then you check the maximum, you know that it's also widely apart.
+
+So another thing we can need to, we need to get is the and the outliers, whether they are outliers or not in the data.
+
+I I prepare, let me show you what I mean by that.
+
+So here I mentioned about outliers anyway, so in the previous class so but this is how you what outliers twelve that are necessary distance from other ones and it's usually cause problem in in your model.
+
+Okay.
+
+So moving forward, after we've been able to describe the data we need to, we can also plot, Okay, plots to see what we have plots to see graphically, not just by visually specing.
+
+So and in your spreadsheet, there are ways you also do the plotting.
+
+Did I close it? Okay? So I actually prepare the plotting inside this.
+
+So anyway, so here we did the plotting and to visualise the correlation relation between this and how well each of these models split the classes.
+
+So you're able to capture that, you know, which feature is really very relevant and which feature is not relevant or which feature you should give priority to is almost similar to the correlation, but you will not be able to get the correlation clearly in in a class-based data.
+
+Because if we plot like for instance, let's assume how these floods, they have the same colors, like they are all blue.
+
+You only be looking at the correlation, but that's not what we are looking for.
+
+We want to see how each class is distinctly identified.
+
+Okay, Likewise that this is the red class, the Osma Sikh class, and this is the cameo class.
+
+So by doing so, plotting them with different colors, you'll be able to also visualize it.
+
+So what I'm saying in a sense is that plotting and knowing what to plot, not just plot the scatter diagram and see correlation is not what we help in this situation to want to be able to see different classes clearly.
+
+So and then let's build interpretation from this.
+
+This data, both of two features that are plotted together, shows that there are some sense of distinction between these two classes.
+
+Is there a question? I will lower everybody and and see if you still have your question, then we will take it.
+
+So now so this is eccentricity against area, so essentiality I mentioned about this based on the description in the document that described the paper.
+
+So last class so and the area, the surface area of the of the rice so and the perimeter of the rise and the convex area.
+
+So we visually expecting it, we notice that most of these data, there is some clear separation.
+
+If there is some overlap, at least there are some separation between this class and this class, the red class and the blue class, let me call it that way.
+
+So which translates to the different different difference rise bridge.
+
+Okay.
+
+So we have the convexity and the parameter also and this, so choosing any of this feature should be Okay.
+
+However, some clothes, they have like two instances.
+
+So if you can choose more than two features, it's Okay.
+
+If you can use all the features, it's also Okay.
+
+But notice are some the problem we mentioned on that some data, they have unnecessary really large contribution to the data.
+
+So if you use them, maybe if you harm your model than doing them help.
+
+So although there's also way we can un do that anyway, so choosing any of these features that you think they are strongly correlated is one of those things that you will help your model.
+
+So and then from there we can plot, let's say we choose in this case we choose three data, the three features.
+
+So and we did a 3D plots.
+
+So this is a 3D plus showing how the data, the classes were clearly separated.
+
+This is the west class and the blue class.
+
+So the major axis length and the eccentricity the with the area.
+
+So let's look at the 2D plot of major access length.
+
+This is major access length.
+
+This is eccentricity.
+
+Now the area, eccentricity and the area.
+
+If you look at these two features the this there is clear distinction between these two classes.
+
+Also the eccentricity and the major axis length.
+
+Also there are two clear distinction between the two of them.
+
+Other features also have some kind of clear distinction.
+
+But in to this feature eccentricity has shared the same common thing with other classes.
+
+Then it's a good feature that we can consider.
+
+Now speaking of the data variation where we have instance when the data and some datas are large and some are small, so we usually need to normalize the data.
+
+So normalization of data is a very important part of how well your model will perform.
+
+So so normalizing your data is how well your data and your model will perform.
+
+They have three popular normalization techniques.
+
+This is we have the linear scaling, linear scaling.
+
+I don't want to be too mathematical about it, but just calling normalize in most of these libraries you get the normalized results.
+
+So for linear scaling, so now here is a M linear scaling is almost the same thing as minimax min Max scaling.
+
+So you want to get, you get the minimum and the maximum.
+
+Okay.
+
+So by getting the minimum and maximum of the data, then you try to divide by that and the difference between the minimum and the maximum, that is The Range.
+
+And then you subtract from the minimum.
+
+So what happened with min Max is that your number, your results will not be more than no.
+
+None of your data will be more than one, none will be less than zero.
+
+So you are scaling between zero and one.
+
+So here you have some data point that as 1000, something, 12,000 something.
+
+We are trying to make everybody equal.
+
+You are zero to one.
+
+If this one is zero to one, this one is zero to one, this one is zero to 10 to 10 to 10 to 10 to one.
+
+So everybody will be able to do equal contribution.
+
+No one is unnecessarily bragging of his HU value.
+
+Okay.
+
+So that is importance of normalization mean Marx really? So in this code we used and Z score.
+
+So Z-score is another statistical way of normalizing your data.
+
+Okay? So likewise you also have log scaling.
+
+So the way Z-score works is that you have the, we get the the mean that is the average and we get The Standard deviation.
+
+So by doing that we are able to get the score.
+
+I won't also talk more about the the calculation is just this sheets are confused me.
+
+Okay.
+
+So I run the Z score calculation here and then this is what I used to get.
+
+This is basically I just get the the average that we have here, the average mean which is the average and The Standard deviation we have here.
+
+And then we just get it from here.
+
+So if you look at the Z score result from the Z score, so you notice that the data point, the data point is not no, none of them is showing like unnecessarily huge value.
+
+So so those are one of those ways that you normalize your data, linear scaling, just called log scaling.
+
+So those are one of those ways you normalize your data.
+
+In this case, we just basically also did simply find the mean, find The Standard deviation, and then you subtract the data and divide by standard deviation.
+
+That's how they did it.
+
+About there are some libraries that made it much more easier.
+
+Like you can just call standard.
+
+Like in SCI PI, we just call standard normalization, I think.
+
+And then there's also min Max normalization, which is same as linear scaling.
+
+So that's an example of it's always asking is normalization the same thing as standardization.
+
+That's an example of a normalization.
+
+That's the use of mean.
+
+And The Standard deviation is The Standard was equal.
+
+So Yeah, Richard.
+
+Yeah, thank you for the question.
+
+So now we did that and then we'll be able to reduce that and the calculation is also all the result is also quite similar to what we have in this spreadsheets.
+
+So I tell you why this is important.
+
+So here in teachable Machine Learning, I tried to load the ON on normalized data data that was not normalized.
+
+So I just show you how I did it.
+
+Any SOR.
+
+So this, I created a new project, I just give it a name and then I had it.
+
+I said I wanted to recognize number, recognizing number is more less like classifying, Okay.
+
+And then hard value is each of those features in those tables.
+
+Like here we have area, we have perimeter, we have maximum lengths, minimum axis length, eccentricity, convex area, extent and class.
+
+So so just entered the feature here and I said that number, I had this and if I want to add more feature, I had the parameter, I said that number and then had mom.
+
+Okay.
+
+So depending on the number of features you want to use.
+
+So and then I selected this that I want to do data from browser.
+
+So that is how this come to be.
+
+Okay.
+
+So after doing that I created class like hardly this is omanic, osmic class and this is KU class.
+
+So and then I prepare the data.
+
+So the it's quite important to know to prepare the data for for this.
+
+Okay.
+
+So so here I extracted the OSMIC data separately.
+
+I wanted to share this, so I prepared the O data separately.
+
+Okay.
+
+So I extracted the data and then I uploaded RETARD file and upload.
+
+But note that this platform is limited, you can only upload 400 data data point.
+
+So and the same thing I did for Cameo, I separated the data and then I uploaded the cameo.
+
+So after uploading it and I went to training.
+
+Okay.
+
+So I trained the model already have added trained model.
+
+So if I entered the data, let's say here obviously this is coming.
+
+Okay.
+
+Obviously this is KO data from this title.
+
+So let me enter these values 0.1.2, 1231.
+
+I entered it and put it there, 505 112, 525.
+
+So there is no better way to include the day time box.
+
+So now let's do the testing.
+
+Yes, the data actually said 95%, 97% Cameo.
+
+So this is because this data is also part of what I used to train.
+
+So but let's go, it's done.
+
+I want to choose one of those.
+
+Does not training? We are running out of time, right? I just want to show the effect of not normalizing the data, so the results will be unnecessarily favoring something than the other.
+
+I need to tell you it's almost 100% confident that this is this so no.
+
+Okay.
+
+So actually this is Osman 0D0, I Divine D zero as the Osman SL it's it's good, but honestly is not reliable.
+
+That's what I want to emphasise on.
+
+Okay.
+
+So someone is asking question that can we use Pabi for his visualization? You can use any tools.
+
+Nobody is really constraining.
+
+You just use anything you feel comfortable with to visualize the data.
+
+Although if you're using coding is often Okay to use the same coding to do your visualization.
+
+But it's up to you.
+
+Is there anything for a visualisation? So because the first from the case study you show you use it was visualizing 3D.
+
+So Okay, someone is asking whether train data in 3D or not 3D.
+
+This is just so let me this is just another means to visualize your data.
+
+Okay? So to get some kind of visual inspiration.
+
+But the means you have more than more than three features, 123, more than three features, you cannot visualize it in 3D.
+
+You cannot even visualize it in 4D.
+
+So the maximum you can visualize like in that kind of graphical way is just 3D12D, 1D3D.
+
+Once your feature is more than that, there is limit to how much you can visualize it.
+
+So you need to be intuitive, you need to be, you need to be creative in the way you visualize your data.
+
+That's why I wanted to show you this anyway.
+
+For instance, we downloaded this data, there is this data in Google what it called This is MS data, this data is the and character coognition data that I as in the exam.
+
+So now this is, you look at DA is just they said this is the label number, this is number seven and this is the number that number seven.
+
+See how they represented it to Okay, you that's that's one of those problems you encounter about this because this is a popular problem you it's not difficult.
+
+Now what I just did is that Okay.
+
+This is mist.
+
+Besides, this is the data they represented.
+
+How do I visualize this data? Now what I did was that I copied the data the let me just show you how I did it.
+
+So let's say this is figure four.
+
+So I copied the rule for the figure four and then I pasted it in.
+
+Okay.
+
+So the next thing I did is that I selected all the data for if you go for, I copied it then I tried to, I tried to transpose, I tried to place the transpose of the data.
+
+Sorry, just patient, please.
+
+So I copy the transport of the data.
+
+Then I tried to reshape the data into a matrix.
+
+So now this information I'm sharing is based on the documentation.
+
+The documentation told me that the data I'm looking at this desperate file is just a column of, and some columns of data is actually an image.
+
+Now.
+
+Well, I could use some other software, but I'm using Excel to do that now.
+
+So I need to be able to visualize it here.
+
+So I transform the data into matrix.
+
+So to be able to get it.
+
+Now could you believe that the number this straight line 000111 and the number is actually number four.
+
+This how you get it? I also used conditional formatting to format it.
+
+If the number is greater than zero, issue print it color red.
+
+So I copy the colors and then I like it.
+
+So see figure for now, I tell you there is no, there is no single way to say that this is how you visualize your data based on the understanding you can do from the data.
+
+That's what determine how you're going to visualize the data once the data is no longer.
+
+Three you need to be creative in how you visualize it so as to be able to understand what you are having.
+
+So that's any doubt that Yeah, and often we always set reproducibility.
+
+I don't know what I'mixing things up or I am.
+
+I'm not carrying people along.
+
+So obviously I know we can't finish this and this practical session, but this will be using it to explain some concepts.
+
+So because we have one minutes left, I would like to see your response on the way we are we doing today just one or two people, it's Okay to and get your response will continue on that next class as well.
+
+We are not doing theory any longer.
+
+We just want to be focusing on the in please quickly speak in the, So I also enable you to speak.
+
+Please do quick.
+
+We don't have so much time.
+
+Good evening.
+
+Okay? I, yes, I can hear you.
+
+Thank you for this class.
+
+So please also ask where can we, which websites can we get research because on other AI should be shows us we to like do more on our own so as to like do more research on our own then.
+
+I think this today's class was very insightful because at least we could see so many life and applications with the rise.
+
+Okay.
+
+When I classification.
+
+Okay.
+
+Okay, then I, I will drop the link, some of the link in the group please.
+
+Also you please do pick.
+
+We don't have much time left.
+
+Alright sir.
+
+Thank you so much.
+
+Good evening, sir.
+
+I like you can hear me.
+
+Yeah.
+
+I can hear you.
+
+Okay.
+
+Thank you.
+
+The question I asked, you've already answered.
+
+I was personally asked about visualization stuff and you are like, Yes.
+
+Can you sport the baseball for 3D? You can only visualize to two data sets.
+
+Have no mistaking.
+
+Three features, three features.
+
+Right.
+
+Alright.
+
+Thank you so much.
+
+Okay.
+
+So someone and thank God is asking what is the summary of what's? What is the summary of what we treated today? The summary is that we are treating binary classification from practical perspective and we're using it to address some potential issue with the data sets we have.
+
+Like starting from the data sets, this is the data set we have.
+
+And then we notice that the data set has some strange like some text which is not, is not usual, is not is not a good thing for a number based algorithm.
+
+AI is using a number.
+
+So you can use this text.
+
+And I try to explain that.
+
+Okay, I'm taking so much time.
+
+So I tried to explain that.
+
+And then also I told you that this data, some features have large number, we need to be able to normalize them, to talk about normalization as well basically.
+
+So and we also talk about visualization.
+
+Yeah, so I think we should stop now.
+
+I hope you get the today's class and then if this is Okay with you will continue this way.
+
+Yeah, Thank you.
+
+Sorry for taking 2 min more extra time.
