@@ -152,15 +152,39 @@
 
       return (
         <div className="max-w-5xl mx-auto p-6">
-          <header className="mb-6 flex items-center gap-3">
+          <header className="hidden sm:flex mb-6 items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-gray-900 grid place-items-center">
-              <svg viewBox="0 0 64 64" className="w-7 h-7"><rect rx="12" width="64" height="64" fill="#a3e635"/><path d="M12 32 L52 12 L40 52 L32 36 Z" fill="#0a0a0a"/><path d="M22 44 l3 3 l6-6" stroke="#0a0a0a" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round"/></svg>
+              <svg viewBox="0 0 64 64" className="w-7 h-7">
+                <rect rx="12" width="64" height="64" fill="#a3e635"/>
+                <path d="M12 32 L52 12 L40 52 L32 36 Z" fill="#0a0a0a"/>
+                <path d="M22 44 l3 3 l6-6" stroke="#0a0a0a" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <div>
               <h1 className="text-2xl font-bold">PassPilot</h1>
-              <p className="text-gray-600 -mt-0.5">Interactive pass tracker (target ≥ 80 pts) will be eligible to receive a certificate</p>
+              <p className="text-gray-600 -mt-0.5">
+                Interactive pass tracker (target ≥ 80 pts) will be eligible to receive a certificate
+              </p>
             </div>
           </header>
+
+          <header className="flex sm:hidden mb-4 items-center gap-2">
+            <div className="w-8 h-8 rounded-lg bg-gray-900 grid place-items-center">
+              <svg viewBox="0 0 64 64" className="w-6 h-6">
+                <rect rx="12" width="64" height="64" fill="#a3e635"/>
+                <path d="M12 32 L52 12 L40 52 L32 36 Z" fill="#0a0a0a"/>
+                <path d="M22 44 l3 3 l6-6" stroke="#0a0a0a" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <div>
+              <h1 className="text-lg font-bold">PassPilot</h1>
+              <p className="text-gray-600 text-xs">
+                Target ≥ 80 pts to earn a certificate
+              </p>
+            </div>
+          </header>
+
+
 
           <div className="mb-4 flex gap-2 text-sm">
             <button onClick={sampleData} className="px-3 py-1.5 rounded-lg bg-white border">Load sample</button>
